@@ -477,7 +477,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -498,7 +498,7 @@
       "version": 4
     },
     "net_colors": {
-      "/3.3V": "rgb(0, 1, 255)",
+      "/3.3V": "rgb(0, 255, 240)",
       "1": "rgb(191, 213, 255)",
       "2": "rgb(166, 255, 203)",
       "FB": "rgb(232, 255, 0)",
@@ -514,12 +514,7 @@
       "VREF": "rgb(252, 255, 156)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "VEE"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

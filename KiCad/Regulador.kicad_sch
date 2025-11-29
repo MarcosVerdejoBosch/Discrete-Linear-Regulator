@@ -1998,7 +1998,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_SCR_AGK"
+		(symbol "Device:Q_SCR_KAG"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2015,7 +2015,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_SCR_AGK"
+			(property "Value" "Q_SCR_KAG"
 				(at 1.905 -1.27 0)
 				(effects
 					(font
@@ -2042,7 +2042,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Silicon controlled rectifier, anode/gate/cathode"
+			(property "Description" "Silicon controlled rectifier, cathode/anode/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2060,7 +2060,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_SCR_AGK_0_1"
+			(symbol "Q_SCR_KAG_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
@@ -2110,7 +2110,7 @@
 					)
 				)
 			)
-			(symbol "Q_SCR_AGK_1_1"
+			(symbol "Q_SCR_KAG_1_1"
 				(pin input line
 					(at -3.81 -2.54 0)
 					(length 2.54)
@@ -2121,7 +2121,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2672,7 +2672,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5817"
+		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2691,7 +2691,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5817"
+			(property "Value" "1N5819"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2717,7 +2717,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2744,7 +2744,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5817_0_1"
+			(symbol "1N5819_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -2782,7 +2782,7 @@
 					)
 				)
 			)
-			(symbol "1N5817_1_1"
+			(symbol "1N5819_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4088,6 +4088,232 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Marcos_Lib:Switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "Switch"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MFP113DRA"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/7023631"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB Slide Switch Single Pole Double Throw (SPDT)"
+				(at 27.432 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.7"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KNITTER-SWITCH"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MFP113D-RA"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_1_1"
+				(rectangle
+					(start 16.51 2.54)
+					(end 29.21 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 34.29 0 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -2.54 180)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -5.08 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 34.29 -7.62 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 34.29 -10.16 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6075,182 +6301,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:BC547"
 			(pin_names
 				(offset 0)
@@ -8096,6 +8146,16 @@
 		)
 		(uuid "440679bc-79f3-4e8c-a192-aaf82608f370")
 	)
+	(text "VZENER 15V"
+		(exclude_from_sim no)
+		(at 372.364 262.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "476094e9-9fa9-4262-a6e0-fee059f2d543")
+	)
 	(text "Regulator Enable"
 		(exclude_from_sim no)
 		(at 851.408 405.638 0)
@@ -8807,6 +8867,12 @@
 		(uuid "46b0cf86-c398-42ba-a188-14d36f98b62a")
 	)
 	(junction
+		(at 980.44 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ba9992-6f1b-4872-b3f3-fbbe60907763")
+	)
+	(junction
 		(at 740.41 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9027,6 +9093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d113d99-07ef-4d7b-8fc2-8de62fd149c4")
+	)
+	(junction
+		(at 988.06 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d496340-2ecf-464c-9248-ea3bd1121d5e")
 	)
 	(junction
 		(at 688.34 107.95)
@@ -9541,10 +9613,6 @@
 		(uuid "5743657e-c84d-4673-aaa7-1029a3312da5")
 	)
 	(no_connect
-		(at 589.28 128.27)
-		(uuid "5e1593d8-4920-482f-a5e1-ef5b08f865c8")
-	)
-	(no_connect
 		(at 320.04 153.67)
 		(uuid "70c31ddb-0905-4dbc-bec5-62ee700b611a")
 	)
@@ -9936,7 +10004,7 @@
 	)
 	(wire
 		(pts
-			(xy 980.44 262.89) (xy 980.44 271.78)
+			(xy 980.44 262.89) (xy 980.44 267.97)
 		)
 		(stroke
 			(width 0)
@@ -10113,6 +10181,16 @@
 			(type default)
 		)
 		(uuid "165a2681-b6cc-4d60-af16-f773526952ac")
+	)
+	(wire
+		(pts
+			(xy 988.06 267.97) (xy 980.44 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bd3db4-115a-48a4-b3f8-c4aa5bf07fe5")
 	)
 	(wire
 		(pts
@@ -11966,7 +12044,7 @@
 	)
 	(wire
 		(pts
-			(xy 579.12 125.73) (xy 570.23 125.73)
+			(xy 598.17 120.65) (xy 589.28 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12933,6 +13011,16 @@
 			(type default)
 		)
 		(uuid "7d9c738d-0ebc-411d-955c-635884222f7b")
+	)
+	(wire
+		(pts
+			(xy 988.06 264.16) (xy 988.06 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db663e9-dbe3-43b5-a58a-d0ea2aa81359")
 	)
 	(wire
 		(pts
@@ -14266,6 +14354,16 @@
 	)
 	(wire
 		(pts
+			(xy 988.06 200.66) (xy 999.49 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1bd02f-3d19-4662-aa95-9febe191bb99")
+	)
+	(wire
+		(pts
 			(xy 688.34 67.31) (xy 825.5 67.31)
 		)
 		(stroke
@@ -14323,6 +14421,16 @@
 			(type default)
 		)
 		(uuid "afc4a62c-ecd0-46e4-824e-cd3c7ca9e735")
+	)
+	(wire
+		(pts
+			(xy 589.28 125.73) (xy 590.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe8132c-e87e-47c0-9030-42a3b0c661b9")
 	)
 	(wire
 		(pts
@@ -14656,7 +14764,7 @@
 	)
 	(wire
 		(pts
-			(xy 980.44 200.66) (xy 999.49 200.66)
+			(xy 980.44 200.66) (xy 988.06 200.66)
 		)
 		(stroke
 			(width 0)
@@ -14833,6 +14941,16 @@
 			(type default)
 		)
 		(uuid "c0d70ee5-2847-41d7-9082-7f1ff0c4e427")
+	)
+	(wire
+		(pts
+			(xy 589.28 115.57) (xy 590.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dfbdce-93c3-402c-836b-15aafd671119")
 	)
 	(wire
 		(pts
@@ -15393,6 +15511,16 @@
 			(type default)
 		)
 		(uuid "d48668b3-07bf-40e4-9697-cbfb07409286")
+	)
+	(wire
+		(pts
+			(xy 980.44 267.97) (xy 980.44 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ba7ceb-526e-4541-8d15-693178221f61")
 	)
 	(wire
 		(pts
@@ -15996,7 +16124,7 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 116.84) (xy 570.23 125.73)
+			(xy 598.17 111.76) (xy 598.17 120.65)
 		)
 		(stroke
 			(width 0)
@@ -16283,6 +16411,16 @@
 			(type default)
 		)
 		(uuid "fa13db97-b3f4-4b72-81a2-97d1044a08a4")
+	)
+	(wire
+		(pts
+			(xy 988.06 198.12) (xy 988.06 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa75a48a-0c8d-4126-8d62-0d23dadfd1fd")
 	)
 	(wire
 		(pts
@@ -16946,6 +17084,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 590.55 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4888a8d5-cc2a-4b60-bfc7-e6b4d90baef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 597.4057 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT"
 		(shape input)
 		(at 718.82 135.89 180)
@@ -17008,6 +17168,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 590.55 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6460f8bf-b391-4f83-89a3-6481356c5a1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 597.4057 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17432,7 +17614,7 @@
 	)
 	(global_label "VEE"
 		(shape input)
-		(at 570.23 116.84 90)
+		(at 598.17 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17442,7 +17624,7 @@
 		)
 		(uuid "afc2ae62-7c46-4269-829a-a005914cfcc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 570.23 110.4682 90)
+			(at 598.17 105.3882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17969,7 +18151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 427.99 758.19 0)
 			(effects
 				(font
@@ -18173,7 +18355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "Library_Marcos:TerminalBlock_P5.08mm"
 			(at 965.2 271.78 0)
 			(effects
 				(font
@@ -18191,7 +18373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 965.2 271.78 0)
 			(effects
 				(font
@@ -18396,7 +18578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 129.2352 86.36 0)
 			(effects
 				(font
@@ -18644,7 +18826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 113.03 439.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18662,7 +18844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 115.57 440.3724 90)
 			(effects
 				(font
@@ -18689,7 +18871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 113.03 439.42 0)
 			(effects
 				(font
@@ -19147,7 +19329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82k"
+		(property "Value" "68k"
 			(at 480.06 772.1599 0)
 			(effects
 				(font
@@ -19431,7 +19613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 218.44 267.462 0)
 			(effects
 				(font
@@ -19690,7 +19872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 629.92 135.89 0)
 			(effects
 				(font
@@ -20106,7 +20288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm"
 			(at 456.8952 480.06 0)
 			(effects
 				(font
@@ -20572,7 +20754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30n"
+		(property "Value" "33n"
 			(at 382.27 83.8199 0)
 			(effects
 				(font
@@ -20648,7 +20830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 539.75 323.85 0)
 			(effects
 				(font
@@ -20657,7 +20839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" ""
 			(at 537.21 326.39 0)
 			(effects
 				(font
@@ -20666,7 +20848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" ""
 			(at 538.48 321.31 0)
 			(effects
 				(font
@@ -20950,7 +21132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 477.52 312.42 0)
 			(effects
 				(font
@@ -20959,7 +21141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" ""
 			(at 474.98 314.96 0)
 			(effects
 				(font
@@ -20968,7 +21150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" ""
 			(at 476.25 309.88 0)
 			(effects
 				(font
@@ -21116,7 +21298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300n"
+		(property "Value" "330n"
 			(at 146.05 730.2499 0)
 			(effects
 				(font
@@ -21125,7 +21307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 143.2052 732.79 0)
 			(effects
 				(font
@@ -21143,7 +21325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 142.24 728.98 0)
 			(effects
 				(font
@@ -21262,7 +21444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 375.92 723.9 0)
 			(effects
 				(font
@@ -21280,7 +21462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 375.92 723.9 0)
 			(effects
 				(font
@@ -21302,6 +21484,73 @@
 			(project "Regulador"
 				(path "/f060eee9-88a0-4709-9492-c15cbf2046c3"
 					(reference "RV10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 988.06 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e07a10-4238-4332-bc76-7eef2097689d")
+		(property "Reference" "TP_OUT1"
+			(at 990.6 259.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 990.6 262.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 993.14 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 993.14 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 988.06 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a4e17ff-b298-4b3f-9556-65e032d59a03")
+		)
+		(instances
+			(project "Regulador"
+				(path "/f060eee9-88a0-4709-9492-c15cbf2046c3"
+					(reference "TP_OUT1")
 					(unit 1)
 				)
 			)
@@ -21333,7 +21582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 200.66 712.47 0)
 			(effects
 				(font
@@ -21342,7 +21591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" ""
 			(at 203.2 709.93 0)
 			(effects
 				(font
@@ -21351,7 +21600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+		(property "Description" ""
 			(at 201.93 715.01 0)
 			(effects
 				(font
@@ -22129,7 +22378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 123.19 217.932 0)
 			(effects
 				(font
@@ -22513,7 +22762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 160.02 196.342 0)
 			(effects
 				(font
@@ -22625,7 +22874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 1016 209.55 0)
 			(effects
 				(font
@@ -22992,7 +23241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 610.87 478.7899 0)
 			(effects
 				(font
@@ -23246,7 +23495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 99.06 144.018 0)
 			(effects
 				(font
@@ -23358,7 +23607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 247.65 217.932 0)
 			(effects
 				(font
@@ -23470,7 +23719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 97.79 421.64 0)
 			(effects
 				(font
@@ -23488,7 +23737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 97.79 421.64 0)
 			(effects
 				(font
@@ -23778,7 +24027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 201.676 698.754 90)
 			(effects
 				(font
@@ -23796,7 +24045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 201.93 699.77 0)
 			(effects
 				(font
@@ -23821,7 +24070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 361.95 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23838,7 +24087,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 361.6325 50.8 0)
 			(effects
 				(font
@@ -23864,7 +24113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 361.95 54.61 0)
 			(effects
 				(font
@@ -24049,7 +24298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 172.72 544.83 0)
 			(effects
 				(font
@@ -24119,7 +24368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 276.86 79.248 0)
 			(effects
 				(font
@@ -24204,7 +24453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 624.84 472.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24222,7 +24471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 627.38 473.3924 90)
 			(effects
 				(font
@@ -24249,7 +24498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 624.84 472.44 0)
 			(effects
 				(font
@@ -24299,7 +24548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-8"
 			(at 772.16 102.87 0)
 			(effects
 				(font
@@ -24308,7 +24557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+		(property "Datasheet" ""
 			(at 772.16 102.87 0)
 			(effects
 				(font
@@ -24317,7 +24566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" ""
 			(at 772.16 102.87 0)
 			(effects
 				(font
@@ -24379,7 +24628,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 217.17 693.4199 0)
 			(effects
 				(font
@@ -24458,7 +24707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 213.36 269.24 0)
 			(effects
 				(font
@@ -24476,7 +24725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 213.36 269.24 0)
 			(effects
 				(font
@@ -25010,7 +25259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 123.19 267.462 0)
 			(effects
 				(font
@@ -25331,7 +25580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 497.84 770.89 0)
 			(effects
 				(font
@@ -25705,7 +25954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 544.5252 95.25 0)
 			(effects
 				(font
@@ -25909,7 +26158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 608.33 454.66 0)
 			(effects
 				(font
@@ -25927,7 +26176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 608.33 454.66 0)
 			(effects
 				(font
@@ -25982,7 +26231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 125.4252 429.26 0)
 			(effects
 				(font
@@ -26043,7 +26292,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "10k"
 			(at 570.23 320.04 90)
 			(effects
 				(font
@@ -26119,7 +26368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-8"
 			(at 941.07 726.44 0)
 			(effects
 				(font
@@ -26128,7 +26377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+		(property "Datasheet" ""
 			(at 941.07 726.44 0)
 			(effects
 				(font
@@ -26137,7 +26386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" ""
 			(at 941.07 726.44 0)
 			(effects
 				(font
@@ -26207,7 +26456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 160.02 267.462 0)
 			(effects
 				(font
@@ -26319,7 +26568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 99.06 267.462 0)
 			(effects
 				(font
@@ -26611,7 +26860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_SCR_AGK")
+		(lib_id "Device:Q_SCR_KAG")
 		(at 820.42 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26629,7 +26878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_SCR_AGK"
+		(property "Value" "TYN612"
 			(at 822.96 241.2999 0)
 			(effects
 				(font
@@ -26656,7 +26905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Silicon controlled rectifier, anode/gate/cathode"
+		(property "Description" "Silicon controlled rectifier, cathode/anode/gate"
 			(at 820.42 240.03 0)
 			(effects
 				(font
@@ -26703,7 +26952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "7.5k"
 			(at 430.53 735.3299 0)
 			(effects
 				(font
@@ -26782,7 +27031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 107.95 730.25 0)
 			(effects
 				(font
@@ -26800,7 +27049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 107.95 730.25 0)
 			(effects
 				(font
@@ -26920,7 +27169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 561.34 332.74 0)
 			(effects
 				(font
@@ -26938,7 +27187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 561.34 332.74 0)
 			(effects
 				(font
@@ -27065,7 +27314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 800.1 234.95 0)
 			(effects
 				(font
@@ -27271,7 +27520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 711.2 764.54 0)
 			(effects
 				(font
@@ -27678,7 +27927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Library_Marcos:C_Rect_L7.0mm_W2.0mm_P4.00mm"
 			(at 143.2052 175.26 0)
 			(effects
 				(font
@@ -27696,7 +27945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 142.24 171.45 0)
 			(effects
 				(font
@@ -27878,7 +28127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal"
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_445-030_Inline_P20.50x5.20mm_D1.30mm_Horizontal"
 			(at 668.02 227.838 90)
 			(effects
 				(font
@@ -27896,7 +28145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 668.02 226.06 0)
 			(effects
 				(font
@@ -28144,7 +28393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 138.43 436.8799 0)
 			(effects
 				(font
@@ -28229,7 +28478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm"
 			(at 627.0752 539.75 0)
 			(effects
 				(font
@@ -28297,7 +28546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "Library_Marcos:TerminalBlock_P5.08mm"
 			(at 965.2 200.66 0)
 			(effects
 				(font
@@ -28315,7 +28564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 965.2 200.66 0)
 			(effects
 				(font
@@ -28358,7 +28607,7 @@
 				)
 			)
 		)
-		(property "Value" "36k"
+		(property "Value" "20k"
 			(at 105.41 716.28 90)
 			(effects
 				(font
@@ -28427,7 +28676,7 @@
 				)
 			)
 		)
-		(property "Value" "820"
+		(property "Value" "680"
 			(at 510.54 754.38 90)
 			(effects
 				(font
@@ -28646,7 +28895,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3n"
+		(property "Value" "4.7n"
 			(at 457.2 279.4 90)
 			(effects
 				(font
@@ -28654,7 +28903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Library_Marcos:C_Rect_L7.0mm_W2.0mm_P4.00mm"
 			(at 461.01 283.5148 0)
 			(effects
 				(font
@@ -28672,7 +28921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 457.2 284.48 0)
 			(effects
 				(font
@@ -28794,7 +29043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 156.21 269.24 0)
 			(effects
 				(font
@@ -28812,7 +29061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 156.21 269.24 0)
 			(effects
 				(font
@@ -29080,7 +29329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 683.26 100.33 0)
 			(effects
 				(font
@@ -29098,7 +29347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 683.26 100.33 0)
 			(effects
 				(font
@@ -29285,7 +29534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "14k"
+		(property "Value" "15k"
 			(at 690.88 81.2799 0)
 			(effects
 				(font
@@ -29676,6 +29925,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 988.06 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85189a2c-df84-4aaf-9821-04d0bb8181bd")
+		(property "Reference" "TP_VCC1"
+			(at 986.536 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 990.6 196.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 993.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 993.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 988.06 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c722dfdd-4f4c-4a7a-a081-b2c719e95bdd")
+		)
+		(instances
+			(project "Regulador"
+				(path "/f060eee9-88a0-4709-9492-c15cbf2046c3"
+					(reference "TP_VCC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 397.51 737.87 90)
 		(mirror x)
@@ -29904,7 +30219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 233.68 557.53 0)
 			(effects
 				(font
@@ -30109,7 +30424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 637.2352 462.28 0)
 			(effects
 				(font
@@ -30176,7 +30491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 669.29 712.47 0)
 			(effects
 				(font
@@ -30185,7 +30500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" ""
 			(at 671.83 709.93 0)
 			(effects
 				(font
@@ -30194,7 +30509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" ""
 			(at 670.56 715.01 0)
 			(effects
 				(font
@@ -30273,7 +30588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PJFET"
+		(property "Value" "J175"
 			(at 996.95 727.7099 0)
 			(effects
 				(font
@@ -30372,7 +30687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 109.22 102.8699 0)
 			(effects
 				(font
@@ -30600,7 +30915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 99.06 217.932 0)
 			(effects
 				(font
@@ -30710,7 +31025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 397.51 711.2 0)
 			(effects
 				(font
@@ -30719,7 +31034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" ""
 			(at 400.05 713.74 0)
 			(effects
 				(font
@@ -30728,7 +31043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+		(property "Description" ""
 			(at 398.78 708.66 0)
 			(effects
 				(font
@@ -30890,7 +31205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm"
 			(at 865.8352 104.14 0)
 			(effects
 				(font
@@ -31153,7 +31468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PJFET"
+		(property "Value" "J175"
 			(at 828.04 104.1399 0)
 			(effects
 				(font
@@ -31235,7 +31550,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 115.57 450.85 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31253,7 +31568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 118.11 451.8024 90)
 			(effects
 				(font
@@ -31280,7 +31595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 115.57 450.85 0)
 			(effects
 				(font
@@ -31323,7 +31638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 911.86 708.6599 0)
 			(effects
 				(font
@@ -31822,7 +32137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 200.66 746.76 0)
 			(effects
 				(font
@@ -31831,7 +32146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" ""
 			(at 203.2 744.22 0)
 			(effects
 				(font
@@ -31840,7 +32155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+		(property "Description" ""
 			(at 201.93 749.3 0)
 			(effects
 				(font
@@ -31918,7 +32233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 217.17 728.9801 0)
 			(effects
 				(font
@@ -32826,7 +33141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 647.7 730.25 0)
 			(effects
 				(font
@@ -32844,7 +33159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 647.7 730.25 0)
 			(effects
 				(font
@@ -33287,7 +33602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 709.93 212.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33304,7 +33619,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 710.2475 208.28 0)
 			(effects
 				(font
@@ -33330,7 +33645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 709.93 212.09 0)
 			(effects
 				(font
@@ -33517,7 +33832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 201.676 734.314 90)
 			(effects
 				(font
@@ -33535,7 +33850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 201.93 735.33 0)
 			(effects
 				(font
@@ -33990,7 +34305,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "510"
 			(at 419.1 306.07 90)
 			(effects
 				(font
@@ -34269,7 +34584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-8"
 			(at 1004.57 168.91 0)
 			(effects
 				(font
@@ -34278,7 +34593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+		(property "Datasheet" ""
 			(at 1004.57 168.91 0)
 			(effects
 				(font
@@ -34287,7 +34602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+		(property "Description" ""
 			(at 1004.57 168.91 0)
 			(effects
 				(font
@@ -34348,7 +34663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 650.24 469.8999 0)
 			(effects
 				(font
@@ -34503,7 +34818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 683.26 135.89 0)
 			(effects
 				(font
@@ -34521,7 +34836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 683.26 135.89 0)
 			(effects
 				(font
@@ -35053,7 +35368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 364.49 267.97 0)
 			(effects
 				(font
@@ -35267,7 +35582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 128.27 715.01 0)
 			(effects
 				(font
@@ -35276,7 +35591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" ""
 			(at 130.81 717.55 0)
 			(effects
 				(font
@@ -35285,7 +35600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+		(property "Description" ""
 			(at 129.54 712.47 0)
 			(effects
 				(font
@@ -35433,7 +35748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "102k"
+		(property "Value" "100k"
 			(at 182.88 693.4199 0)
 			(effects
 				(font
@@ -35503,7 +35818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 402.59 482.5999 0)
 			(effects
 				(font
@@ -35931,7 +36246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 1002.03 160.02 0)
 			(effects
 				(font
@@ -35940,7 +36255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+		(property "Datasheet" ""
 			(at 999.49 157.48 0)
 			(effects
 				(font
@@ -35949,7 +36264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+		(property "Description" ""
 			(at 1004.57 158.75 0)
 			(effects
 				(font
@@ -36037,7 +36352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 106.68 78.74 0)
 			(effects
 				(font
@@ -36055,7 +36370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 106.68 78.74 0)
 			(effects
 				(font
@@ -36592,7 +36907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 742.95 90.1699 0)
 			(effects
 				(font
@@ -36750,7 +37065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 479.7552 755.65 0)
 			(effects
 				(font
@@ -36885,7 +37200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 218.44 79.248 0)
 			(effects
 				(font
@@ -37395,7 +37710,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3.3k"
 			(at 414.02 687.0699 0)
 			(effects
 				(font
@@ -37611,7 +37926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 811.2252 255.27 0)
 			(effects
 				(font
@@ -37721,7 +38036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 627.38 483.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37739,7 +38054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 629.92 484.8224 90)
 			(effects
 				(font
@@ -37766,7 +38081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 627.38 483.87 0)
 			(effects
 				(font
@@ -37951,7 +38266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 306.07 79.248 0)
 			(effects
 				(font
@@ -38063,7 +38378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 699.4652 751.84 0)
 			(effects
 				(font
@@ -38275,7 +38590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 415.29 468.63 0)
 			(effects
 				(font
@@ -38499,7 +38814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 1002.03 152.4 0)
 			(effects
 				(font
@@ -38508,7 +38823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" ""
 			(at 999.49 154.94 0)
 			(effects
 				(font
@@ -38517,7 +38832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" ""
 			(at 1004.57 153.67 0)
 			(effects
 				(font
@@ -38645,8 +38960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 584.2 125.73 0)
+		(lib_id "Marcos_Lib:Switch")
+		(at 554.99 125.73 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38656,23 +38971,45 @@
 		(fields_autoplaced yes)
 		(uuid "deeca6bf-3533-41a2-8b79-e7a3c9e3905e")
 		(property "Reference" "SW1"
-			(at 584.2 116.84 0)
+			(at 570.23 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 584.2 119.38 0)
+			(at 570.23 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 584.2 125.73 0)
+		(property "Footprint" "Library_Marcos:SWITCH1"
+			(at 574.04 30.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 574.04 -69.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 582.422 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38680,22 +39017,70 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 584.2 118.11 0)
+		(property "Height" "4.7"
+			(at 570.23 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 584.2 125.73 0)
+		(property "Manufacturer_Name" "KNITTER-SWITCH"
+			(at 570.23 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MFP113D-RA"
+			(at 570.23 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 574.04 -569.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 574.04 -669.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 574.04 -769.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 574.04 -869.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -38706,6 +39091,12 @@
 		)
 		(pin "2"
 			(uuid "3e59e077-93b5-4f75-8207-de5bb36c9e78")
+		)
+		(pin "MH1"
+			(uuid "838f3c9e-cd12-4a42-99f0-ae2ff2e12734")
+		)
+		(pin "MH2"
+			(uuid "bfbe57f9-4894-4bdc-9170-a14fcf90e4f3")
 		)
 		(instances
 			(project ""
@@ -38744,7 +39135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 176.2252 264.16 0)
 			(effects
 				(font
@@ -38814,7 +39205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 224.79 532.13 0)
 			(effects
 				(font
@@ -39109,7 +39500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 115.2652 506.73 0)
 			(effects
 				(font
@@ -39127,7 +39518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 114.3 502.92 0)
 			(effects
 				(font
@@ -39246,7 +39637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 191.77 275.082 0)
 			(effects
 				(font
@@ -39331,7 +39722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 758.19 224.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39348,7 +39739,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 758.5075 220.98 0)
 			(effects
 				(font
@@ -39374,7 +39765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 758.19 224.79 0)
 			(effects
 				(font
@@ -39571,7 +39962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 648.97 764.54 0)
 			(effects
 				(font
@@ -39589,7 +39980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 648.97 764.54 0)
 			(effects
 				(font
@@ -39644,7 +40035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 377.19 759.46 0)
 			(effects
 				(font
@@ -39662,7 +40053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 377.19 759.46 0)
 			(effects
 				(font
@@ -39690,7 +40081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
+		(lib_id "Diode:1N5819")
 		(at 323.85 309.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39707,7 +40098,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "1N5819"
 			(at 324.1675 306.07 0)
 			(effects
 				(font
@@ -39733,7 +40124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 323.85 309.88 0)
 			(effects
 				(font
@@ -39784,7 +40175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 510.794 68.326 90)
 			(effects
 				(font
@@ -39802,7 +40193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 510.54 67.31 0)
 			(effects
 				(font
@@ -39844,7 +40235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 99.06 445.7699 0)
 			(effects
 				(font
@@ -40195,7 +40586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W3.8mm_P7.50mm_MKT"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 674.6748 83.82 0)
 			(effects
 				(font
@@ -40265,7 +40656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 123.19 144.018 0)
 			(effects
 				(font
@@ -40511,7 +40902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:CERDIP-14"
 			(at 508 90.17 0)
 			(effects
 				(font
@@ -40520,7 +40911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" ""
 			(at 505.46 92.71 0)
 			(effects
 				(font
@@ -40529,7 +40920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" ""
 			(at 510.54 91.44 0)
 			(effects
 				(font
@@ -40750,7 +41141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC557"
 			(at 148.59 93.9799 0)
 			(effects
 				(font
@@ -41040,7 +41431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "1"
 			(at 148.59 521.9699 0)
 			(effects
 				(font
@@ -41390,7 +41781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Library_Marcos:DIP-16"
 			(at 247.65 79.248 0)
 			(effects
 				(font
