@@ -1,0 +1,80 @@
+{
+  "nominal": {
+    "events": [
+      {
+        "edge_s": 0.001,
+        "peak_deviation_mV": 0.06937980651855469,
+        "final_mean_V": 3.300009250640869,
+        "last_500us_pp_uV": 0.0,
+        "settling_to_2pct_of_peak_us": 125.70000000000007,
+        "band_uV": 1.3875961303710938
+      },
+      {
+        "edge_s": 0.003,
+        "peak_deviation_mV": 0.06937980651855469,
+        "final_mean_V": 3.300009250640869,
+        "last_500us_pp_uV": 0.0,
+        "settling_to_2pct_of_peak_us": 126.49999999999987,
+        "band_uV": 1.3875961303710938
+      }
+    ],
+    "base_V": 3.300009250640869,
+    "manifest": [
+      {
+        "file": "SIM-09_ce_transient_33V_nominal.cir",
+        "sha256": "7a2ddc6ed00564353fd9fe2e7a68f9a9f807fb961fb69915505cf44340227a20"
+      },
+      {
+        "file": "SIM-09_ce_transient_33V_nominal.log",
+        "sha256": "f6264cd35e3201f189c32f8d60521839b487e1309b8569d7cf4655f14c168142"
+      },
+      {
+        "file": "SIM-09_ce_transient_33V_nominal.raw",
+        "sha256": "8bdbf70ca068100014452e69284969888006a67de43e0366a96be681ca593e52"
+      },
+      {
+        "file": "SIM-09_ce_transient_33V_nominal.op.raw",
+        "sha256": "53407ff268a7f53946ced006804a238f02cc2e2c0d373cc6331dfea55c00bc47"
+      }
+    ]
+  },
+  "ESR010": {
+    "events": [
+      {
+        "edge_s": 0.001,
+        "peak_deviation_mV": 0.0743865966796875,
+        "final_mean_V": 3.300009250640869,
+        "last_500us_pp_uV": 0.0,
+        "settling_to_2pct_of_peak_us": 149.09999999999988,
+        "band_uV": 1.48773193359375
+      },
+      {
+        "edge_s": 0.003,
+        "peak_deviation_mV": 0.07414817810058594,
+        "final_mean_V": 3.300009250640869,
+        "last_500us_pp_uV": 0.0,
+        "settling_to_2pct_of_peak_us": 151.30000000000004,
+        "band_uV": 1.4829635620117188
+      }
+    ],
+    "base_V": 3.300009250640869,
+    "manifest": [
+      {
+        "file": "SIM-09_ce_transient_33V_ESR010.cir",
+        "sha256": "2ec34b189731bd75fd49145ea964d55f1de6ec7e2ec2f567bb9f95071bd92180"
+      },
+      {
+        "file": "SIM-09_ce_transient_33V_ESR010.log",
+        "sha256": "7c5f3456c4f054bd632b6a1c73f7eb02569c02ef7bd3fdf0b3d83d77b5af97da"
+      },
+      {
+        "file": "SIM-09_ce_transient_33V_ESR010.raw",
+        "sha256": "749cae7623c1f4c1b3a1b3be939a540ae5c7e1e063266b8b4623afaef234433a"
+      },
+      {
+        "file": "SIM-09_ce_transient_33V_ESR010.op.raw",
+        "sha256": "d894e5f5657ea31c9d6eca252f72f79befe3ea142859ecef3118453126683bda"
+      }
+    ]
+  }
+}

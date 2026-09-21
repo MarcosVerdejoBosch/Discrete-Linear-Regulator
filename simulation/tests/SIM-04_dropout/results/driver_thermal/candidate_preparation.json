@@ -1,0 +1,14 @@
+{
+  "source": "SIM-04_driver_thermal_5V.asc",
+  "source_sha256": "d0a3f86df4af6b93a05aab90ce704c4a7712a4e8781045731cf32274c6979931",
+  "file": "SIM-04_driver_R100_5V.asc",
+  "sha256": "2aaa89060f8511c40e60479c386cdf760cbd7e268b60ccdc7f11ce795a9f6bc1",
+  "changes": {
+    "KiCad R21 / LTspice R15": {
+      "original_ohm": 10,
+      "candidate_ohm": 100
+    },
+    "source": "Added final hold at 4.90 V from 164 to 179 ms"
+  },
+  "status": "SIMULATION-ONLY candidate for a modified 100 mA dropout bench; not adopted in the design or nominal scenarios; requires other-load/stability review for permanent use."
+}

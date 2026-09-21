@@ -1,0 +1,244 @@
+{
+  "5V": {
+    "dense": {
+      "margins": {
+        "unity_crossings": [
+          {
+            "frequency_Hz": 557715.4274063135,
+            "phase_deg": -127.49206690781774,
+            "phase_margin_deg": 52.507933092182256
+          }
+        ],
+        "phase_crossings": [
+          {
+            "frequency_Hz": 1979290.3160040525,
+            "phase_deg": -180,
+            "gain_margin_dB": 17.27776338615761
+          }
+        ],
+        "gain_at_1Hz_dB": 109.50765345865896,
+        "minimum_swept_gain_dB": -66.38229658901865
+      },
+      "crossover_difference_Hz": 3.008711601723917,
+      "phase_margin_difference_deg": -6.881154790505661e-05,
+      "gain_margin_difference_dB": 0.00016075684765581855,
+      "manifest": [
+        {
+          "file": "SIM-09_review_dense_5V_voltage.cir",
+          "sha256": "215bfa45f58cbd6368b4bebbc89d4cdcc05448ed2c638c020fcee4553b1fa6ad"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_voltage.log",
+          "sha256": "ab62fe2de7b49b6e32448fabed8476adf68d5193e9b28b2d2d64e6d206158ef1"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_voltage.raw",
+          "sha256": "6fa296eeb6d962537b8d3616213173071fa605f52ab404ca1a24e0dbc78cd1d1"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_voltage.op.raw",
+          "sha256": "1898f69a14d7bdeed34cffd429c0da90abaa95ec804a429d92f2dc292fa7c871"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_current.cir",
+          "sha256": "a8a475d9e9b602b217f14694c5e9dac74615cf4816be95545080a878e82544a3"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_current.log",
+          "sha256": "b6764b7b919a827134766c1cb0db5f9ac9671f0d4016c7479f4042c264832d37"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_current.raw",
+          "sha256": "4c03cbc6e934351bc95e0bd0a8f1a2cecc860142fada8adf9eb03c19dd029341"
+        },
+        {
+          "file": "SIM-09_review_dense_5V_current.op.raw",
+          "sha256": "8afcd0b72b93204b57fa768df73aaf696d56aea90d0d2ac5caa05e85887b603d"
+        }
+      ],
+      "voltage_output_difference_uV": 0.0,
+      "current_output_difference_uV": 0.0
+    },
+    "reverse": {
+      "margins": {
+        "unity_crossings": [
+          {
+            "frequency_Hz": 557712.4197764333,
+            "phase_deg": -127.49199806509816,
+            "phase_margin_deg": 52.50800193490184
+          }
+        ],
+        "phase_crossings": [
+          {
+            "frequency_Hz": 1979266.4740109192,
+            "phase_deg": -180,
+            "gain_margin_dB": 17.277602617930857
+          }
+        ],
+        "gain_at_1Hz_dB": 109.50765330789184,
+        "minimum_swept_gain_dB": -66.38229655585457
+      },
+      "crossover_difference_Hz": 0.0010817215079441667,
+      "phase_margin_difference_deg": 3.117168034805218e-08,
+      "gain_margin_difference_dB": -1.1379096775954167e-08,
+      "manifest": [
+        {
+          "file": "SIM-09_review_reverse_5V_voltage.cir",
+          "sha256": "b6942a1ff65807606ed30fd3e5433d4f7b827475f4288f55a3e5542f2e6aba96"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_voltage.log",
+          "sha256": "026b22725300c4aeecc855a398216a6ef3e8ce92adebaa103cafe0dba199d428"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_voltage.raw",
+          "sha256": "3ecd026cacb2751b0ed2013f769a4ec95a420dfcd3d79c2a5435296e94b76afc"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_voltage.op.raw",
+          "sha256": "1f3de3101505dbf686f481abed9090c51bf27734ebe7d620cb909dd7bbfeff24"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_current.cir",
+          "sha256": "70d2175263d38288d99207cddc9b7abbd987d7bbc8bb36a043546b385c6be818"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_current.log",
+          "sha256": "ae9b82c0f01d2ee12ef6f857dd120416c60dfee7a74707bb399db8958fdf167b"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_current.raw",
+          "sha256": "169f7ec55148453d9297448ecd8d6824c9ad4f436f42c345fd6359e2a977943e"
+        },
+        {
+          "file": "SIM-09_review_reverse_5V_current.op.raw",
+          "sha256": "ac881815c26cea9fa667c50a0aaee2ff84f57dca6818ebea8a284310d320483f"
+        }
+      ],
+      "maximum_relative_return_ratio_difference": 1.7616346145249615e-08,
+      "voltage_output_difference_uV": 0.10308374065459702,
+      "current_output_difference_uV": 0.10308374065459702
+    }
+  },
+  "33V": {
+    "dense": {
+      "margins": {
+        "unity_crossings": [
+          {
+            "frequency_Hz": 530473.3433679101,
+            "phase_deg": -128.02143664459277,
+            "phase_margin_deg": 51.97856335540723
+          }
+        ],
+        "phase_crossings": [
+          {
+            "frequency_Hz": 1988554.6166495616,
+            "phase_deg": -180,
+            "gain_margin_dB": 17.752312342290324
+          }
+        ],
+        "gain_at_1Hz_dB": 107.54939565439321,
+        "minimum_swept_gain_dB": -66.53819854551323
+      },
+      "crossover_difference_Hz": 0.7295234369812533,
+      "phase_margin_difference_deg": 1.7787014911618826e-05,
+      "gain_margin_difference_dB": 0.00015992357192828877,
+      "manifest": [
+        {
+          "file": "SIM-09_review_dense_33V_voltage.cir",
+          "sha256": "680e7b97bfae82588bf1f0bcfc9f67a17fc049557fe12ab7e063386c320aaf11"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_voltage.log",
+          "sha256": "a3c8f8ef8f693af12bc0e9271c274f193af2a3fde42074d9676c512c3cd10c11"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_voltage.raw",
+          "sha256": "e08796074fee305ef74d6b6d36d008afc13ce5c73dd129d6faab4fbce62182dd"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_voltage.op.raw",
+          "sha256": "4e64039702fd68b2be8ba054de355cec8663a282292356261230753ed009963f"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_current.cir",
+          "sha256": "5f37fbadbc7a5c30ad923001d682928f1ba5eba2b5695ac1c3fa77cf815575bd"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_current.log",
+          "sha256": "600064e27aabf3dc4bb7d2935462498020c35876b2165b103aad136598428c0f"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_current.raw",
+          "sha256": "731d1dc244c590ea2cdbadb966fe0a707e9b8bda0cc838715250a037c97ea89c"
+        },
+        {
+          "file": "SIM-09_review_dense_33V_current.op.raw",
+          "sha256": "c24205eb97fa53655a5a208ad48f0652fbabd8de1dddbb81990fd12684aad48b"
+        }
+      ],
+      "voltage_output_difference_uV": 0.0,
+      "current_output_difference_uV": 0.0
+    },
+    "reverse": {
+      "margins": {
+        "unity_crossings": [
+          {
+            "frequency_Hz": 530472.6139089395,
+            "phase_deg": -128.02145443018594,
+            "phase_margin_deg": 51.97854556981406
+          }
+        ],
+        "phase_crossings": [
+          {
+            "frequency_Hz": 1988530.4530732632,
+            "phase_deg": -180,
+            "gain_margin_dB": 17.75215241796334
+          }
+        ],
+        "gain_at_1Hz_dB": 107.54939564629466,
+        "minimum_swept_gain_dB": -66.53819854359199
+      },
+      "crossover_difference_Hz": 6.446638144552708e-05,
+      "phase_margin_difference_deg": 1.4217391708370997e-09,
+      "gain_margin_difference_dB": -7.550546854417917e-10,
+      "manifest": [
+        {
+          "file": "SIM-09_review_reverse_33V_voltage.cir",
+          "sha256": "e04f04546326facad59b2cd7c4d52de0d9306585e526435c8611e9b8410d3edb"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_voltage.log",
+          "sha256": "fe91c58355902a9897267cc0bedbff51b41cc8a23f9da0e207e07ce0d7f21879"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_voltage.raw",
+          "sha256": "ad0cd8bee131733a2765f5e575d03a8a7be3f612e53e3df09ea0de64e7c7b79c"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_voltage.op.raw",
+          "sha256": "c4f6534df2602dde519b33242737c898ada9f9b42ccfabf80bbac94335043393"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_current.cir",
+          "sha256": "973a709f566a696d4c105dd8dcdbc268c2f53ff77caae57da0f6e2c42cb12727"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_current.log",
+          "sha256": "8799ff155670bb2711f135aaf4772a633b9361b5f9460d5d17b32c6656f2f678"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_current.raw",
+          "sha256": "09fe1ef3e8d94bf5ed4df38c82c85fd418075c3fe51c3d2a57da4fdb09ad7c80"
+        },
+        {
+          "file": "SIM-09_review_reverse_33V_current.op.raw",
+          "sha256": "4fb3906304a573540fb94d6f63aaf54892da6ce2109d26179c95e5fbf368ae5d"
+        }
+      ],
+      "maximum_relative_return_ratio_difference": 1.0441191392590017e-09,
+      "voltage_output_difference_uV": 0.003719618391073709,
+      "current_output_difference_uV": 0.003719618391073709
+    }
+  }
+}

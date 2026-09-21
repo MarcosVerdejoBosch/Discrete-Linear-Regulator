@@ -1,0 +1,68 @@
+{
+  "5V": {
+    "frequency_Hz": 557712.4186947118,
+    "amplitude_V": 0.0005,
+    "fit_cycles": 80,
+    "fit_interval_s": [
+      0.08010642924855327,
+      0.08024987235169814
+    ],
+    "full_voltage_return_gain_dB": 1.4802647294073925,
+    "full_voltage_return_phase_deg": -120.25406913441809,
+    "difference_from_core_voltage_return_dB": -0.03732507932048304,
+    "difference_from_core_voltage_return_deg": 1.1132493265080408,
+    "max_fit_step_ns": 9.714887380662951,
+    "fit_residuals_V": {
+      "V(fb)": 1.885824212621249e-05,
+      "V(n033)": 1.885754620172369e-05
+    },
+    "enable_min_V": 7.226136207580566,
+    "manifest": [
+      {
+        "file": "SIM-09_full_tone_5V.cir",
+        "sha256": "c2af5c842031c31c6500f57132b4664ab2c54b2acef49900aae90ba4202fd337"
+      },
+      {
+        "file": "SIM-09_full_tone_5V.log",
+        "sha256": "ccb31796cc1e5192a2a930f9dfc9488b3e653dd3a11ecb04b21cec5bb6029a46"
+      },
+      {
+        "file": "SIM-09_full_tone_5V.raw",
+        "sha256": "2c4281d4f39d826f6e8a166c2d1d8d637ccc416ab3780388cc553b2ae72a0387"
+      }
+    ]
+  },
+  "33V": {
+    "frequency_Hz": 530472.6138444731,
+    "amplitude_V": 0.0005,
+    "fit_cycles": 80,
+    "fit_interval_s": [
+      0.08009917632487024,
+      0.0802499852411312
+    ],
+    "full_voltage_return_gain_dB": 1.4552816427306379,
+    "full_voltage_return_phase_deg": -121.37207274761964,
+    "difference_from_core_voltage_return_dB": -0.05117442192441468,
+    "difference_from_core_voltage_return_deg": 0.9419259769635062,
+    "max_fit_step_ns": 9.877055909268684,
+    "fit_residuals_V": {
+      "V(fb)": 1.8711643087849595e-05,
+      "V(n033)": 1.8712316771498124e-05
+    },
+    "enable_min_V": 7.226161479949951,
+    "manifest": [
+      {
+        "file": "SIM-09_full_tone_33V.cir",
+        "sha256": "52a5cc30232283079abc122d1695e03ae10fc273489131740ae1b2d0b5a4a4a3"
+      },
+      {
+        "file": "SIM-09_full_tone_33V.log",
+        "sha256": "e32454aea41328bae4f720d30bb212abb29797d04d46c1249f0c3a14e6d54b82"
+      },
+      {
+        "file": "SIM-09_full_tone_33V.raw",
+        "sha256": "b17340a99e4a8b28811df6b5b07075f376a7a33abf46cad6de172dad5b785764"
+      }
+    ]
+  }
+}

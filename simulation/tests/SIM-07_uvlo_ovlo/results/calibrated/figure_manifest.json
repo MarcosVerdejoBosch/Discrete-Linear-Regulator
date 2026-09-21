@@ -1,0 +1,6 @@
+{
+  "source": "metrics.json",
+  "sha256": "d9c1e94d0bc4577b0bc72f4c7f1b4e4d750d6e4d0cd26fdc4455d5b434817c17",
+  "matplotlib": "3.11.2",
+  "processing": "Original transient samples; control voltages normalized to actual protection supply; no smoothing. Markers indicate protection-comparator midpoint crossings, not system-enable thresholds."
+}

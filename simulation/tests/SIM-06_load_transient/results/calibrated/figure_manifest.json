@@ -1,0 +1,6 @@
+{
+  "source": "metrics.json",
+  "sha256": "d2385d30ba03a62b713c13be3e038b3ed1275234403f894928e4bc0b068237b5",
+  "matplotlib": "3.11.2",
+  "processing": "Original raw samples, no smoothing or fitting; time relative to start of conductance transition; shaded band +/-1% of final mean; dashed line final mean."
+}

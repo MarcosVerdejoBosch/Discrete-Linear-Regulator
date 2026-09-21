@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-20",
+  "method": "Archived RAW reanalysis; no LTspice rerun",
+  "user_validation": "pending",
+  "hardware_validation": "pending",
+  "modes": {
+    "5V": {
+      "end_time_s": 0.16000158231366268,
+      "hashes_match": true,
+      "edges": [
+        {
+          "undershoot_mV": 171.16601409138266,
+          "overshoot_mV": 0.1835113602774996,
+          "settling_1pct_us": 7.274300276527423,
+          "max_fine_step_ns": 19.5101835520628
+        },
+        {
+          "undershoot_mV": 37.47641265855073,
+          "overshoot_mV": 361.70161544813874,
+          "settling_1pct_us": 5.9747392426034995,
+          "max_fine_step_ns": 19.938635575922348
+        }
+      ]
+    },
+    "33V": {
+      "end_time_s": 0.1600001956861177,
+      "hashes_match": true,
+      "edges": [
+        {
+          "undershoot_mV": 164.55785494837505,
+          "overshoot_mV": 0.2048804184462405,
+          "settling_1pct_us": 7.246493805262988,
+          "max_fine_step_ns": 19.958424815613718
+        },
+        {
+          "undershoot_mV": 86.03809448196786,
+          "overshoot_mV": 360.03829864547356,
+          "settling_1pct_us": 14.696472637576452,
+          "max_fine_step_ns": 19.858607785971927
+        }
+      ]
+    }
+  }
+}

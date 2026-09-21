@@ -1,0 +1,159 @@
+* SIM-02_cal_02_5V.asc
+RFB1 OUT FB 15k
+RFB2 N022 0 28759.8
+RLOAD OUT 0 50
+CLOAD N016 0 1µ
+R§ESR OUT N016 1
+C7 VREF 0 6.8µ
+Q4 N040 N033 N029 0 CA3096P
+Q5 N039 N032 N027 0 CA3096P
+R3 N021 N019 5.6k
+R4 VEE N017 560
+Q8 N028 N019 N017 0 BC556B
+Q9 N019 N017 VEE 0 BC556B
+Q2 N039 N039 N048 0 CA3096N
+Q1 N040 N039 N044 0 CA3096N
+R1 N029 N028 200
+R2 N028 N027 200
+R5 N055 0 270
+R6 N056 0 270
+R8 0 N021 5.6k
+C1 VEE N021 100n
+XLGS N033 FB lg_single params: lg_single=lg
+C3 OUT FB 100p
+R14 N054 0 100
+R15 N009 N038 10
+Q14 0 N036 N037 0 BC807-40
+R9 N043 N047 5.6k
+R10 0 N050 1.2k
+R13 VEE N043 5.6k
+C4 0 N043 100n
+Q12 N018 N018 N012 0 CA3096P
+Q13 N036 N018 N013 0 CA3096P
+R12 0 N053 270
+Q16 N037 N018 N014 0 CA3096P
+C5 N035 N040 3.9n
+R18 VEE N012 100
+R19 VEE N013 100
+R20 VEE N014 100
+Q17 N037 N018 N015 0 CA3096P
+R21 VEE N015 100
+Q6 N047 N050 0 0 CA3096N
+Q10 N042 N047 N050 0 CA3096N
+Q15 N018 N047 N053 0 CA3096N
+Q7 VEE N040 N042 0 CA3096N
+Q11 N036 N042 N054 0 CA3096N
+Q3 N048 N044 N055 0 CA3096N
+Q22 N044 N044 N056 0 CA3096N
+R25 OUT N008 0.1
+XU4 N010 N011 VEE 0 N020 LM324
+XU7 N060 N059 VEE 0 N057 LM324
+XU9 N062 N060 VEE 0 N060 LM324
+R27 N008 N010 1k
+R28 N010 0 10k
+R29 OUT N011 1k
+R32 N011 N020 10k
+C8 N011 N020 100p
+R36 VREF N062 10k
+R37 0 N062 15k
+XU8 N022 N030 0 2N7000/PLP
+Q26 N008 N009 VCTRL 0 TIP42C
+R7 N036 N035 2k
+D4 N040 N061 1N5819
+C6 N058 N057 4.7n
+R16 N059 N058 1.6k
+R31 N020 N059 10k
+R30 N057 N061 510
+C9 N008 N009 33n
+R33 FB N022 14846.5
+R51 VCTRL N009 7.5k
+R52 N052 0 20k
+R53 N038 N041 20k
+XU2 N037 N041 N038 irf7328
+M3 N049 N052 0 0 IRFZ44N
+R54 N041 N049 10
+R67 N032 VREF 7.5k
+D13 N008 VCTRL 1N5819
+R11 N052 TTL 100
+D1 0 N052 CDZV12B
+R60 N030 0 20k
+R62 N030 VEE 100
+D6 0 N030 CDZV12B
+J3 OUT N026 0 J175
+R99 N026 0 1Meg
+R63 N026 N025 100k
+R61 VDOBL N025 5.6k
+* block symbol definitions
+.subckt lg_single A B
+Ii 0 X AC {u(lg_single)}
+Vi X A AC {u(-lg_single)}
+VBUFFER B X 0
+.ends lg_single
+
+.model D D
+.lib standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib standard.bjt
+.model NJF NJF
+.model PJF PJF
+.lib standard.jft
+.model NMOS NMOS
+.model PMOS PMOS
+.lib standard.mos
+.lib TL431.sub
+* .dc V3 0 20 100m
+* .ac dec 20 0.1 60Meg
+.lib CA3096.lib
+.lib opamp.lib
+* .dc V10 10m 150
+.lib phil_fet.lib
+.param lg = 1 ; zero value turns off probe
+* .step param lg list -1 1
+.lib nat_semi.lib
+.lib phil_bjt.lib
+.lib darlngtn.lib
+.lib irf7328.spi
+.lib pwrbjt.lib
+* UVLO
+* OVLO
+* TIME DELAY
+* POLARITY PROTECTION + SLOW START
+* VREF SEQUENCER
+* LDO ENABLE - UVLO/OVLO AND TIME DELAY\nADDITIONAL LED INDICATOR
+* VREF REGULATOR
+* IRF4905
+* SHUNT BOOST
+.lib LM311.sub
+.inc scr.txt
+* FUSE
+* Diodo se coloca en caso de OVLO = True y el Feedback \nquiere seguir a la referencia de 2.5V pero Vout = 0V entonces el Ampli \nde Error compensa haciendo circular una corriente excesiva a través\ndel Buffer entre Par Diferencial y Emisor Común.
+* VCTRL se justifica en el transistor de paso debido a que valores\nelevados de VIN, durante el encedido, pueden generar transitorios \nperjudiciales sobre la carga.
+* El jfet cumple la función de definir la tensión GND sobre la salida\npara evitar valores de tensión flotantes debido a las cargas de los\ncapacitores.
+; ---------------------------
+; Global parameters (common)
+; ---------------------------
+.param VOUTNOM=5
+.param TOL=0.02
+.param VOUTMIN = {VOUTNOM*(1-TOL)}
+; Default conditions (edit as needed)
+.param VBATDC=12
+.param RLOADVAL=5
+.param VSW_VT=2.5
+.model SWLOAD SW(Ron=10m Roff=1e9 Vt={VSW_VT} Vh=-0.2)
+.param VINTEST=8
+.temp 27
+.lib AO3401A.mod
+.lib phil_fet.lib
+.lib LTC1044.sub
+.lib TL431.sub
+.backanno
+VEE_BIAS VEE 0 7.97349811347
+VCTRL_BIAS VCTRL 0 7.95846166042
+VREF_BIAS VREF 0 2.47381949425
+VEN_BIAS TTL 0 7.22622648318
+VDBL_BIAS VDOBL 0 14.9
+.ac dec 2000 1 60Meg
+.loadbias SIM-09_load_5V_100mA.bias
+.options srcsteps=0
+.end

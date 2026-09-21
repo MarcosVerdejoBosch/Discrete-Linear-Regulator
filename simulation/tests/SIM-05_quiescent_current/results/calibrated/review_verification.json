@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-20",
+  "method": "Archived RAW reanalysis and SHA256 checks; no new LTspice run",
+  "hardware_validation": "pending",
+  "user_review": "pending",
+  "modes": {
+    "5V": {
+      "input_current_mA": 56.858782045169704,
+      "output_V": 5.000021177808119,
+      "end_time_s": 0.12000089909642805,
+      "window_spread_mA": 0.017515305938573533,
+      "archived_and_active_hashes_match": true,
+      "enabled": true,
+      "auxiliary_source_currents_zero": true
+    },
+    "33V": {
+      "input_current_mA": 56.02808720440722,
+      "output_V": 3.300001982242157,
+      "end_time_s": 0.12000045406137819,
+      "window_spread_mA": 0.009470396355055755,
+      "archived_and_active_hashes_match": true,
+      "enabled": true,
+      "auxiliary_source_currents_zero": true
+    }
+  }
+}

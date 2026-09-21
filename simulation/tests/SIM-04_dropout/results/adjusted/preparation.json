@@ -1,0 +1,58 @@
+[
+  {
+    "mode": "5V",
+    "load_ohm": 50,
+    "nominal_A": 0.1,
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "file": "SIM-04_adjusted_5V.asc",
+    "sha256": "a5d1f870a77a1d42a5bf949c2f0af6ea23fdf671af195a28fd32a562ebf78adb",
+    "adjustments": {
+      "LTspice R65 / KiCad RV12": {
+        "original_ohm": 15000,
+        "test_ohm": 47000
+      },
+      "LTspice R70 / KiCad RV10": {
+        "original_ohm": 75000,
+        "test_ohm": 100000
+      }
+    },
+    "hardware_pot_ranges": {
+      "RV10_max_ohm": 100000,
+      "RV12_max_ohm": 50000,
+      "confirmed_by_user": true
+    },
+    "source_ramp_V_per_ms": -0.1,
+    "solver": "Normal",
+    "trtol": 1,
+    "max_step_us": 2
+  },
+  {
+    "mode": "33V",
+    "load_ohm": 33,
+    "nominal_A": 0.1,
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "file": "SIM-04_adjusted_33V.asc",
+    "sha256": "c04cbc7678e8d909067994aa62f63b8097be24c5df700e59f9cb7b66d908febc",
+    "adjustments": {
+      "LTspice R65 / KiCad RV12": {
+        "original_ohm": 15000,
+        "test_ohm": 47000
+      },
+      "LTspice R70 / KiCad RV10": {
+        "original_ohm": 75000,
+        "test_ohm": 100000
+      }
+    },
+    "hardware_pot_ranges": {
+      "RV10_max_ohm": 100000,
+      "RV12_max_ohm": 50000,
+      "confirmed_by_user": true
+    },
+    "source_ramp_V_per_ms": -0.1,
+    "solver": "Normal",
+    "trtol": 1,
+    "max_step_us": 2
+  }
+]

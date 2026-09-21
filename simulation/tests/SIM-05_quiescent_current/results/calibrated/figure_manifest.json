@@ -1,0 +1,5 @@
+{
+  "metrics_sha256": "15f7f07793b292ce8d8ce069425a738826c11cd3047197dd3ec7cba117e815d3",
+  "processing": "Original raw samples, no smoothing; input current is -I(VBAT).",
+  "matplotlib": "3.11.2"
+}

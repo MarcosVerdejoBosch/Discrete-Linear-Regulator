@@ -1,0 +1,1 @@
+Diagnostic files only. Normal+Gear stalled at enable. The textual solver=alt option is not supported by this installed version; use command-line -alt. Some RAW files predate failed syntax logs and are not valid paired results.

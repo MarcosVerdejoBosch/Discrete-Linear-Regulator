@@ -1,0 +1,26 @@
+[
+  {
+    "source": "TEST_DROPOUT",
+    "nominal_V": 5.0,
+    "load_ohm": 5.0,
+    "temperature_C": 27,
+    "vout_at_6_V": 5.013360500335694,
+    "vout_at_11_V": 5.0077948570251465,
+    "slope_mV_per_V": -1.1131286621095526,
+    "minimum_V": 5.0077948570251465,
+    "maximum_V": 5.013360500335693,
+    "note": "Existing DC run; resistive load. No new LTspice run."
+  },
+  {
+    "source": "TEST_DROPOUT_33V",
+    "nominal_V": 3.3,
+    "load_ohm": 3.3,
+    "temperature_C": 27,
+    "vout_at_6_V": 3.309542894363404,
+    "vout_at_11_V": 3.3038628101348877,
+    "slope_mV_per_V": -1.1360168457033026,
+    "minimum_V": 3.3038628101348877,
+    "maximum_V": 3.3095428943634033,
+    "note": "Existing DC run; resistive load. No new LTspice run."
+  }
+]

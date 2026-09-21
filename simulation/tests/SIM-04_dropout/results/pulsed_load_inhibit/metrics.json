@@ -1,0 +1,213 @@
+{
+  "rows": [
+    {
+      "name": "8V_loaded",
+      "window_ms": [
+        75.02000000000001,
+        79.97999999999999
+      ],
+      "board_input_V": 7.998423668688847,
+      "Vout_V": 5.000019492605657,
+      "Vref_V": 2.473820924758911,
+      "load_mA": 100.00038996404362,
+      "pass_base_mA": 0.9179678074911184,
+      "Q3_power_mW": 33.160983649158474,
+      "R21_power_mW": 0.010300142407823246,
+      "Q3_energy_mJ": 0.16447847889982578,
+      "Vout_pp_mV": 0.3170967102050781,
+      "Vout_half_window_difference_mV": -0.00019481321711367627,
+      "enable_min_fraction": 0.90622202401067
+    },
+    {
+      "name": "5p10_loaded",
+      "window_ms": [
+        105.02,
+        109.97999999999999
+      ],
+      "board_input_V": 5.098597325000908,
+      "Vout_V": 4.999339392491049,
+      "Vref_V": 2.473660469055176,
+      "load_mA": 99.98678781266261,
+      "pass_base_mA": 2.3009759399880654,
+      "Q3_power_mW": 26.03546996935214,
+      "R21_power_mW": 0.0575179166668239,
+      "Q3_energy_mJ": 0.1291359310479864,
+      "Vout_pp_mV": 0.30803680419921875,
+      "Vout_half_window_difference_mV": 0.00014356823108130357,
+      "enable_min_fraction": 0.9097782383055075
+    },
+    {
+      "name": "5p10_unloaded",
+      "window_ms": [
+        125.02,
+        129.98000000000002
+      ],
+      "board_input_V": 5.099520654705639,
+      "Vout_V": 0.02527528093284341,
+      "Vref_V": 2.4736504554748535,
+      "load_mA": 2.5275306182758798e-05,
+      "pass_base_mA": -1.4016021843401391e-07,
+      "Q3_power_mW": 8.558104988381704,
+      "R21_power_mW": 8.155089307215307e-08,
+      "Q3_energy_mJ": 0.04244820074237342,
+      "Vout_pp_mV": 0.00046938657760620117,
+      "Vout_half_window_difference_mV": 2.8930220927203543e-06,
+      "enable_min_fraction": 6.249639330792954e-05
+    },
+    {
+      "name": "4p94_before_pulse",
+      "window_ms": [
+        145.01999999999998,
+        149.98
+      ],
+      "board_input_V": 4.93952660891236,
+      "Vout_V": 0.02526735825689101,
+      "Vref_V": 2.4736382961273193,
+      "load_mA": 2.5267383521697047e-05,
+      "pass_base_mA": -1.436450175848055e-07,
+      "Q3_power_mW": 8.535930450203056,
+      "R21_power_mW": 7.275278411216815e-08,
+      "Q3_energy_mJ": 0.042338215033007325,
+      "Vout_pp_mV": 0.0004675239324569702,
+      "Vout_half_window_difference_mV": 2.490240371549879e-06,
+      "enable_min_fraction": 6.249654327201388e-05
+    },
+    {
+      "name": "4p94_pulse1",
+      "window_ms": [
+        155.01999999999998,
+        159.98000000000002
+      ],
+      "board_input_V": 4.937061586970832,
+      "Vout_V": 4.894670709519348,
+      "Vref_V": 2.47364592552185,
+      "load_mA": 97.89341418125524,
+      "pass_base_mA": 146.15590658456426,
+      "Q3_power_mW": 351.82474285022755,
+      "R21_power_mW": 213.92868124354501,
+      "Q3_energy_mJ": 1.7450507245371356,
+      "Vout_pp_mV": 0.43964385986328125,
+      "Vout_half_window_difference_mV": -0.000452086551305797,
+      "enable_min_fraction": 0.9100412141479856
+    },
+    {
+      "name": "4p94_rest1",
+      "window_ms": [
+        175.01999999999998,
+        179.98
+      ],
+      "board_input_V": 4.9395265298352085,
+      "Vout_V": 0.025267358372779398,
+      "Vref_V": 2.4736382961273193,
+      "load_mA": 2.526738365899744e-05,
+      "pass_base_mA": -9.476957056788723e-08,
+      "Q3_power_mW": 8.535930434560575,
+      "R21_power_mW": 7.275262412333418e-08,
+      "Q3_energy_mJ": 0.042338214955420624,
+      "Vout_pp_mV": 0.0004861503839492798,
+      "Vout_half_window_difference_mV": 4.256306682104416e-06,
+      "enable_min_fraction": 6.249651708460877e-05
+    },
+    {
+      "name": "4p94_pulse2",
+      "window_ms": [
+        185.01999999999998,
+        189.98000000000002
+      ],
+      "board_input_V": 4.937061514479691,
+      "Vout_V": 4.894670371430105,
+      "Vref_V": 2.47364592552185,
+      "load_mA": 97.89340747360536,
+      "pass_base_mA": 146.15587843400178,
+      "Q3_power_mW": 351.8246955579098,
+      "R21_power_mW": 213.92859968881183,
+      "Q3_energy_mJ": 1.7450504899672397,
+      "Vout_pp_mV": 0.4410743713378906,
+      "Vout_half_window_difference_mV": -0.001261744464464698,
+      "enable_min_fraction": 0.9100411880456497
+    },
+    {
+      "name": "4p94_rest2",
+      "window_ms": [
+        205.01999999999998,
+        209.98
+      ],
+      "board_input_V": 4.939526595549567,
+      "Vout_V": 0.025267357538085726,
+      "Vref_V": 2.473638296127319,
+      "load_mA": 2.5267382785054942e-05,
+      "pass_base_mA": -1.2694528055123473e-07,
+      "Q3_power_mW": 8.535930453857778,
+      "R21_power_mW": 7.275322712307335e-08,
+      "Q3_energy_mJ": 0.042338215051134755,
+      "Vout_pp_mV": 0.00047124922275543213,
+      "Vout_half_window_difference_mV": -8.207267851445543e-08,
+      "enable_min_fraction": 6.249644082090301e-05
+    }
+  ],
+  "cycles": [
+    {
+      "window_ms": [
+        150.0,
+        180.0
+      ],
+      "Q3_average_mW": 123.12872211728477,
+      "R21_average_mW": 71.3925200111531,
+      "Q3_energy_mJ": 3.693861663518543
+    },
+    {
+      "window_ms": [
+        180.0,
+        210.0
+      ],
+      "Q3_average_mW": 123.12890767275798,
+      "R21_average_mW": 71.39247206616349,
+      "Q3_energy_mJ": 3.693867230182739
+    }
+  ],
+  "pulses": [
+    {
+      "command_window_ms": [
+        150.0,
+        160.0
+      ],
+      "final_mean_V": 4.894670709519348,
+      "settled_within_1mV_after_ms": 0.03946376763858117,
+      "peak_Q3_power_mW": 351.8766012993906,
+      "Q3_energy_mJ": 3.507021670706381
+    },
+    {
+      "command_window_ms": [
+        180.0,
+        190.0
+      ],
+      "final_mean_V": 4.894670371430105,
+      "settled_within_1mV_after_ms": 0.03943247035675945,
+      "peak_Q3_power_mW": 351.876831872384,
+      "Q3_energy_mJ": 3.5070281517302404
+    }
+  ],
+  "manifest": [
+    {
+      "file": "SIM-04_pulsed_load_inhibit_5V.asc",
+      "sha256": "2af97cc13a8c848e6e046988f4c52b54e9eb5bcd64bfc571c6bdc007b5fe5efe"
+    },
+    {
+      "file": "SIM-04_pulsed_load_inhibit_5V.net",
+      "sha256": "7d4258bf00814cee5c1814dcbad1a04a8b6c2411a14eadab0410a3a2463135be"
+    },
+    {
+      "file": "SIM-04_pulsed_load_inhibit_5V.log",
+      "sha256": "ea54f631129b687be08ea57b112096901eab75e07fad60c4448c3b6accab393e"
+    },
+    {
+      "file": "SIM-04_pulsed_load_inhibit_5V.raw",
+      "sha256": "cc8faa912d92111433b9f4ec37694ce1da4de190a3d4119f4fbf3cf09361ac06"
+    }
+  ],
+  "external_drive_inhibition": true,
+  "scope": "Electrical simulation of prescribed external-load conductance, with optional external TTL pull-down during load-off. Pulse timings are diagnostic, not a qualified physical test. No electrothermal feedback or ESP32/MOSFET device implementation.",
+  "peak_inhibit_sink_mA": 37.113700062036514,
+  "peak_Q3_including_turnoff_mW": 417.1098549619908,
+  "peak_R21_including_turnoff_mW": 298.80897811640494
+}

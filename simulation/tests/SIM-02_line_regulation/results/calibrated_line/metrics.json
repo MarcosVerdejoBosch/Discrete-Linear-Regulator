@@ -1,0 +1,180 @@
+{
+  "5V": {
+    "all_steps_completed": true,
+    "results": [
+      {
+        "source_V": 8,
+        "vout_avg_V": 5.000005374225666,
+        "drift_mV": 3.120419389546214e-05,
+        "vout_pp_mV": 0.2875328063964844,
+        "enable_min_V": 7.226127624511719,
+        "input_after_switch_V": 7.989296068252894,
+        "load_A": 1.0000010763596894
+      },
+      {
+        "source_V": 6,
+        "vout_avg_V": 4.999597218073352,
+        "drift_mV": -4.655009711029834e-05,
+        "vout_pp_mV": 0.225067138671875,
+        "enable_min_V": 5.42295503616333,
+        "input_after_switch_V": 5.9894248322670665,
+        "load_A": 0.9999194465745641
+      },
+      {
+        "source_V": 7,
+        "vout_avg_V": 4.999826372985845,
+        "drift_mV": -2.021965705978346e-06,
+        "vout_pp_mV": 0.255584716796875,
+        "enable_min_V": 6.325453758239746,
+        "input_after_switch_V": 6.989360712718145,
+        "load_A": 0.9999652734043931
+      },
+      {
+        "source_V": 8,
+        "vout_avg_V": 5.0000053905203785,
+        "drift_mV": 3.130143877427827e-05,
+        "vout_pp_mV": 0.2865791320800781,
+        "enable_min_V": 7.226126670837402,
+        "input_after_switch_V": 7.9892961857857285,
+        "load_A": 1.0000010792215803
+      },
+      {
+        "source_V": 9,
+        "vout_avg_V": 5.000152793251125,
+        "drift_mV": 1.364441537532457e-05,
+        "vout_pp_mV": 0.3161430358886719,
+        "enable_min_V": 8.125605583190918,
+        "input_after_switch_V": 8.989231179147849,
+        "load_A": 1.00003055780589
+      },
+      {
+        "source_V": 10,
+        "vout_avg_V": 5.000278671662193,
+        "drift_mV": 1.0316357546003019e-05,
+        "vout_pp_mV": 0.35190582275390625,
+        "enable_min_V": 9.02418041229248,
+        "input_after_switch_V": 9.989166022579042,
+        "load_A": 1.000055735863343
+      },
+      {
+        "source_V": 11,
+        "vout_avg_V": 5.000388937738117,
+        "drift_mV": 1.0459493715586632e-05,
+        "vout_pp_mV": 0.3752708435058594,
+        "enable_min_V": 9.922012329101562,
+        "input_after_switch_V": 10.989100813606441,
+        "load_A": 1.0000777856237408
+      }
+    ],
+    "signed_slope_mV_per_V": 0.1583439329531089,
+    "repeat_8V_difference_uV": 0.016294712246178733,
+    "maximum_nominal_error_percent": 0.008055638532962206,
+    "manifest": [
+      {
+        "file": "SIM-02_calibrated_line_5V.asc",
+        "sha256": "6590ce8da489c0ea52f392eb445364ccd9e4e868df60db9d3fade1463f565a3a"
+      },
+      {
+        "file": "SIM-02_calibrated_line_5V.net",
+        "sha256": "9bba310f8fdcc64ca5ca0c115bb94f198dd3789897fd4128b38ca52c07c82650"
+      },
+      {
+        "file": "SIM-02_calibrated_line_5V.log",
+        "sha256": "b4db50bf4808424509caa091e4f8deae7b99508f39e43fbf601a3c9cae4df172"
+      },
+      {
+        "file": "SIM-02_calibrated_line_5V.raw",
+        "sha256": "1656a05be5a41c2fa7922080f7a9f054122d11ff8b1818bd136ef1bb83f793de"
+      }
+    ]
+  },
+  "33V": {
+    "all_steps_completed": true,
+    "results": [
+      {
+        "source_V": 8,
+        "vout_avg_V": 3.3000001007612316,
+        "drift_mV": -2.6644142447906916e-05,
+        "vout_pp_mV": 0.29730796813964844,
+        "enable_min_V": 7.226152420043945,
+        "input_after_switch_V": 7.989307704879718,
+        "load_A": 1.0000000258601633
+      },
+      {
+        "source_V": 6,
+        "vout_avg_V": 3.300767911402443,
+        "drift_mV": -2.0939129541375223e-05,
+        "vout_pp_mV": 0.232696533203125,
+        "enable_min_V": 5.422975063323975,
+        "input_after_switch_V": 5.989432423338359,
+        "load_A": 1.0002327030867888
+      },
+      {
+        "source_V": 7,
+        "vout_avg_V": 3.300352531301639,
+        "drift_mV": -7.878606655964404e-06,
+        "vout_pp_mV": 0.2620220184326172,
+        "enable_min_V": 6.32547664642334,
+        "input_after_switch_V": 6.989370400628371,
+        "load_A": 1.0001068310377434
+      },
+      {
+        "source_V": 8,
+        "vout_avg_V": 3.300000104518001,
+        "drift_mV": -2.5270680659161826e-05,
+        "vout_pp_mV": 0.2987384796142578,
+        "enable_min_V": 7.226154327392578,
+        "input_after_switch_V": 7.989307669010919,
+        "load_A": 1.0000000280587589
+      },
+      {
+        "source_V": 9,
+        "vout_avg_V": 3.2996932199314966,
+        "drift_mV": -7.643444988048032e-05,
+        "vout_pp_mV": 0.3268718719482422,
+        "enable_min_V": 8.125632286071777,
+        "input_after_switch_V": 8.98924433292819,
+        "load_A": 0.9999070348698869
+      },
+      {
+        "source_V": 10,
+        "vout_avg_V": 3.2994210020676724,
+        "drift_mV": 1.96353133752325e-05,
+        "vout_pp_mV": 0.3552436828613281,
+        "enable_min_V": 9.024209976196289,
+        "input_after_switch_V": 9.989180762433763,
+        "load_A": 0.9998245464957247
+      },
+      {
+        "source_V": 11,
+        "vout_avg_V": 3.2991759290631797,
+        "drift_mV": -3.937923453989356e-05,
+        "vout_pp_mV": 0.39076805114746094,
+        "enable_min_V": 9.92204475402832,
+        "input_after_switch_V": 10.989116895985834,
+        "load_A": 0.9997502805109694
+      }
+    ],
+    "signed_slope_mV_per_V": -0.318396467852633,
+    "repeat_8V_difference_uV": 0.0037567695621021358,
+    "maximum_nominal_error_percent": 0.02497184657030702,
+    "manifest": [
+      {
+        "file": "SIM-02_calibrated_line_33V.asc",
+        "sha256": "346221fbaa9f7595f8105115f1503c0aa5e4ffdcdc2b2aa18033b5a88f6a0984"
+      },
+      {
+        "file": "SIM-02_calibrated_line_33V.net",
+        "sha256": "92e5d74bd337a846ba095eef02247011595636250d18afa48402e2468939c7e5"
+      },
+      {
+        "file": "SIM-02_calibrated_line_33V.log",
+        "sha256": "b79ef2bc8e2b505edb8be37622859e75a13f6d00ebcd9698bfeed9aebe7dba62"
+      },
+      {
+        "file": "SIM-02_calibrated_line_33V.raw",
+        "sha256": "18ee8515b6e5cd1a24328694fa88609a1897845a590c2ad4c0d0b9fb083b319c"
+      }
+    ]
+  }
+}

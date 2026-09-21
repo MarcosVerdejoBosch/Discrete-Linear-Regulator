@@ -1,0 +1,86 @@
+{
+  "5V": {
+    "output_mean_V": 5.000019461718831,
+    "restart_mean_V": 5.00001946161954,
+    "source_V": 8,
+    "load_ohm": 50,
+    "first_mean_window_ms": [
+      45,
+      55
+    ],
+    "second_mean_window_ms": [
+      130,
+      140
+    ],
+    "first_enable_delay_ms": 23.817955808840146,
+    "first_output_98pct_delay_ms": 29.187706233542695,
+    "first_preenable_peak_V": 0.853804349899292,
+    "first_reference_2p45_delay_ms": 0.9843050485330782,
+    "restart_enable_delay_ms": 21.50256127887347,
+    "restart_output_98pct_delay_ms": 26.87226173026118,
+    "restart_preenable_peak_V": 1.162819266319275,
+    "restart_reference_2p45_delay_ms": 0.967562905798261,
+    "output_first_below_50mV_ms": 0.39392545271453583,
+    "startup_supply_first_below_50mV_ms": 12.474890731226727,
+    "manifest": [
+      {
+        "file": "SIM-01_calibrated_startup_5V.asc",
+        "sha256": "5dd7155f428e96ec840477044865230a4226a0fffe3be5ee6fc76b2da08bc6e1"
+      },
+      {
+        "file": "SIM-01_calibrated_startup_5V.net",
+        "sha256": "832bdf72408e45420e787f921ac356bc0c5714f4af5e1cd647ed6555ee6d8320"
+      },
+      {
+        "file": "SIM-01_calibrated_startup_5V.log",
+        "sha256": "d02131611590dfae22f663aab7124a1193b2888ffe66c8e349ef1a9a03182529"
+      },
+      {
+        "file": "SIM-01_calibrated_startup_5V.raw",
+        "sha256": "03bff181e653b8ea81d4f324d5fdd8ae18ccffd2e8ade98a481630602a534edf"
+      }
+    ]
+  },
+  "33V": {
+    "output_mean_V": 3.3000015881095304,
+    "restart_mean_V": 3.300001555499494,
+    "source_V": 8,
+    "load_ohm": 33,
+    "first_mean_window_ms": [
+      45,
+      55
+    ],
+    "second_mean_window_ms": [
+      130,
+      140
+    ],
+    "first_enable_delay_ms": 23.818295027615598,
+    "first_output_98pct_delay_ms": 29.187473000583626,
+    "first_preenable_peak_V": 0.8418357968330383,
+    "first_reference_2p45_delay_ms": 0.9841581459244476,
+    "restart_enable_delay_ms": 21.503622609784863,
+    "restart_output_98pct_delay_ms": 26.872706344765227,
+    "restart_preenable_peak_V": 1.1406495571136475,
+    "restart_reference_2p45_delay_ms": 0.9674101995568313,
+    "output_first_below_50mV_ms": 0.3320043477654175,
+    "startup_supply_first_below_50mV_ms": 12.47945898887274,
+    "manifest": [
+      {
+        "file": "SIM-01_calibrated_startup_33V.asc",
+        "sha256": "403ed0c6b56a6d4f87d43476ccb647ca8802ef06b6b0f6d778ce34de64ad7c57"
+      },
+      {
+        "file": "SIM-01_calibrated_startup_33V.net",
+        "sha256": "c334838acec6d448d1ec3161db0d42803912b23d0c6c4bb570e41fce2e4eb6fc"
+      },
+      {
+        "file": "SIM-01_calibrated_startup_33V.log",
+        "sha256": "8384ba091a05f343a9ba17f8759ed4cb875b84d332081748b8e62d3565a7f150"
+      },
+      {
+        "file": "SIM-01_calibrated_startup_33V.raw",
+        "sha256": "8d1b301cd59bfd259a0323871d7160ad2495777a7ef46b9fe405f93bc8ffcc3c"
+      }
+    ]
+  }
+}

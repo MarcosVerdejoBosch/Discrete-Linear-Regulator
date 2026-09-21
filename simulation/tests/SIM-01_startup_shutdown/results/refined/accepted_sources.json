@@ -1,0 +1,9 @@
+{
+  "5V": "SIM-01_trtol_5V",
+  "33V": "SIM-01_finalcheck_33V",
+  "destination": "SIM-01_check_step_<mode>",
+  "solver": "Normal",
+  "max_step_us": 1,
+  "trtol": 1,
+  "note": "Copied complete evidence; original run names remain in log headers."
+}

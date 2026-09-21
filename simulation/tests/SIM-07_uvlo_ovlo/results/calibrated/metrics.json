@@ -1,0 +1,264 @@
+{
+  "completed": true,
+  "events": {
+    "uvlo": [
+      {
+        "edge": "falling",
+        "time_ms": 105.03269953410293,
+        "sensed_supply_V": 5.494901736487709,
+        "source_V": 5.4967300042349,
+        "input_after_switch_V": 5.4961481059162525,
+        "vout_V": 0.00042899310091126694,
+        "reference_V": 2.4739391803741455,
+        "bracket_dt_us": 0.7191309495668818,
+        "bracket_supply_V": [
+          5.49496603012085,
+          5.494888782501221
+        ],
+        "other_controls_above_half_supply": {
+          "ovlo": true,
+          "delay": false,
+          "enable": false
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 132.61022821469652,
+        "sensed_supply_V": 5.859048237801803,
+        "source_V": 5.861022778481449,
+        "input_after_switch_V": 5.860361076742901,
+        "vout_V": 0.0002460692801923801,
+        "reference_V": 2.4739584922790527,
+        "bracket_dt_us": 2.000000000002,
+        "bracket_supply_V": [
+          5.859032154083252,
+          5.859239101409912
+        ],
+        "other_controls_above_half_supply": {
+          "ovlo": true,
+          "delay": false,
+          "enable": false
+        }
+      }
+    ],
+    "ovlo": [
+      {
+        "edge": "falling",
+        "time_ms": 184.27146687828858,
+        "sensed_supply_V": 11.002977610998322,
+        "source_V": 11.027146607580045,
+        "input_after_switch_V": 11.016122343520562,
+        "vout_V": 5.000741666439407,
+        "reference_V": 2.4741668701171875,
+        "bracket_dt_us": 2.000000000002,
+        "bracket_supply_V": [
+          11.002863883972168,
+          11.003079414367676
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "delay": true,
+          "enable": true
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 222.6350538836392,
+        "sensed_supply_V": 10.135077687236802,
+        "source_V": 10.13649435594846,
+        "input_after_switch_V": 10.135864868988051,
+        "vout_V": 0.0004318410321647426,
+        "reference_V": 2.474142551422119,
+        "bracket_dt_us": 0.2743098304058833,
+        "bracket_supply_V": [
+          10.135089874267578,
+          10.135055541992188
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "delay": true,
+          "enable": true
+        }
+      }
+    ],
+    "delay": [
+      {
+        "edge": "falling",
+        "time_ms": 101.82865047040028,
+        "sensed_supply_V": 5.785534355223549,
+        "source_V": 5.817134973461326,
+        "input_after_switch_V": 5.806627404783276,
+        "vout_V": 4.999197584406222,
+        "reference_V": 2.4739573001861572,
+        "bracket_dt_us": 0.03132113379766821,
+        "bracket_supply_V": [
+          5.785538673400879,
+          5.78552770614624
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "enable": true
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 135.25315625143816,
+        "sensed_supply_V": 6.123305152418841,
+        "source_V": 6.125315533553693,
+        "input_after_switch_V": 6.1246204922818235,
+        "vout_V": 0.00047397400404945744,
+        "reference_V": 2.4739739894866943,
+        "bracket_dt_us": 0.11778725783617716,
+        "bracket_supply_V": [
+          6.123265266418457,
+          6.123321533203125
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "enable": false
+        }
+      }
+    ],
+    "enable": [
+      {
+        "edge": "falling",
+        "time_ms": 101.83987247160279,
+        "sensed_supply_V": 5.783763282470678,
+        "source_V": 5.81601281028237,
+        "input_after_switch_V": 5.805291309102356,
+        "vout_V": 5.000066525462099,
+        "reference_V": 2.4739573001861572,
+        "bracket_dt_us": 0.11019885094720738,
+        "bracket_supply_V": [
+          5.7837677001953125,
+          5.783753395080566
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "delay": false
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 135.31115966162582,
+        "sensed_supply_V": 6.129679429981739,
+        "source_V": 6.131116149660707,
+        "input_after_switch_V": 6.130618030148831,
+        "vout_V": 0.0009133404243366806,
+        "reference_V": 2.4739744663238525,
+        "bracket_dt_us": 0.2559114217204339,
+        "bracket_supply_V": [
+          6.12967586517334,
+          6.12970495223999
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "delay": true
+        }
+      },
+      {
+        "edge": "falling",
+        "time_ms": 184.961153694383,
+        "sensed_supply_V": 11.094573801130934,
+        "source_V": 11.096115270230769,
+        "input_after_switch_V": 11.095409928841121,
+        "vout_V": 0.0004381111733458053,
+        "reference_V": 2.4741690158843994,
+        "bracket_dt_us": 0.5848207582093146,
+        "bracket_supply_V": [
+          11.094491958618164,
+          11.09457778930664
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": false,
+          "delay": true
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 221.438520708292,
+        "sensed_supply_V": 10.253548397258024,
+        "source_V": 10.256147747690175,
+        "input_after_switch_V": 10.254987513138019,
+        "vout_V": 0.12998268563343465,
+        "reference_V": 2.4741461277008057,
+        "bracket_dt_us": 0.152459437074981,
+        "bracket_supply_V": [
+          10.253421783447266,
+          10.253551483154297
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": false,
+          "delay": true
+        }
+      }
+    ]
+  },
+  "plateaus": {
+    "initial": {
+      "V(out)": 5.000005374225666,
+      "V(vee)": 7.973497941813955,
+      "V(comp)": 2.474064350128174,
+      "V(ttl)": 7.2262262650382665,
+      "I(Rload)": 1.0000010763596894,
+      "output_pp_mV": 0.2875328063964844
+    },
+    "undervoltage_hold": {
+      "V(out)": 0.00022834722672714447,
+      "V(vee)": 4.798125181561321,
+      "V(comp)": 2.473887681961059,
+      "V(ttl)": 0.04116341491679279,
+      "I(Rload)": 4.566944530033467e-05,
+      "output_pp_mV": 0.0013643148122355342
+    },
+    "overvoltage_hold": {
+      "V(out)": 0.00027529520681812355,
+      "V(vee)": 11.99868628328678,
+      "V(comp)": 2.4741947650909424,
+      "V(ttl)": 0.04571040340568662,
+      "I(Rload)": 5.505904139665869e-05,
+      "output_pp_mV": 0.21441050921566784
+    },
+    "final": {
+      "V(out)": 5.000005386837661,
+      "V(vee)": 7.973498916084898,
+      "V(comp)": 2.474064350128174,
+      "V(ttl)": 7.226227142222278,
+      "I(Rload)": 1.0000010781353958,
+      "output_pp_mV": 0.2903938293457031
+    }
+  },
+  "threshold_definition": "Comparator output crossing 50% of local VEE; linearly interpolated samples; dynamic test at source ramp 0.1 V/ms; events before 70 ms excluded.",
+  "thresholds_V": {
+    "uvlo_enable_rising": 5.859048237801803,
+    "uvlo_disable_falling": 5.494901736487709,
+    "uvlo_hysteresis": 0.3641465013140941,
+    "ovlo_disable_rising": 11.002977610998322,
+    "ovlo_enable_falling": 10.135077687236802,
+    "ovlo_hysteresis": 0.8678999237615201
+  },
+  "manifest": [
+    {
+      "file": "SIM-07_calibrated_protection_5V.asc",
+      "sha256": "1a857481a92161887e2b599a1a7d0ca8a5064bcf1b9c67eb2421cc29869ebbe7"
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.net",
+      "sha256": "e02d9d4166b6079de360fb7e9cee72d7044f5f5cae51f364c08493c501425615"
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.log",
+      "sha256": "d94c6bd6f628865ac595555eb929bae67758cdc862a5e6dd129ec50e7d706a01"
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.raw",
+      "sha256": "57662a8e28016c5d613c95844aab02898891df28b1352f54b27cc62d92a68a2b"
+    }
+  ]
+}
