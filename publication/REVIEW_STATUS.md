@@ -31,3 +31,7 @@ Date: 2026-09-21. Original GitHub history and license are preserved. This branch
 [Series resistance and capacitance sensitivity](../simulation/tests/SIM-09_loop_stability/results/cap_esr/README.md).
 
 The explicit 1 ohm external resistor was confirmed after the initial sensitivity study. Historical labels `ESR` in filenames/metrics denote the modeled total series resistance; the 0.1 ohm test is hypothetical and does not represent the assembled branch.
+
+## Local execution follow-up
+
+SIM-01 (both modes) and the four nominal SIM-09 AC runs completed again in a separately assembled local folder. Twelve SIM-02 through SIM-08 schematics generated netlists. See [local review](../simulation/LOCAL_REVIEW.md) and [verification](local_execution_verification.json). Full cross-machine portability and model redistribution remain pending. Component/model corrections and report results remain subject to change after rerunning affected scenarios.
