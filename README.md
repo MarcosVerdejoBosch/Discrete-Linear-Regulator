@@ -4,6 +4,12 @@ A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a f
 
 **Review snapshot â€” September 2026.** The assembled board has produced both output voltages. Detailed bench characterization remains pending. Numerical results below are simulations, not hardware specifications.
 
+## Run in LTspice
+
+Download and extract this review branch, then double-click `PREPARAR_LTSPICE.cmd`. Select your existing project-model folder once. Open the prepared `.asc` in `LTspice-local` and click Run. Windows and LTspice are required; Python is optional.
+
+**External models are still required**; this is not a dependency-free download. The setup checks dependencies before creating the folder. [Three-step instructions and SIM-09 plots](simulation/QUICKSTART.md).
+
 ## Start here
 
 - **[Read the report (PDF)](docs/regulator.pdf)** â€” architecture, implementation, simulation results and limitations.
@@ -37,7 +43,7 @@ The PDF is ready to read. LaTeX build instructions are in [docs/README.md](docs/
 
 **A self-contained LTspice download is not yet available.** A [local preparation and verification workflow](simulation/LOCAL_REVIEW.md) uses the owner's existing models. Third-party models are not bundled; see [external model dependencies](simulation/EXTERNAL_MODELS.md). Large RAW files and duplicate simulator logs remain in the local evidence archive. SHA256 records refer to those original files. Some analysis scripts require the RAW archive; preparation scripts may require additional original baseline files. Selected CSV exports support inspection without LTspice.
 
-Scenario copies use model filenames in place of machine-specific absolute include paths. Numerical validation predates that packaging-only change; [the manifest](publication/manifest.json) records original and exported hashes. This is a review snapshot, not a fully portable release or a frozen hardware specification.
+Scenario copies use model filenames in place of machine-specific absolute include paths. Earlier numerical validation predates that packaging-only change; the latest SIM-09 packaging check is documented in `publication/sim09_portability.json`. [the manifest](publication/manifest.json) records original and exported hashes. This is a review snapshot, not a fully portable release or a frozen hardware specification.
 
 ## License
 

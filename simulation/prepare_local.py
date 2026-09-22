@@ -25,7 +25,7 @@ def main():
     if dest.exists():
         parser.error('Destination already exists; choose a new directory.')
     copies = [(p, Path(p.name)) for p in (repo / 'simulation/ltspice').iterdir()
-              if p.suffix in {'.asc', '.cir', '.net', '.bias'}]
+              if p.suffix in {'.asc', '.cir', '.net', '.bias', '.plt'}]
     required = ['AO3401A.mod', 'CA3096.lib', 'LM311.sub', 'TL431.sub',
                 'darlngtn.lib', 'irf7328.spi', 'nat_semi.lib', 'opamp.lib',
                 'phil_bjt.lib', 'phil_fet.lib', 'pwrbjt.lib', 'scr.txt',

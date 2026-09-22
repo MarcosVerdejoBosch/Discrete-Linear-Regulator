@@ -14,3 +14,6 @@ __pycache__/
 *-backups/
 Thumbs.db
 .DS_Store
+
+LTspice-local/
+previous-runs/

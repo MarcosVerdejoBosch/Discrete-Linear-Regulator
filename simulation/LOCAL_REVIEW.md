@@ -2,7 +2,11 @@
 
 The circuit, real component identities and report results remain subject to revision. Preserve the current numerical baseline; rerun affected tests before changing report tables and figures. Local execution is not hardware validation.
 
-## Preparation
+## Recommended Windows setup
+
+Use [QUICKSTART.md](QUICKSTART.md) and the root `PREPARAR_LTSPICE.cmd`. No Python is needed for native plots.
+
+## Alternative Python preparation
 
 `prepare_local.py` assembles a separate private folder from this repository and the owner's original model/symbol directory. It requires Python 3, the already installed LTspice libraries and the project-specific files listed in the script. It does not download models, establish redistribution rights or overwrite an existing destination.
 
@@ -32,4 +36,4 @@ SIM-09 uses two injections and post-processing. Do not interpret a single inject
 
 The published sources were assembled with the owner's installed models on 2026-09-21. Primary SIM-02 through SIM-08 schematics generated netlists successfully. SIM-01 was rerun from its schematic and SIM-09's four nominal AC runs were rerun from CIR files. See [local verification results](../publication/local_execution_verification.json).
 
-This check does not rerun every SIM-02 through SIM-08 transient or all diagnostic variants. Their earlier numerical evidence remains in the test folders. Third-party dependencies remain excluded from GitHub; another machine requires supplying them. The waveform preset layout has not been visually checked in LTspice.
+This check does not rerun every SIM-02 through SIM-08 transient or all diagnostic variants. Their earlier numerical evidence remains in the test folders. Third-party dependencies remain excluded from GitHub; another machine requires supplying them. The corrected SIM-09 magnitude/phase presets were visually checked in LTspice for both modes on 2026-09-22. The builder also confirmed successful execution. This statement does not extend to every other preset.

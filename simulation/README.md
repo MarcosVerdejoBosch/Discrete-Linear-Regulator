@@ -1,5 +1,7 @@
 # Índice de simulaciones
 
+**Empezar:** [preparacion con doble clic](QUICKSTART.md).
+
 Revision antes de congelar: [estado de esta version](../publication/REVIEW_STATUS.md).
 
 Los identificadores son estables. Los nombres originales se conservan para mantener la trazabilidad y las dependencias. No todos los ensayos están revisados.
@@ -14,7 +16,7 @@ Los identificadores son estables. Los nombres originales se conservan para mante
 | SIM-06 | load_transient | [5 V](ltspice/SIM-06_calibrated_transient_5V.asc), [3.3 V](ltspice/SIM-06_calibrated_transient_33V.asc) | Circuito completo calibrado, cambios 0.1--1 A con transición 1 us; resolución local <20 ns. Figura, texto y tabla verificados. Ver tests/SIM-06_load_transient/CALIBRATED_TRANSIENT.md. |
 | SIM-07 | uvlo_ovlo | [Circuito completo 5 V](ltspice/SIM-07_calibrated_protection_5V.asc) | Ciclos completos verificados; umbrales dinámicos de comparadores separados del enable. Figura y tabla integradas. Ver tests/SIM-07_uvlo_ovlo/CALIBRATED_PROTECTION.md. |
 | SIM-08 | current_limit | [5 V](ltspice/SIM-08_calibrated_limit_5V.asc), [3.3 V](ltspice/SIM-08_calibrated_limit_33V.asc) | Sobrecarga, corto 50 mOhm y recuperación completados; figura y tabla integradas. Ver tests/SIM-08_current_limit/CALIBRATED_LIMIT.md. |
-| SIM-09 | loop_stability | [5 V voltage injection](ltspice/SIM-09_ac_5V_voltage.cir), [3.3 V voltage injection](ltspice/SIM-09_ac_33V_voltage.cir) | Doble inyección de Tian completada con polarizaciones fijas, ~1 A. PM 52.5/52.0 grados, GM 17.3/17.8 dB. Ver método, inyección de corriente y validación en tests/SIM-09_loop_stability/REGULATION_LOOP.md. |
+| SIM-09 | loop_stability | [5 V: abrir y ejecutar](ltspice/SIM-09_loop_5V.asc), [3.3 V: abrir y ejecutar](ltspice/SIM-09_loop_33V.asc) | Doble inyección de Tian completada con polarizaciones fijas, ~1 A. PM 52.5/52.0 grados, GM 17.3/17.8 dB. Ver método, inyección de corriente y validación en tests/SIM-09_loop_stability/REGULATION_LOOP.md. |
 
 ## Published snapshot
 
