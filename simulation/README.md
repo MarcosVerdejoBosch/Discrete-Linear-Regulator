@@ -1,5 +1,7 @@
 # Índice de simulaciones
 
+[Tabla de todos los archivos ASC y resultados esperados](GUIA_REVISION_LTSPICE.md).
+
 **Revalidacion U17 (2026-09-24):** las 16 entradas principales SIM-01 a SIM-09 completaron la ejecucion local. U17 usa IRF4905 en los circuitos completos. El informe y los resultados nominales fueron actualizados. [Alcance y evidencia](../publication/U17_REVALIDATION_2026-09-24.md).
 
 **Empezar:** [preparacion con doble clic](QUICKSTART.md).

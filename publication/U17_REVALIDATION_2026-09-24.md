@@ -8,22 +8,22 @@ Follow the [three-step preparation](../simulation/QUICKSTART.md), then use `ELEG
 
 | Primary scenario | Solver | Local result |
 |---|---|---|
-| SIM-01 | Arranque, apagado y reinicio | 5 V | Normal | Complete |
-| SIM-01 | Arranque, apagado y reinicio | 3.3 V | Alternate | Complete |
-| SIM-02 | Regulacion de linea | 5 V | Normal | Complete |
-| SIM-02 | Regulacion de linea | 3.3 V | Normal | Complete |
-| SIM-03 | Regulacion de carga | 5 V | Normal | Complete |
-| SIM-03 | Regulacion de carga | 3.3 V | Normal | Complete |
-| SIM-04 | Limite inferior con protecciones | 3.3 V | Alternate | Complete |
-| SIM-05 | Consumo sin carga | 5 V | Normal | Complete |
-| SIM-05 | Consumo sin carga | 3.3 V | Alternate | Complete |
-| SIM-06 | Escalon de carga | 5 V | Normal | Complete |
-| SIM-06 | Escalon de carga | 3.3 V | Alternate | Complete |
-| SIM-07 | UVLO y OVLO | 5 V | Normal | Complete |
-| SIM-08 | Limite de corriente y recuperacion | 5 V | Normal | Complete |
-| SIM-08 | Limite de corriente y recuperacion | 3.3 V | Alternate | Complete |
-| SIM-09 | Ganancia de lazo | 5 V | Alternate | Complete |
-| SIM-09 | Ganancia de lazo | 3.3 V | Alternate | Complete |
+| SIM-01 — Arranque, apagado y reinicio — 5 V | Normal | Complete |
+| SIM-01 — Arranque, apagado y reinicio — 3.3 V | Alternate | Complete |
+| SIM-02 — Regulacion de linea — 5 V | Normal | Complete |
+| SIM-02 — Regulacion de linea — 3.3 V | Normal | Complete |
+| SIM-03 — Regulacion de carga — 5 V | Normal | Complete |
+| SIM-03 — Regulacion de carga — 3.3 V | Normal | Complete |
+| SIM-04 — Limite inferior con protecciones — 3.3 V | Alternate | Complete |
+| SIM-05 — Consumo sin carga — 5 V | Normal | Complete |
+| SIM-05 — Consumo sin carga — 3.3 V | Alternate | Complete |
+| SIM-06 — Escalon de carga — 5 V | Normal | Complete |
+| SIM-06 — Escalon de carga — 3.3 V | Alternate | Complete |
+| SIM-07 — UVLO y OVLO — 5 V | Normal | Complete |
+| SIM-08 — Limite de corriente y recuperacion — 5 V | Normal | Complete |
+| SIM-08 — Limite de corriente y recuperacion — 3.3 V | Alternate | Complete |
+| SIM-09 — Ganancia de lazo — 5 V | Alternate | Complete |
+| SIM-09 — Ganancia de lazo — 3.3 V | Alternate | Complete |
 
 SIM-04 in 5 V reuses the falling-input portion of SIM-07, so it is not a seventeenth entry. SIM-09 retains two interactive ASC files, one per output mode, each with both Tian injections.
 

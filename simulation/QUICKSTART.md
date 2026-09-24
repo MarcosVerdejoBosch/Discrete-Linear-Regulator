@@ -1,5 +1,7 @@
 # Ejecutar las simulaciones
 
+[Tabla de todos los archivos ASC y resultados esperados](GUIA_REVISION_LTSPICE.md).
+
 ## Tres pasos en Windows
 
 1. Descargar el ZIP de la rama de revision y **extraerlo**. Tener LTspice instalado.
