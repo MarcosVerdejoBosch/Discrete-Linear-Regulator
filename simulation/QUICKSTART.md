@@ -4,11 +4,17 @@
 
 1. Descargar el ZIP de la rama de revision y **extraerlo**. Tener LTspice instalado.
 2. Doble clic en **PREPARAR_LTSPICE.cmd**, en la raiz. Seleccionar la carpeta con los modelos del proyecto (tambien sirve una carpeta `Simulaciones` ya preparada). Se comprueba que esten todos y se crea `LTspice-local` sin modificar los originales.
-3. En `LTspice-local`, abrir **SIM-09_loop_5V.asc** o **SIM-09_loop_33V.asc** y pulsar **Run**, usando solver **Alternate**. Cada esquema ejecuta las dos inyecciones y su archivo `.plt` muestra magnitud y fase automaticamente.
+3. En `LTspice-local`, doble clic en **ELEGIR_SIMULACION.cmd**, elegir el numero del ensayo y esperar. El selector aplica el solver verificado y abre las curvas al finalizar. Los resultados anteriores se conservan en `previous-runs`.
+
+Tambien se puede abrir cada `.asc` y pulsar **Run**, usando el solver indicado en `scenario_catalog.json`. Mantener junto al esquema su archivo `.plt` para cargar las curvas automaticamente. En SIM-09, cada esquema ejecuta las dos inyecciones y muestra magnitud y fase.
 
 Para evitar configurar el solver manualmente, usar **PROBAR_SIM09_5V.cmd** o **PROBAR_SIM09_33V.cmd**: ejecutan con Alternate y abren el resultado al terminar. No requieren Python. SIM-01 tiene sus propios `PROBAR_SIM01_*.cmd`: 5 V usa Normal y 3.3 V usa Alternate; los lanzadores lo seleccionan automaticamente.
 
 No separar el `.asc`, `.bias`, `.plt`, los modelos ni `LG_single.asc`/`.asy`. Conservar el orden `.step param lg list -1 1`: la expresion usa `@1` y `@2`. Si quedo abierto un grafico con ajustes antiguos, usar **Plot Settings > Reload Plot Settings (Espacio)**.
+
+## Vistas iniciales
+
+SIM-02 y SIM-03 amplian el eje de salida para revisar los niveles asentados; algunos picos quedan fuera de esa escala. SIM-06 abre una vista ampliada del aumento de carga a 80 ms. Para ver toda la secuencia o la reduccion de carga a 120 ms, usar Zoom to Fit y ampliar el intervalo correspondiente. Los perfiles solo cambian la vista: no recortan los datos calculados.
 
 ## Modelos externos: una preparacion inicial necesaria
 
@@ -39,4 +45,4 @@ Las figuras con referencias punteadas estan en [interactive_review](tests/SIM-09
 
 Para regenerar los graficos de Python en la carpeta preparada, instalar Python 3, NumPy y Matplotlib y ejecutar `python probar_sim09.py --open`. Si ya corrio ambos circuitos, usar `python probar_sim09.py --plot-only --open`. Esto es opcional: LTspice muestra las curvas sin Python.
 
-SIM-02 a SIM-08 y sus condiciones se encuentran en el [indice](README.md). Sus resultados anteriores estan documentados; esta actualizacion verifica nuevamente SIM-09 y no afirma haber repetido todos los estudios. Componentes reales, informe y resultados siguen sujetos a revision.
+Las 16 entradas del selector SIM-01 a SIM-09 completaron la ejecucion local con la revision IRF4905. El [registro de revalidacion](../publication/U17_REVALIDATION_2026-09-24.md) identifica las condiciones y los controles complementarios. Componentes reales, informe y resultados siguen sujetos a la caracterizacion de banco.

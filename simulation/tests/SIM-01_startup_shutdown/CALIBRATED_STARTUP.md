@@ -1,5 +1,11 @@
 # SIM-01 - Calibrated startup, shutdown and reconnection
 
+## Estado de esta nota
+
+**Registro anterior a la revalidacion IRF4905 del 2026-09-24.** Se conserva el metodo y la evolucion del estudio; las cifras y afirmaciones de convergencia de esta nota pertenecen a esa revision anterior. Consultar el [registro actual](../../../publication/U17_REVALIDATION_2026-09-24.md) y el [informe actualizado](../../../docs/regulator.pdf) para los resultados aceptados con U17 corregido. Los archivos de metricas de los casos completados se actualizaron; una variante historica no queda revalidada por compartir carpeta.
+
+## Desarrollo anterior
+
 Status: both nominal and refined 140 ms runs completed, including reconnection. User review remains pending before freezing.
 
 Both output modes inherit the complete calibrated SIM-02 circuit: R33=14846.5 ohm, RFB2=28759.8 ohm. The source is 8 V, temperature 27 C, and resistive loads are 50 ohm / 33 ohm (approximately 0.1 A). Calibration is unchanged between startup, shutdown and reconnection. The lighter load is intentional for sequencing; SIM-02 DC line characterization uses approximately 1 A.

@@ -60,6 +60,7 @@ try {
     }
     $hashes | ConvertTo-Json -Depth 3 | Set-Content -LiteralPath (Join-Path $Destination 'prepared-files.json') -Encoding UTF8
     Write-Host "Listo: $Destination"
+    Write-Host 'Para todos los ensayos: ELEGIR_SIMULACION.cmd selecciona el solver y abre las curvas.'
     Write-Host 'SIM-09: abrir SIM-09_loop_5V.asc o SIM-09_loop_33V.asc y Run (solver Alternate).'
     Write-Host 'Tambien puede usar PROBAR_SIM09_5V.cmd o PROBAR_SIM09_33V.cmd.'
     if (!$NoOpen) { Invoke-Item -LiteralPath $Destination }

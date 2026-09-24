@@ -1,5 +1,5 @@
 {
-  "metrics_sha256": "a9a6d07bb7644c642f80013b59858c133cda939bdebe28a0f3c56fbbf69b12d8",
+  "metrics_sha256": "913ad1e8387bd3fbbbab8a532d78776d196ea80707d50aa8fd4fc08bb12896c0",
   "processing": "Original samples from falling-source ramp. Reversed source axis follows time; no smoothing. Dashes mark 98% output criterion, not dropout.",
   "matplotlib": "3.11.2"
 }

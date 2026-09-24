@@ -1,4 +1,4 @@
-"""Terminal-power review of the original driver and a simulation-only R21 candidate."""
+"""Terminal-power review of the implemented driver with fixed R21 = 10 ohm."""
 from pathlib import Path
 import json, hashlib, shutil, sys, os
 import numpy as np
@@ -6,8 +6,7 @@ from analyze_adjusted import read, avg
 
 H=Path(__file__).resolve().parent; R=H.parents[2]
 D=H/'results/driver_thermal'
-CASES=[('original',10,'SIM-04_driver_thermal_5V',.163),
-       ('R100_candidate',100,'SIM-04_driver_R100_5V',.179)]
+CASES=[('original',10,'SIM-04_driver_thermal_5V',.163)]
 
 def analyze():
     results={}

@@ -1,7 +1,7 @@
 {
   "original": {
     "R21_ohm": 10,
-    "baseline_output_V": 5.000019451689477,
+    "baseline_output_V": 5.000019283807462,
     "rows": [
       {
         "source_V": 8,
@@ -9,22 +9,22 @@
           75.0,
           80.0
         ],
-        "board_input_V": 7.998423546320801,
-        "output_V": 5.00001940728046,
+        "board_input_V": 7.998423612335921,
+        "output_V": 5.000019245288657,
         "reference_V": 2.473820924758911,
-        "output_loss_mV": 4.440901690827559e-05,
-        "Q3_power_mW": 33.16099354117457,
-        "R21_power_mW": 0.010300171487616482,
-        "pass_power_mW": 302.20800881940187,
-        "enable_MOS_path_power_estimate_mW": 1.0576268434449572e-05,
-        "pass_base_mA": 0.917968166629293,
-        "Q3_collector_mA": 4.568338007526815,
-        "Q3_current_KCL_error_A": 7.803464541211724e-10,
-        "output_pp_mV": 0.3142356872558594,
-        "output_half_window_difference_mV": 0.00018028043768936186,
-        "enable_min_fraction": 0.9062235744018725,
-        "estimated_Tj_at_35C_500KperW": 51.58049677058729,
-        "estimated_Tj_at_35C_362KperW": 47.004279661905194
+        "output_loss_mV": 3.8518805034470915e-05,
+        "Q3_power_mW": 33.157504319282644,
+        "R21_power_mW": 0.01030026493886598,
+        "pass_power_mW": 302.12695313744234,
+        "enable_MOS_path_power_estimate_mW": 1.0586206324862575e-05,
+        "pass_base_mA": 0.9179731981313429,
+        "Q3_collector_mA": 4.568362208824253,
+        "Q3_current_KCL_error_A": 7.157723302952945e-10,
+        "output_pp_mV": 0.3609657287597656,
+        "output_half_window_difference_mV": 0.0003268505102127506,
+        "enable_min_fraction": 0.9062175841977448,
+        "estimated_Tj_at_35C_500KperW": 51.578752159641326,
+        "estimated_Tj_at_35C_362KperW": 47.00301656358032
       },
       {
         "source_V": 5.1,
@@ -32,22 +32,22 @@
           110.0,
           115.0
         ],
-        "board_input_V": 5.098596929521506,
-        "output_V": 4.999339367263571,
+        "board_input_V": 5.098596001570581,
+        "output_V": 4.999338776350221,
         "reference_V": 2.473660469055176,
-        "output_loss_mV": 0.6800844259062799,
-        "Q3_power_mW": 26.035885873158218,
-        "R21_power_mW": 0.057522721633605674,
-        "pass_power_mW": 10.10621458583816,
-        "enable_MOS_path_power_estimate_mW": 0.0001614902284094423,
-        "pass_base_mA": 2.3010763231998577,
-        "Q3_collector_mA": 5.998466560043993,
-        "Q3_current_KCL_error_A": 7.09405867382884e-10,
-        "output_pp_mV": 0.3027915954589844,
-        "output_half_window_difference_mV": 0.00042088738450019036,
-        "enable_min_fraction": 0.9097799395917743,
-        "estimated_Tj_at_35C_500KperW": 48.01794293657911,
-        "estimated_Tj_at_35C_362KperW": 44.42499068608328
+        "output_loss_mV": 0.6805074572406866,
+        "Q3_power_mW": 26.504653158646608,
+        "R21_power_mW": 0.06305955590679162,
+        "pass_power_mW": 9.990319376428877,
+        "enable_MOS_path_power_estimate_mW": 0.00017809031564033846,
+        "pass_base_mA": 2.413829093687795,
+        "Q3_collector_mA": 6.111068427442212,
+        "Q3_current_KCL_error_A": 7.212292985059321e-10,
+        "output_pp_mV": 0.4119873046875,
+        "output_half_window_difference_mV": 9.501333497752285e-05,
+        "enable_min_fraction": 0.9097683858151991,
+        "estimated_Tj_at_35C_500KperW": 48.2523265793233,
+        "estimated_Tj_at_35C_362KperW": 44.59468444343007
       },
       {
         "source_V": 5,
@@ -55,22 +55,22 @@
           126.0,
           131.0
         ],
-        "board_input_V": 4.996999331655758,
-        "output_V": 4.954315142351378,
-        "reference_V": 2.4736509323120117,
-        "output_loss_mV": 45.70430933809888,
-        "Q3_power_mW": 351.96334532948987,
-        "R21_power_mW": 230.67424918529622,
-        "pass_power_mW": 124.07030589648936,
-        "enable_MOS_path_power_estimate_mW": 59.61990363171982,
-        "pass_base_mA": 151.77232820610368,
-        "Q3_collector_mA": 155.06121070511884,
-        "Q3_current_KCL_error_A": 2.4330802261829376e-08,
-        "output_pp_mV": 0.4401206970214844,
-        "output_half_window_difference_mV": 0.0005271773249049261,
-        "enable_min_fraction": 0.9099469804747792,
-        "estimated_Tj_at_35C_500KperW": 210.98167266474493,
-        "estimated_Tj_at_35C_362KperW": 162.4107310092753
+        "board_input_V": 4.99700200055767,
+        "output_V": 4.9497890369807225,
+        "reference_V": 2.4736504554748535,
+        "output_loss_mV": 50.23024682673949,
+        "Q3_power_mW": 355.2038145615367,
+        "R21_power_mW": 229.38060971394916,
+        "pass_power_mW": 123.70688147332321,
+        "enable_MOS_path_power_estimate_mW": 55.30965147329385,
+        "pass_base_mA": 151.34586841261572,
+        "Q3_collector_mA": 154.63665866332212,
+        "Q3_current_KCL_error_A": 2.3515895009040833e-08,
+        "output_pp_mV": 0.6051063537597656,
+        "output_half_window_difference_mV": 0.000443155355966951,
+        "enable_min_fraction": 0.9099388285901692,
+        "estimated_Tj_at_35C_500KperW": 212.60190728076836,
+        "estimated_Tj_at_35C_362KperW": 163.5837808712763
       },
       {
         "source_V": 4.95,
@@ -78,22 +78,22 @@
           142.0,
           147.0
         ],
-        "board_input_V": 4.947050091429919,
-        "output_V": 4.904607883608523,
-        "reference_V": 2.473646879196167,
-        "output_loss_mV": 95.4115680809542,
-        "Q3_power_mW": 353.43582484768615,
-        "R21_power_mW": 216.6733087940116,
-        "pass_power_mW": 120.08515043565508,
-        "enable_MOS_path_power_estimate_mW": 45.71540259323062,
-        "pass_base_mA": 147.09113230165994,
-        "Q3_collector_mA": 150.39855514998618,
-        "Q3_current_KCL_error_A": 2.2293534129858017e-08,
-        "output_pp_mV": 0.4401206970214844,
-        "output_half_window_difference_mV": -0.0003939001746999793,
-        "enable_min_fraction": 0.9100262719421103,
-        "estimated_Tj_at_35C_500KperW": 211.71791242384307,
-        "estimated_Tj_at_35C_362KperW": 162.94376859486238
+        "board_input_V": 4.947055426677268,
+        "output_V": 4.899972398217665,
+        "reference_V": 2.473646402359009,
+        "output_loss_mV": 100.04688558979691,
+        "Q3_power_mW": 352.70071621365764,
+        "R21_power_mW": 215.39073897530386,
+        "pass_power_mW": 119.71419262121113,
+        "enable_MOS_path_power_estimate_mW": 45.27476228187273,
+        "pass_base_mA": 146.65484087333925,
+        "Q3_collector_mA": 149.96391636153948,
+        "Q3_current_KCL_error_A": 2.5436747819185257e-08,
+        "output_pp_mV": 0.6093978881835938,
+        "output_half_window_difference_mV": -0.0005349210798755166,
+        "enable_min_fraction": 0.9100182598110255,
+        "estimated_Tj_at_35C_500KperW": 211.35035810682882,
+        "estimated_Tj_at_35C_362KperW": 162.67765926934408
       },
       {
         "source_V": 4.94,
@@ -101,211 +101,45 @@
           158.0,
           163.0
         ],
-        "board_input_V": 4.937061505298854,
-        "output_V": 4.894670302462958,
-        "reference_V": 2.4736459255218506,
-        "output_loss_mV": 105.34914922651862,
-        "Q3_power_mW": 351.8246807317727,
-        "R21_power_mW": 213.92858226050856,
-        "pass_power_mW": 119.2900531611895,
-        "enable_MOS_path_power_estimate_mW": 44.80556327062054,
-        "pass_base_mA": 146.1558727546723,
-        "Q3_collector_mA": 149.46683331628563,
-        "Q3_current_KCL_error_A": 2.264278009533882e-08,
-        "output_pp_mV": 0.44345855712890625,
-        "output_half_window_difference_mV": 0.0005641790057353546,
-        "enable_min_fraction": 0.9100423399802924,
-        "estimated_Tj_at_35C_500KperW": 210.91234036588634,
-        "estimated_Tj_at_35C_362KperW": 162.36053442490172
+        "board_input_V": 4.937066799056486,
+        "output_V": 4.890010746180809,
+        "reference_V": 2.4736456871032715,
+        "output_loss_mV": 110.00853762665308,
+        "Q3_power_mW": 351.0285895691223,
+        "R21_power_mW": 212.64787312874518,
+        "pass_power_mW": 118.91744497393465,
+        "enable_MOS_path_power_estimate_mW": 44.41916400910293,
+        "pass_base_mA": 145.71742108597525,
+        "Q3_collector_mA": 149.03003285046412,
+        "Q3_current_KCL_error_A": 2.4156179279088974e-08,
+        "output_pp_mV": 0.6103515625,
+        "output_half_window_difference_mV": 0.0005321140861269669,
+        "enable_min_fraction": 0.910033987723837,
+        "estimated_Tj_at_35C_500KperW": 210.51429478456114,
+        "estimated_Tj_at_35C_362KperW": 162.07234942402226
       }
     ],
     "manifest": [
       {
         "file": "SIM-04_driver_thermal_5V.asc",
-        "sha256": "d0a3f86df4af6b93a05aab90ce704c4a7712a4e8781045731cf32274c6979931"
+        "sha256": "681d825426420c6e44c9f2b4a8846ff4b5dd4d4215844b576a112e606aa43b81"
       },
       {
         "file": "SIM-04_driver_thermal_5V.net",
-        "sha256": "09cde4a54ec57fb604b84c57221e24b4320eefe5ff14ad5e8002f98aa7f93d11"
+        "sha256": "79c7da7b83469e1367c9e83197accaf7fcb4f16fd44508fe66e6ea0737cc3fdb"
       },
       {
         "file": "SIM-04_driver_thermal_5V.log",
-        "sha256": "18daf21cdb56e899a9064789fe1b075e396d520299dd25c59dd8f439d00703e4"
+        "sha256": "e97a00521aefd75c59be3a6e8068399b9a4888dfc25be1a5f8573dfcd5abcdcd"
       },
       {
         "file": "SIM-04_driver_thermal_5V.raw",
-        "sha256": "825778df0c0481ca3695eae7dd14885060ea1be751e69cd7ca3cae61e19a20fd"
+        "sha256": "b8b689554c76a9ef69371d3d37095265b0805c36472829d701a0c98781f9ea8b"
       }
     ],
-    "peak_Q3_power_W": 0.4041696801419782,
-    "peak_R21_power_W": 0.23381830870675913,
-    "peak_Q3_collector_A": 0.15611517429351807,
-    "caveat": "Peak values are numerical screening results, not validated hardware pulse ratings. Thermal estimates use electrical power at 27 C without self-heating feedback, and published reference-board resistances, not measured PCB resistance."
-  },
-  "R100_candidate": {
-    "R21_ohm": 100,
-    "baseline_output_V": 5.00001924181557,
-    "rows": [
-      {
-        "source_V": 8,
-        "window_ms": [
-          75.0,
-          80.0
-        ],
-        "board_input_V": 7.998423603382014,
-        "output_V": 5.000019270454307,
-        "reference_V": 2.473820924758911,
-        "output_loss_mV": -2.8638736715436153e-05,
-        "Q3_power_mW": 32.78485686366513,
-        "R21_power_mW": 0.10299847594362987,
-        "pass_power_mW": 302.20743212226427,
-        "enable_MOS_path_power_estimate_mW": 1.0766992732756837e-05,
-        "pass_base_mA": 0.9179621996032371,
-        "Q3_collector_mA": 4.5740741458109815,
-        "Q3_current_KCL_error_A": 7.203198038041592e-10,
-        "output_pp_mV": 0.3705024719238281,
-        "output_half_window_difference_mV": -7.318568684411275e-05,
-        "enable_min_fraction": 0.9062237905559328,
-        "estimated_Tj_at_35C_500KperW": 51.39242843183256,
-        "estimated_Tj_at_35C_362KperW": 46.868118184646775
-      },
-      {
-        "source_V": 5.1,
-        "window_ms": [
-          110.0,
-          115.0
-        ],
-        "board_input_V": 5.098596890380076,
-        "output_V": 4.999339009574046,
-        "reference_V": 2.473660469055176,
-        "output_loss_mV": 0.6802322415238038,
-        "Q3_power_mW": 24.796514461979037,
-        "R21_power_mW": 0.5752062240379601,
-        "pass_power_mW": 10.106208604097258,
-        "enable_MOS_path_power_estimate_mW": 0.00017957158680108576,
-        "pass_base_mA": 2.3010419860750124,
-        "Q3_collector_mA": 6.011893652958058,
-        "Q3_current_KCL_error_A": 7.10315362084657e-10,
-        "output_pp_mV": 0.4038810729980469,
-        "output_half_window_difference_mV": -0.0004642789681597037,
-        "enable_min_fraction": 0.9097795146246774,
-        "estimated_Tj_at_35C_500KperW": 47.398257230989515,
-        "estimated_Tj_at_35C_362KperW": 43.97633823523641
-      },
-      {
-        "source_V": 5,
-        "window_ms": [
-          126.0,
-          131.0
-        ],
-        "board_input_V": 4.998345871296138,
-        "output_V": 4.947638764667338,
-        "reference_V": 2.4736514091491704,
-        "output_loss_mV": 52.38047714823235,
-        "Q3_power_mW": 44.722853228482144,
-        "R21_power_mW": 27.619617338605064,
-        "pass_power_mW": 15.713249714643911,
-        "enable_MOS_path_power_estimate_mW": 6.323055131740511,
-        "pass_base_mA": 16.519633338558748,
-        "Q3_collector_mA": 20.288405358013964,
-        "Q3_current_KCL_error_A": 2.9467628337442875e-09,
-        "output_pp_mV": 0.4372596740722656,
-        "output_half_window_difference_mV": -0.0006458707222378735,
-        "enable_min_fraction": 0.9099389119749886,
-        "estimated_Tj_at_35C_500KperW": 57.36142661424107,
-        "estimated_Tj_at_35C_362KperW": 51.18967286871053
-      },
-      {
-        "source_V": 4.95,
-        "window_ms": [
-          142.0,
-          147.0
-        ],
-        "board_input_V": 4.948357539721355,
-        "output_V": 4.897515629267105,
-        "reference_V": 2.473647356033325,
-        "output_loss_mV": 102.50361254846484,
-        "Q3_power_mW": 44.76290839737441,
-        "R21_power_mW": 26.0192978178816,
-        "pass_power_mW": 15.32491850712768,
-        "enable_MOS_path_power_estimate_mW": 5.213676048318552,
-        "pass_base_mA": 16.031060899296182,
-        "Q3_collector_mA": 19.79752351391147,
-        "Q3_current_KCL_error_A": 2.9067450668662786e-09,
-        "output_pp_mV": 0.43392181396484375,
-        "output_half_window_difference_mV": -0.0006221283683771617,
-        "enable_min_fraction": 0.9100190893525387,
-        "estimated_Tj_at_35C_500KperW": 57.38145419868721,
-        "estimated_Tj_at_35C_362KperW": 51.204172839849534
-      },
-      {
-        "source_V": 4.94,
-        "window_ms": [
-          158.0,
-          163.0
-        ],
-        "board_input_V": 4.9383605855157775,
-        "output_V": 4.887491060060091,
-        "reference_V": 2.4736466407775874,
-        "output_loss_mV": 112.5281817554793,
-        "Q3_power_mW": 44.616450704002546,
-        "R21_power_mW": 25.705100943128038,
-        "pass_power_mW": 15.247510246924183,
-        "enable_MOS_path_power_estimate_mW": 5.1190464666726765,
-        "pass_base_mA": 15.933389137852041,
-        "Q3_collector_mA": 19.69947920754015,
-        "Q3_current_KCL_error_A": 2.6557245291769505e-09,
-        "output_pp_mV": 0.43773651123046875,
-        "output_half_window_difference_mV": -0.0016037009995528706,
-        "enable_min_fraction": 0.9100343937684016,
-        "estimated_Tj_at_35C_500KperW": 57.30822535200127,
-        "estimated_Tj_at_35C_362KperW": 51.15115515484892
-      },
-      {
-        "source_V": 4.9,
-        "window_ms": [
-          174.0,
-          179.0
-        ],
-        "board_input_V": 4.898373411936088,
-        "output_V": 4.847388142967943,
-        "reference_V": 2.4736433029174805,
-        "output_loss_mV": 152.63109884762738,
-        "Q3_power_mW": 43.93026266715318,
-        "R21_power_mW": 24.467688312299227,
-        "pass_power_mW": 14.93857224967252,
-        "enable_MOS_path_power_estimate_mW": 4.8236798924613495,
-        "pass_base_mA": 15.54279491351869,
-        "Q3_collector_mA": 19.30743507130976,
-        "Q3_current_KCL_error_A": 6.5956555772572756e-09,
-        "output_pp_mV": 0.4334449768066406,
-        "output_half_window_difference_mV": -0.000394191662422827,
-        "enable_min_fraction": 0.9100994770564471,
-        "estimated_Tj_at_35C_500KperW": 56.96513133357659,
-        "estimated_Tj_at_35C_362KperW": 50.902755085509455
-      }
-    ],
-    "manifest": [
-      {
-        "file": "SIM-04_driver_R100_5V.asc",
-        "sha256": "2aaa89060f8511c40e60479c386cdf760cbd7e268b60ccdc7f11ce795a9f6bc1"
-      },
-      {
-        "file": "SIM-04_driver_R100_5V.net",
-        "sha256": "b8b7fd78be2e79106f0662bf66044d2791c2ff5a60568f1cbf6df9886b53571a"
-      },
-      {
-        "file": "SIM-04_driver_R100_5V.log",
-        "sha256": "6d6c2132bb056a1feacb4a32f9392c49b2daef479018bae68d66481824b11f14"
-      },
-      {
-        "file": "SIM-04_driver_R100_5V.raw",
-        "sha256": "55dedddbbd1bbae1202aa56e4de9af1f815922288e3d1e75b96b86567975f3c4"
-      }
-    ],
-    "peak_Q3_power_W": 0.05293212084753543,
-    "peak_R21_power_W": 0.028658746714011266,
-    "peak_Q3_collector_A": 0.020609837025403976,
+    "peak_Q3_power_W": 0.4039770614588263,
+    "peak_R21_power_W": 0.23342610627396176,
+    "peak_Q3_collector_A": 0.1559884250164032,
     "caveat": "Peak values are numerical screening results, not validated hardware pulse ratings. Thermal estimates use electrical power at 27 C without self-heating feedback, and published reference-board resistances, not measured PCB resistance."
   }
 }

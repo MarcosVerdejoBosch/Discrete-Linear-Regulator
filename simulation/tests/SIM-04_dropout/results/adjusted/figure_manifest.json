@@ -1,5 +1,5 @@
 {
-  "metrics_sha256": "f827b7a53ef5fbaa7146e658cd4543ad481a5b5c7acc19d9c206bb4a8ce56a98",
+  "metrics_sha256": "818df8a2e6cdee77afdeb62360057e24d0ce38edb023e0694891139182cce15d",
   "processing": "Original transient samples; no smoothing. Board input is VBAT, after the external switch. Logic divided by instantaneous VEE only for display; not digital thresholds.",
   "matplotlib": "3.11.2"
 }

@@ -1,2 +1,7 @@
 # Preserve exact simulation and provenance bytes across platforms.
 * -text
+
+# Generated scientific plots can contain millions of SVG path coordinates.
+# Keep the assets intact while avoiding unusably large textual diffs.
+docs/figures/SIM-*.svg -diff
+simulation/tests/**/results/**/*.svg -diff

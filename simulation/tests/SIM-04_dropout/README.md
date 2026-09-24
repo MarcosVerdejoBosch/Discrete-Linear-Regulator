@@ -1,5 +1,11 @@
 # SIM-04: Dropout and lower input boundary
 
+## Estado de esta nota
+
+**Registro anterior a la revalidacion IRF4905 del 2026-09-24.** Se conserva el metodo y la evolucion del estudio; las cifras y afirmaciones de convergencia de esta nota pertenecen a esa revision anterior. Consultar el [registro actual](../../../publication/U17_REVALIDATION_2026-09-24.md) y el [informe actualizado](../../../docs/regulator.pdf) para los resultados aceptados con U17 corregido. Los archivos de metricas de los casos completados se actualizaron; una variante historica no queda revalidada por compartir carpeta.
+
+## Desarrollo anterior
+
 Physical bench preparation: [MEAS-04 lower operating boundary](../../../measurements/MEAS-04_input_protection/LIMITE_INFERIOR.md).
 Manual source adjustment and reduced load to be selected from available parts;
 no bypass of protection and no intrinsic-dropout claim. Physical measurements pending.

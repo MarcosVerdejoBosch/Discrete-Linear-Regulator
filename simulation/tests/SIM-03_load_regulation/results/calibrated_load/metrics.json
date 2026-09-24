@@ -4,80 +4,83 @@
     "results": [
       {
         "nominal_load_A": 1,
-        "vout_avg_V": 5.000005450231136,
-        "drift_mV": 8.851331223524994e-05,
-        "vout_pp_mV": 0.5679130554199219,
-        "enable_min_V": 7.226126670837402,
-        "input_after_switch_V": 7.989296138061415,
-        "load_A": 1.0000005276568686
+        "vout_avg_V": 5.000004615082104,
+        "drift_mV": 9.473659634551268e-05,
+        "vout_pp_mV": 0.34809112548828125,
+        "enable_min_V": 7.221213340759277,
+        "input_after_switch_V": 7.989296432240976,
+        "load_A": 1.0000002799234247
       },
       {
         "nominal_load_A": 0.1,
-        "vout_avg_V": 5.000019418520894,
-        "drift_mV": -1.769365276516055e-05,
-        "vout_pp_mV": 0.38623809814453125,
-        "enable_min_V": 7.246440410614014,
-        "input_after_switch_V": 7.998422522639429,
-        "load_A": 0.10000046062499995
+        "vout_avg_V": 5.000019226008658,
+        "drift_mV": -0.00010540197781239158,
+        "vout_pp_mV": 0.3647804260253906,
+        "enable_min_V": 7.245696544647217,
+        "input_after_switch_V": 7.998422524992295,
+        "load_A": 0.10000049561142343
       },
       {
         "nominal_load_A": 0.25,
-        "vout_avg_V": 5.000017500062969,
-        "drift_mV": -7.822750802688461e-05,
-        "vout_pp_mV": 0.31757354736328125,
-        "enable_min_V": 7.243074893951416,
-        "input_after_switch_V": 7.996908013652526,
-        "load_A": 0.2500009795726673
+        "vout_avg_V": 5.000017299619338,
+        "drift_mV": 4.0737133666368663e-05,
+        "vout_pp_mV": 0.36525726318359375,
+        "enable_min_V": 7.241636276245117,
+        "input_after_switch_V": 7.996908117720102,
+        "load_A": 0.25000096905178687
       },
       {
         "nominal_load_A": 0.5,
-        "vout_avg_V": 5.0000140133760675,
-        "drift_mV": -3.81343516764332e-05,
-        "vout_pp_mV": 0.3399848937988281,
-        "enable_min_V": 7.237447261810303,
-        "input_after_switch_V": 7.994378510326393,
-        "load_A": 0.5000015224690642
+        "vout_avg_V": 5.000013529755659,
+        "drift_mV": -7.5924333486909745e-06,
+        "vout_pp_mV": 0.35381317138671875,
+        "enable_min_V": 7.234852313995361,
+        "input_after_switch_V": 7.994378660082354,
+        "load_A": 0.5000015346458927
       },
       {
         "nominal_load_A": 0.75,
-        "vout_avg_V": 5.000009992921553,
-        "drift_mV": -1.7687362685592234e-06,
-        "vout_pp_mV": 0.2980232238769531,
-        "enable_min_V": 7.231800079345703,
-        "input_after_switch_V": 7.991841470879386,
-        "load_A": 0.7500015044789105
+        "vout_avg_V": 5.000009304951297,
+        "drift_mV": 4.380438323181579e-05,
+        "vout_pp_mV": 0.3848075866699219,
+        "enable_min_V": 7.228045463562012,
+        "input_after_switch_V": 7.991841775559301,
+        "load_A": 0.7500015270256126
       },
       {
         "nominal_load_A": 1,
-        "vout_avg_V": 5.000005308829546,
-        "drift_mV": -1.1761480678273983e-05,
-        "vout_pp_mV": 0.28514862060546875,
-        "enable_min_V": 7.226128101348877,
-        "input_after_switch_V": 7.989296084678686,
-        "load_A": 1.0000010645940425
+        "vout_avg_V": 5.000004357354732,
+        "drift_mV": -8.49905195110523e-05,
+        "vout_pp_mV": 0.3275871276855469,
+        "enable_min_V": 7.22121000289917,
+        "input_after_switch_V": 7.9892963689577225,
+        "load_A": 1.0000008708650758
       }
     ],
-    "signed_slope_mV_per_A": -0.015677424311056037,
-    "repeat_1A_difference_uV": -0.14140158999254027,
-    "calibration_difference_uV": 0.07594521189702164,
-    "endpoint_change_mV": -0.014109691348629383,
-    "maximum_nominal_error_percent": 0.00038837041788752913,
+    "signed_slope_mV_per_A": -0.01652071969599857,
+    "repeat_1A_difference_uV": -0.25772737188844985,
+    "calibration_difference_uV": -0.759203819811205,
+    "calibration_reference_revision": "Historical pre-U17 calibration; retained for comparison only",
+    "current_line_reference_difference_uV": 0.11601285354601032,
+    "current_line_reference_sha256": "02aa5d3d71a1f44bd834cd8bec663123c771d8638aa176323d91e1b348813fb6",
+    "endpoint_change_mV": -0.014868653925859121,
+    "maximum_nominal_error_percent": 0.0003845201731600411,
     "manifest": [
       {
         "file": "SIM-03_calibrated_load_5V.asc",
-        "sha256": "33d9dba8b56952982d2956421c9097656ef23bd2a8f974ab806e5d2d4a21b481"
+        "sha256": "41a84bdfa8a39bfda5bcf5e387c573b64f35ad90f16d8486c2558bb582ed479c"
       },
       {
         "file": "SIM-03_calibrated_load_5V.net",
-        "sha256": "a468c1da97a551fb47afa69c6acd19ef63d2991bf731c41f2f547b184802db7a"
+        "sha256": "ad226578010214b8833096e3e4582b08791111076e959c120553630e4f379132"
       },
       {
         "file": "SIM-03_calibrated_load_5V.log",
-        "sha256": "f18a3d962c29925cde9bc1617e0d71b56148caf5e3479f0f3304df1a1eb27c98"
+        "sha256": "91f779e50e24a22c069bc9fdee6e2aec30f764b135bc52d04ec6d7782ed6e987"
       },
       {
         "file": "SIM-03_calibrated_load_5V.raw",
-        "sha256": "8f71f36d6faf4427224f5c201bcd56a0413aec8e614706584fde4de1782add5c"
+        "sha256": "4a778a6df867647b7bf734b0f5684ee5517f6183c366e90263b063c26e388605"
       }
     ]
   },
@@ -86,80 +89,83 @@
     "results": [
       {
         "nominal_load_A": 1,
-        "vout_avg_V": 3.3000001695696213,
-        "drift_mV": 3.724454744613581e-05,
-        "vout_pp_mV": 0.2994537353515625,
-        "enable_min_V": 7.226151466369629,
-        "input_after_switch_V": 7.98930770768486,
-        "load_A": 0.9999997606651484
+        "vout_avg_V": 3.3000019486982235,
+        "drift_mV": 4.8573656652450836e-05,
+        "vout_pp_mV": 0.3323554992675781,
+        "enable_min_V": 7.221243381500244,
+        "input_after_switch_V": 7.98930807491119,
+        "load_A": 1.0000003064478413
       },
       {
         "nominal_load_A": 0.1,
-        "vout_avg_V": 3.3000016085791257,
-        "drift_mV": 8.346517343937876e-05,
-        "vout_pp_mV": 0.3345012664794922,
-        "enable_min_V": 7.246457576751709,
-        "input_after_switch_V": 7.998430897576318,
-        "load_A": 0.10000004975203344
+        "vout_avg_V": 3.300001836592906,
+        "drift_mV": 4.117209151388579e-05,
+        "vout_pp_mV": 0.38123130798339844,
+        "enable_min_V": 7.245721817016602,
+        "input_after_switch_V": 7.9984309884814095,
+        "load_A": 0.10000006375141414
       },
       {
         "nominal_load_A": 0.25,
-        "vout_avg_V": 3.300001737694458,
-        "drift_mV": 4.5152094507727725e-05,
-        "vout_pp_mV": 0.3325939178466797,
-        "enable_min_V": 7.2430925369262695,
-        "input_after_switch_V": 7.996916684367676,
-        "load_A": 0.25000013315036607
+        "vout_avg_V": 3.300002175405634,
+        "drift_mV": -1.6585647522049385e-05,
+        "vout_pp_mV": 0.3840923309326172,
+        "enable_min_V": 7.241661071777344,
+        "input_after_switch_V": 7.996916776004935,
+        "load_A": 0.2500002731942797
       },
       {
         "nominal_load_A": 0.5,
-        "vout_avg_V": 3.3000016115109596,
-        "drift_mV": -6.372491423434212e-06,
-        "vout_pp_mV": 0.32019615173339844,
-        "enable_min_V": 7.237466812133789,
-        "input_after_switch_V": 7.9943878870133585,
-        "load_A": 0.5000003913445784
+        "vout_avg_V": 3.300002577246422,
+        "drift_mV": 2.3835672546823616e-05,
+        "vout_pp_mV": 0.3693103790283203,
+        "enable_min_V": 7.234877586364746,
+        "input_after_switch_V": 7.994388154083872,
+        "load_A": 0.5000003992246853
       },
       {
         "nominal_load_A": 0.75,
-        "vout_avg_V": 3.3000010882934068,
-        "drift_mV": -6.42139492690319e-05,
-        "vout_pp_mV": 0.3058910369873047,
-        "enable_min_V": 7.231821537017822,
-        "input_after_switch_V": 7.991851763266188,
-        "load_A": 0.750000358499767
+        "vout_avg_V": 3.300002431303429,
+        "drift_mV": -3.463469822051479e-05,
+        "vout_pp_mV": 0.3509521484375,
+        "enable_min_V": 7.228072643280029,
+        "input_after_switch_V": 7.991852086258572,
+        "load_A": 0.7500007130401164
       },
       {
         "nominal_load_A": 1,
-        "vout_avg_V": 3.300000096481579,
-        "drift_mV": -1.40772860035554e-06,
-        "vout_pp_mV": 0.2942085266113281,
-        "enable_min_V": 7.226153373718262,
-        "input_after_switch_V": 7.989307673148264,
-        "load_A": 1.0000000304917325
+        "vout_avg_V": 3.300001858080591,
+        "drift_mV": 2.6322433122061284e-06,
+        "vout_pp_mV": 0.3361701965332031,
+        "enable_min_V": 7.221240997314453,
+        "input_after_switch_V": 7.989308046860108,
+        "load_A": 1.000000559270649
       }
     ],
-    "signed_slope_mV_per_A": -0.001680108421210174,
-    "repeat_1A_difference_uV": -0.07308804228500776,
-    "calibration_difference_uV": 0.08320155542307361,
-    "endpoint_change_mV": -0.0015120975467297626,
-    "maximum_nominal_error_percent": 5.265740782132694e-05,
+    "signed_slope_mV_per_A": 2.3875192371184145e-05,
+    "repeat_1A_difference_uV": -0.09061763250883814,
+    "calibration_difference_uV": 1.8623301576425888,
+    "calibration_reference_revision": "Historical pre-U17 calibration; retained for comparison only",
+    "current_line_reference_difference_uV": 0.08382527116879146,
+    "current_line_reference_sha256": "02aa5d3d71a1f44bd834cd8bec663123c771d8638aa176323d91e1b348813fb6",
+    "endpoint_change_mV": 2.1487684964682785e-05,
+    "maximum_nominal_error_percent": 7.809837642584961e-05,
     "manifest": [
       {
         "file": "SIM-03_calibrated_load_33V.asc",
-        "sha256": "27b901a4dea6234edad2868d25130743e6e7a78b7e8230cf807e9cde415f3db7"
+        "sha256": "b40767935a5327be9bb916a84a27748d7654c2df094abd92a6f3f46d33787bfc"
       },
       {
         "file": "SIM-03_calibrated_load_33V.net",
-        "sha256": "1820bce086742fca440138a33d1c5ce9c1d97e9bea402f4461501ae7bbfde8fd"
+        "sha256": "7f7214716e8f0da0ec37399d9b8d14eb6dbe537539a3b8e64442b3e0d4d34442"
       },
       {
         "file": "SIM-03_calibrated_load_33V.log",
-        "sha256": "9e4f09b0ca174b547171daf2cf56edddffe093dac4ddb8140ae64454eee9f2d9"
+        "sha256": "c5a919f203faeb7d76178f86f54de447fb570344e7cfe239dc6bc723d2e0a7dc"
       },
       {
         "file": "SIM-03_calibrated_load_33V.raw",
-        "sha256": "b917652bd7d0a480144b3b68d56c09138c2c83757de5a3d72c01598f14e6dbe4"
+        "sha256": "3c57db1b7363600c233bc6f016f4e6960867670759453a20c0bc89dbd22eb4bb"
       }
     ]
   }

@@ -1,5 +1,7 @@
 # SIM-09 - Nominal regulation-loop stability
 
+**U17 follow-up (2026-09-24):** the fixed-bias core below is unchanged. The full-circuit tone cross-check was rerun with IRF4905; use the [current record](../../../publication/U17_REVALIDATION_2026-09-24.md) and updated `results/core/validation.json` for its numerical differences.
+
 ## Scope and preserved circuit
 
 This is a small-signal regulation-stage bench at approximately 1 A in both

@@ -1,5 +1,11 @@
 # SIM-01: calibrated startup / shutdown
 
+## Estado de esta nota
+
+**Registro anterior a la revalidacion IRF4905 del 2026-09-24.** Se conserva el metodo y la evolucion del estudio; las cifras y afirmaciones de convergencia de esta nota pertenecen a esa revision anterior. Consultar el [registro actual](../../../publication/U17_REVALIDATION_2026-09-24.md) y el [informe actualizado](../../../docs/regulator.pdf) para los resultados aceptados con U17 corregido. Los archivos de metricas de los casos completados se actualizaron; una variante historica no queda revalidada por compartir carpeta.
+
+## Desarrollo anterior
+
 Current candidate: [calibrated scenarios and results](CALIBRATED_STARTUP.md). Both modes completed at 8 V, 50/33 ohm, with the SIM-02 calibration. [Hardware bench plan](BENCH_PLAN.md) adapted to the OWON VDS1022. Complete 140 ms refinement check passed with 1 us maximum step and explicit trtol=1; user approval before freezing remains pending. The bench plan now links the P-MOS switch schematic and ESP32 program.
 
 # Historical SIM-01: startup_shutdown

@@ -6,9 +6,9 @@ A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a f
 
 ## Run in LTspice
 
-**2026-09-24 model revision:** U17 in SIM-01 through SIM-08 now uses IRF4905. SIM-01 completed in both modes (5 V: Normal; 3.3 V: Alternate). SIM-02 through SIM-08 numerical results and report figures remain the earlier baseline pending reruns. SIM-09 is unchanged. [Scope and evidence](publication/U17_IRF4905_REVIEW.md).
+**2026-09-24 revalidation:** all 16 primary SIM-01–SIM-09 scenarios completed locally with LTspice 17.1.15. U17 now uses the official IRF4905 model in the full-circuit cases; report figures and tables were regenerated. The SIM-09 fixed-bias core is unchanged and was rerun. [Scope, numerical settings and evidence](publication/U17_REVALIDATION_2026-09-24.md).
 
-Download and extract this review branch, then double-click `PREPARAR_LTSPICE.cmd`. Select your existing project-model folder once. Open the prepared `.asc` in `LTspice-local` and click Run. Windows and LTspice are required; Python is optional.
+Download and extract this review branch, then double-click `PREPARAR_LTSPICE.cmd`. Select your existing project-model folder once. In `LTspice-local`, open `ELEGIR_SIMULACION.cmd` and choose a case: it selects the verified solver, runs LTspice and opens the saved curves. Windows and LTspice are required; Python is optional.
 
 **External models are still required**; this is not a dependency-free download. The setup checks dependencies before creating the folder. [Three-step instructions and SIM-09 plots](simulation/QUICKSTART.md).
 
@@ -45,7 +45,7 @@ The PDF is ready to read. LaTeX build instructions are in [docs/README.md](docs/
 
 **A self-contained LTspice download is not yet available.** A [local preparation and verification workflow](simulation/LOCAL_REVIEW.md) uses the owner's existing models. Third-party models are not bundled; see [external model dependencies](simulation/EXTERNAL_MODELS.md). Large RAW files and duplicate simulator logs remain in the local evidence archive. SHA256 records refer to those original files. Some analysis scripts require the RAW archive; preparation scripts may require additional original baseline files. Selected CSV exports support inspection without LTspice.
 
-Scenario copies use model filenames in place of machine-specific absolute include paths. Earlier numerical validation predates that packaging-only change; the latest SIM-09 packaging check is documented in `publication/sim09_portability.json`. [the manifest](publication/manifest.json) records original and exported hashes. This is a review snapshot, not a fully portable release or a frozen hardware specification.
+Scenario copies use relative model filenames. A fresh prepared folder was checked against the accepted sources, all 16 primary netlists were generated, and both SIM-09 modes were exercised through the launchers. This is local reproduction evidence, not cross-machine qualification. The [original manifest](publication/manifest.json) is historical; the [current revalidation record](publication/U17_REVALIDATION_2026-09-24.md) identifies the new results. Hardware measurements remain pending.
 
 ## License
 

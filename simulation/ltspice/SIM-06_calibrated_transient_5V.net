@@ -220,16 +220,16 @@ VBUFFER B X 0
 .ends lg_single
 
 .model D D
-.lib standard.dio
+.lib C:\Users\marco\AppData\Local\LTspice\lib\cmp\standard.dio
 .model NPN NPN
 .model PNP PNP
-.lib standard.bjt
+.lib C:\Users\marco\AppData\Local\LTspice\lib\cmp\standard.bjt
 .model NJF NJF
 .model PJF PJF
-.lib standard.jft
+.lib C:\Users\marco\AppData\Local\LTspice\lib\cmp\standard.jft
 .model NMOS NMOS
 .model PMOS PMOS
-.lib standard.mos
+.lib C:\Users\marco\AppData\Local\LTspice\lib\cmp\standard.mos
 .tran 0 160m 0 2u
 .lib TL431.sub
 * .dc V3 0 20 100m
@@ -258,9 +258,9 @@ VBUFFER B X 0
 .lib LM311.sub
 .inc scr.txt
 * FUSE
-* Diodo se coloca en caso de OVLO = True y el Feedback \nquiere seguir a la referencia de 2.5V pero Vout = 0V entonces el Ampli \nde Error compensa haciendo circular una corriente excesiva a través\ndel Buffer entre Par Diferencial y Emisor Común.
+* Diodo se coloca para el caso de OVLO = True pero Vout = 0V. En este escenario el Feedback \nquiere seguir a la referencia de 2.5V y el Amplificador \nde Error compensa haciendo circular una corriente excesiva a través\ndel Buffer entre el Par Diferencial y Emisor Común.
 * VCTRL se justifica en el transistor de paso debido a que valores\nelevados de VIN, durante el encedido, pueden generar transitorios \nperjudiciales sobre la carga.
-* El jfet cumple la función de definir la tensión GND sobre la salida\npara evitar valores de tensión flotantes debido a las cargas de los\ncapacitores.
+* El jfet cumple la función de definir la tensión GND sobre la salida.\nEsto se hace para evitar valores de tensión flotantes debido a las cargas de los\ncapacitores.
 ; ---------------------------
 ; Global parameters (common)
 ; ---------------------------
@@ -283,9 +283,9 @@ VBUFFER B X 0
 .meas tran IOUT_AVG AVG I(RLOAD) FROM 70m TO 80m
 BRES SIM06_TIMESTEP 0 V=table(time,0,0,79.99m,0,80.2m,210,119.99m,210,120.2m,420,160m,420) tripdv=0.001 tripdt=20n
 .lib AO3401A.mod
-.lib phil_fet.lib
-.lib LTC1044.sub
-.lib TL431.sub
 .lib irf4905.spi
+.lib LTC1044.sub
+.lib phil_fet.lib
+.lib TL431.sub
 .backanno
 .end

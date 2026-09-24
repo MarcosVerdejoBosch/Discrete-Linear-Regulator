@@ -25,6 +25,7 @@ if args.action=='prepare':
                 chunks[i],n=re.subn(r'^SYMATTR Value [^\r\n]*','SYMATTR Value R='+str(nominal)+'/'+LOAD_TABLE,c,flags=re.M);assert n==1;hits+=1
         assert hits==1
         s='SYMBOL '.join(chunks).replace('.tran 0 80m 0 2u','.tran 0 280m 0 2u')
+        if mode=='33V':s=s.replace('.options plotwinsize=0','.options plotwinsize=0 itl4=100')
         target=ROOT/f'simulation/ltspice/SIM-03_calibrated_load_{mode}.asc';target.write_bytes(s.encode('cp1252'))
         manifest.append({'source':source.name,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'test':target.name,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'load':'Time-dependent resistor, nominal currents 1 A initially then 0.1, 0.25, 0.5, 0.75, 1 A','source_V':8,'temperature_C':27,'duration_ms':280,'max_step_us':2})
     (DEST/'preparation.json').write_text(json.dumps(manifest,indent=2)+'\n')
@@ -50,10 +51,15 @@ elif args.action in ['inspect','progress']:
         repeat=1e6*(rows[-1]['vout_avg_V']-rows[0]['vout_avg_V']);assert abs(repeat)<1
         calibration=json.loads((HERE.parent/'SIM-02_line_regulation/results/calibration/02/metrics.json').read_text())
         baseline_difference=1e6*(rows[0]['vout_avg_V']-calibration[mode]['mean_V'])
-        assert abs(baseline_difference)<1
+        # Compare like-for-like: the line test now uses the corrected U17 model.
+        line_path=HERE.parent/'SIM-02_line_regulation/results/calibrated_line/metrics.json'
+        line=json.loads(line_path.read_text())
+        line_difference=1e6*(rows[0]['vout_avg_V']-line[mode]['results'][0]['vout_avg_V'])
+        assert abs(line_difference)<1
+
         signed=1000*(rows[-1]['vout_avg_V']-rows[1]['vout_avg_V'])/(rows[-1]['load_A']-rows[1]['load_A'])
         target=5 if mode=='5V' else 3.3
-        result[mode]={'all_steps_completed':True,'results':rows,'signed_slope_mV_per_A':signed,'repeat_1A_difference_uV':repeat,'calibration_difference_uV':baseline_difference,
+        result[mode]={'all_steps_completed':True,'results':rows,'signed_slope_mV_per_A':signed,'repeat_1A_difference_uV':repeat,'calibration_difference_uV':baseline_difference,'calibration_reference_revision':'Historical pre-U17 calibration; retained for comparison only','current_line_reference_difference_uV':line_difference,'current_line_reference_sha256':hashlib.sha256(line_path.read_bytes()).hexdigest(),
                       'endpoint_change_mV':1000*(rows[-1]['vout_avg_V']-rows[1]['vout_avg_V']),'maximum_nominal_error_percent':max(abs(r['vout_avg_V']-target)/target*100 for r in rows[1:])}
         manifest=[]
         for ext in ['asc','net','log','raw']:

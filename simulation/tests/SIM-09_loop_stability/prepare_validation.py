@@ -9,6 +9,7 @@ for mode in ['5V','33V']:
  s=(r/f'SIM-02_cal_02_{mode}.net').read_text(encoding='cp1252');s=s.replace('XLGS N033 FB lg_single params: lg_single=lg',f'VTEST N033 FB SINE(0 500u {fc:.12g} 80m)')
  s=s.replace('.tran 0 80m 0 2u','.tran 0 80.25m 0 2u');s=s.replace('.save V(VBAT)', '.save V(N033) V(FB) V(VEE) V(VDOBL) V(VBAT)')
  s=s.replace('.end\n','BRES SIM09_TIMESTEP 0 V=table(time,0,0,79.99m,0,80.25m,260) tripdv=0.001 tripdt=10n\n.end\n')
+ if mode=='33V':s=s.replace('.options plotwinsize=0','.options plotwinsize=0 itl4=100')
  q=r/f'SIM-09_full_tone_{mode}.cir';q.write_text(s,encoding='cp1252');jobs.append(dict(mode=mode,frequency_Hz=fc,amplitude_V=.0005,source=q.name,fit_window_ms=[80.05,80.25]))
 (H/'results/core/tone_tests.json').write_text(json.dumps(jobs,indent=2))
 # Analytic cross-check: return ratio 100/(1+s*0.001).

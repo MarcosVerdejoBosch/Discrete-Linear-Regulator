@@ -22,7 +22,7 @@ def main():
      t,v=read(stem.with_suffix('.raw'));print(mode,'endpoint_ms',t[-1]*1000)
      if action=='progress':continue
      lb=stem.with_suffix('.log').read_bytes();log=lb.decode('utf-16-le' if lb[1]==0 else 'cp1252')
-     assert 'Total elapsed time:' in log and t[-1]>=.141999,'Incomplete run'
+     assert 'Total elapsed time:' in log and t[-1]>=.119999,'Incomplete run'
      base=avg(t,v['V(out)'],.07,.08);ref=avg(t,v['V(vref)'],.07,.08)
      events={}
      for label,signal,level in [('output_100mV',v['V(out)'],base-.1),('output_98pct',v['V(out)'],nom*.98),('enable_half',v['V(ttl)']-.5*v['V(vee)'],0),('delay_half',v['V(ldo_2)']-.5*v['V(vee)'],0),('uvlo_half',v['V(1)']-.5*v['V(vee)'],0)]:
@@ -34,7 +34,7 @@ def main():
       values['uvlo_either_input_in_CM']=bool(min(values['V(n086)'],values['V(comp)'])<=values['V(vee)']-1.5)
       values['delay_detector_either_input_in_CM']=bool(min(values['V(n088)'],values['V(comp)'])<=values['V(vee)']-1.5)
       events[label]={'time_ms':q*1000,'values':values}
-     result={'baseline_output_V':base,'baseline_reference_V':ref,'events':events,'manifest':[]}
+     result={'protocol_end_ms':120,'source_minimum_V':4,'baseline_output_V':base,'baseline_reference_V':ref,'events':events,'manifest':[]}
      for ext in ['asc','net','log','raw']:
       f=stem.with_suffix('.'+ext);shutil.copy2(f,D/f.name);result['manifest'].append({'file':f.name,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
      results[mode]=result

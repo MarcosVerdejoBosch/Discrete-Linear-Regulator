@@ -1,5 +1,11 @@
 # SIM-04: exploración con umbrales ajustados
 
+## Estado de esta nota
+
+**Registro anterior a la revalidacion IRF4905 del 2026-09-24.** Se conserva el metodo y la evolucion del estudio; las cifras y afirmaciones de convergencia de esta nota pertenecen a esa revision anterior. Consultar el [registro actual](../../../publication/U17_REVALIDATION_2026-09-24.md) y el [informe actualizado](../../../docs/regulator.pdf) para los resultados aceptados con U17 corregido. Los archivos de metricas de los casos completados se actualizaron; una variante historica no queda revalidada por compartir carpeta.
+
+## Desarrollo anterior
+
 Variante separada del ensayo de entrada mínima con umbrales originales.
 No se modificaron los esquemas originales ni se anularon protecciones.
 La revisión personal de Marco y la implementación física siguen pendientes.

@@ -1,5 +1,5 @@
 {
-  "metrics_sha256": "c78b6dfcf57dfdde78abc3f064989705b04594a9c550ba8fe6a472fb3f112d0b",
+  "metrics_sha256": "0e032bc622f79cec70111edabad1cace7d4132363185d3f0fa73c4506610df3a",
   "processing": "Original RAW samples; no smoothing. Event origins 5 and 55 ms.",
   "matplotlib": "3.11.2"
 }
