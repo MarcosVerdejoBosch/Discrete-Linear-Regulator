@@ -43,7 +43,7 @@ Extra digits in machine-readable results support traceability, not claimed hardw
 
 ## Supplementary runs
 
-**Not yet frozen:** the additional 1 us load-refinement checks and the older 142 ms deep-brownout protocol down to 2.8 V remain unresolved. The separately executed 120 ms / 4 V adjusted-threshold tests completed in both modes. Their [current results](../simulation/tests/SIM-04_dropout/IRF4905_RESULTS.md) are distinct from the older diagnostic. The updated report uses the completed nominal sweeps and fixed-input dropout holds; it no longer carries the previous model's unconfirmed refinement claim.
+**Accepted scope:** SIM-03 retains a 2 us maximum step for settled load-regulation averages, supported by recorded-data consistency checks. See the [numerical justification and limits](../simulation/tests/SIM-03_load_regulation/NUMERICAL_SCOPE.md). The additional 1 us checks remain unsuccessful optional diagnostics. SIM-04 uses the separately completed 120 ms / 4 V protocol in both modes; the unresolved older 142 ms / 2.8 V tail is outside that scope. These diagnostics do not block review of the stated nominal tests, and are not evidence for stronger numerical-accuracy or deep-brownout claims. The updated report uses completed runs and does not carry the previous model's unconfirmed refinement claim.
 
 These are separate from the 16 primary selector entries. Only rows marked complete are accepted new evidence. Earlier result notes and plots for unresolved variants remain historical and must not be read as revalidated IRF4905 results.
 
