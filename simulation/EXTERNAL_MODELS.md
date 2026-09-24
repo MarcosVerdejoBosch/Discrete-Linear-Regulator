@@ -9,6 +9,7 @@ Model libraries are not bundled in this first review snapshot. Their redistribut
 - `TL431.sub`
 - `darlngtn.lib`
 - `irf7328.spi`
+- `irf4905.spi`: U17; obtained directly from [Infineon](https://www.infineon.com/assets/row/public/documents/24/50/irf4905.spi?fileId=5546d462533600a4015356faeff336bb). The Windows setup uses `get_irf4905.ps1` to download this file if absent and verifies SHA256 `D6363459B4A5086A3F91CD0C973636CA1A4E38215D85DF5D3463C37AF85849F0`. Original notices are preserved. Python preparation requires this file in the supplied model folder.
 - `nat_semi.lib`
 - `opamp.lib`
 - `phil_bjt.lib`

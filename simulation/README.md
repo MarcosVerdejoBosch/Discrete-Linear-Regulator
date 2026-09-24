@@ -1,5 +1,7 @@
 # Índice de simulaciones
 
+**Revision U17 (2026-09-24):** U17 corregido a IRF4905 en SIM-01 a SIM-08. SIM-01 completo en ambos modos: 5 V con Normal y 3.3 V con Alternate. Los resultados anteriores de SIM-02 a SIM-08 requieren nuevas corridas; la tabla conserva su historial. SIM-09 no cambia. [Comparacion y alcance](../publication/U17_IRF4905_REVIEW.md).
+
 **Empezar:** [preparacion con doble clic](QUICKSTART.md).
 
 Revision antes de congelar: [estado de esta version](../publication/REVIEW_STATUS.md).

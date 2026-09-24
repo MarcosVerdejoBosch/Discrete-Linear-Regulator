@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-24",
+  "model_sha256": "d6363459b4a5086a3f91cd0c973636ca1a4e38215d85df5d3463c37af85849f0",
+  "sim01_5V": "complete Normal",
+  "sim01_33V": "complete Alternate",
+  "other_scenarios": "32 netlists generated; SIM-02 through SIM-08 numerical reruns pending",
+  "SIM09": "unchanged",
+  "files": [
+    {
+      "file": "IRF4905_5V.asc",
+      "sha256": "82e7a48d0a62e31a964d7f57f4af5505a36a04a8c7ebbe62913a6b67b9d9959f"
+    },
+    {
+      "file": "IRF4905_5V.raw",
+      "sha256": "0dc96baddbd005187321f6022c10257a2dd5f67033de182a679689b37ef31968"
+    },
+    {
+      "file": "IRF4905_5V.log",
+      "sha256": "7f83286ade46b07c006d35d7b806e22326c035e604b552e1ffbb9622d90fda39"
+    },
+    {
+      "file": "IRF4905_alt_33V.asc",
+      "sha256": "de0b1ffe502e656a1f274b8a8871fdfbecb8c444dbe7653f3f4138bf07c7ffa7"
+    },
+    {
+      "file": "IRF4905_alt_33V.raw",
+      "sha256": "a60431675f828dd065ee328f44fecc2cb60e59eca353e15e795251d6a974c96b"
+    },
+    {
+      "file": "IRF4905_alt_33V.log",
+      "sha256": "83cf76fb40e6030568f0a417e44530122b6ebaf2bc59f30ad2dddaade117ed76"
+    }
+  ]
+}

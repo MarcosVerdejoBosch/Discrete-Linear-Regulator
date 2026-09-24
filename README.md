@@ -6,6 +6,8 @@ A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a f
 
 ## Run in LTspice
 
+**2026-09-24 model revision:** U17 in SIM-01 through SIM-08 now uses IRF4905. SIM-01 completed in both modes (5 V: Normal; 3.3 V: Alternate). SIM-02 through SIM-08 numerical results and report figures remain the earlier baseline pending reruns. SIM-09 is unchanged. [Scope and evidence](publication/U17_IRF4905_REVIEW.md).
+
 Download and extract this review branch, then double-click `PREPARAR_LTSPICE.cmd`. Select your existing project-model folder once. Open the prepared `.asc` in `LTspice-local` and click Run. Windows and LTspice are required; Python is optional.
 
 **External models are still required**; this is not a dependency-free download. The setup checks dependencies before creating the folder. [Three-step instructions and SIM-09 plots](simulation/QUICKSTART.md).

@@ -18,7 +18,7 @@ The preparation includes the hierarchical `LG_single.asc`/`.asy` pair and change
 
 ## First test: SIM-01
 
-In the prepared folder, run `PROBAR_SIM01_5V.cmd`, then `PROBAR_SIM01_33V.cmd`. These launchers use the documented Normal solver, wait for completion, check the log and open the RAW file. They assume LTspice is installed under `%LOCALAPPDATA%/Programs/ADI/LTspice`.
+In the prepared folder, run `PROBAR_SIM01_5V.cmd`, then `PROBAR_SIM01_33V.cmd`. These launchers use Normal for 5 V and Alternate for 3.3 V following the IRF4905 update, wait for completion, check the log and open the RAW file. They assume LTspice is installed under `%LOCALAPPDATA%/Programs/ADI/LTspice`.
 
 Waveform presets are provided. If traces are not restored automatically, add:
 
@@ -29,6 +29,8 @@ Waveform presets are provided. If traces are not restored automatically, add:
 - `V(out)`: regulator output.
 
 Conditions: 8 V source, 50 ohm / 33 ohm load, switch connection at 5 ms, disconnection at 55 ms, reconnection at 85 ms, stop at 140 ms. Inspect the initial pulse, enable delay, settled output, discharge and restart. Opening an ASC only displays the schematic; a completed simulation is a separate check.
+
+See ../publication/U17_IRF4905_REVIEW.md for the current SIM-01 comparison and pending SIM-02 through SIM-08 reruns.
 
 SIM-09 uses two injections and post-processing. Do not interpret a single injection plot as the Tian loop return. See the [method](tests/SIM-09_loop_stability/REGULATION_LOOP.md).
 

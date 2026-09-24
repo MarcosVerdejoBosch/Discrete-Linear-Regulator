@@ -6,7 +6,7 @@
 2. Doble clic en **PREPARAR_LTSPICE.cmd**, en la raiz. Seleccionar la carpeta con los modelos del proyecto (tambien sirve una carpeta `Simulaciones` ya preparada). Se comprueba que esten todos y se crea `LTspice-local` sin modificar los originales.
 3. En `LTspice-local`, abrir **SIM-09_loop_5V.asc** o **SIM-09_loop_33V.asc** y pulsar **Run**, usando solver **Alternate**. Cada esquema ejecuta las dos inyecciones y su archivo `.plt` muestra magnitud y fase automaticamente.
 
-Para evitar configurar el solver manualmente, usar **PROBAR_SIM09_5V.cmd** o **PROBAR_SIM09_33V.cmd**: ejecutan con Alternate y abren el resultado al terminar. No requieren Python. SIM-01 tiene sus propios `PROBAR_SIM01_*.cmd`, con solver Normal.
+Para evitar configurar el solver manualmente, usar **PROBAR_SIM09_5V.cmd** o **PROBAR_SIM09_33V.cmd**: ejecutan con Alternate y abren el resultado al terminar. No requieren Python. SIM-01 tiene sus propios `PROBAR_SIM01_*.cmd`: 5 V usa Normal y 3.3 V usa Alternate; los lanzadores lo seleccionan automaticamente.
 
 No separar el `.asc`, `.bias`, `.plt`, los modelos ni `LG_single.asc`/`.asy`. Conservar el orden `.step param lg list -1 1`: la expresion usa `@1` y `@2`. Si quedo abierto un grafico con ajustes antiguos, usar **Plot Settings > Reload Plot Settings (Espacio)**.
 
@@ -14,7 +14,7 @@ No separar el `.asc`, `.bias`, `.plt`, los modelos ni `LG_single.asc`/`.asy`. Co
 
 El ZIP incluye los circuitos, ajustes de curvas y resultados publicados. Las bibliotecas externas y la sonda jerarquica no estan redistribuidas: su procedencia y permisos siguen pendientes de revision. Una instalacion nueva de LTspice, por si sola, no aporta todos estos archivos. Ver [lista de dependencias](EXTERNAL_MODELS.md). Si falta alguno, el asistente indica cual y no crea una preparacion incompleta.
 
-El asistente no descarga programas ni modelos. Solo copia dependencias locales. `LTspice-local` esta excluida de Git para no publicar accidentalmente esas bibliotecas. Si ya existe, se conserva; usar otra carpeta para una nueva revision.
+El asistente copia las dependencias locales y descarga IRF4905 desde Infineon si falta, verificando su SHA256. Requiere internet para esa descarga o el archivo previamente obtenido en la carpeta de modelos. No instala programas. Si falla la descarga, ejecutar `simulation/get_irf4905.ps1 -Destination "RUTA_A_LTspice-local"` antes de simular. `LTspice-local` esta excluida de Git para no publicar accidentalmente esas bibliotecas. Si ya existe, se conserva; usar otra carpeta para una nueva revision.
 
 Instalacion de LTspice en otra ubicacion: definir `LTSPICE_EXE` antes de usar los lanzadores SIM-09. Para preparar sin dialogo o indicar otra biblioteca:
 

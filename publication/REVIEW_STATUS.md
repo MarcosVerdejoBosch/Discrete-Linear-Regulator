@@ -16,6 +16,8 @@ Date: 2026-09-21. Original GitHub history and license are preserved. This branch
 
 ## Before a frozen release
 
+Update 2026-09-24: the builder confirmed successful execution of the previous scenarios and identified U17 as IRF4905. See [model correction and remaining numerical reruns](U17_IRF4905_REVIEW.md). This supersedes the unidentified-component status below; full revalidation remains pending.
+
 1. Builder reviews report and selected scenarios. This snapshot does not mark that review complete.
 2. Resolve clean-clone model/symbol dependencies and redistribution terms.
 3. Resolve the polarity-MOSFET annotation/model mismatch (IRF4905 vs irf7328).
