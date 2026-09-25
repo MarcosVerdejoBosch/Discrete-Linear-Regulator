@@ -1,0 +1,25 @@
+{
+  "scope": "U17 model replacement only, SIM-01 Normal solver, 8 V source, 50/33 ohm loads, 27 C. Simulation, not measurement.",
+  "modes": {
+    "5V": {
+      "baseline": {
+        "settled_V": 5.00001942564811,
+        "restart_V": 5.00001939199486,
+        "enable_delay_ms": 23.818038345027055,
+        "rise_to_98pct_ms": 29.187664510451167,
+        "preenable_peak_V": 0.8537784814834595,
+        "discharge_to_50mV_ms": 0.3939376987973503,
+        "raw_sha256": "8c593f38a57c76f0db67e049fffb7be3f035ad6f2ba5057b3ab3ca2584b39d96"
+      },
+      "IRF4905": {
+        "settled_V": 5.0000192896128866,
+        "restart_V": 5.000019314990783,
+        "enable_delay_ms": 23.81777520170091,
+        "rise_to_98pct_ms": 29.187458784434256,
+        "preenable_peak_V": 0.8555675148963928,
+        "discharge_to_50mV_ms": 0.3934353920070563,
+        "raw_sha256": "0dc96baddbd005187321f6022c10257a2dd5f67033de182a679689b37ef31968"
+      }
+    }
+  }
+}

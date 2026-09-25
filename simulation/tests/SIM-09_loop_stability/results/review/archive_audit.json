@@ -1,0 +1,93 @@
+{
+  "5V": {
+    "all_operating_point_quantities_max_difference": 0.0,
+    "margins": {
+      "unity_crossings": [
+        {
+          "frequency_Hz": 557712.4186947118,
+          "phase_deg": -127.49199809626984,
+          "phase_margin_deg": 52.50800190373016
+        }
+      ],
+      "phase_crossings": [
+        {
+          "frequency_Hz": 1979266.4714657653,
+          "phase_deg": -180,
+          "gain_margin_dB": 17.277602629309953
+        }
+      ],
+      "gain_at_1Hz_dB": 109.50765345865896,
+      "minimum_swept_gain_dB": -66.38229658901865
+    },
+    "core_start_end_s": 0.01,
+    "core_start_to_ac_output_delta_uV": 0.2335126874086768,
+    "tone_window_checks": [
+      {
+        "cycles": 20,
+        "difference_dB": -0.03985075305827887,
+        "difference_deg": 1.3445643686792792
+      },
+      {
+        "cycles": 40,
+        "difference_dB": -0.03952441704567515,
+        "difference_deg": 1.1531731908424896
+      },
+      {
+        "cycles": 60,
+        "difference_dB": -0.022508523112667673,
+        "difference_deg": 1.1442336595148612
+      },
+      {
+        "cycles": 80,
+        "difference_dB": -0.03732507932048304,
+        "difference_deg": 1.1132493265080408
+      }
+    ]
+  },
+  "33V": {
+    "all_operating_point_quantities_max_difference": 0.0,
+    "margins": {
+      "unity_crossings": [
+        {
+          "frequency_Hz": 530472.6138444731,
+          "phase_deg": -128.02145443160768,
+          "phase_margin_deg": 51.97854556839232
+        }
+      ],
+      "phase_crossings": [
+        {
+          "frequency_Hz": 1988530.452935514,
+          "phase_deg": -180,
+          "gain_margin_dB": 17.752152418718396
+        }
+      ],
+      "gain_at_1Hz_dB": 107.54939565439321,
+      "minimum_swept_gain_dB": -66.53819854551323
+    },
+    "core_start_end_s": 0.01,
+    "core_start_to_ac_output_delta_uV": -0.07979777993938342,
+    "tone_window_checks": [
+      {
+        "cycles": 20,
+        "difference_dB": -0.06548994759222612,
+        "difference_deg": 0.8787940654508284
+      },
+      {
+        "cycles": 40,
+        "difference_dB": -0.04270564394849222,
+        "difference_deg": 0.8338470311079729
+      },
+      {
+        "cycles": 60,
+        "difference_dB": -0.04287873335319336,
+        "difference_deg": 0.9477084467808754
+      },
+      {
+        "cycles": 80,
+        "difference_dB": -0.05117442192441468,
+        "difference_deg": 0.9419259769635062
+      }
+    ]
+  },
+  "analytic_relative_error": 5.0130163998227744e-14
+}

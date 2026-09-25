@@ -1,0 +1,172 @@
+{
+  "5V": {
+    "all_steps_completed": true,
+    "results": [
+      {
+        "nominal_load_A": 1,
+        "vout_avg_V": 5.000004615082104,
+        "drift_mV": 9.473659634551268e-05,
+        "vout_pp_mV": 0.34809112548828125,
+        "enable_min_V": 7.221213340759277,
+        "input_after_switch_V": 7.989296432240976,
+        "load_A": 1.0000002799234247
+      },
+      {
+        "nominal_load_A": 0.1,
+        "vout_avg_V": 5.000019226008658,
+        "drift_mV": -0.00010540197781239158,
+        "vout_pp_mV": 0.3647804260253906,
+        "enable_min_V": 7.245696544647217,
+        "input_after_switch_V": 7.998422524992295,
+        "load_A": 0.10000049561142343
+      },
+      {
+        "nominal_load_A": 0.25,
+        "vout_avg_V": 5.000017299619338,
+        "drift_mV": 4.0737133666368663e-05,
+        "vout_pp_mV": 0.36525726318359375,
+        "enable_min_V": 7.241636276245117,
+        "input_after_switch_V": 7.996908117720102,
+        "load_A": 0.25000096905178687
+      },
+      {
+        "nominal_load_A": 0.5,
+        "vout_avg_V": 5.000013529755659,
+        "drift_mV": -7.5924333486909745e-06,
+        "vout_pp_mV": 0.35381317138671875,
+        "enable_min_V": 7.234852313995361,
+        "input_after_switch_V": 7.994378660082354,
+        "load_A": 0.5000015346458927
+      },
+      {
+        "nominal_load_A": 0.75,
+        "vout_avg_V": 5.000009304951297,
+        "drift_mV": 4.380438323181579e-05,
+        "vout_pp_mV": 0.3848075866699219,
+        "enable_min_V": 7.228045463562012,
+        "input_after_switch_V": 7.991841775559301,
+        "load_A": 0.7500015270256126
+      },
+      {
+        "nominal_load_A": 1,
+        "vout_avg_V": 5.000004357354732,
+        "drift_mV": -8.49905195110523e-05,
+        "vout_pp_mV": 0.3275871276855469,
+        "enable_min_V": 7.22121000289917,
+        "input_after_switch_V": 7.9892963689577225,
+        "load_A": 1.0000008708650758
+      }
+    ],
+    "signed_slope_mV_per_A": -0.01652071969599857,
+    "repeat_1A_difference_uV": -0.25772737188844985,
+    "calibration_difference_uV": -0.759203819811205,
+    "calibration_reference_revision": "Historical pre-U17 calibration; retained for comparison only",
+    "current_line_reference_difference_uV": 0.11601285354601032,
+    "current_line_reference_sha256": "02aa5d3d71a1f44bd834cd8bec663123c771d8638aa176323d91e1b348813fb6",
+    "endpoint_change_mV": -0.014868653925859121,
+    "maximum_nominal_error_percent": 0.0003845201731600411,
+    "manifest": [
+      {
+        "file": "SIM-03_calibrated_load_5V.asc",
+        "sha256": "41a84bdfa8a39bfda5bcf5e387c573b64f35ad90f16d8486c2558bb582ed479c"
+      },
+      {
+        "file": "SIM-03_calibrated_load_5V.net",
+        "sha256": "ad226578010214b8833096e3e4582b08791111076e959c120553630e4f379132"
+      },
+      {
+        "file": "SIM-03_calibrated_load_5V.log",
+        "sha256": "91f779e50e24a22c069bc9fdee6e2aec30f764b135bc52d04ec6d7782ed6e987"
+      },
+      {
+        "file": "SIM-03_calibrated_load_5V.raw",
+        "sha256": "4a778a6df867647b7bf734b0f5684ee5517f6183c366e90263b063c26e388605"
+      }
+    ]
+  },
+  "33V": {
+    "all_steps_completed": true,
+    "results": [
+      {
+        "nominal_load_A": 1,
+        "vout_avg_V": 3.3000019486982235,
+        "drift_mV": 4.8573656652450836e-05,
+        "vout_pp_mV": 0.3323554992675781,
+        "enable_min_V": 7.221243381500244,
+        "input_after_switch_V": 7.98930807491119,
+        "load_A": 1.0000003064478413
+      },
+      {
+        "nominal_load_A": 0.1,
+        "vout_avg_V": 3.300001836592906,
+        "drift_mV": 4.117209151388579e-05,
+        "vout_pp_mV": 0.38123130798339844,
+        "enable_min_V": 7.245721817016602,
+        "input_after_switch_V": 7.9984309884814095,
+        "load_A": 0.10000006375141414
+      },
+      {
+        "nominal_load_A": 0.25,
+        "vout_avg_V": 3.300002175405634,
+        "drift_mV": -1.6585647522049385e-05,
+        "vout_pp_mV": 0.3840923309326172,
+        "enable_min_V": 7.241661071777344,
+        "input_after_switch_V": 7.996916776004935,
+        "load_A": 0.2500002731942797
+      },
+      {
+        "nominal_load_A": 0.5,
+        "vout_avg_V": 3.300002577246422,
+        "drift_mV": 2.3835672546823616e-05,
+        "vout_pp_mV": 0.3693103790283203,
+        "enable_min_V": 7.234877586364746,
+        "input_after_switch_V": 7.994388154083872,
+        "load_A": 0.5000003992246853
+      },
+      {
+        "nominal_load_A": 0.75,
+        "vout_avg_V": 3.300002431303429,
+        "drift_mV": -3.463469822051479e-05,
+        "vout_pp_mV": 0.3509521484375,
+        "enable_min_V": 7.228072643280029,
+        "input_after_switch_V": 7.991852086258572,
+        "load_A": 0.7500007130401164
+      },
+      {
+        "nominal_load_A": 1,
+        "vout_avg_V": 3.300001858080591,
+        "drift_mV": 2.6322433122061284e-06,
+        "vout_pp_mV": 0.3361701965332031,
+        "enable_min_V": 7.221240997314453,
+        "input_after_switch_V": 7.989308046860108,
+        "load_A": 1.000000559270649
+      }
+    ],
+    "signed_slope_mV_per_A": 2.3875192371184145e-05,
+    "repeat_1A_difference_uV": -0.09061763250883814,
+    "calibration_difference_uV": 1.8623301576425888,
+    "calibration_reference_revision": "Historical pre-U17 calibration; retained for comparison only",
+    "current_line_reference_difference_uV": 0.08382527116879146,
+    "current_line_reference_sha256": "02aa5d3d71a1f44bd834cd8bec663123c771d8638aa176323d91e1b348813fb6",
+    "endpoint_change_mV": 2.1487684964682785e-05,
+    "maximum_nominal_error_percent": 7.809837642584961e-05,
+    "manifest": [
+      {
+        "file": "SIM-03_calibrated_load_33V.asc",
+        "sha256": "b40767935a5327be9bb916a84a27748d7654c2df094abd92a6f3f46d33787bfc"
+      },
+      {
+        "file": "SIM-03_calibrated_load_33V.net",
+        "sha256": "7f7214716e8f0da0ec37399d9b8d14eb6dbe537539a3b8e64442b3e0d4d34442"
+      },
+      {
+        "file": "SIM-03_calibrated_load_33V.log",
+        "sha256": "c5a919f203faeb7d76178f86f54de447fb570344e7cfe239dc6bc723d2e0a7dc"
+      },
+      {
+        "file": "SIM-03_calibrated_load_33V.raw",
+        "sha256": "3c57db1b7363600c233bc6f016f4e6960867670759453a20c0bc89dbd22eb4bb"
+      }
+    ]
+  }
+}

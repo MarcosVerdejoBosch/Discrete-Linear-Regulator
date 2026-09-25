@@ -1,0 +1,14 @@
+{
+  "baseline": "simulation/ltspice/SIM-01_startup_shutdown_5V.asc",
+  "baseline_sha256": "834c785b6ba08d6230bd11541198a10245402fc9aecd5718f22a220f4b3ba456",
+  "test": "simulation/ltspice/SIM-02_full_line_5V_pilot.asc",
+  "test_sha256": "65f3ebfae79aeaa1352f50b4318dba4420e9245ce53594907b8a44b393ba615d",
+  "changes": [
+    "Input parameter VINTEST=8 V",
+    "Load 5 ohm",
+    "Switch connects at 5 ms and remains on",
+    "Transient 80 ms, maximum step 2 us",
+    "Save selected signals; measure final 10 ms; temperature 27 C"
+  ],
+  "status": "Pilot prepared; not yet validated. No topology or device-model changes."
+}

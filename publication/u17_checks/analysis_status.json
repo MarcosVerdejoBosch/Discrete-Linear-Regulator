@@ -1,0 +1,59 @@
+{
+  "SIM-02_line_regulation/calibrated_line.py inspect": {
+    "returncode": 0,
+    "log": "SIM-02_line_regulation_calibrated_line_inspect.txt",
+    "plot_returncode": 0
+  },
+  "SIM-05_quiescent_current/analyze_idle.py analyze": {
+    "returncode": 0,
+    "log": "SIM-05_quiescent_current_analyze_idle_analyze.txt",
+    "plot_returncode": 0
+  },
+  "SIM-04_dropout/analyze_input.py analyze": {
+    "returncode": 0,
+    "log": "SIM-04_dropout_analyze_input_analyze.txt",
+    "plot_returncode": 0
+  },
+  "SIM-07_uvlo_ovlo/analyze_protection.py analyze": {
+    "returncode": 0,
+    "log": "SIM-07_uvlo_ovlo_analyze_protection_analyze.txt",
+    "plot_returncode": 0
+  },
+  "SIM-06_load_transient/analyze_transient.py analyze": {
+    "returncode": 0,
+    "log": "SIM-06_load_transient_analyze_transient_analyze.txt",
+    "plot_returncode": 0
+  },
+  "SIM-03_load_regulation/calibrated_load.py inspect": {
+    "returncode": 0,
+    "log": "SIM-03_load_regulation_calibrated_load_inspect.txt",
+    "plot_returncode": 0
+  },
+  "SIM-04_dropout/analyze_settled.py analyze": {
+    "returncode": 0,
+    "log": "SIM-04_dropout_analyze_settled_analyze.txt"
+  },
+  "SIM-08_current_limit/analyze_limit.py analyze": {
+    "returncode": 0,
+    "log": "SIM-08_current_limit_analyze_limit_analyze.txt",
+    "plot_returncode": 0
+  },
+  "SIM-04_dropout/driver_thermal.py analyze": {
+    "returncode": 0,
+    "log": "SIM-04_dropout_driver_thermal_analyze.txt"
+  },
+  "SIM-04_dropout/pulsed_load.py analyze": {
+    "returncode": 0,
+    "log": "SIM-04_dropout_pulsed_load_analyze.txt"
+  },
+  "SIM-04_dropout/pulsed_load.py analyze inhibit": {
+    "returncode": 0,
+    "log": "SIM-04_dropout_pulsed_load_analyze_inhibit.txt"
+  },
+  "SIM-04_dropout/analyze_adjusted.py analyze": {
+    "returncode": 0,
+    "plot_returncode": 0,
+    "log": "scoped_analyze_adjusted.py.txt",
+    "protocol": "120 ms / 4 V source minimum"
+  }
+}

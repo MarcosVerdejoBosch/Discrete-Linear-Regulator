@@ -1,0 +1,60 @@
+{
+  "mode": "5 V",
+  "load_ohm": 5,
+  "temperature_C": 27,
+  "results": [
+    {
+      "source_V": 6.0,
+      "vout_avg_V": 5.061142046763767,
+      "drift_mV": 7.942945057237694e-05,
+      "vout_pp_mV": 0.22602081298828125,
+      "enable_min_V": 5.422621250152588,
+      "history": "Independent startup, average 70--80 ms"
+    },
+    {
+      "source_V": 7.0,
+      "vout_avg_V": 5.061395581801915,
+      "drift_mV": 3.5682550247884137e-06,
+      "vout_pp_mV": 0.2560615539550781,
+      "enable_min_V": 6.325150489807129,
+      "history": "Independent startup, average 70--80 ms"
+    },
+    {
+      "source_V": 8.0,
+      "vout_avg_V": 5.061594534899384,
+      "drift_mV": -5.750418807792812e-05,
+      "vout_pp_mV": 0.286102294921875,
+      "enable_min_V": 7.225847244262695,
+      "history": "Independent startup, average 70--80 ms"
+    },
+    {
+      "source_V": 9.0,
+      "vout_avg_V": 5.0617590220620485,
+      "drift_mV": 7.799729129231991e-05,
+      "vout_pp_mV": 0.3132820129394531,
+      "enable_min_V": 8.125340461730957,
+      "history": "Independent startup, average 70--80 ms"
+    },
+    {
+      "source_V": 10,
+      "vout_avg_V": 5.0618996202579964,
+      "drift_mV": -3.379235646860934e-05,
+      "vout_pp_mV": 0.3447532653808594,
+      "enable_min_V": 9.023923873901367,
+      "input_after_switch_V": 9.989040104978663,
+      "history": "Input increased after startup at 8 V; average last 10 ms"
+    },
+    {
+      "source_V": 11,
+      "vout_avg_V": 5.0620230103727195,
+      "drift_mV": -2.4250566887928926e-05,
+      "vout_pp_mV": 0.3800392150878906,
+      "enable_min_V": 9.921762466430664,
+      "input_after_switch_V": 10.98897478707465,
+      "history": "Input increased after startup at 8 V; average last 10 ms"
+    }
+  ],
+  "endpoint_slope_mV_per_V": 0.17619272179043577,
+  "scope": "Combined complete operating points from two transient runs; not a completed independent-startup sweep.",
+  "numerical_note": "Modified trap, max step 2 us. Gear/1 us cross-check at 8 V agrees within 0.1 uV."
+}

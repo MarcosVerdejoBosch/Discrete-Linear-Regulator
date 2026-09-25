@@ -1,0 +1,126 @@
+{
+  "5V": {
+    "two_us": {
+      "mean_V": 5.000019461718831,
+      "restart_mean_V": 5.00001946161954,
+      "first_enable_ms": 23.817955808840146,
+      "first_98pct_ms": 29.187706233542695,
+      "first_pulse_V": 0.853804349899292,
+      "restart_enable_ms": 21.50256127887347,
+      "restart_98pct_ms": 26.87226173026118,
+      "restart_pulse_V": 1.162819266319275,
+      "out_50mV_ms": 0.39392545271453583,
+      "vctrl_50mV_ms": 12.474890731226727
+    },
+    "one_us": {
+      "mean_V": 5.000019517591965,
+      "restart_mean_V": 5.000019470714484,
+      "first_enable_ms": 23.81793640720481,
+      "first_98pct_ms": 29.18766314603292,
+      "first_pulse_V": 0.8541266322135925,
+      "restart_enable_ms": 21.504013141396648,
+      "restart_98pct_ms": 26.87367226521434,
+      "restart_pulse_V": 1.1820220947265625,
+      "out_50mV_ms": 0.39327994353090256,
+      "vctrl_50mV_ms": 12.474234372622954
+    },
+    "difference_one_minus_two": {
+      "mean_V": 5.587313367527713e-08,
+      "restart_mean_V": 9.094944353194023e-09,
+      "first_enable_ms": -1.940163533475925e-05,
+      "first_98pct_ms": -4.308750977344289e-05,
+      "first_pulse_V": 0.0003222823143005371,
+      "restart_enable_ms": 0.0014518625231794147,
+      "restart_98pct_ms": 0.001410534953159015,
+      "restart_pulse_V": 0.019202828407287598,
+      "out_50mV_ms": -0.0006455091836332638,
+      "vctrl_50mV_ms": -0.0006563586037735547
+    },
+    "manifest": [
+      {
+        "file": "SIM-01_check_step_5V.asc",
+        "sha256": "9da5b1171efec0e428959addece9a736f4ad5f6c5f9386d578c8d64320fc1aa7"
+      },
+      {
+        "file": "SIM-01_check_step_5V.net",
+        "sha256": "0eaa70eaa11570eafc75246ac2b822adad2a98ce4685009204c46832ac1f1f88"
+      },
+      {
+        "file": "SIM-01_check_step_5V.log",
+        "sha256": "d6053504507d8d8f927f04d46744db4bff541a41b972cd8185ce70d210a54983"
+      },
+      {
+        "file": "SIM-01_check_step_5V.raw",
+        "sha256": "40e3f48046f4689fb2019660feb40f74265f8eccdef65a44b51711139dc1a4ab"
+      }
+    ],
+    "comparison_scope_s": [
+      0,
+      0.14
+    ],
+    "fine_run_complete": true,
+    "refinement": "Normal solver, maximum step 1 us, explicit trtol=1. Both timestep and transient error control differ from nominal."
+  },
+  "33V": {
+    "two_us": {
+      "mean_V": 3.3000015881095304,
+      "restart_mean_V": 3.300001555499494,
+      "first_enable_ms": 23.818295027615598,
+      "first_98pct_ms": 29.187473000583626,
+      "first_pulse_V": 0.8418357968330383,
+      "restart_enable_ms": 21.503622609784863,
+      "restart_98pct_ms": 26.872706344765227,
+      "restart_pulse_V": 1.1406495571136475,
+      "out_50mV_ms": 0.3320043477654175,
+      "vctrl_50mV_ms": 12.47945898887274
+    },
+    "one_us": {
+      "mean_V": 3.300001635285189,
+      "restart_mean_V": 3.30000162872669,
+      "first_enable_ms": 23.818333995329965,
+      "first_98pct_ms": 29.187498786233576,
+      "first_pulse_V": 0.8418058156967163,
+      "restart_enable_ms": 21.50347391093911,
+      "restart_98pct_ms": 26.872642644395192,
+      "restart_pulse_V": 1.1406689882278442,
+      "out_50mV_ms": 0.33244432664110424,
+      "vctrl_50mV_ms": 12.479740898433976
+    },
+    "difference_one_minus_two": {
+      "mean_V": 4.717565849077232e-08,
+      "restart_mean_V": 7.322719586255744e-08,
+      "first_enable_ms": 3.896771436728841e-05,
+      "first_98pct_ms": 2.5785649949483513e-05,
+      "first_pulse_V": -2.9981136322021484e-05,
+      "restart_enable_ms": -0.00014869884575219317,
+      "restart_98pct_ms": -6.370037003478046e-05,
+      "restart_pulse_V": 1.9431114196777344e-05,
+      "out_50mV_ms": 0.00043997887568675287,
+      "vctrl_50mV_ms": 0.0002819095612363043
+    },
+    "manifest": [
+      {
+        "file": "SIM-01_check_step_33V.asc",
+        "sha256": "9348526dd11e7839c0d56265a319c435f2696a4de353cba593c66d8b9b2fa980"
+      },
+      {
+        "file": "SIM-01_check_step_33V.net",
+        "sha256": "3040ada2b4a49f1044c4de246b3eee6f3e671b9565ec0c66c8d8e4941122191b"
+      },
+      {
+        "file": "SIM-01_check_step_33V.log",
+        "sha256": "25b9cabe2fe01bccc584a4056737c9d2b706127e3ec7be115a0fdcdd9d506864"
+      },
+      {
+        "file": "SIM-01_check_step_33V.raw",
+        "sha256": "5b1c192e56c8efc929011c70b75e9f6b15603534b21b8cfbe132c2c1c4eed95f"
+      }
+    ],
+    "comparison_scope_s": [
+      0,
+      0.14
+    ],
+    "fine_run_complete": true,
+    "refinement": "Normal solver, maximum step 1 us, explicit trtol=1. Both timestep and transient error control differ from nominal."
+  }
+}

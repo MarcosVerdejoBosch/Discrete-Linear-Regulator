@@ -1,0 +1,14 @@
+{
+  "5V": {
+    "source": "SIM-02_full_line_5V_pilot.asc",
+    "source_sha256": "65f3ebfae79aeaa1352f50b4318dba4420e9245ce53594907b8a44b393ba615d",
+    "R33_ohm": 14846.5,
+    "RFB2_ohm": 28759.8
+  },
+  "33V": {
+    "source": "SIM-02_full_line_33V_pilot.asc",
+    "source_sha256": "8eb577f6dc2b01aa8086a795b71ed2471a2339a8141264d1b0c4acdfb3f08f67",
+    "R33_ohm": 14846.5,
+    "RFB2_ohm": 28759.8
+  }
+}

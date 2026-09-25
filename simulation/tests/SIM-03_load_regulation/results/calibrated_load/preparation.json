@@ -1,0 +1,24 @@
+[
+  {
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "test": "SIM-03_calibrated_load_5V.asc",
+    "sha256": "33d9dba8b56952982d2956421c9097656ef23bd2a8f974ab806e5d2d4a21b481",
+    "load": "Time-dependent resistance; nominal current 1 A at startup, then 0.1, 0.25, 0.5, 0.75, 1 A; 0.1 ms transitions and 40 ms intervals",
+    "duration_ms": 280,
+    "max_step_us": 2,
+    "source_V": 8,
+    "temperature_C": 27
+  },
+  {
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "test": "SIM-03_calibrated_load_33V.asc",
+    "sha256": "27b901a4dea6234edad2868d25130743e6e7a78b7e8230cf807e9cde415f3db7",
+    "load": "Time-dependent resistance; nominal current 1 A at startup, then 0.1, 0.25, 0.5, 0.75, 1 A; 0.1 ms transitions and 40 ms intervals",
+    "duration_ms": 280,
+    "max_step_us": 2,
+    "source_V": 8,
+    "temperature_C": 27
+  }
+]

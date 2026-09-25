@@ -1,0 +1,21 @@
+{
+  "scope": "16 primary scenarios, six supplementary bounded-dropout/thermal/pulse cases and two full-circuit tone checks completed. Old 2.8 V deep-brownout ramps and additional 1 us refinements remain unresolved diagnostics.",
+  "primary_count": 16,
+  "plot_profiles_checked": 14,
+  "pdf_pages": 16,
+  "pdf_visual_review_pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "pending_supplementary": [
+    "SIM-03_load_stepcheck_5V",
+    "SIM-03_load_stepcheck_33V"
+  ],
+  "unresolved_historical_protocol": "SIM-04 adjusted 142 ms / 2.8 V"
+}

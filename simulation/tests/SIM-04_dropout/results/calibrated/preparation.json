@@ -1,0 +1,12 @@
+{
+  "source": "SIM-02_cal_02_33V.asc",
+  "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+  "test": "SIM-04_calibrated_input_33V.asc",
+  "test_sha256": "0cd71fd1ff60dfc2d55bf665b5007a17b526605890ff506787c9bb73c04a0b3c",
+  "reused_5V": "SIM-07_calibrated_protection_5V: falling-input segment 80-112ms and hold to122ms",
+  "source_waveform": "PWL(0 8 80m 8 112m 4.8 122m 4.8)",
+  "load_ohm": 3.3,
+  "max_step_us": 2,
+  "temperature_C": 27,
+  "protection": "All circuitry active, no bypass"
+}

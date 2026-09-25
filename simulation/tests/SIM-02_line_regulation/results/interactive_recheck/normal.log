@@ -1,0 +1,139 @@
+Circuit: * C:\Users\marco\.codex\.chatgpt-projects\g-p-69854ea089348191b3ed2f1bb8c6049c\tmp\SIM02-33V-stall\normal\SIM-02_calibrated_line_33V.asc
+
+Warning: Multiple definitions of model "2n5486/plp" Type: JFET
+Warning: Multiple definitions of model "2n5485/plp" Type: JFET
+Warning: Multiple definitions of model "2n5484/plp" Type: JFET
+Warning: Multiple definitions of model "n4861/plp" Type: JFET
+Warning: Multiple definitions of model "n4860/plp" Type: JFET
+Warning: Multiple definitions of model "n4859/plp" Type: JFET
+Warning: Multiple definitions of model "n4858/plp" Type: JFET
+Warning: Multiple definitions of model "n4857/plp" Type: JFET
+Warning: Multiple definitions of model "n4856/plp" Type: JFET
+Warning: Multiple definitions of model "n4416a/plp" Type: JFET
+Warning: Multiple definitions of model "n4393/plp" Type: JFET
+Warning: Multiple definitions of model "n4392/plp" Type: JFET
+Warning: Multiple definitions of model "n4391/plp" Type: JFET
+Warning: Multiple definitions of model "n4093/plp" Type: JFET
+Warning: Multiple definitions of model "n4092/plp" Type: JFET
+Warning: Multiple definitions of model "n4091/plp" Type: JFET
+Warning: Multiple definitions of model "pzfj110/plp" Type: JFET
+Warning: Multiple definitions of model "pzfj109/plp" Type: JFET
+Warning: Multiple definitions of model "pzfj108/plp" Type: JFET
+Warning: Multiple definitions of model "pn4416a/plp" Type: JFET
+Warning: Multiple definitions of model "pn4416/plp" Type: JFET
+Warning: Multiple definitions of model "pn4393/plp" Type: JFET
+Warning: Multiple definitions of model "pn4392/plp" Type: JFET
+Warning: Multiple definitions of model "pn4391/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj310/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj309/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj308/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj177/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj176/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj175/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj174/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj113/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj112/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj111/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj110/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj109/plp" Type: JFET
+Warning: Multiple definitions of model "pmbfj108/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf5486/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf5485/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf5484/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf4416/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf4393/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf4392/plp" Type: JFET
+Warning: Multiple definitions of model "pmbf4391/plp" Type: JFET
+Warning: Multiple definitions of model "j310/plp" Type: JFET
+Warning: Multiple definitions of model "j309/plp" Type: JFET
+Warning: Multiple definitions of model "j308/plp" Type: JFET
+Warning: Multiple definitions of model "j177/plp" Type: JFET
+Warning: Multiple definitions of model "j176/plp" Type: JFET
+Warning: Multiple definitions of model "j175/plp" Type: JFET
+Warning: Multiple definitions of model "j174/plp" Type: JFET
+Warning: Multiple definitions of model "j113/plp" Type: JFET
+Warning: Multiple definitions of model "j112/plp" Type: JFET
+Warning: Multiple definitions of model "j111/plp" Type: JFET
+Warning: Multiple definitions of model "j110/plp" Type: JFET
+Warning: Multiple definitions of model "j109/plp" Type: JFET
+Warning: Multiple definitions of model "j108/plp" Type: JFET
+Warning: Multiple definitions of model "bsv81/plp" Type: Mos3
+Warning: Multiple definitions of model "bsv80/plp" Type: JFET
+Warning: Multiple definitions of model "bsv79/plp" Type: JFET
+Warning: Multiple definitions of model "bsv78/plp" Type: JFET
+Warning: Multiple definitions of model "bss83/plp" Type: Mos3
+Warning: Multiple definitions of model "bsr58/plp" Type: JFET
+Warning: Multiple definitions of model "bsr57/plp" Type: JFET
+Warning: Multiple definitions of model "bsr56/plp" Type: JFET
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node vin.  This node is used by v5.
+WARNING: Less than two connections to node var.  This node is used by v10.
+Instance "m:u8:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u13:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u14:2": Length shorter than recommended for a level 1 MOSFET.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Gmin = 1000
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 969.467
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 976.983
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Source stepping method for .op point skipped.
+Pseudo Transient succeeded in finding the operating point at 16.3993 s.
+Changing Tseed to 2e-09
+Heightened Def Con from 0.0267372 to 0.0267372
+Heightened Def Con from 0.0287813 to 0.0287813
+Heightened Def Con from 0.0287819 to 0.0287819
+Heightened Def Con from 0.0324426 to 0.0324426
+Heightened Def Con from 0.0324426 +to 0.0324426
+Heightened Def Con from 0.108653 to 0.108653
+Heightened Def Con from 0.189576 to 0.189576
+Heightened Def Con from 0.309754 to 0.309754
+
+vout_avg: AVG(v(out))=3.3 FROM 0.07 TO 0.08
+
+vout_min: MIN(v(out))=3.29985 FROM 0.07 TO 0.08
+
+vout_max: MAX(v(out))=3.30018 FROM 0.07 TO 0.08
+
+enable_min: MIN(v(ttl))=7.22124 FROM 0.07 TO 0.08
+
+iout_avg: AVG(i(rload))=1 FROM 0.07 TO 0.08
+
+
+
+Date: Thu Sep 24 21:38:13 2026
+Total elapsed time: 936.508 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2359543
+traniter = 2356597
+tranpoints = 696853
+accept = 521918
+rejected = 174963
+matrix size = 511
+fillins = 3525
+solver = Normal
+Avg thread counts: 6.0/1.0/1.0/1.0
+Matrix Compiler1:   44939 opcodes  277.5/[232.7]/290.4
+Matrix Compiler2: 102.06 KB object code size  20.2/24.5/[17.9]

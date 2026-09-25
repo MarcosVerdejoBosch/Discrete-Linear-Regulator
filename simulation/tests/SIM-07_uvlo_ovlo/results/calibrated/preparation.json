@@ -1,0 +1,25 @@
+{
+  "source": "SIM-02_cal_02_5V.asc",
+  "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+  "test": "SIM-07_calibrated_protection_5V.asc",
+  "sha256": "1a857481a92161887e2b599a1a7d0ca8a5064bcf1b9c67eb2421cc29869ebbe7",
+  "mode_V": 5,
+  "load_ohm": 5,
+  "temperature_C": 27,
+  "source_waveform": "PWL(0 8 80m 8 112m 4.8 122m 4.8 194m 12 204m 12 244m 8 264m 8)",
+  "ramp_V_per_ms": 0.1,
+  "duration_ms": 264,
+  "max_step_us": 2,
+  "nodes": {
+    "VEE": "Supply sensed by protection dividers, after input switch and reverse-polarity MOSFET",
+    "VBAT": "After input switch, before reverse-polarity MOSFET",
+    "N034": "Ideal source, terminal of VBAT source; verify netlist mapping",
+    "1": "UVLO permission, U15 output",
+    "2": "OVLO permission, U12 output",
+    "TTL": "Combined enable",
+    "LDO_2": "Time-delay permission",
+    "N086": "UVLO non-inverting input",
+    "N085": "OVLO inverting input",
+    "COMP": "Auxiliary protection reference"
+  }
+}
