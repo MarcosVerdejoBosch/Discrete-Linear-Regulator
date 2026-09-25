@@ -108,11 +108,16 @@ Heightened Def Con from 0.108653 to 0.108653
 Heightened Def Con from 0.189576 to 0.189576
 Heightened Def Con from 0.309754 to 0.309754
 
-vout_avg: AVG(v(out))=3.3 FROM 0.07 TO 0.08
-vout_min: MIN(v(out))=3.29985 FROM 0.07 TO 0.08
-vout_max: MAX(v(out))=3.30018 FROM 0.07 TO 0.08
-enable_min: MIN(v(ttl))=7.22124 FROM 0.07 TO 0.08
-iout_avg: AVG(i(rload))=1 FROM 0.07 TO 0.08
+vout_avg: AVG(v(out))=3.3 FROM 0.07 TO 0.08
+
+vout_min: MIN(v(out))=3.29985 FROM 0.07 TO 0.08
+
+vout_max: MAX(v(out))=3.30018 FROM 0.07 TO 0.08
+
+enable_min: MIN(v(ttl))=7.22124 FROM 0.07 TO 0.08
+
+iout_avg: AVG(i(rload))=1 FROM 0.07 TO 0.08
+
 
 
 Date: Thu Sep 24 21:38:13 2026
@@ -132,4 +137,3 @@ solver = Normal
 Avg thread counts: 6.0/1.0/1.0/1.0
 Matrix Compiler1:   44939 opcodes  277.5/[232.7]/290.4
 Matrix Compiler2: 102.06 KB object code size  20.2/24.5/[17.9]
-
