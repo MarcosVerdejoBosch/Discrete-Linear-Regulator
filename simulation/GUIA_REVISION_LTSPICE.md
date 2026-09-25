@@ -25,7 +25,7 @@ En la carpeta del escritorio ya preparada, abrir **ELEGIR_SIMULACION.cmd**. El n
 | 15 | `SIM-09_loop_5V.asc` | Alternate | Barrido AC | Diagrama de ganancia y fase del lazo. Cruce por 0 dB ≈558 kHz, margen de fase ≈52,5° y margen de ganancia ≈17,3 dB. Mantener la expresión de Tian y el orden de los dos pasos. | ☐ |
 | 16 | `SIM-09_loop_33V.asc` | Alternate | Barrido AC | Cruce por 0 dB ≈530 kHz, margen de fase ≈52,0° y margen de ganancia ≈17,8 dB. Es un análisis alrededor del punto de operación guardado, no una curva de arranque. | ☐ |
 
-**SIM-02, 3,3 V:** actualización tras el bloqueo interactivo a 28,2 ms: el ASC incluye `itl4=100` y completó también en modo interactivo con Normal. Cerrar y reabrir el esquema si estaba abierto antes de la actualización.
+**SIM-02, 3,3 V:** tras una repetición del bloqueo a 28,2 ms, se eliminó la inclusión duplicada de phil_fet.lib y se conservó `itl4=100`. La biblioteca sigue cargándose desde el símbolo local. El caso completó 320 ms con Normal, los símbolos locales y el perfil de curvas presente. Cerrar y reabrir el esquema para cargar esta revisión.
 
 ### Cómo comparar las curvas
 

@@ -21,7 +21,7 @@ if args.action=='prepare':
         source=ROOT/f'simulation/ltspice/SIM-02_cal_02_{mode}.asc';s=source.read_bytes().decode('cp1252')
         assert s.count('SYMATTR Value {VINTEST}')==1 and '.tran 0 80m 0 2u' in s
         s=s.replace('SYMATTR Value {VINTEST}','SYMATTR Value '+PWL).replace('.tran 0 80m 0 2u','.tran 0 320m 0 2u')
-        if mode=='33V': s=s.replace('.options plotwinsize=0', '.options plotwinsize=0 itl4=100')
+        if mode=='33V': s=s.replace('.options plotwinsize=0', '.options plotwinsize=0 itl4=100').replace('!.lib phil_fet.lib', ';phil_fet.lib is loaded by the local 2N7000 symbol')
         target=ROOT/f'simulation/ltspice/SIM-02_calibrated_line_{mode}.asc';target.write_bytes(s.encode('cp1252'))
         manifest.append({'source':source.name,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'test':target.name,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'changes':['Source PWL: 8 V startup, then 6 through 11 V at 40 ms intervals and 0.1 ms ramps','Transient extended to 320 ms; all other settings retained']})
     (DEST/'preparation.json').write_text(json.dumps(manifest,indent=2)+'\n')
