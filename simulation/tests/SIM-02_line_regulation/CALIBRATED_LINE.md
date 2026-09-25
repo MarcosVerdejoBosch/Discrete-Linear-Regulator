@@ -64,3 +64,6 @@ and six SIM-02 table entries. previous_dc_section.tex preserves the earlier
 narrative. Other electrical-characteristic rows remain from earlier benches
 and are explicitly identified as pending verification with this calibration.
 Figure PDF/PNG/SVG and the sampled_points.csv export are available.
+
+
+Interactive execution follow-up: [28.2 ms stall and verified iteration-limit adjustment](INTERACTIVE_RECHECK.md).

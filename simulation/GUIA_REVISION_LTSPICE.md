@@ -25,6 +25,8 @@ En la carpeta del escritorio ya preparada, abrir **ELEGIR_SIMULACION.cmd**. El n
 | 15 | `SIM-09_loop_5V.asc` | Alternate | Barrido AC | Diagrama de ganancia y fase del lazo. Cruce por 0 dB ≈558 kHz, margen de fase ≈52,5° y margen de ganancia ≈17,3 dB. Mantener la expresión de Tian y el orden de los dos pasos. | ☐ |
 | 16 | `SIM-09_loop_33V.asc` | Alternate | Barrido AC | Cruce por 0 dB ≈530 kHz, margen de fase ≈52,0° y margen de ganancia ≈17,8 dB. Es un análisis alrededor del punto de operación guardado, no una curva de arranque. | ☐ |
 
+**SIM-02, 3,3 V:** actualización tras el bloqueo interactivo a 28,2 ms: el ASC incluye `itl4=100` y completó también en modo interactivo con Normal. Cerrar y reabrir el esquema si estaba abierto antes de la actualización.
+
 ### Cómo comparar las curvas
 
 - SIM-02 y SIM-03: los valores indicados son **medias asentadas**, no mínimos/máximos de la ondulación instantánea. Las vistas iniciales amplían la tensión de salida.

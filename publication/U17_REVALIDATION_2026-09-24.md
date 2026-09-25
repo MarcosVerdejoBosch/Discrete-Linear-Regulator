@@ -1,5 +1,7 @@
 # U17 revalidation — 2026-09-24
 
+**Interactive follow-up:** SIM-02 3.3 V was subsequently updated with `itl4=100` after a user-reported stall near 28.2 ms. The revised ASC completed a full interactive run with Normal; all seven settled means agree with the prior results within 0.043 uV. [Evidence and scope](../simulation/tests/SIM-02_line_regulation/INTERACTIVE_RECHECK.md).
+
 All **16 primary scenarios** completed locally with LTspice **17.1.15 x64**. U17 uses the official IRF4905 model in the full circuit, matching the part identified by the builder. The report figures and tables were regenerated from the accepted runs. This aligns the simulated component identity; it does not establish real parasitics, thermal behavior or production tolerances.
 
 ## Execute and review
