@@ -1,0 +1,11 @@
+{
+  "source": "User desktop completed SIM-08_calibrated_limit_33V.raw",
+  "raw_sha256": "f1c7d3938ad09065b176981b083c45613aa330756af300df4a1ec3a17ec07d77",
+  "overload_interval_s": [
+    0.1,
+    0.11
+  ],
+  "mean_load_A": 1.4654654156579519,
+  "mean_sense_A": 1.4814710462560767,
+  "mean_output_V": 2.4180198702463827
+}

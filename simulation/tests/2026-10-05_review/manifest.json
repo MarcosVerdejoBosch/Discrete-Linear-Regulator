@@ -1,0 +1,80 @@
+[
+  {
+    "file": "SIM-04_UVLO_bypass_bounded_5V.cir",
+    "sha256": "0a6907d3a5754783a332b81bef00d536f0ed2922bf87da3b6180f439de132970"
+  },
+  {
+    "file": "SIM-04_UVLO_bypass_bounded_5V.log",
+    "sha256": "e5afc5b3c811b272dcfe53f206b1a3287ef447f08eb5bff595187de174178c5f"
+  },
+  {
+    "file": "SIM-04_UVLO_bypass_bounded_5V.raw",
+    "archived_locally_only": true,
+    "sha256": "b21ca4931017891e5a3fa678fc55672ecf4601317b01e97aa8c66131f71b2fd6"
+  },
+  {
+    "file": "SIM-05_inrush_5V_nominal.cir",
+    "sha256": "2e0077bfdfb95ebf1f8b05c6e171dda68b94c4b6baf1e2c77a509acacea8f308"
+  },
+  {
+    "file": "SIM-05_inrush_5V_nominal.log",
+    "sha256": "fe7ea2ca3970de282c0d26222eb205d3f6386ea10007a78fed7bb99e7d740710"
+  },
+  {
+    "file": "SIM-05_inrush_5V_nominal.raw",
+    "archived_locally_only": true,
+    "sha256": "2e6de229fa2953eaf7b1aba9daba95345818d10b4ccc9cf60f321b50aa11ab48"
+  },
+  {
+    "file": "SIM-05_inrush_5V_source025_C20_01.cir",
+    "sha256": "a158a7980bbfc74de131e2f2ce991bd6611385aa6261f8cf0aaec91e45c472ab"
+  },
+  {
+    "file": "SIM-05_inrush_5V_source025_C20_01.log",
+    "sha256": "18d44d155ea1c1443f68157aa31ae8c93cec0c0f8948007cf926ad51bea55907"
+  },
+  {
+    "file": "SIM-05_inrush_5V_source025_C20_01.raw",
+    "archived_locally_only": true,
+    "sha256": "a02d50cecf18c4bdfd8bda1d17e613a43e84ef270cd3fc7a7f8c8afe0c428526"
+  },
+  {
+    "file": "SIM-04_UVLO_bypass_bounded_33V.cir",
+    "sha256": "c4e71a58a16f2f3fdcec0d3c494bad696e8c0bf4cb26ec64c9b41b966619efdc"
+  },
+  {
+    "file": "SIM-04_UVLO_bypass_bounded_33V.log",
+    "sha256": "f491312423d80a29281f7160a17dc6be1bd37ee7d4fd3a99a7fd60b27b2ad84b"
+  },
+  {
+    "file": "SIM-04_UVLO_bypass_bounded_33V.raw",
+    "archived_locally_only": true,
+    "sha256": "06dfda5e4b2de816d490ced1a88f3e6bbd2593a1271bdcbac99fdb8a34f1056d"
+  },
+  {
+    "file": "SIM-05_inrush_33V_nominal.cir",
+    "sha256": "c62731a78ae820140a6610aec37f81db9de9f9f476e1e3cf48d9202bb46cdcbb"
+  },
+  {
+    "file": "SIM-05_inrush_33V_nominal.log",
+    "sha256": "1876a5c878d02d6931a65f05f343eaef49526dad78d9c854fb44c5e0635297eb"
+  },
+  {
+    "file": "SIM-05_inrush_33V_nominal.raw",
+    "archived_locally_only": true,
+    "sha256": "a14156d01523c40067f7652c3198df50e33e56620f443527600962c43425ccec"
+  },
+  {
+    "file": "SIM-05_inrush_33V_source025_C20_01.cir",
+    "sha256": "268126070b4f3c0e9d38a4296a257aec453eccd0282f0323b9c0661d6140b45e"
+  },
+  {
+    "file": "SIM-05_inrush_33V_source025_C20_01.log",
+    "sha256": "05a6c7071a5671ccabe56b85f2f08bc8b5cae85c696cacae1ba95931870441e7"
+  },
+  {
+    "file": "SIM-05_inrush_33V_source025_C20_01.raw",
+    "archived_locally_only": true,
+    "sha256": "c338c4f246e9f17116d5ff14cb2f4460f2e1885b208f4bb9bcd53db233e14003"
+  }
+]

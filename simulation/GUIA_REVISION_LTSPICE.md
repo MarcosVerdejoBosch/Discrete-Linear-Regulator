@@ -84,6 +84,12 @@ Estos archivos están en `simulation/tests/SIM-01_startup_shutdown/u17_review/`,
 | `IRF4905_5V.asc` | Comparación del arranque al cambiar U17. Antecedente de la revalidación; para revisar la versión vigente ejecutar SIM-01_calibrated_startup_5V.asc. |
 | `IRF4905_33V.asc` | Comparación equivalente en 3,3 V. Para revisar la versión vigente ejecutar SIM-01_calibrated_startup_33V.asc. |
 
-**Inventario:** 36 archivos ASC en el repositorio (34 escenarios en `simulation/ltspice` y dos comparaciones en `simulation/tests`). La carpeta preparada contiene los 34 escenarios y LG_single.asc: 35 archivos. Los controles full-tone de SIM-09 usan archivos CIR y no forman parte de esta lista.
+**Inventario previo a los estudios adicionales:** 36 archivos ASC en el repositorio (34 escenarios en `simulation/ltspice` y dos comparaciones en `simulation/tests`). La carpeta preparada contiene los 34 escenarios y LG_single.asc: 35 archivos. Los controles full-tone de SIM-09 usan archivos CIR y no forman parte de esta lista.
 
 Después de tu revisión de las pruebas principales, podemos fijar esta versión de simulación como referencia para las mediciones físicas, conservando los alcances y diagnósticos documentados.
+
+
+## Revision del 5 de octubre
+El usuario confirmo la ejecucion de las 16 entradas principales. Esto no constituye validacion fisica. Los casos adicionales se eligen con ELEGIR_ESTUDIO_ADICIONAL.cmd; ver ESTUDIOS_ADICIONALES.md.
+
+SIM-08 3,3 V, sobrecarga 100-110 ms: I(Rload) = 1,465 A; -I(R25) = 1,481 A. Son corrientes de ramas distintas. La diferencia neta corresponde a otros caminos conectados a la salida.

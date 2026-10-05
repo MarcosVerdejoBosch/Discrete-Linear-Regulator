@@ -1,7 +1,7 @@
-param([string]$Scenario, [switch]$NoOpen)
+param([string]$Scenario, [switch]$NoOpen, [ValidateSet('scenario_catalog.json','supplementary_catalog.json')][string]$CatalogFile = 'scenario_catalog.json')
 $ErrorActionPreference = 'Stop'
 try {
-    $catalog = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'scenario_catalog.json') -Raw | ConvertFrom-Json
+    $catalog = Get-Content -LiteralPath (Join-Path $PSScriptRoot $CatalogFile) -Raw | ConvertFrom-Json
     if (!$Scenario) {
         Write-Host 'Elegir una simulacion (resultados numericos; no mediciones de la placa):'
         for ($i=0; $i -lt $catalog.Count; $i++) { Write-Host (('{0,2}. ' -f ($i+1)) + $catalog[$i].label) }

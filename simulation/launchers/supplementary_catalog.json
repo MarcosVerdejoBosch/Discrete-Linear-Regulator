@@ -1,0 +1,112 @@
+[
+  {
+    "stem": "SIM-09_external_5V_100mA_0u_R0",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 100 mA | external 0 uF + 0 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_1u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 100 mA | external 1 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_10u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 100 mA | external 10 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_47u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 100 mA | external 47 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_10u_R1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 100 mA | external 10 uF + 1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_0u_R0",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 1000 mA | external 0 uF + 0 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_1u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 1000 mA | external 1 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_10u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 1000 mA | external 10 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_47u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 1000 mA | external 47 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_10u_R1",
+    "solver": "alt",
+    "label": "SIM-09 | 5V | 1000 mA | external 10 uF + 1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_0u_R0",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 100 mA | external 0 uF + 0 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_1u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 100 mA | external 1 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_10u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 100 mA | external 10 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_47u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 100 mA | external 47 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_10u_R1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 100 mA | external 10 uF + 1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_0u_R0",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 1000 mA | external 0 uF + 0 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_1u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 1000 mA | external 1 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_10u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 1000 mA | external 10 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_47u_R0p1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 1000 mA | external 47 uF + 0.1 ohm"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_10u_R1",
+    "solver": "alt",
+    "label": "SIM-09 | 33V | 1000 mA | external 10 uF + 1 ohm"
+  },
+  {
+    "stem": "SIM-04_UVLO_bypass_bounded_5V",
+    "solver": "norm",
+    "label": "SIM-04 diagnostic | 5V | UVLO permission bypass | approx. 100 mA"
+  },
+  {
+    "stem": "SIM-04_UVLO_bypass_bounded_33V",
+    "solver": "norm",
+    "label": "SIM-04 diagnostic | 33V | UVLO permission bypass | approx. 100 mA"
+  }
+]

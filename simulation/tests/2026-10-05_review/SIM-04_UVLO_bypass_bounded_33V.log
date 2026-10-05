@@ -1,0 +1,66 @@
+Circuit: * C:\Users\marco\.codex\.chatgpt-projects\g-p-69854ea089348191b3ed2f1bb8c6049c\tmp\U17-scoped-dropout\runs\SIM-04_adjusted_33V\alt\SIM-04_adjusted_33V.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node vin.  This node is used by v5.
+WARNING: Less than two connections to node var.  This node is used by v10.
+Instance "m:u8:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u13:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u14:2": Length shorter than recommended for a level 1 MOSFET.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Gmin = 1000
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 969.467
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 976.983
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Source stepping method for .op point skipped.
+Pseudo Transient succeeded in finding the operating point at 15.4733 s.
+Heightened Def Con from 0.00500045 to 0.00500045
+Heightened Def Con from 0.016962 to 0.016962
+Heightened Def Con from 0.0169621 to 0.0169621
+Heightened Def Con from 0.0169626 to 0.0169626
+Heightened Def Con from 0.0207682 ++++to 0.0207682
+Heightened Def Con from 0.0207682 to 0.0207682
+Heightened Def Con from 0.0207682 +to 0.0207682
+Heightened Def Con from 0.112188 to 0.112188
+Heightened Def Con from 0.11246 to 0.11246
+Heightened Def Con from 0.11975 to 0.11975
+Heightened Def Con from 0.124287 to 0.124287
+Heightened Def Con from 0.124287 to 0.124287
+
+Date: Sun Oct  4 23:56:13 2026
+Total elapsed time: 254.114 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 804566
+traniter = 801665
+tranpoints = 261658
+accept = 192015
+rejected = 69680
+matrix size = 511
+fillins = 3859
+solver = Normal
+Avg thread counts: 7.0/2.0/1.0/1.0
+Matrix Compiler1:   55968 opcodes  254.8/[140.6]/279.9
+Matrix Compiler2: 107.77 KB object code size  12.2/11.8/[5.9]
+

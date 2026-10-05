@@ -318,7 +318,7 @@ and a suitable transient response; the simulated
 load-step results are reported in the electrical
 characteristics section.
 
-The output uses a 1\,$\mu$F tantalum capacitor with an external
+The board output uses a 1\,$\mu$F tantalum capacitor with a discrete
 1\,$\Omega$ series resistor. This resistor deliberately adds series
 resistance independently of the capacitor's intrinsic ESR. Series
 resistance can introduce a zero that assists loop compensation;
@@ -647,6 +647,36 @@ load impedances, or self-heating. Component tolerances and thermal
 variation were not swept. The curves therefore describe the
 modeled circuit under nominal conditions and require comparison
 with measurements on the assembled board.
+
+
+The solver setting is part of each reproducible test configuration.
+Normal was retained for cases completing with that engine; Alternate
+was retained where it provided the completed numerical solution used
+for the reported results. Alternate uses higher-precision arithmetic
+and can help with convergence, at additional computational cost
+\cite{adi_ltspice_solver_2026}. Neither choice changes the physical
+circuit models or establishes hardware accuracy. Table~\ref{tab:solver_settings}
+records the settings used; the launcher applies them automatically.
+Changing cases in the GUI does not automatically change its solver.
+
+\begin{table}[t]
+\centering\footnotesize
+\caption{Solver settings for the 16 principal test entries}
+\label{tab:solver_settings}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Test & 5 V & 3.3 V \\
+\midrule
+SIM-01 & Normal & Alternate \\
+SIM-02, SIM-03 & Normal & Normal \\
+SIM-04 & Normal (SIM-07) & Alternate \\
+SIM-05, SIM-06 & Normal & Alternate \\
+SIM-07 & Normal & --- \\
+SIM-08 & Normal & Alternate \\
+SIM-09 & Alternate & Alternate \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \subsection{Startup and Shutdown Behavior}
 
@@ -982,6 +1012,19 @@ Last entry into final \(\pm1\%\) band &
 \end{tabularx}
 \end{table*}
 
+
+\paragraph{Input-current peak at connection}
+The two no-load tests (SIM-05, selector entries 8 and 9) show a
+source-current peak of approximately 47 A near 5 ms. A separate
+short-duration run saving capacitor currents identifies C20, the
+10\,$\mu$F doubler-output capacitor, as the dominant charging branch;
+the load current remains small. This peak is strongly dependent on
+the modeled source impedance and capacitor ESR. For illustration,
+adding 0.25\,$\Omega$ at the source and 0.1\,$\Omega$ ESR to C20
+reduces the calculated peak to approximately 12.1 A. Those assumed
+values are a sensitivity check, not measured parasitics or a hardware
+inrush prediction. The steady no-load figures exclude this event.
+
 \subsection{Regulation-Loop Stability}
 
 SIM-09 evaluates the nominal small-signal regulation loop at
@@ -998,7 +1041,7 @@ the amplifier input give the return ratio using Tian's method
 \cite{tian_stability_2001}. With the critical point at \(-1\),
 phase margin is \(180^{\circ}+\angle T\) at unity magnitude;
 gain margin is \(-20\log_{10}|T|\) at \(-180^{\circ}\).
-Figure~\ref{fig:regulation_loop_gain} and
+Figures~\ref{fig:loop_load_5V} and~\ref{fig:loop_load_33V}, together with
 Table~\ref{tab:loop_stability} show the resulting positive margins.
 Increasing the frequency sampling density tenfold and reversing the
 probe orientation leave the reported rounded margins unchanged.
@@ -1018,36 +1061,38 @@ and recalculates the operating point for each load. At approximately
 for the 5\,V and 3.3\,V modes. With a 1\,M$\Omega$ external load,
 they decrease to 41.5\textdegree{} and 31.7\textdegree{}, while
 crossover frequencies fall to 19.5 and 17.1\,kHz. These checks retain
-the 1\,$\mu$F output capacitor and external 1\,$\Omega$ series resistor. They show
+the on-board 1\,$\mu$F output capacitor and discrete 1\,$\Omega$ series resistor. They show
 load dependence but do not establish margins for every intermediate
 load, temperature, component tolerance or auxiliary-supply condition.
 
-Output-capacitor sensitivity was also examined, motivated by the
-influence of capacitance and ESR on regulator loop dynamics
-\cite{ti_esr_stability_2020}. With a 1\,M$\Omega$ load and the output
-auxiliary branch retained, varying capacitance from 0.8 to
-1.2\,$\mu$F at 1\,$\Omega$ modeled series resistance gives phase margins of
-43.9--39.7\textdegree{} (5\,V) and 33.3--30.6\textdegree{}
-(3.3\,V). A hypothetical reduction of total modeled series
-resistance to 0.1\,$\Omega$ at 1\,$\mu$F lowers
-the 3.3\,V margin to 26.4\textdegree{}. Small added-load transients
-in this fixed-bias bench show decaying ringing, more pronounced
-with the lower series resistance. The 0.1\,$\Omega$ case does
-not represent the board with its external 1\,$\Omega$ resistor.
-The capacitor's intrinsic ESR adds to that resistance; these tests
-do not establish its value or an allowable range for the board.
 
-Removing the external output capacitor gives positive phase margins
-at approximately 1\,A (37.1\textdegree{} and 39.1\textdegree{}), but
-negative margins at a 1\,M$\Omega$ load; corresponding fixed-bias
-transient tests show persistent oscillation. Capacitor-free operation
-is therefore not established over the load range. With the external
-1\,$\Omega$ resistor retained, increasing capacitance to 10\,$\mu$F
-raises the 1\,A phase margins to 58.9\textdegree{} and 58.4\textdegree{},
-but lowers the near-no-load margins to 32.0\textdegree{} and
-27.0\textdegree{}. Thus, larger capacitance does not uniformly
-improve the loop margins. These values neglect intrinsic capacitor ESR.
+The additional-capacitor study keeps the on-board 1\,$\mu$F +
+1\,$\Omega$ branch intact. A separate capacitor, $C_{\mathrm{ext}}$,
+is connected from the output to ground through its own modeled
+series resistance. Figures~\ref{fig:loop_external_5V}
+and~\ref{fig:loop_external_33V} compare no added capacitor with
+1, 10 and 47\,$\mu$F, using an assumed external-branch resistance
+of 0.1\,$\Omega$. This is distinct from replacing the board capacitor.
+The bias point is recalculated for each load before the AC analysis;
+auxiliary biases remain fixed as in the nominal SIM-09 bench.
 
+The effect is not monotonic. Adding 1\,$\mu$F reduces the phase
+margin to 41.0\textdegree{} and 37.3\textdegree{} at 1 A in the
+5 V and 3.3 V modes. Adding 10\,$\mu$F instead gives
+81.6\textdegree{} and 71.5\textdegree{}, with unity-gain
+frequencies of 111 and 128 kHz. At 47\,$\mu$F those frequencies
+fall further to 41.9 and 66.9 kHz. A higher margin therefore does
+not imply unchanged bandwidth or prove a faster transient response.
+
+Series resistance also matters \cite{ti_esr_stability_2020}:
+with 10\,$\mu$F added, changing the assumed branch resistance
+from 0.1 to 1\,$\Omega$ changes the 1 A phase margins to
+67.9\textdegree{} and 65.2\textdegree{}. These are parameter
+studies, not capacitor-selection guarantees over tolerance,
+temperature, wiring inductance or all intermediate loads.
+Earlier diagnostic removal of the on-board output capacitor gave
+negative margins near no load; that separate result does not
+establish capacitor-free operation across the load range.
 
 \begin{table}[t]
 \centering
@@ -1068,13 +1113,30 @@ Mode & Crossover & Phase margin & Gain margin \\
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.95\textwidth]{SIM-09_core_loop.pdf}
-\caption{Return ratio of the isolated regulation-loop bench (SIM-09),
-with 5\,$\Omega$ and 3.3\,$\Omega$ loads, a 1\,$\mu$F output
-capacitor and an external 1\,$\Omega$ series resistor,
-with intrinsic capacitor ESR neglected. Auxiliary supply and control
-biases are fixed. Dashed lines mark unity gain and \(-180^{\circ}\).}
-\label{fig:regulation_loop_gain}
+\includegraphics[width=0.94\textwidth]{SIM-09_load_comparison_5V.pdf}
+\caption{SIM-09 load comparison in the 5 V mode. The on-board 1\,$\mu$F + 1\,$\Omega$ branch is retained with no additional capacitor. Circles mark unity gain; squares mark the $-180^\circ$ crossing. Dotted guides identify the phase and gain margins. Auxiliary biases are fixed, at 27\,\textdegree C.}
+\label{fig:loop_load_5V}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.94\textwidth]{SIM-09_load_comparison_33V.pdf}
+\caption{SIM-09 load comparison in the 3.3 V mode. The on-board 1\,$\mu$F + 1\,$\Omega$ branch is retained with no additional capacitor. Circles mark unity gain; squares mark the $-180^\circ$ crossing. Dotted guides identify the phase and gain margins. Auxiliary biases are fixed, at 27\,\textdegree C.}
+\label{fig:loop_load_33V}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.94\textwidth]{SIM-09_external_capacitance_5V.pdf}
+\caption{Additional output-capacitance sensitivity in the 5 V mode, at 100 mA and 1 A. The existing 1\,$\mu$F + 1\,$\Omega$ branch is unchanged. Each added capacitor has an assumed 0.1\,$\Omega$ series resistance. Values describe the fixed-auxiliary-bias SIM-09 bench, not measured hardware margins.}
+\label{fig:loop_external_5V}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.94\textwidth]{SIM-09_external_capacitance_33V.pdf}
+\caption{Additional output-capacitance sensitivity in the 3.3 V mode, at 100 mA and 1 A. The existing 1\,$\mu$F + 1\,$\Omega$ branch is unchanged. Each added capacitor has an assumed 0.1\,$\Omega$ series resistance. Values describe the fixed-auxiliary-bias SIM-09 bench, not measured hardware margins.}
+\label{fig:loop_external_33V}
 \end{figure*}
 
 \begin{figure*}[t]
@@ -1138,6 +1200,17 @@ did not reduce driver dissipation in this dropout condition; the
 measurement fixture must also establish a low-dissipation rest state.
 These nominal-model results do not establish a hardware dropout
 specification.
+An additional diagnostic bypasses only the UVLO permission at R87,
+retaining the adjusted thresholds, delay, and OVLO circuits. Complete
+descending ramps at approximately 100\,mA give a 100\,mV output loss
+at input-node voltages of approximately 4.947\,V (5\,V mode) and
+4.028\,V (3.3\,V mode). The latter still has substantial input--output
+headroom: disabling UVLO alone does not isolate the pass transistor
+from the low-voltage behavior of the auxiliary and discharge circuits.
+It is therefore reported as a system operating boundary, not as
+intrinsic pass-element dropout. Nominal protection thresholds remain
+unchanged in the principal simulation cases.
+
 
 
 
@@ -1151,6 +1224,14 @@ and \(2.418\,\mathrm{V}\) in the 3.3\,V mode. A subsequent
 of approximately \(1.474\,\mathrm{A}\) in both modes.
 Enable remains asserted throughout, and removing either fault
 restores the selected output voltage without an enable cycle.
+
+
+The two current traces must be distinguished. In the 3.3 V overload
+hold, the mean load current $I(R_{\mathrm{load}})$ is 1.465 A,
+whereas the mean sense-resistor current $-I(R_{25})$ is 1.481 A.
+Their approximately 16 mA difference is the net current in the
+other output-connected paths during that hold. The quoted output
+current refers to the external load, not the total sense current.
 
 Current limiting is not instantaneous: the short-circuit transition
 produces a brief current overshoot before the sustained limit is
@@ -1218,13 +1299,16 @@ Source voltage at 98\% output &
 3.3\,V mode, falling 0.1\,V/ms, shutdown boundary, SIM-04 &
 -- & 5.823\,V & -- \\
 
-Overload current &
+Overload load current &
 5\,V mode, 8\,V source, 2.5\,$\Omega$ overload, SIM-08 &
 -- & 1.485\,A & -- \\
 
-Overload current &
+Overload load current &
 3.3\,V mode, 8\,V source, 1.65\,$\Omega$ overload, SIM-08 &
 -- & 1.465\,A & -- \\
+
+Overload sense current & 3.3\,V mode, $-I(R_{25})$, SIM-08 &
+-- & 1.481\,A & -- \\
 
 Short-circuit current &
 5\,V mode, 8\,V source, 50\,m$\Omega$ short, SIM-08 &
