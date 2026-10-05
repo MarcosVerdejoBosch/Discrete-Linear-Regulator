@@ -27,6 +27,8 @@ En la carpeta del escritorio ya preparada, abrir **ELEGIR_SIMULACION.cmd**. El n
 
 **SIM-02, 3,3 V:** tras una repetición del bloqueo a 28,2 ms, se eliminó la inclusión duplicada de phil_fet.lib y se conservó `itl4=100`. La biblioteca sigue cargándose desde el símbolo local. El caso completó 320 ms con Normal, los símbolos locales y el perfil de curvas presente. Cerrar y reabrir el esquema para cargar esta revisión.
 
+**SIM-08, 5 V (2026-10-04):** se eliminó la inclusión duplicada de phil_fet.lib. Completó los 210 ms en modo interactivo con Normal, símbolos locales y curvas presentes. Cerrar y reabrir el ASC actualizado antes de repetir la opción 13.
+
 ### Cómo comparar las curvas
 
 - SIM-02 y SIM-03: los valores indicados son **medias asentadas**, no mínimos/máximos de la ondulación instantánea. Las vistas iniciales amplían la tensión de salida.
