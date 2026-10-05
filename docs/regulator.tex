@@ -1043,8 +1043,8 @@ phase margin is \(180^{\circ}+\angle T\) at unity magnitude;
 gain margin is \(-20\log_{10}|T|\) at \(-180^{\circ}\).
 Figures~\ref{fig:loop_load_5V} and~\ref{fig:loop_load_33V}, together with
 Table~\ref{tab:loop_stability} show the resulting positive margins.
-Increasing the frequency sampling density tenfold and reversing the
-probe orientation leave the reported rounded margins unchanged.
+Earlier frequency-resolution and probe-orientation checks gave
+consistent margins; the comparisons below use 500 points per decade.
 
 As a limited cross-check, a \(500\,\mu\mathrm{V}\) sinusoid
 was injected into the complete switching circuit at each calculated
@@ -1106,7 +1106,7 @@ approximately 1\,A; fixed auxiliary biases)}
 Mode & Crossover & Phase margin & Gain margin \\
 \midrule
 5\,V & 558\,kHz & 52.5\textdegree & 17.3\,dB \\
-3.3\,V & 530\,kHz & 52.0\textdegree & 17.8\,dB \\
+3.3\,V & 530\,kHz & 52.0\textdegree & 17.7\,dB \\
 \bottomrule
 \end{tabular}
 \end{table}
