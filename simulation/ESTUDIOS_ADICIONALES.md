@@ -42,3 +42,14 @@ Una caída de salida de 100 mV respecto del nivel inicial ocurre a V(VBAT) ≈ 4
 - Una sensibilidad separada con 0,25 Ω en la fuente y 0,1 Ω de ESR en C20 reduce el pico a ≈12,1 A. Son valores ilustrativos asumidos, no una predicción validada del pico real. Las capacitancias, resistencia de fuente y cableado reales deben caracterizarse para esa comparación.
 
 Los CIR de diagnóstico, logs de finalización, métricas y huellas de los RAW se guardan en `tests/2026-10-05_review/`. Los RAW voluminosos permanecen en el archivo local; los resultados de Bode se publican como CSV. Los CIR de inrush pueden copiarse a la carpeta preparada para ejecutarlos con sus modelos; usan Normal y un intervalo corto de 5,02 ms. No reemplazan los ensayos principales.
+
+
+## Cierre de revisión local — 2026-10-07
+
+Las 16 entradas principales quedan congeladas desde la carpeta local validada por el usuario, con modelos, símbolos y perfiles. El archivo privado de respaldo no se publica en el repositorio público. Los estudios adicionales no forman parte de esa aceptación.
+
+Los ASC de CEXT contienen una nota visible: cada Run representa una condición de carga/capacitancia, con las dos inyecciones necesarias para calcular el lazo. Para comparar 100 mA y 1 A, abrir los dos archivos indicados en la nota. Las figuras del informe combinan esos casos; no agregar otro `.step` sin adaptar la expresión que identifica las inyecciones con `@1` y `@2`.
+
+**Dropout pendiente de revisión personal:** el selector adicional incluye al final `SIM-04_adjusted_5V.asc` (Normal) y `SIM-04_adjusted_33V.asc` (Alternate). Usan RV10 = 100 kΩ y RV12 = 47 kΩ, cargas de 50 Ω / 33 Ω, fuente de 8 a 4 V entre 80 y 120 ms. Conservan UVLO. En 5 V se espera una pérdida de salida de 100 mV cerca de 4,947 V de entrada; en 3,3 V actúa UVLO primero, cerca de 4,793 V. Por eso el segundo caso no establece dropout intrínseco. Son diferentes de los dos archivos `UVLO_bypass`, que anulan un permiso y se conservan sólo como diagnóstico.
+
+La revisión visual de las figuras del informe queda pospuesta por decisión del usuario. Las cifras publicadas conservan sus datos y procedimientos asociados; eso no equivale a aprobación visual del informe ni a validación física.

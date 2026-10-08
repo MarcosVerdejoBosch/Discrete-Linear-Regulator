@@ -1,0 +1,102 @@
+[
+  {
+    "stem": "SIM-09_external_5V_100mA_0u_R0",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "c6b601a7eef82a1eac4f6a7d7d74208296d2945095b7742f663ae061fef98654"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_1u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "8a8eb744cc47081fa5af313f85bc9ace1898837ed4ff82891f62de72aa9b5961"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_10u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "0b4ed2ba771f1220b14ff1708dc4e76b254a63be7a6c36261620664fda8f74f7"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_47u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "8a674e789dff2f14bd9e89427fd14a43f369101971e9ebb45f3022f7d5fcf5ab"
+  },
+  {
+    "stem": "SIM-09_external_5V_100mA_10u_R1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "bef7dd7376934305bff8ed26dd82c5bc6d57b495fc7f1d2bcfd7225c109fd34e"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_0u_R0",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "bb2efb135104ebd32d3dd31f83b345bcff92cedd7dfd741bf647257fdaf9c26f"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_1u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "8069ae121ea542a88bb974c495d40e99ccfa99e42d5ba60b41a916254e2f2028"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_10u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "21bdbaad3edb83355f535c967dc286b1b45ad24ac9497d44ea3a3a81dd33a82e"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_47u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "787301ad8380981c9142e60720228cbe07f8af34bca88244e3eb609ab7c2ec24"
+  },
+  {
+    "stem": "SIM-09_external_5V_1A_10u_R1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "73c70effd95926ce3c9c0d4870966722256158bdae239f33985d668e67560ca8"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_0u_R0",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "e47cbd3db6bba0aa780d756356e1f664412dd605337fb32f998b49456a86108a"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_1u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "ce0dc9be560363fc3772194d550e640975b6ae4f8105db5de49de34a9d217d24"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_10u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "ed7146a83d48105b17ee84733bba817de6ce1a704b8ae9fce8c2a3521f1c4c3e"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_47u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "9a05335145f4771b140502db9f43f209cab279c2d9e3c710a14e993d784fbb78"
+  },
+  {
+    "stem": "SIM-09_external_33V_100mA_10u_R1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "de249e2afa7af6edb3dc18695b44ae9eea1a44625a4ad5fd61b24c142153549a"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_0u_R0",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "dfcc1d17c9311d4eb13e8e92d0aefc42c48662912fbf7b35d0f0d3bdf1231bf0"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_1u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "001061be653189a9f7867990304bb0b6af64c09478acfc794260c54ad02e7d2e"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_10u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "0d8d932eb44d798e961fbc6eb36d4e8a96cb826963f94206f4b17a22bf377e21"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_47u_R0p1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "f0b5e0bd01ada45f40edc4ec2e479959349688e171c3058bd71657d06edbc8d4"
+  },
+  {
+    "stem": "SIM-09_external_33V_1A_10u_R1",
+    "change": "visible comment only; electrical content unchanged",
+    "current_asc_sha256": "c7b92113f7a5be3b0aee2fb258493ced7b59f964a25e1410410acb1289549581"
+  }
+]

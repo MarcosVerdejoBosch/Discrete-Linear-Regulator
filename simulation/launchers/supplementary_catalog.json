@@ -108,5 +108,15 @@
     "stem": "SIM-04_UVLO_bypass_bounded_33V",
     "solver": "norm",
     "label": "SIM-04 diagnostic | 33V | UVLO permission bypass | approx. 100 mA"
+  },
+  {
+    "stem": "SIM-04_adjusted_5V",
+    "solver": "norm",
+    "label": "SIM-04 pending user review | 5V | adjusted RV10/RV12 | protections retained"
+  },
+  {
+    "stem": "SIM-04_adjusted_33V",
+    "solver": "alt",
+    "label": "SIM-04 pending user review | 33V | adjusted RV10/RV12 | protections retained"
   }
 ]
