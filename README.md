@@ -1,5 +1,7 @@
 # Discrete Linear Regulator
 
+**Simulation baseline closed — 2026-10-07.** The builder validated the 16 principal entries and all 20 additional SIM-09 cases. The exact local ASC/PLT files are preserved, including the final annotation layout. [Closure and recovery scope](publication/SIMULATIONS_V1.md). Open the prepared `.asc` in LTspice and press **Run**; launchers are optional. External models remain necessary. Hardware characterization and the later editorial review of the report remain separate.
+
 A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a fabricated PCB, and documented LTspice studies.
 
 **Review snapshot â€” September 2026.** The assembled board has produced both output voltages. Detailed bench characterization remains pending. Numerical results below are simulations, not hardware specifications.

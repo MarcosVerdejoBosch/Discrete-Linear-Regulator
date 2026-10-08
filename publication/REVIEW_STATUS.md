@@ -1,5 +1,7 @@
 # Review status — 2026-10-05
 
+**Current status — 2026-10-07:** simulation baseline closed: 16 principal entries and 20 additional SIM-09 cases accepted by the builder. The exact latest local schematics and plot profiles are preserved. Adjusted-threshold dropout (5 V executed by the builder) and UVLO-bypass cases remain archived diagnostics, not release requirements. Earlier pending-review statements below are historical. Detailed physical measurements and report visual review are not included in this acceptance. See [frozen baseline](SIMULATIONS_V1.md).
+
 The original GitHub history and license are preserved. This remains a simulation review snapshot, not a hardware-qualified release.
 
 ## Completed

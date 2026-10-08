@@ -1,5 +1,7 @@
 # Estudios adicionales: carga, capacitor externo y baja tensión
 
+**Estado vigente: cerrado, 2026-10-07.** Marco confirmó los 20 casos SIM-09; las netlists regeneradas coinciden eléctricamente y los márgenes reproducen los de las figuras. Las menciones posteriores a revisión pendiente se conservan como historial. Dropout: se ejecutó el ajuste de 5 V; los cambios de umbral/bypass quedan como diagnósticos, no funciones propuestas ni requisitos pendientes para este cierre.
+
 Las 16 entradas del selector principal se mantienen. El usuario comunicó que todas ejecutaron correctamente. Estos estudios complementarios tienen comprobación automática de ejecución; quedan disponibles para su revisión visual y no representan mediciones físicas.
 
 ## Abrir y ejecutar

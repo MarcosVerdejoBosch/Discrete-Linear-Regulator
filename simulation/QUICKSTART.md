@@ -1,5 +1,7 @@
 # Ejecutar las simulaciones
 
+**Uso directo:** después de disponer de los modelos y símbolos en la carpeta preparada, abrir el `.asc` y pulsar **Run**. Mantener su `.plt` al lado para cargar las curvas. Los `.cmd` son opcionales; no son un requisito para simular. Esta versión conserva los archivos locales de los 36 casos validados por el usuario. Ver los ajustes de solver de cada escenario si se cambia entre pruebas.
+
 [Tabla de todos los archivos ASC y resultados esperados](GUIA_REVISION_LTSPICE.md).
 
 ## Tres pasos en Windows

@@ -1,5 +1,7 @@
 # Revisión pendiente del usuario
 
+**Lista cerrada el 2026-10-07.** Los 20 casos SIM-09 fueron ejecutados y aceptados por Marco. La tabla inferior queda como referencia para reproducir resultados. Los diagnósticos de dropout no bloquean el cierre de simulaciones. La revisión visual del informe se realizará más adelante.
+
 Las 16 entradas principales ya fueron confirmadas por Marco. La revisión visual del informe está pospuesta. Esta lista cubre solamente los estudios adicionales.
 
 Abrir **ELEGIR_ESTUDIO_ADICIONAL.cmd** en la carpeta Simulaciones. El selector aplica el solver. Si se abre directamente el ASC, usar Alternate para los Bode. Cada Run calcula las dos inyecciones y muestra un Bode para una condición. El comentario del esquema identifica el archivo de la otra carga.

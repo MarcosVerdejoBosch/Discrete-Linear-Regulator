@@ -1,5 +1,7 @@
 # Índice de simulaciones
 
+**Cierre 2026-10-07:** 16 entradas principales y 20 casos adicionales SIM-09 validados por el usuario. Se conservaron los ASC/PLT locales exactos. El dropout con umbrales modificados y los bypass quedan como diagnósticos archivados, fuera de los requisitos de aceptación. [Versión congelada](../publication/SIMULATIONS_V1.md).
+
 [Tabla de todos los archivos ASC y resultados esperados](GUIA_REVISION_LTSPICE.md).
 
 **Estudios adicionales (2026-10-05):** [Bode a 100 mA / 1 A, capacitancia externa y diagnóstico sin permiso UVLO](ESTUDIOS_ADICIONALES.md). El capacitor de la placa de 1 µF + 1 Ω se conserva. Incluye cuatro figuras comparativas y 22 esquemas adicionales, separados del selector principal.
