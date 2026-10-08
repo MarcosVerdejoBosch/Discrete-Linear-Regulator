@@ -1,0 +1,17 @@
+{
+  "test": "SIM-02",
+  "sources": [
+    {
+      "source": "simulation/tests/SIM-02_line_regulation/results/TEST_DROPOUT_line.txt",
+      "sha256": "00f8a4eaabb6d83e5ef6b293c38994f733bb52346aee8565a71cecd00f9c5e45"
+    },
+    {
+      "source": "simulation/tests/SIM-02_line_regulation/results/TEST_DROPOUT_33V_line.txt",
+      "sha256": "e67bbb3d814f63f791e8b4d080537d7ddad81fbee47f8e7c4d8e9fa10449bace"
+    }
+  ],
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "processing": "Original DC samples; no smoothing or fitting.",
+  "scope": "Reduced DC test schematics; equivalence to full SIM-01 is not established."
+}

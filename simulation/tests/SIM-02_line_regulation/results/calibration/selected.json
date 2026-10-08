@@ -1,0 +1,10 @@
+{
+  "iteration": "02",
+  "R33_ohm": 14846.5,
+  "RFB2_ohm": 28759.8,
+  "RFB1_ohm": 15000,
+  "input_V": 8,
+  "temperature_C": 27,
+  "metrics": "02/metrics.json",
+  "scope": "Calibration at approximately 1 A in each mode; line and load sweeps with this adjustment pending"
+}

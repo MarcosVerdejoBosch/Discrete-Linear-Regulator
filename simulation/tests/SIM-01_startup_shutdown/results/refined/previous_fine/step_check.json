@@ -1,0 +1,102 @@
+{
+  "5V": {
+    "two_us": {
+      "mean_V": 5.000019461718831,
+      "first_enable_ms": 23.817955808840146,
+      "first_98pct_ms": 29.187706233542695,
+      "first_pulse_V": 0.853804349899292,
+      "out_50mV_ms": 0.39392545271453583,
+      "vctrl_50mV_ms": 12.474890731226727
+    },
+    "one_us": {
+      "mean_V": 5.000019528346842,
+      "first_enable_ms": 23.81798022091311,
+      "first_98pct_ms": 29.187691571748868,
+      "first_pulse_V": 0.8538084030151367,
+      "out_50mV_ms": 0.39386799154020324,
+      "vctrl_50mV_ms": 12.474809064923368
+    },
+    "difference_one_minus_two": {
+      "mean_V": 6.662801066426027e-08,
+      "first_enable_ms": 2.441207296399739e-05,
+      "first_98pct_ms": -1.4661793827031033e-05,
+      "first_pulse_V": 4.0531158447265625e-06,
+      "out_50mV_ms": -5.74611743325848e-05,
+      "vctrl_50mV_ms": -8.166630335892933e-05
+    },
+    "manifest": [
+      {
+        "file": "SIM-01_check_step_5V.asc",
+        "sha256": "10623e6227a310a55b7861d9b1cf93edd3791deaf8f2ea0bb84f39857e429060"
+      },
+      {
+        "file": "SIM-01_check_step_5V.net",
+        "sha256": "fc232b67002251b3dde3f9cc797b302ef1e45621abdc5fb05b4469054d5e8950"
+      },
+      {
+        "file": "SIM-01_check_step_5V.log",
+        "sha256": "75cb38f6ae4db7b53a4188daf730d8b3cc780d4b573d24dca9488a53085dd417"
+      },
+      {
+        "file": "SIM-01_check_step_5V.raw",
+        "sha256": "d3d3a57ac003996889f5f68c467be5c0d4240d26ef887b184030c3d33214f724"
+      }
+    ],
+    "comparison_scope_s": [
+      0,
+      0.068
+    ],
+    "fine_run_complete": false,
+    "warning": "Fine runs stalled beyond 68 ms. Comparison is restricted to first startup and discharge; no convergence claim for reconnection."
+  },
+  "33V": {
+    "two_us": {
+      "mean_V": 3.3000015881095304,
+      "first_enable_ms": 23.818295027615598,
+      "first_98pct_ms": 29.187473000583626,
+      "first_pulse_V": 0.8418357968330383,
+      "out_50mV_ms": 0.3320043477654175,
+      "vctrl_50mV_ms": 12.47945898887274
+    },
+    "one_us": {
+      "mean_V": 3.3000016505250778,
+      "first_enable_ms": 23.818313358653068,
+      "first_98pct_ms": 29.18747903163458,
+      "first_pulse_V": 0.8418468236923218,
+      "out_50mV_ms": 0.33243501290845107,
+      "vctrl_50mV_ms": 12.47973928745156
+    },
+    "difference_one_minus_two": {
+      "mean_V": 6.241554739716548e-08,
+      "first_enable_ms": 1.833103747017617e-05,
+      "first_98pct_ms": 6.031050954646844e-06,
+      "first_pulse_V": 1.1026859283447266e-05,
+      "out_50mV_ms": 0.0004306651430335817,
+      "vctrl_50mV_ms": 0.00028029857882039266
+    },
+    "manifest": [
+      {
+        "file": "SIM-01_check_step_33V.asc",
+        "sha256": "521570a6358f54085bb3c214a514a78f1612e53c3b3568530c085824da108bbc"
+      },
+      {
+        "file": "SIM-01_check_step_33V.net",
+        "sha256": "1d2026212e9949093bc20abc94fdbc1ae7c6d3ff655b9335987bfe47e6b1603d"
+      },
+      {
+        "file": "SIM-01_check_step_33V.log",
+        "sha256": "459c2d1e75147c8947ec4efd3a24e31f172a3e62cb9f9cd981897b0c1550d149"
+      },
+      {
+        "file": "SIM-01_check_step_33V.raw",
+        "sha256": "efcb3c128cc704e44e83bd601e62d06a319c953462805821b5493be239defffd"
+      }
+    ],
+    "comparison_scope_s": [
+      0,
+      0.068
+    ],
+    "fine_run_complete": false,
+    "warning": "Fine runs stalled beyond 68 ms. Comparison is restricted to first startup and discharge; no convergence claim for reconnection."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "verified_hashes": [
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load\\SIM-04_pulsed_load_5V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load\\SIM-04_pulsed_load_5V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load\\SIM-04_pulsed_load_5V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load\\SIM-04_pulsed_load_5V.raw",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load_inhibit\\SIM-04_pulsed_load_inhibit_5V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load_inhibit\\SIM-04_pulsed_load_inhibit_5V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load_inhibit\\SIM-04_pulsed_load_inhibit_5V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\pulsed_load_inhibit\\SIM-04_pulsed_load_inhibit_5V.raw"
+  ],
+  "inhibited_rest_Q3_below_10mW": true,
+  "load_only_Q3_above_340mW_in_all_dropout_holds": true,
+  "loaded_output_match_within_10uV": true,
+  "physical_validation": false
+}

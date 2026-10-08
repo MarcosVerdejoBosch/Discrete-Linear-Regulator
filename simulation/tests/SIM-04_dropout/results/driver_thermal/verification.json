@@ -1,0 +1,24 @@
+{
+  "verified_hashes": [
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\original\\SIM-04_driver_thermal_5V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\original\\SIM-04_driver_thermal_5V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\original\\SIM-04_driver_thermal_5V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\original\\SIM-04_driver_thermal_5V.raw",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\R100_candidate\\SIM-04_driver_R100_5V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\R100_candidate\\SIM-04_driver_R100_5V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\R100_candidate\\SIM-04_driver_R100_5V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\driver_thermal\\R100_candidate\\SIM-04_driver_R100_5V.raw"
+  ],
+  "largest_original_output_mean_change_V_from_prior_run": 1.7524721229733586e-07,
+  "all_terminal_KCL_errors_below_A": 2.4330802261829376e-08,
+  "physical_measurement": false,
+  "candidate_adopted": false,
+  "report_pages": 15,
+  "report_pdf_sha256": "e922b7bc9bb224f6f11ad551f36ba93cb228866823dd277caa0addf09c8ccc28",
+  "rendered_pages": [
+    10,
+    14
+  ],
+  "undefined_references": false,
+  "overfull_boxes": false
+}

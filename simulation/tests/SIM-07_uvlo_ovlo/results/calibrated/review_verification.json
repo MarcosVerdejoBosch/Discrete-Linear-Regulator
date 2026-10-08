@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-20",
+  "method": "Archived RAW events and plateau means recalculated; no new LTspice run",
+  "end_time_s": 0.264,
+  "archive_and_active_hashes_match": true,
+  "figure_metrics_hash_matches": true,
+  "events": {
+    "uvlo": [
+      {
+        "time_ms": 105.03269953410293,
+        "sensed_supply_V": 5.494901736487709,
+        "edge": "falling"
+      },
+      {
+        "time_ms": 132.61022821469652,
+        "sensed_supply_V": 5.859048237801803,
+        "edge": "rising"
+      }
+    ],
+    "ovlo": [
+      {
+        "time_ms": 184.27146687828858,
+        "sensed_supply_V": 11.002977610998322,
+        "edge": "falling"
+      },
+      {
+        "time_ms": 222.6350538836392,
+        "sensed_supply_V": 10.135077687236802,
+        "edge": "rising"
+      }
+    ],
+    "delay": [
+      {
+        "time_ms": 101.82865047040028,
+        "sensed_supply_V": 5.785534355223549,
+        "edge": "falling"
+      },
+      {
+        "time_ms": 135.25315625143816,
+        "sensed_supply_V": 6.123305152418841,
+        "edge": "rising"
+      }
+    ],
+    "enable": [
+      {
+        "time_ms": 101.83987247160279,
+        "sensed_supply_V": 5.783763282470678,
+        "edge": "falling"
+      },
+      {
+        "time_ms": 135.31115966162582,
+        "sensed_supply_V": 6.129679429981739,
+        "edge": "rising"
+      },
+      {
+        "time_ms": 184.961153694383,
+        "sensed_supply_V": 11.094573801130934,
+        "edge": "falling"
+      },
+      {
+        "time_ms": 221.438520708292,
+        "sensed_supply_V": 10.253548397258024,
+        "edge": "rising"
+      }
+    ]
+  },
+  "user_validation": "pending",
+  "hardware_validation": "pending",
+  "scope": "5 V mode only, original protection settings, source slew 0.1 V/ms"
+}

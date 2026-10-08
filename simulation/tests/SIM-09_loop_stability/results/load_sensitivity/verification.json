@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-20",
+  "scope": "Fixed nominal auxiliary biases, each load independently settled; not full-circuit operating-condition equivalence",
+  "conditions": [
+    {
+      "case": "5V_100mA",
+      "phase_margin_deg": 57.27244018269373,
+      "gain_margin_dB": 18.348888254946573,
+      "crossover_Hz": 424021.6379022555,
+      "load_A": 0.1000002920627594,
+      "checks": "Completed logs, common injection OP, settled output, hashes and reverse-biased current-limit path verified"
+    },
+    {
+      "case": "5V_idle",
+      "phase_margin_deg": 41.469087558959075,
+      "gain_margin_dB": 16.790815078911873,
+      "crossover_Hz": 19475.591929257786,
+      "load_A": 5.000015789846657e-06,
+      "checks": "Completed logs, common injection OP, settled output, hashes and reverse-biased current-limit path verified"
+    },
+    {
+      "case": "33V_100mA",
+      "phase_margin_deg": 53.82330171388452,
+      "gain_margin_dB": 18.408389370789553,
+      "crossover_Hz": 415154.21302308916,
+      "load_A": 0.10000025480985641,
+      "checks": "Completed logs, common injection OP, settled output, hashes and reverse-biased current-limit path verified"
+    },
+    {
+      "case": "33V_idle",
+      "phase_margin_deg": 31.670348900222024,
+      "gain_margin_dB": 16.963168614326108,
+      "crossover_Hz": 17141.571607562422,
+      "load_A": 3.30000921167084e-06,
+      "checks": "Completed logs, common injection OP, settled output, hashes and reverse-biased current-limit path verified"
+    },
+    {
+      "case": "5V_idle_aux",
+      "phase_margin_deg": 41.55793561463241,
+      "gain_margin_dB": 16.79063048529469,
+      "crossover_Hz": 19522.97735580318,
+      "load_A": 5.000015789846657e-06,
+      "checks": "Completed logs, common injection OP, settled output, hashes and reverse-biased current-limit path verified"
+    },
+    {
+      "case": "33V_idle_aux",
+      "phase_margin_deg": 31.760639131347546,
+      "gain_margin_dB": 16.962002965740805,
+      "crossover_Hz": 17185.901624469523,
+      "load_A": 3.30000921167084e-06,
+      "checks": "Completed logs, common injection OP, settled output, hashes and reverse-biased current-limit path verified"
+    }
+  ]
+}

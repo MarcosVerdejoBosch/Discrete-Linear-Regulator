@@ -1,0 +1,74 @@
+[
+  {
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "test": "SIM-06_calibrated_transient_5V.asc",
+    "sha256": "e16a9d92313318fc122294b352f0f1858763ab9b86366aab6460e0ac3891f4b2",
+    "source_V": 8,
+    "temperature_C": 27,
+    "nominal_load_A": [
+      0.1,
+      1,
+      0.1
+    ],
+    "edge_times_ms": [
+      80,
+      120
+    ],
+    "conductance_transition_us": 1,
+    "duration_ms": 160,
+    "global_max_step_us": 2,
+    "local_tripdt_ns": 20,
+    "refinement_windows_ms": [
+      [
+        79.99,
+        80.2
+      ],
+      [
+        119.99,
+        120.2
+      ]
+    ],
+    "changes": [
+      "RLOAD is a time-dependent positive resistance; nominal conductance ramps in 1 us",
+      "Duration extended to 160 ms",
+      "Isolated BRES controls numerical resolution only, no electrical connection to regulator"
+    ]
+  },
+  {
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "test": "SIM-06_calibrated_transient_33V.asc",
+    "sha256": "74a0fbc3a5c82056a8fd15ecf4044a8f67ae878fd3220e893ae322c659deeba0",
+    "source_V": 8,
+    "temperature_C": 27,
+    "nominal_load_A": [
+      0.1,
+      1,
+      0.1
+    ],
+    "edge_times_ms": [
+      80,
+      120
+    ],
+    "conductance_transition_us": 1,
+    "duration_ms": 160,
+    "global_max_step_us": 2,
+    "local_tripdt_ns": 20,
+    "refinement_windows_ms": [
+      [
+        79.99,
+        80.2
+      ],
+      [
+        119.99,
+        120.2
+      ]
+    ],
+    "changes": [
+      "RLOAD is a time-dependent positive resistance; nominal conductance ramps in 1 us",
+      "Duration extended to 160 ms",
+      "Isolated BRES controls numerical resolution only, no electrical connection to regulator"
+    ]
+  }
+]

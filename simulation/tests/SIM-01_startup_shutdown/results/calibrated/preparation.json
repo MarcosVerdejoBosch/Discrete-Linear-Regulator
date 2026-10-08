@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "5V",
+    "load_ohm": 50,
+    "source_V": 8,
+    "temperature_C": 27,
+    "calibration": "R33=14846.5 ohm; RFB2=28759.8 ohm",
+    "events_ms": [
+      5,
+      55,
+      85
+    ],
+    "stop_ms": 140,
+    "max_step_us": 2,
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "scenario": "SIM-01_calibrated_startup_5V.asc",
+    "scenario_sha256": "5dd7155f428e96ec840477044865230a4226a0fffe3be5ee6fc76b2da08bc6e1",
+    "integration": "default",
+    "solver": "Normal (-norm command line)",
+    "load_representation": "Behavioral resistance constant in time; electrically 50/33 ohm"
+  },
+  {
+    "mode": "33V",
+    "load_ohm": 33,
+    "source_V": 8,
+    "temperature_C": 27,
+    "calibration": "R33=14846.5 ohm; RFB2=28759.8 ohm",
+    "events_ms": [
+      5,
+      55,
+      85
+    ],
+    "stop_ms": 140,
+    "max_step_us": 2,
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "scenario": "SIM-01_calibrated_startup_33V.asc",
+    "scenario_sha256": "403ed0c6b56a6d4f87d43476ccb647ca8802ef06b6b0f6d778ce34de64ad7c57",
+    "integration": "default",
+    "solver": "Normal (-norm command line)",
+    "load_representation": "Behavioral resistance constant in time; electrically 50/33 ohm"
+  }
+]

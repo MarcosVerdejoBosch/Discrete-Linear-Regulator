@@ -1,0 +1,1 @@
+Incomplete alternate-solver attempts with constant resistor stamp. Nominal first startup/shutdown progressed; reconnection and finer-step convergence remain problematic. Not accepted final runs. New test uses electrically equivalent behavioral resistance, following SIM-06.

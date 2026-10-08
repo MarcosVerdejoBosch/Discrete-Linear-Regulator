@@ -1,0 +1,50 @@
+{
+  "5V": {
+    "end_time_s": 9.999749999999998e-05,
+    "last_20us_output_min_V": 4.37903356552124,
+    "last_20us_output_max_V": 5.2018303871154785,
+    "last_20us_output_pp_V": 0.8227968215942383,
+    "manifest": [
+      {
+        "file": "SIM-09_nocap_transient_5V.cir",
+        "sha256": "6685d96a3588cf7116898fa9f515208e94570797346462a28d25bd20269749a0"
+      },
+      {
+        "file": "SIM-09_nocap_transient_5V.log",
+        "sha256": "7d20a579064ddd7509d6963ee956381b6e4f7a2542caa02300edd477a9b1afd2"
+      },
+      {
+        "file": "SIM-09_nocap_transient_5V.raw",
+        "sha256": "58615c83520f69421135f23c16be122973e036e9160ab675951d8270aac1ad81"
+      },
+      {
+        "file": "SIM-09_nocap_transient_5V.op.raw",
+        "sha256": "52959182e566660c3b8c3d95f15aab0fb32779080871a42a1c579b823d4d07ca"
+      }
+    ]
+  },
+  "33V": {
+    "end_time_s": 9.999749999999998e-05,
+    "last_20us_output_min_V": 2.6305503845214844,
+    "last_20us_output_max_V": 3.561490058898926,
+    "last_20us_output_pp_V": 0.9309396743774414,
+    "manifest": [
+      {
+        "file": "SIM-09_nocap_transient_33V.cir",
+        "sha256": "86501380fb226c75b5db6aea9106d3192d6197950b6cbd31451e3e990d6808a8"
+      },
+      {
+        "file": "SIM-09_nocap_transient_33V.log",
+        "sha256": "dd5400a1c5e8c5c81045c92af526766bbd698b7e3a7723fc79a0903fc035ee31"
+      },
+      {
+        "file": "SIM-09_nocap_transient_33V.raw",
+        "sha256": "ea5462e60466cff1cd851eff90a60c76be6e73b481bb3cfeb30e2c0dcbc76eb2"
+      },
+      {
+        "file": "SIM-09_nocap_transient_33V.op.raw",
+        "sha256": "0d0bbd00d0caffd9df83490ab2dba292ed348e893ad1573179942e4a2298897f"
+      }
+    ]
+  }
+}

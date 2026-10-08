@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "5V",
+    "frequency_Hz": 557712.4186947118,
+    "amplitude_V": 0.0005,
+    "source": "SIM-09_full_tone_5V.cir",
+    "fit_window_ms": [
+      80.05,
+      80.25
+    ]
+  },
+  {
+    "mode": "33V",
+    "frequency_Hz": 530472.6138444731,
+    "amplitude_V": 0.0005,
+    "source": "SIM-09_full_tone_33V.cir",
+    "fit_window_ms": [
+      80.05,
+      80.25
+    ]
+  }
+]

@@ -1,0 +1,650 @@
+{
+  "5V_1A_none": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 815007.5538756164,
+        "phase_deg": -142.8513657798988,
+        "phase_margin_deg": 37.1486342201012
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1843799.9870941339,
+        "phase_deg": -180,
+        "gain_margin_dB": 11.674429340272194
+      }
+    ],
+    "gain_at_1Hz_dB": 109.50759387861063,
+    "minimum_swept_gain_dB": -64.79863521629454,
+    "output_V": 5.00000548147352,
+    "load_A": 1.000001072883606,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_5V_1A_none_voltage.cir",
+        "sha256": "cbc9bddcc6ac5a6a3a4a7a6e16e9a997abbc4a8e34775666a0ac072363cac828"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_voltage.log",
+        "sha256": "d20236d6d5370125d1e29a5c9ae02eb28e1ccc68ce789523e2a81b2372f86a05"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_voltage.raw",
+        "sha256": "d2e7714f277735b50aae58f5107ca29db551f113a5f5a39d56baf70611b65168"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_voltage.op.raw",
+        "sha256": "7ccd4672d1d4d80b6b9b3cc25cc2f3ee0b47b301d87f30d09eda334e91407748"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_current.cir",
+        "sha256": "3da55a6c18775f2d14e5f97229c69fa2f6c86b1dde109c4d19c94b8f62edc853"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_current.log",
+        "sha256": "8ab077d31983a53b89a5a4ee447dcd0846cf16b712ac9a0a4e78c1cc4165eddc"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_current.raw",
+        "sha256": "d77a501f80f6f7f424d3ce664b96eebadb9997a3e4f67395d29b51b59f69884f"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_none_current.op.raw",
+        "sha256": "71d1732e32dd319e35d8a0f1a7f24476558ab541f6892c90a890c2110da4802d"
+      }
+    ]
+  },
+  "5V_1A_1u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 557715.4093527682,
+        "phase_deg": -127.49204763732922,
+        "phase_margin_deg": 52.50795236267078
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1979290.9037741078,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.277767133006762
+      }
+    ],
+    "gain_at_1Hz_dB": 109.50759386739452,
+    "minimum_swept_gain_dB": -66.38229235497707,
+    "output_V": 5.00000548138699,
+    "load_A": 1.000001072883606,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_voltage.cir",
+        "sha256": "b9c599f0e3669412cd4ff736a56f17e5565f6234845da9bd60e3a9fbb1bac757"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_voltage.log",
+        "sha256": "0bd41b2931a739f5b7a8680d960d3c05a145927676aa0cd99c0b873fa8c93fd6"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_voltage.raw",
+        "sha256": "e0b072b43adf36c1608fdf8a4186fbc5b9aba9e92b7e6ff92e8dadf56e0225ae"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_voltage.op.raw",
+        "sha256": "011ae6ee6fc00dfa7135c4942eeed9bfa4732276006510da71e20767b75db0fb"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_current.cir",
+        "sha256": "650bc70a55afd211a1f11530aa326ad7c7d0b13c8d02818f787edb6383add858"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_current.log",
+        "sha256": "2dfa5d02aecf0ff87115ba2154e5f09ee6565fda357c047b25f8e56361c890ee"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_current.raw",
+        "sha256": "d2bdae06597e45666d37b778e86c55d83211218f5076743ca45453a95702c836"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_1u_current.op.raw",
+        "sha256": "79bd166b831debe7c56961954ed60e62867a31eef88f575395f6a840f4b39f7b"
+      }
+    ]
+  },
+  "5V_1A_10u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 553282.6049920027,
+        "phase_deg": -121.13375016082135,
+        "phase_margin_deg": 58.86624983917865
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2043858.13334066,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.73768917272635
+      }
+    ],
+    "gain_at_1Hz_dB": 109.5075932681639,
+    "minimum_swept_gain_dB": -66.38132450429131,
+    "output_V": 5.000005481536196,
+    "load_A": 1.000001072883606,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_voltage.cir",
+        "sha256": "ecd8803d0032182460e2d02a00573b21bb0aa422df2ed686ee723169b46e16e8"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_voltage.log",
+        "sha256": "96aabe2acd55c55b165681ea390fb6e501cbb7dd47f0a45c94a1f4a74664b0c6"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_voltage.raw",
+        "sha256": "27761d3c8002220ac9b7f847f0a8da9c9748e0abdfdab7d8feaadd2bcbef29d1"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_voltage.op.raw",
+        "sha256": "ba6fc16e01fd78b4de39e4ac574d217083228f919f926137427693567fc1a28a"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_current.cir",
+        "sha256": "a58ba4258c10ccdde0058dc6703cf397866c9e1db251a8083a2b7e319cfc19c9"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_current.log",
+        "sha256": "5ac59b0a0badf82dee7fd2c2736500d7d5252327616c12e24cd7bfb12238e5a4"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_current.raw",
+        "sha256": "a8fb1bc4d9f3cdccd06150710c32709648f8436f850343f0e6bbc3851a70b6de"
+      },
+      {
+        "file": "SIM-09_outcap_5V_1A_10u_current.op.raw",
+        "sha256": "44e373a3d095d2f02113f32fa0793059808ecdd1876bba8e351383b1c9f3963b"
+      }
+    ]
+  },
+  "5V_idle_none": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 1272827.4637435197,
+        "phase_deg": -244.48075327884663,
+        "phase_margin_deg": -64.48075327884663
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 385397.52635530196,
+        "phase_deg": -180,
+        "gain_margin_dB": -5.831794507240237
+      }
+    ],
+    "gain_at_1Hz_dB": 137.80162155895545,
+    "minimum_swept_gain_dB": -45.17846926220231,
+    "output_V": 5.000015844213313,
+    "load_A": 5.000015789846657e-06,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_5V_idle_none_voltage.cir",
+        "sha256": "c5b96b2e32f0ae24902bc4110ab37ae00f4e7c5606a8cc0e03276971b5659f8f"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_voltage.log",
+        "sha256": "3eca2c3abf486c7e036ed45e748960d85f3104bb85c5c19629ce945657e27b12"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_voltage.raw",
+        "sha256": "f6dd8610285653e824ea8a567162630a542c5e5c6342ec319ace9280c5b9517d"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_voltage.op.raw",
+        "sha256": "e3b166198e39c6a4223ff94b48f1ec44fd9b075d8a326ae653b6cd6bebd15fcd"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_current.cir",
+        "sha256": "1f130b12102cbd8f41019bd470d3a36385413b33439e5c65860c1dac680fab5f"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_current.log",
+        "sha256": "f59d6966a74b025ff64cfada4c7dd2b92174e3634665fcf20d1e085a9b8bec14"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_current.raw",
+        "sha256": "cb86547f0b07175a043542491a65abe9b7f4e06646ff342d99ef55698e42ccfe"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_none_current.op.raw",
+        "sha256": "b852b378cc539dafaea6a87a1d9cea6f9489e1a593a8438d3bcbe98262c3fa14"
+      }
+    ]
+  },
+  "5V_idle_1u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 19522.97735580318,
+        "phase_deg": -138.4420643853676,
+        "phase_margin_deg": 41.55793561463241
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 477763.91900629865,
+        "phase_deg": -180,
+        "gain_margin_dB": 16.79063048529469
+      }
+    ],
+    "gain_at_1Hz_dB": 137.8004576136358,
+    "minimum_swept_gain_dB": -51.7090874386531,
+    "output_V": 5.000015844219307,
+    "load_A": 5.000015789846657e-06,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_voltage.cir",
+        "sha256": "1690e84656540d3f8f27f368d82ce8ee6e9bf3bd41798b28f3347fb6e98f877f"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_voltage.log",
+        "sha256": "60cacff10d2bf241362c91d686b023ea93aa47ebe128965e957a4beb57a0fd6d"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_voltage.raw",
+        "sha256": "072438b3b03745ac7f55895927052f66a7eb2d9585c7df00fc32bcd08fd5b834"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_voltage.op.raw",
+        "sha256": "564cc3c96b8427432aadbdfaf13bcb44bcfcf783a505880b943ce3bfc915d39e"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_current.cir",
+        "sha256": "cbd372c8be00d227cb1bd0058fa4ec41be77b9e7b3d37e34a1ff1add852e84b0"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_current.log",
+        "sha256": "b173263deaec51f74b3394d4b4e6c79686e39c68f90d710ac0344a17ea4a2c0f"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_current.raw",
+        "sha256": "f44f2a23236e8a410fbaed4a5c3f24819103627aa0413cfc0e33b8a352d241a4"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_1u_current.op.raw",
+        "sha256": "fb2bc4b58b9aac112dbaede01185ff96929c51decdccbcb3d197ca0660e60c76"
+      }
+    ]
+  },
+  "5V_idle_10u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 5658.544680236267,
+        "phase_deg": -147.98748266794536,
+        "phase_margin_deg": 32.01251733205464
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 589248.8994632178,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.582078400202853
+      }
+    ],
+    "gain_at_1Hz_dB": 137.51838549402618,
+    "minimum_swept_gain_dB": -51.70171982887812,
+    "output_V": 5.000015844219308,
+    "load_A": 5.000015789846657e-06,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_voltage.cir",
+        "sha256": "7b57996468e5ac55187334e2d7272fd64efb76a19fbcd69e127c217b22a25c6a"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_voltage.log",
+        "sha256": "d1186b4c522c85c7536198a1461357eb454b279a2c41b2fefcebe1d01c638944"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_voltage.raw",
+        "sha256": "b18b4e77055fa897b51da30ce1ed3e4df7ae1ab0fd51e6ad74b3b6ffd6b750c6"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_voltage.op.raw",
+        "sha256": "49508a7b4f2476a0f8bc23099c0461a96b8d6968aae108a96a8c81feaea77384"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_current.cir",
+        "sha256": "d73652e5d3351dbe517fab3eb08acddafd35ce9b31419ab727ee79c804739740"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_current.log",
+        "sha256": "1098e9ae460d99ade1bb042b2d614da4dfc5cb3c50a3f56a69289d93f51b9422"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_current.raw",
+        "sha256": "39cc6b2c32bd00084975e62cabc2210bcfb37a84502290b9e6acdcf4401e068a"
+      },
+      {
+        "file": "SIM-09_outcap_5V_idle_10u_current.op.raw",
+        "sha256": "c41865b87bc8e90fa165889ed987a6d27ba9f73cc8f777e38ca714030b7df170"
+      }
+    ]
+  },
+  "33V_1A_none": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 767044.728305838,
+        "phase_deg": -140.87142824402966,
+        "phase_margin_deg": 39.12857175597034
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1869678.335079739,
+        "phase_deg": -180,
+        "gain_margin_dB": 12.522037327031896
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54935615149462,
+    "minimum_swept_gain_dB": -64.9772988527696,
+    "output_V": 3.300000267346575,
+    "load_A": 1.0000001192092896,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_33V_1A_none_voltage.cir",
+        "sha256": "0e8cb20a29973cfd53b61058a362e96b891a1e1b671b55fbc8caaa29ad7bb2b8"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_voltage.log",
+        "sha256": "d1cb01fde3067834f3d9b9e0938af56471798ced736de72335ad9ccb13a2843a"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_voltage.raw",
+        "sha256": "282baf281ea1821d912b69e11da6ad5e9030eb3c17d0c247f60146549ac7d579"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_voltage.op.raw",
+        "sha256": "7aa71e5f43032897020d38dfae9eaaf6f67f3c8607e47e8ec7c79813ecf7343c"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_current.cir",
+        "sha256": "0c276b85471005e9c75acec572a0e7255f9afb330ac5807ade2146ae54a55c74"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_current.log",
+        "sha256": "da3fa6959289c6dbda7ba7a77e44c581a61bf8dec13454fbd26ec965d4abd1ac"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_current.raw",
+        "sha256": "928aae2f00aebca20a3c6f17d99db29be7ba8646e976b8b25793b658d0cbb723"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_none_current.op.raw",
+        "sha256": "649f772a7d082308bbc4c4ab1470616ea2667c3c7bdf514512c2b5d77c4faf41"
+      }
+    ]
+  },
+  "33V_1A_1u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 530473.2601031744,
+        "phase_deg": -128.02141897313678,
+        "phase_margin_deg": 51.978581026863225
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1988555.0535144277,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.75231666903435
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54935614689062,
+    "minimum_swept_gain_dB": -66.53819643761616,
+    "output_V": 3.3000002672935493,
+    "load_A": 1.0000001192092896,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_voltage.cir",
+        "sha256": "ab811080d28d11aa05556c2a681e443d9c25d100a44182240850c83f6ca3c967"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_voltage.log",
+        "sha256": "6179b5cfd41c4c35fdda73b8fef8e1ce63bbb9cc6ae7af3c20de319449d4caa9"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_voltage.raw",
+        "sha256": "219399a6db7101af5bdabd8159a4d68360fc7617e6521b50025df4b37ff27ee5"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_voltage.op.raw",
+        "sha256": "29f8802bea39c4b951434311cffa8fa46d4bfc8055848bfe761d6b0b80888863"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_current.cir",
+        "sha256": "66460841f539870b2efa67fe81f4cc3035a2e3b3d3c8c078ab3b571c72ac845a"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_current.log",
+        "sha256": "72b53ddc86b44d1c54423c7da6a3bcc40e0058259efccb1ed8e77bb58f138bb0"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_current.raw",
+        "sha256": "952054218ae9dcd513c10a375e6b17ddccb5d4d91bfa4afed5d725232d5ae2da"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_1u_current.op.raw",
+        "sha256": "ebf403bfcd035f63ec4b46ea5f14b7b2ad39bf3e794b3973d58c0e810b9929bf"
+      }
+    ]
+  },
+  "33V_1A_10u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 525279.0995429136,
+        "phase_deg": -121.60650231535251,
+        "phase_margin_deg": 58.393497684647485
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2051043.711344575,
+        "phase_deg": -180,
+        "gain_margin_dB": 18.194753105938556
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54935584898703,
+    "minimum_swept_gain_dB": -66.53726561480809,
+    "output_V": 3.300000267293518,
+    "load_A": 1.0000001192092896,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_voltage.cir",
+        "sha256": "7d5b368f9eee1835c404b66c7be935214c72fc0cbf225e69220310c5ea7e7f13"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_voltage.log",
+        "sha256": "96b1abde31e5c967c9daab837bead7d991822301c937d8fdf588175e320974c5"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_voltage.raw",
+        "sha256": "ac18175293fef7339656bd0e5ec28ede9b029fbc0b7bdea93a5ec70e67394e11"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_voltage.op.raw",
+        "sha256": "bf85fbac084e28044037c788cfb16234ef5ab03aae5e1bb1d8cd92cdb715067e"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_current.cir",
+        "sha256": "e936cd552e3984f84ece4ac7c517261f94f5dc392d6a59a62744a942ec098f53"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_current.log",
+        "sha256": "7a05e38fafb18b67f097e7cbb2f80781a768e5adea22bbfee0925f9f770e6461"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_current.raw",
+        "sha256": "3f3ffa6cd6bb08663662b111c7efc4abd8a088da4b2d39d8df87846548944801"
+      },
+      {
+        "file": "SIM-09_outcap_33V_1A_10u_current.op.raw",
+        "sha256": "6079654b8853d4fe97f42a031ee15410a683551da88943430477b04d1ae0d608"
+      }
+    ]
+  },
+  "33V_idle_none": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 1552192.6772084765,
+        "phase_deg": -255.3796360705635,
+        "phase_margin_deg": -75.37963607056349
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 271183.66413370735,
+        "phase_deg": -180,
+        "gain_margin_dB": -7.347708896123015
+      }
+    ],
+    "gain_at_1Hz_dB": 136.48957208017038,
+    "minimum_swept_gain_dB": -42.866728953917104,
+    "output_V": 3.300009278500743,
+    "load_A": 3.30000921167084e-06,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_33V_idle_none_voltage.cir",
+        "sha256": "cc5cc0894f807cb8851ccc008457e9fa80f4169bfde2959a9ae948c9edcd6702"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_voltage.log",
+        "sha256": "d19e38f9dd3a8e7e016b834c703bb095ddd1caa71c7cb663d151b2f18d367b81"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_voltage.raw",
+        "sha256": "e0de340b9f299544f11c80e3f8dc975659b7b413267eb6f86978a67b76acae18"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_voltage.op.raw",
+        "sha256": "a8c2723ae49fe3a5bfc587a98eb6d0f7512a66154c88bbe153b25e101eae9abc"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_current.cir",
+        "sha256": "50dfe41229c6d6a06c6ecd96e56bfd217e7524532ddb76bab12dff9dd0456a2d"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_current.log",
+        "sha256": "9ad242001f4f64826f9e18bf85b84592d16518735a47d3e4613ac68b5ba0845b"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_current.raw",
+        "sha256": "9ac662f1cd47de6cba65e5cf1b6762c45acf909f80fefccee9563fa4c804b146"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_none_current.op.raw",
+        "sha256": "2c70c8647f53b3e0cc31cc001c8085a742f40ba5b4718917c360b55bef88f2fc"
+      }
+    ]
+  },
+  "33V_idle_1u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 17185.901624469523,
+        "phase_deg": -148.23936086865245,
+        "phase_margin_deg": 31.760639131347546
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 374921.6446277904,
+        "phase_deg": -180,
+        "gain_margin_dB": 16.962002965740805
+      }
+    ],
+    "gain_at_1Hz_dB": 136.49053649967462,
+    "minimum_swept_gain_dB": -50.9460786270069,
+    "output_V": 3.300009278475365,
+    "load_A": 3.30000921167084e-06,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_voltage.cir",
+        "sha256": "b43eb8a735762255fca8871c53ef5ed76406adf0f5b878f224eea132577d424f"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_voltage.log",
+        "sha256": "a2973cf5fea79ca48f97d2dad8056e499bc78ba7ca61555641023598f5cdec6e"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_voltage.raw",
+        "sha256": "9a03fbe0cec1e3d5842657e6dbef33a6f5a325ec8b50cc6e53946b8890fa878b"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_voltage.op.raw",
+        "sha256": "8cef173f38d91e212b4b9c60adc8bb10657b1a47a5c2dfeee6a34dd5d41ed703"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_current.cir",
+        "sha256": "18508d7448c604c4719bd3dc281bff877da808f47c9d641a3bdcde8bb2244ddf"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_current.log",
+        "sha256": "18b7aa87417cc6875be95c29b407320267195af491d8c69ea2417342a6634f2b"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_current.raw",
+        "sha256": "8639ecfce95bbfb1bfc71a0249605af64a21cfc7585a7d5f43e9971770555475"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_1u_current.op.raw",
+        "sha256": "5bd02fdc3e7d158995a6e11a8a3fd20abb5759af7a3cdaf289460b42b6fd97e4"
+      }
+    ]
+  },
+  "33V_idle_10u": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 5061.239860336059,
+        "phase_deg": -153.04276975483359,
+        "phase_margin_deg": 26.957230245166414
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 509809.13251407736,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.650615037982586
+      }
+    ],
+    "gain_at_1Hz_dB": 136.1925342941782,
+    "minimum_swept_gain_dB": -50.93940997745767,
+    "output_V": 3.300009278475396,
+    "load_A": 3.30000921167084e-06,
+    "manifest": [
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_voltage.cir",
+        "sha256": "41a1407ab94d3096d0a1156689bbf7d6b2b9c4071b16d5d35f5e72f37a0d375f"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_voltage.log",
+        "sha256": "bbb09c737328ef942bb059bb66d950c44aad32e05c89553a16c205c55f2c4fb9"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_voltage.raw",
+        "sha256": "19f13b7c18991444a7ea573b817e6ed0b84043e42dba9f7162e86fbca9ae154d"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_voltage.op.raw",
+        "sha256": "5ab8e409d6e970b37a6c0d5188df5e8729ed4376a322291b2041e0cbfc28f8ce"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_current.cir",
+        "sha256": "149f39f4aac5d70475e87d7ac4adc14533d455a47f06dc2ea8c439b03ba85c24"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_current.log",
+        "sha256": "57842b374fb062e9966ad0cab059c3cb8243ae58e5ae1cc2cdfce32ddd22b361"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_current.raw",
+        "sha256": "1d49de589a79c8ddfa0d71c0409361abe24a9389549e1256efab19b7c9d2a645"
+      },
+      {
+        "file": "SIM-09_outcap_33V_idle_10u_current.op.raw",
+        "sha256": "bffe5f2280c40781ee7e8b9a3afb41bc5616295d9c67297f46608267fdfaff21"
+      }
+    ]
+  }
+}

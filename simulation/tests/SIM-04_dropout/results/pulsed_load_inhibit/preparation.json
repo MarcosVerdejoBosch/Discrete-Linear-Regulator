@@ -1,0 +1,10 @@
+{
+  "source": "SIM-04_pulsed_load_5V.asc",
+  "source_sha256": "0ba3dc5f7dc502be1679b0412b13aa91b5f114d867cf6fd999c1caedcf96622e",
+  "file": "SIM-04_pulsed_load_inhibit_5V.asc",
+  "sha256": "2af97cc13a8c848e6e046988f4c52b54e9eb5bcd64bfc571c6bdc007b5fe5efe",
+  "only_change": "External ideal pull-down on TTL during load-off intervals; 0.1 ohm asserted, 1 Gohm released, 10 us conductance edges. Does not force enable high or bypass UVLO/OVLO.",
+  "R21_ohm": 10,
+  "R21_rated_W": 0.25,
+  "scope": "Concept test of simultaneous external load switching and drive inhibition. Not a physical GPIO connection; actual interface and fail-safe state remain to be designed."
+}

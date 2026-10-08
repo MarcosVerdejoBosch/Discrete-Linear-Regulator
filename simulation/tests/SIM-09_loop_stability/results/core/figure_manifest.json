@@ -1,0 +1,5 @@
+{
+  "metrics_sha256": "04375c89ad5b3d873f5afce23e1898117e446ae8fbc963e0e19d614762868c61",
+  "processing": "Tian return ratio from two AC injections, unwrapped phase, original 200 points/decade, no smoothing.",
+  "matplotlib": "3.11.2"
+}

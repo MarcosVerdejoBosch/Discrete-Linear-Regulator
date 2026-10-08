@@ -1,0 +1,32 @@
+[
+  {
+    "source": "C:\\Users\\marco\\OneDrive\\Escritorio\\Regulador_LTspice\\TEST_DROPOUT.asc",
+    "copy": "simulation/tests/SIM-02_line_regulation/results/imported_dc/TEST_DROPOUT.asc",
+    "sha256": "2d492088cec83355ec951c73a9106805d4a5fb8276925b2369b8eebffc9a1688"
+  },
+  {
+    "source": "C:\\Users\\marco\\OneDrive\\Escritorio\\Regulador_LTspice\\TEST_DROPOUT.log",
+    "copy": "simulation/tests/SIM-02_line_regulation/results/imported_dc/TEST_DROPOUT.log",
+    "sha256": "622e480e9620185c3f9b0e5087b3b32c3c0ddd232b1e09ee6b703a4e8ece6699"
+  },
+  {
+    "source": "C:\\Users\\marco\\OneDrive\\Escritorio\\Regulador_LTspice\\TEST_DROPOUT.raw",
+    "copy": "simulation/tests/SIM-02_line_regulation/results/imported_dc/TEST_DROPOUT.raw",
+    "sha256": "3ad5ad73f6aaa5b90aab91d2ba91d04d8c0471cda3597bfb2f24f1eda484dac3"
+  },
+  {
+    "source": "C:\\Users\\marco\\OneDrive\\Escritorio\\Regulador_LTspice\\TEST_DROPOUT_33V.asc",
+    "copy": "simulation/tests/SIM-02_line_regulation/results/imported_dc/TEST_DROPOUT_33V.asc",
+    "sha256": "a5e59202c748ca41dfaded7674794f0be62bce0af3169651cdcf324246188bc2"
+  },
+  {
+    "source": "C:\\Users\\marco\\OneDrive\\Escritorio\\Regulador_LTspice\\TEST_DROPOUT_33V.log",
+    "copy": "simulation/tests/SIM-02_line_regulation/results/imported_dc/TEST_DROPOUT_33V.log",
+    "sha256": "22dac799fea8d1caf21e8e249f644c085991a7e70a51f0afdae6e3fd0bc9af8e"
+  },
+  {
+    "source": "C:\\Users\\marco\\OneDrive\\Escritorio\\Regulador_LTspice\\TEST_DROPOUT_33V.raw",
+    "copy": "simulation/tests/SIM-02_line_regulation/results/imported_dc/TEST_DROPOUT_33V.raw",
+    "sha256": "4637df443f13a8fad5b74cecf9f6d89a599d40deb6fced4121c8d23edb456406"
+  }
+]

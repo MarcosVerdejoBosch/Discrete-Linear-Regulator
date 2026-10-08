@@ -1,0 +1,74 @@
+{
+  "complete": true,
+  "last_time_s": 0.32,
+  "rows": [
+    {
+      "source_V": 8,
+      "vout_avg_V": 3.3000018949993204,
+      "difference_from_reference_uV": 0.030126368066873965,
+      "enable_min_V": 7.221240997314453
+    },
+    {
+      "source_V": 6,
+      "vout_avg_V": 3.3007719127711703,
+      "difference_from_reference_uV": 0.025162096850550597,
+      "enable_min_V": 5.415003299713135
+    },
+    {
+      "source_V": 7,
+      "vout_avg_V": 3.3003549922815543,
+      "difference_from_reference_uV": 0.010509957348858734,
+      "enable_min_V": 6.319628715515137
+    },
+    {
+      "source_V": 8,
+      "vout_avg_V": 3.3000018853850923,
+      "difference_from_reference_uV": -0.011130920185564719,
+      "enable_min_V": 7.221243858337402
+    },
+    {
+      "source_V": 9,
+      "vout_avg_V": 3.299694685789679,
+      "difference_from_reference_uV": 0.007676002500289769,
+      "enable_min_V": 8.12121868133545
+    },
+    {
+      "source_V": 10,
+      "vout_avg_V": 3.299422179577025,
+      "difference_from_reference_uV": -0.007426025572243589,
+      "enable_min_V": 9.020075798034668
+    },
+    {
+      "source_V": 11,
+      "vout_avg_V": 3.2991769854636517,
+      "difference_from_reference_uV": 0.08128572792642785,
+      "enable_min_V": 9.918081283569336
+    }
+  ],
+  "log_tail": [
+    "Date: Thu Sep 24 22:31:10 2026",
+    "Total elapsed time: 475.443 seconds.",
+    "",
+    "tnom = 27",
+    "temp = 27",
+    "method = modified trap",
+    "totiter = 2396840",
+    "traniter = 2393916",
+    "tranpoints = 692396",
+    "accept = 512869",
+    "rejected = 180473",
+    "matrix size = 511",
+    "fillins = 3714",
+    "solver = Normal",
+    "Avg thread counts: 1.0/1.0/1.0/1.0",
+    "Matrix Compiler1:   47878 opcodes  205.4/[80.4]/105.2",
+    "Matrix Compiler2: 105.48 KB object code size  11.5/11.9/[8.0]",
+    ""
+  ],
+  "sha256": {
+    "asc": "eaaf3692951b3e8eeced9d63c7519d3d2f0ac3e092b780818e5c7745796e7668",
+    "net": "a2c37cfb57e51e0a3df95fdeb74f531ab36eeef3c867982bd53c516284cee02b",
+    "raw": "6aa727f8c207fbc33bd5463dcbc528c7f3c087b568cd0bdce90eb23cda7d3a67",
+    "log": "d4c1f5c1f7c665a8b47084d6a5c283d46c475c7aa50123c6864a1ccb537f80ca"
+  }
+}

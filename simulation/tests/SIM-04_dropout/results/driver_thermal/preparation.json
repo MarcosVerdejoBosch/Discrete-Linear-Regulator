@@ -1,0 +1,9 @@
+{
+  "source": "SIM-04_adjusted_settled_5V.asc",
+  "source_sha256": "452190fa2de99671fa8f6aed229f3858b5f8c78f8202ac5873b6ae07a23b969b",
+  "file": "SIM-04_driver_thermal_5V.asc",
+  "sha256": "d0a3f86df4af6b93a05aab90ce704c4a7712a4e8781045731cf32274c6979931",
+  "changes": "Only additional saved terminal currents and voltages. Circuit, source, load, solver and duration unchanged.",
+  "power_Q3": "(Vc-Ve)*Ic + (Vb-Ve)*Ib; Q14 in LTspice, Q3 in KiCad",
+  "power_R21": "10*I(R15)^2; R15 in LTspice, R21 in KiCad"
+}

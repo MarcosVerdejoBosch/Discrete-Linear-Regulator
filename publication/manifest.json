@@ -1,0 +1,1997 @@
+{
+  "date": "2026-09-21",
+  "status": "review snapshot; not hardware-validated release",
+  "files": [
+    {
+      "path": "hardware/kicad/Regulador.kicad_pcb",
+      "source_sha256": "7f70b1153bd202565e5f7471c31c86c702fb2748de2014b0acfa6eefc1dd15bb",
+      "published_sha256": "7f70b1153bd202565e5f7471c31c86c702fb2748de2014b0acfa6eefc1dd15bb"
+    },
+    {
+      "path": "hardware/kicad/Regulador.kicad_pro",
+      "source_sha256": "34fa43e82ae842943ebed40600ecc37b1033a3c756e4264be993fa78262c6394",
+      "published_sha256": "34fa43e82ae842943ebed40600ecc37b1033a3c756e4264be993fa78262c6394"
+    },
+    {
+      "path": "hardware/kicad/Regulador.kicad_sch",
+      "source_sha256": "39855bff65c731259b765c49b1c38ec399d864247fd023492a8274a3a978eb0e",
+      "published_sha256": "39855bff65c731259b765c49b1c38ec399d864247fd023492a8274a3a978eb0e"
+    },
+    {
+      "path": "docs/regulator.tex",
+      "source_sha256": "50c791ac9666d33203a4b995e3469478006f7748d85e2fcc830bd97f1f84a219",
+      "published_sha256": "50c791ac9666d33203a4b995e3469478006f7748d85e2fcc830bd97f1f84a219"
+    },
+    {
+      "path": "docs/references.bib",
+      "source_sha256": "325db81c62845e88ace7952f87fbf4b6fff6c7ac45871ed7c983c5503a1ccf40",
+      "published_sha256": "325db81c62845e88ace7952f87fbf4b6fff6c7ac45871ed7c983c5503a1ccf40"
+    },
+    {
+      "path": "docs/regulator.pdf",
+      "source_sha256": "ac9530d7e48bac205fe7b4fccf758dc0794b891059babfb76ae9ade1fe92130a",
+      "published_sha256": "ac9530d7e48bac205fe7b4fccf758dc0794b891059babfb76ae9ade1fe92130a"
+    },
+    {
+      "path": "docs/figures/blockdiagram.pdf",
+      "source_sha256": "e045d3eeed2f7e819f06f89b6f6e0271a71bfce366e506ea21d40931c7b04b5d",
+      "published_sha256": "e045d3eeed2f7e819f06f89b6f6e0271a71bfce366e506ea21d40931c7b04b5d"
+    },
+    {
+      "path": "docs/figures/architecture.pdf",
+      "source_sha256": "57cd83dd4ada457c81b07b1f3252a020f032f9c47b2d76ade411072c5afe1dfa",
+      "published_sha256": "57cd83dd4ada457c81b07b1f3252a020f032f9c47b2d76ade411072c5afe1dfa"
+    },
+    {
+      "path": "docs/figures/ReguladorIMG.pdf",
+      "source_sha256": "19b24f9ee979fbd8415e3d05e1b5f6efaac6e362586593c1c8a66fb64d92c1c8",
+      "published_sha256": "19b24f9ee979fbd8415e3d05e1b5f6efaac6e362586593c1c8a66fb64d92c1c8"
+    },
+    {
+      "path": "docs/figures/EAIMG.pdf",
+      "source_sha256": "d4e223128070a4e8baea136e189de5a19d53f00369f9bc4824719530bd7c9b43",
+      "published_sha256": "d4e223128070a4e8baea136e189de5a19d53f00369f9bc4824719530bd7c9b43"
+    },
+    {
+      "path": "docs/figures/SIM-01_calibrated_startup.pdf",
+      "source_sha256": "75d07f5a8737fbf73ed3946a2ca7d2b8cdcb83d6eed805174948186a15445601",
+      "published_sha256": "75d07f5a8737fbf73ed3946a2ca7d2b8cdcb83d6eed805174948186a15445601"
+    },
+    {
+      "path": "docs/figures/SIM-01_calibrated_initial.pdf",
+      "source_sha256": "ee4c2f257939f9c19de08b96a14db5807cec8c5710f998a52a85da204d857cc3",
+      "published_sha256": "ee4c2f257939f9c19de08b96a14db5807cec8c5710f998a52a85da204d857cc3"
+    },
+    {
+      "path": "docs/figures/SIM-02_calibrated_line.pdf",
+      "source_sha256": "49b067ff2688e849ae8a7355310e6b3590710f0260e2611d8f45de7af51ff38a",
+      "published_sha256": "49b067ff2688e849ae8a7355310e6b3590710f0260e2611d8f45de7af51ff38a"
+    },
+    {
+      "path": "docs/figures/SIM-03_calibrated_load.pdf",
+      "source_sha256": "461be682f95981abf6cb328c979fddb788ebe057829982409768eda873ec30b9",
+      "published_sha256": "461be682f95981abf6cb328c979fddb788ebe057829982409768eda873ec30b9"
+    },
+    {
+      "path": "docs/figures/SIM-06_calibrated_transient.pdf",
+      "source_sha256": "cd3a7cb44498042d0e5fc8a5490712ac3797fd64b70da5940802f8c1939830e1",
+      "published_sha256": "cd3a7cb44498042d0e5fc8a5490712ac3797fd64b70da5940802f8c1939830e1"
+    },
+    {
+      "path": "docs/figures/SIM-09_core_loop.pdf",
+      "source_sha256": "a850979558d02dcbb95a3aab197a8ce5581cb40060f1ea6481693fcec07bf752",
+      "published_sha256": "a850979558d02dcbb95a3aab197a8ce5581cb40060f1ea6481693fcec07bf752"
+    },
+    {
+      "path": "docs/figures/SIM-07_calibrated_protection.pdf",
+      "source_sha256": "135f504a22f6b084c7d15efcabcfeab17c73e94c39f86beb3a60609e70ca8c04",
+      "published_sha256": "135f504a22f6b084c7d15efcabcfeab17c73e94c39f86beb3a60609e70ca8c04"
+    },
+    {
+      "path": "docs/figures/SIM-08_calibrated_limit.pdf",
+      "source_sha256": "39bf5568b45732c348afe0e96a8899f3a033f79e77906973f81bb4140125df36",
+      "published_sha256": "39bf5568b45732c348afe0e96a8899f3a033f79e77906973f81bb4140125df36"
+    },
+    {
+      "path": "docs/figures/coopper.pdf",
+      "source_sha256": "5568d38785ddb2b3c0b0fc3536466c884370a2242dfae4f51436725f96d84a2d",
+      "published_sha256": "5568d38785ddb2b3c0b0fc3536466c884370a2242dfae4f51436725f96d84a2d"
+    },
+    {
+      "path": "simulation/plotting/report.mplstyle",
+      "source_sha256": "638f71b7309ca9f3765000287114df49cefffeee3900872ea285e1d73ebaac63",
+      "published_sha256": "638f71b7309ca9f3765000287114df49cefffeee3900872ea285e1d73ebaac63"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/BENCH_PLAN.md",
+      "source_sha256": "73dbae24fb3025618a3e25074070afc81be21d0541dddc96cb5af4357b579fc6",
+      "published_sha256": "73dbae24fb3025618a3e25074070afc81be21d0541dddc96cb5af4357b579fc6"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/CALIBRATED_STARTUP.md",
+      "source_sha256": "77bfc08525cf10aea0b5d4e55af415d92b75eeddac7feebc3a8d04e2980dfd52",
+      "published_sha256": "77bfc08525cf10aea0b5d4e55af415d92b75eeddac7feebc3a8d04e2980dfd52"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/README.md",
+      "source_sha256": "58923cf28e3989539b4de3bcc9692e86838e085c266580229a0341fd05d98860",
+      "published_sha256": "58923cf28e3989539b4de3bcc9692e86838e085c266580229a0341fd05d98860"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/analyze_startup.py",
+      "source_sha256": "87dd0e649ef1f796a2f1bfebadaa92c12e8cef5b80817404b23d7976eaffb295",
+      "published_sha256": "87dd0e649ef1f796a2f1bfebadaa92c12e8cef5b80817404b23d7976eaffb295"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/check_step.py",
+      "source_sha256": "748741d58d276d0d88d0de6234815d7dae74d935993dbd48cbcb7fd044b3139c",
+      "published_sha256": "748741d58d276d0d88d0de6234815d7dae74d935993dbd48cbcb7fd044b3139c"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/compare_refinement.py",
+      "source_sha256": "fa65450c431d9f7fb4afe296ff8e5b40f72983d777664e034a97ef51553fece1",
+      "published_sha256": "fa65450c431d9f7fb4afe296ff8e5b40f72983d777664e034a97ef51553fece1"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/inspect_diagnostics.py",
+      "source_sha256": "06cac196bf3d3606c1110522e45d965941e6b2fe6b1ebd3bac4515008a7bf98c",
+      "published_sha256": "06cac196bf3d3606c1110522e45d965941e6b2fe6b1ebd3bac4515008a7bf98c"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/make_figure.py",
+      "source_sha256": "fe041e7ac3ce536e9032c480595ee5b3dced8f207ee2252ffc71cb3861f83fdf",
+      "published_sha256": "fe041e7ac3ce536e9032c480595ee5b3dced8f207ee2252ffc71cb3861f83fdf"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/prepare_startup.py",
+      "source_sha256": "84d5316d09064c15eb08da9877f5a45bc45a94b5669eaad62fefb04f75c831f1",
+      "published_sha256": "84d5316d09064c15eb08da9877f5a45bc45a94b5669eaad62fefb04f75c831f1"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/calibrated/figure_manifest.json",
+      "source_sha256": "3899a4acd5f38aa21a6dd84375957e213aa4e79621a1be78c8fb3c19b8269a9c",
+      "published_sha256": "3899a4acd5f38aa21a6dd84375957e213aa4e79621a1be78c8fb3c19b8269a9c"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/calibrated/metrics.json",
+      "source_sha256": "c78b6dfcf57dfdde78abc3f064989705b04594a9c550ba8fe6a472fb3f112d0b",
+      "published_sha256": "c78b6dfcf57dfdde78abc3f064989705b04594a9c550ba8fe6a472fb3f112d0b"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/calibrated/preparation.json",
+      "source_sha256": "e2a0a4e7f3ec7f115c380247dc1df9b161572e8fd15380a26a57907ce19c555e",
+      "published_sha256": "e2a0a4e7f3ec7f115c380247dc1df9b161572e8fd15380a26a57907ce19c555e"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/calibrated/step_check.json",
+      "source_sha256": "93d868d633b26e9a15910ce76d9c2b72d89905c4120ba9ed298efac8d5ec8215",
+      "published_sha256": "93d868d633b26e9a15910ce76d9c2b72d89905c4120ba9ed298efac8d5ec8215"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/input_switch/figure_manifest.json",
+      "source_sha256": "26031f0d857bd58ae71165aba596049e16a0c3c6ed556f8c464ce928652f46fb",
+      "published_sha256": "26031f0d857bd58ae71165aba596049e16a0c3c6ed556f8c464ce928652f46fb"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/input_switch/metrics.json",
+      "source_sha256": "9a01bcd93cf1cf3fe61184f3fdb8add0c77c056c50c442f31be2cc9fce82a91b",
+      "published_sha256": "9a01bcd93cf1cf3fe61184f3fdb8add0c77c056c50c442f31be2cc9fce82a91b"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/refined/accepted_sources.json",
+      "source_sha256": "2783b4dccd0dacb17fb32d50ec24470f33b0ef3e2e21cafa397155a50ef5d7d1",
+      "published_sha256": "2783b4dccd0dacb17fb32d50ec24470f33b0ef3e2e21cafa397155a50ef5d7d1"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/refined/comparison.json",
+      "source_sha256": "c1dee2eb7f6b756704c6becc7c53597ec9cbb69ad985f90d5552c1700fdc8341",
+      "published_sha256": "c1dee2eb7f6b756704c6becc7c53597ec9cbb69ad985f90d5552c1700fdc8341"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/refined/manifest.json",
+      "source_sha256": "1257d9038cea8e3a6e0da1c6c0c00da1bd5327678aa6849fe7dd65b869f1a99e",
+      "published_sha256": "1257d9038cea8e3a6e0da1c6c0c00da1bd5327678aa6849fe7dd65b869f1a99e"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/source_voltage_fall/metrics.json",
+      "source_sha256": "82aa731cc67c465d317c67c8bac76394bfcfe14e6c2090844051aebfde79b2f3",
+      "published_sha256": "82aa731cc67c465d317c67c8bac76394bfcfe14e6c2090844051aebfde79b2f3"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/refined/previous_fine/step_check.json",
+      "source_sha256": "6f1e6a898ea9af1d22458ae1ccb688bef216db0c34320f874c664361c9f619e3",
+      "published_sha256": "6f1e6a898ea9af1d22458ae1ccb688bef216db0c34320f874c664361c9f619e3"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/diagnostic_alt_constantR/README.md",
+      "source_sha256": "755a252f6ac9a92344cebba5af196fcc8935af3485d53be123983cd270d6f44a",
+      "published_sha256": "755a252f6ac9a92344cebba5af196fcc8935af3485d53be123983cd270d6f44a"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/diagnostic_before_alt/README.md",
+      "source_sha256": "f3e283efd4f92d7cbce6a6ff9883578a0a34c72ee3c4e7c0cfd896e124421c44",
+      "published_sha256": "f3e283efd4f92d7cbce6a6ff9883578a0a34c72ee3c4e7c0cfd896e124421c44"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/diagnostic_gear_normal_33V/README.md",
+      "source_sha256": "c38393ff4bcf680b896d47f7e7a6854787185138706e10ade8802d5e259a1936",
+      "published_sha256": "c38393ff4bcf680b896d47f7e7a6854787185138706e10ade8802d5e259a1936"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/diagnostic_trapezoidal_33V/README.md",
+      "source_sha256": "109c2dc0c6aa8d5cefe2b297ead7bb49403ac08e1bc5cdb357b9d6c8691818c0",
+      "published_sha256": "109c2dc0c6aa8d5cefe2b297ead7bb49403ac08e1bc5cdb357b9d6c8691818c0"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/diagnostic_trapezoidal_5V/README.md",
+      "source_sha256": "f8cc3d4184f3c264b156b8deeb6dde1ae21a1bb1c59fe6fa3b4e5492312ee5e7",
+      "published_sha256": "f8cc3d4184f3c264b156b8deeb6dde1ae21a1bb1c59fe6fa3b4e5492312ee5e7"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/refined/README.md",
+      "source_sha256": "8e196af17f3b839cceb0ad0514cf335dae15db5d31c50fa45f1d78fd6fb5fcac",
+      "published_sha256": "8e196af17f3b839cceb0ad0514cf335dae15db5d31c50fa45f1d78fd6fb5fcac"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/input_switch/shutdown_detail.png",
+      "source_sha256": "33d48fed09344d5c180d7a16d9ea21216be9697be4155dd06cf7b969fc957496",
+      "published_sha256": "33d48fed09344d5c180d7a16d9ea21216be9697be4155dd06cf7b969fc957496"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/input_switch/startup_detail.png",
+      "source_sha256": "a33dd4cc4b9e7de47825d031fe0de9f805a91c9f4648413ce57d62ac616e01c1",
+      "published_sha256": "a33dd4cc4b9e7de47825d031fe0de9f805a91c9f4648413ce57d62ac616e01c1"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/source_voltage_fall/shutdown_detail.png",
+      "source_sha256": "39c7b725d9573315acc84c0d588e200f42603996a463316945678bc3a264b408",
+      "published_sha256": "39c7b725d9573315acc84c0d588e200f42603996a463316945678bc3a264b408"
+    },
+    {
+      "path": "simulation/tests/SIM-01_startup_shutdown/results/source_voltage_fall/startup_detail.png",
+      "source_sha256": "93c289789a66da5177a2085f1a9ad693fc610fc58da165a8c1ac61089adf7320",
+      "published_sha256": "93c289789a66da5177a2085f1a9ad693fc610fc58da165a8c1ac61089adf7320"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/BENCH_REVIEW.md",
+      "source_sha256": "c9835f9df68307a5697652ee7a6fb09b583b4b2d51153b7e2308b860fc678e9c",
+      "published_sha256": "c9835f9df68307a5697652ee7a6fb09b583b4b2d51153b7e2308b860fc678e9c"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/CALIBRATED_LINE.md",
+      "source_sha256": "45107abc4f49db20e77962d23bf675f96c233838cd899074d747a4fe432fb898",
+      "published_sha256": "45107abc4f49db20e77962d23bf675f96c233838cd899074d747a4fe432fb898"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/CALIBRATION.md",
+      "source_sha256": "13574df59c552a8c513882443162c2103448971f2c1f92829c04169b12044755",
+      "published_sha256": "13574df59c552a8c513882443162c2103448971f2c1f92829c04169b12044755"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/FULL_CIRCUIT.md",
+      "source_sha256": "0d0102c91d2adb321b8ba54b69e18dd48163b0604679dd3cd4eda837030c7b33",
+      "published_sha256": "0d0102c91d2adb321b8ba54b69e18dd48163b0604679dd3cd4eda837030c7b33"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/FULL_CIRCUIT_33V.md",
+      "source_sha256": "ec52fa2c039ecd17aee7b15ff6e13cfe180cae30dbdad5dc7e846103e9e10a95",
+      "published_sha256": "ec52fa2c039ecd17aee7b15ff6e13cfe180cae30dbdad5dc7e846103e9e10a95"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/README.md",
+      "source_sha256": "2518fca77e5c40ef139a0a9b4f4c9c58fd5d7c4a82cf5a7af25545270516ba27",
+      "published_sha256": "2518fca77e5c40ef139a0a9b4f4c9c58fd5d7c4a82cf5a7af25545270516ba27"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/analyze_33V_changes.py",
+      "source_sha256": "6247fb2e923fd79a63cd8ed63ecdeb68c169e538d83e7c148adb224b73fb1e73",
+      "published_sha256": "6247fb2e923fd79a63cd8ed63ecdeb68c169e538d83e7c148adb224b73fb1e73"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/analyze_full_sweep.py",
+      "source_sha256": "296b08812b5cc430cd7c575edd6141cc4b2ee64a26f0fbcc81a47de4ab7381f3",
+      "published_sha256": "296b08812b5cc430cd7c575edd6141cc4b2ee64a26f0fbcc81a47de4ab7381f3"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/analyze_line_changes.py",
+      "source_sha256": "5ffc5e394edc12080573fa5960f0649e3287a06dfce67f209ac4df27ad433a60",
+      "published_sha256": "5ffc5e394edc12080573fa5960f0649e3287a06dfce67f209ac4df27ad433a60"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/calibrate.py",
+      "source_sha256": "b9938e66e7a91f7c0b4cb70bae5049fc4dbe3a2d9b8806142cec77faa287bcbf",
+      "published_sha256": "b9938e66e7a91f7c0b4cb70bae5049fc4dbe3a2d9b8806142cec77faa287bcbf"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/calibrated_line.py",
+      "source_sha256": "b0ff08688a0554a928e93851806635cdc570fe6919d8eab8b3b761fe2cfa4a03",
+      "published_sha256": "b0ff08688a0554a928e93851806635cdc570fe6919d8eab8b3b761fe2cfa4a03"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/check_full_pilot.py",
+      "source_sha256": "138d6f949d3a462b4e4f8eff39b270cfc39f4e2babc306c433121d55e2091cee",
+      "published_sha256": "138d6f949d3a462b4e4f8eff39b270cfc39f4e2babc306c433121d55e2091cee"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/combine_full_results.py",
+      "source_sha256": "98de707710358e572fd5520d30e6994bdc5821537393d5aa0abc43ed9d121ad7",
+      "published_sha256": "98de707710358e572fd5520d30e6994bdc5821537393d5aa0abc43ed9d121ad7"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/extract_dc.py",
+      "source_sha256": "81b6ed5e232f8a170ccd960e76c178bab3b888c67401ca7e5e668a606d4c5cb6",
+      "published_sha256": "81b6ed5e232f8a170ccd960e76c178bab3b888c67401ca7e5e668a606d4c5cb6"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/inspect_33V.py",
+      "source_sha256": "0d44452260930df9d948b41cee7d858a9298a55e0a4006a7f3febdb267b5fb9f",
+      "published_sha256": "0d44452260930df9d948b41cee7d858a9298a55e0a4006a7f3febdb267b5fb9f"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/inspect_transients.py",
+      "source_sha256": "d50cdeaecf11b9fb6c922bf7fb8063c812350ed1ce442ed9e6ae7bf9f6cbb8a3",
+      "published_sha256": "d50cdeaecf11b9fb6c922bf7fb8063c812350ed1ce442ed9e6ae7bf9f6cbb8a3"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/make_figure.py",
+      "source_sha256": "cf1be1c531135161194c951245a1e168f67b431a833cc23b7209a1dac184a962",
+      "published_sha256": "cf1be1c531135161194c951245a1e168f67b431a833cc23b7209a1dac184a962"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/plot_33V_line.py",
+      "source_sha256": "2b2470f729f4a531c983c35888004910d6cf8bfd2a78db2332210decd82c99b8",
+      "published_sha256": "2b2470f729f4a531c983c35888004910d6cf8bfd2a78db2332210decd82c99b8"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/plot_full_sweep.py",
+      "source_sha256": "355e3d113fa15230ebea7cff016d84add9978c608c0611ff75967e590e72961b",
+      "published_sha256": "355e3d113fa15230ebea7cff016d84add9978c608c0611ff75967e590e72961b"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/prepare_33V.py",
+      "source_sha256": "e905f6b34d08af73ae32c7e1f9c484034cfa89c899a6d0e7a49f581af9c52f56",
+      "published_sha256": "e905f6b34d08af73ae32c7e1f9c484034cfa89c899a6d0e7a49f581af9c52f56"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/prepare_full_circuit.py",
+      "source_sha256": "7a66c52dc7e78618c66a1cc330d50672f79d90707194f08b8efb8bf7fe3e5af1",
+      "published_sha256": "7a66c52dc7e78618c66a1cc330d50672f79d90707194f08b8efb8bf7fe3e5af1"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/figure_manifest.json",
+      "source_sha256": "38d6b59ac23f0b26b9c9849514d364a06aebaa49ea5c53fbf4a37cc306ea101b",
+      "published_sha256": "38d6b59ac23f0b26b9c9849514d364a06aebaa49ea5c53fbf4a37cc306ea101b"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/metrics.json",
+      "source_sha256": "4ba582432662021568487279363d6bc2d9abdbf3ec052b4b0358606c63574493",
+      "published_sha256": "4ba582432662021568487279363d6bc2d9abdbf3ec052b4b0358606c63574493"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibrated_line/figure_manifest.json",
+      "source_sha256": "983a6f1758500779ce04855d80805ef2b081d0de27d3259afc48a7cf90eda3b9",
+      "published_sha256": "983a6f1758500779ce04855d80805ef2b081d0de27d3259afc48a7cf90eda3b9"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibrated_line/metrics.json",
+      "source_sha256": "9ee2050a1ec57034a859a12a81d23e3aba707c4699220fbf94c4732bc01ebf52",
+      "published_sha256": "9ee2050a1ec57034a859a12a81d23e3aba707c4699220fbf94c4732bc01ebf52"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibrated_line/preparation.json",
+      "source_sha256": "a8c54364ba74457fd9a91d4ef7c26746b9ac4f06c6b64ea1671eb3b8870cc268",
+      "published_sha256": "a8c54364ba74457fd9a91d4ef7c26746b9ac4f06c6b64ea1671eb3b8870cc268"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibration/selected.json",
+      "source_sha256": "e3680f5388e52505b573cc99b0bd1251a6952cedae3cb8d23eddcb31048ff4db",
+      "published_sha256": "e3680f5388e52505b573cc99b0bd1251a6952cedae3cb8d23eddcb31048ff4db"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/line_change_manifest.json",
+      "source_sha256": "3e0dadbc6b65e39bc00c0b65baef97b3f8fcf8fb4a0125cd3e8b3e48b7006436",
+      "published_sha256": "3e0dadbc6b65e39bc00c0b65baef97b3f8fcf8fb4a0125cd3e8b3e48b7006436"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/line_change_metrics.json",
+      "source_sha256": "3d4e54a8d6ed383884ab03c3c9836804149dddb8be10e9fe5a44c84707dc9fb5",
+      "published_sha256": "3d4e54a8d6ed383884ab03c3c9836804149dddb8be10e9fe5a44c84707dc9fb5"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/pilot_sample_metrics.json",
+      "source_sha256": "8c3f17c10b25dcabbf599efb4faee8aadb7da6e8b8232238b66d641d3a6de539",
+      "published_sha256": "8c3f17c10b25dcabbf599efb4faee8aadb7da6e8b8232238b66d641d3a6de539"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/preparation.json",
+      "source_sha256": "e9ef816e08dd786755122a50898493efb7dfb525b6ad268dff9b4433d7a831a8",
+      "published_sha256": "e9ef816e08dd786755122a50898493efb7dfb525b6ad268dff9b4433d7a831a8"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/SIM-02_full_line_5V_gear_check_inspection.json",
+      "source_sha256": "c1c670a78e1dfad2aecfdd44fe9fd74897db0db3883efb5ecf012202c8690ece",
+      "published_sha256": "c1c670a78e1dfad2aecfdd44fe9fd74897db0db3883efb5ecf012202c8690ece"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/SIM-02_full_line_5V_inspection.json",
+      "source_sha256": "f22f453635b39cc65bf00347aeb97bb05397ee471f203466ca2b3e2820075380",
+      "published_sha256": "f22f453635b39cc65bf00347aeb97bb05397ee471f203466ca2b3e2820075380"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit/sweep_metrics.json",
+      "source_sha256": "25a1d986fda88dc4bba311c0e30dac216c545b2147accd833d05f7952c212c34",
+      "published_sha256": "25a1d986fda88dc4bba311c0e30dac216c545b2147accd833d05f7952c212c34"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit_33V/line_change_manifest.json",
+      "source_sha256": "5ff96a6ce3ea5da5d9c6624955916e5fb666178b6d873bd6072053074290cc9c",
+      "published_sha256": "5ff96a6ce3ea5da5d9c6624955916e5fb666178b6d873bd6072053074290cc9c"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit_33V/line_change_metrics.json",
+      "source_sha256": "8ad1d7e4eda8be87d3796e3f52161a7e75b8adaffc7ae2928d0c6db4786922c5",
+      "published_sha256": "8ad1d7e4eda8be87d3796e3f52161a7e75b8adaffc7ae2928d0c6db4786922c5"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit_33V/pilot_manifest.json",
+      "source_sha256": "f66a4d4c19d9aa0f76e2b65e8b0418ecbcbc5bf30c794f82b8e2a6578fcea368",
+      "published_sha256": "f66a4d4c19d9aa0f76e2b65e8b0418ecbcbc5bf30c794f82b8e2a6578fcea368"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit_33V/pilot_metrics.json",
+      "source_sha256": "25ac792595d2de9aafa80a3a7bfe2ed5721eb48927f9a0cbffdae79660a1463c",
+      "published_sha256": "25ac792595d2de9aafa80a3a7bfe2ed5721eb48927f9a0cbffdae79660a1463c"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/full_circuit_33V/preparation.json",
+      "source_sha256": "8a2d56515961b5839193c3feb105d72b0793df8c7dcd0afd6e77fd32a1b3ed0f",
+      "published_sha256": "8a2d56515961b5839193c3feb105d72b0793df8c7dcd0afd6e77fd32a1b3ed0f"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/imported_dc/manifest.json",
+      "source_sha256": "7e4cb8f21f2602512296388de3463969f50bee44e0cf945b6e218058d6ae0f1c",
+      "published_sha256": "7e4cb8f21f2602512296388de3463969f50bee44e0cf945b6e218058d6ae0f1c"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibration/01/metrics.json",
+      "source_sha256": "c73154e42ee433c4ed661542cf93e4a5022d87ff38ef18d07ed58542d406a1bd",
+      "published_sha256": "c73154e42ee433c4ed661542cf93e4a5022d87ff38ef18d07ed58542d406a1bd"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibration/01/preparation.json",
+      "source_sha256": "317ae73e16d6bbfe62082ffd77ebe7e45a365eac759464b9dd723b018a052f26",
+      "published_sha256": "317ae73e16d6bbfe62082ffd77ebe7e45a365eac759464b9dd723b018a052f26"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibration/02/metrics.json",
+      "source_sha256": "a23eae44d53175658879c208b42c048e44956f1417ed785e156f0d953d7956c7",
+      "published_sha256": "a23eae44d53175658879c208b42c048e44956f1417ed785e156f0d953d7956c7"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibration/02/preparation.json",
+      "source_sha256": "615a76cfda8814b6eba13c880a830ea112c9ed5538cfc57e4c63fdabb6a46695",
+      "published_sha256": "615a76cfda8814b6eba13c880a830ea112c9ed5538cfc57e4c63fdabb6a46695"
+    },
+    {
+      "path": "simulation/tests/SIM-02_line_regulation/results/calibrated_line/sampled_points.csv",
+      "source_sha256": "a0d860dc62593023c1e9a023f1a3f8005abd5ab952872ab4fbb3d9eafce8ec44",
+      "published_sha256": "a0d860dc62593023c1e9a023f1a3f8005abd5ab952872ab4fbb3d9eafce8ec44"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/CALIBRATED_LOAD.md",
+      "source_sha256": "1d398d01247dc85cea9b52f0b26f63097a2a603cf12d9216b5daa1043ee31d11",
+      "published_sha256": "1d398d01247dc85cea9b52f0b26f63097a2a603cf12d9216b5daa1043ee31d11"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/README.md",
+      "source_sha256": "ecfda3710acaf1f5d4c1c58c944666d5560d10e089ce3021af0c2158eaa5426b",
+      "published_sha256": "ecfda3710acaf1f5d4c1c58c944666d5560d10e089ce3021af0c2158eaa5426b"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/calibrated_load.py",
+      "source_sha256": "3cec3ec6540698924cce652e1f1463c2a568e06c33903cf9cc16e99920c6d479",
+      "published_sha256": "3cec3ec6540698924cce652e1f1463c2a568e06c33903cf9cc16e99920c6d479"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/check_timestep.py",
+      "source_sha256": "0c700881160f52e913aaf4cd5bb1d0d5254a97a2a4a8b2fa49cd83c791e00360",
+      "published_sha256": "0c700881160f52e913aaf4cd5bb1d0d5254a97a2a4a8b2fa49cd83c791e00360"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/results/calibrated_load/figure_manifest.json",
+      "source_sha256": "57eb519294a1e8543a54abff96c7d6796bf725c389c2493ee29cc9626525ba4e",
+      "published_sha256": "57eb519294a1e8543a54abff96c7d6796bf725c389c2493ee29cc9626525ba4e"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/results/calibrated_load/metrics.json",
+      "source_sha256": "2428ed86df10b7d9a5f9dfa668140ed7bfc58b932ce8ab20edddb1affe8967b0",
+      "published_sha256": "2428ed86df10b7d9a5f9dfa668140ed7bfc58b932ce8ab20edddb1affe8967b0"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/results/calibrated_load/preparation.json",
+      "source_sha256": "95f920c43c22bfd268fbffcdadfacc9fdc732da0020ecd65f3d0bdf00c08bb7b",
+      "published_sha256": "95f920c43c22bfd268fbffcdadfacc9fdc732da0020ecd65f3d0bdf00c08bb7b"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/results/calibrated_load/stepcheck/metrics.json",
+      "source_sha256": "c60a51da761ba8283afb78151133d8dcdeebc1bad3bb76a0fe2b3450a2b75a27",
+      "published_sha256": "c60a51da761ba8283afb78151133d8dcdeebc1bad3bb76a0fe2b3450a2b75a27"
+    },
+    {
+      "path": "simulation/tests/SIM-03_load_regulation/results/calibrated_load/sampled_points.csv",
+      "source_sha256": "5c09cc625cc2dea42b8e5a2f6ca194be426ca6ed3dd1dc5b82d831c2a5da0375",
+      "published_sha256": "5c09cc625cc2dea42b8e5a2f6ca194be426ca6ed3dd1dc5b82d831c2a5da0375"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/ADJUSTED_THRESHOLDS.md",
+      "source_sha256": "b29ae9b4ce4fda6b947eb0c450dbc4c37cf304bec4c0773e3aa116af12469044",
+      "published_sha256": "b29ae9b4ce4fda6b947eb0c450dbc4c37cf304bec4c0773e3aa116af12469044"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/CALIBRATED_INPUT.md",
+      "source_sha256": "0cc2048576068ee2e42ceb8c92c31daaeb6fc510790174d7f8529008305e3175",
+      "published_sha256": "0cc2048576068ee2e42ceb8c92c31daaeb6fc510790174d7f8529008305e3175"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/PULSED_LOAD.md",
+      "source_sha256": "09a04c3136c81e8bf4030204cd672067b57e3f272053ac1f1c6b78b59f11c83a",
+      "published_sha256": "09a04c3136c81e8bf4030204cd672067b57e3f272053ac1f1c6b78b59f11c83a"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/README.md",
+      "source_sha256": "ee9757ff80e732d1af78fd3f5be1a0e4351ca40646cb637cd1a760a4d3237c04",
+      "published_sha256": "ee9757ff80e732d1af78fd3f5be1a0e4351ca40646cb637cd1a760a4d3237c04"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/THERMAL_REVIEW.md",
+      "source_sha256": "d7636fd4c5c4563b6dcc168fc910be316a3a383daa335a71afaae0f47a0465bb",
+      "published_sha256": "d7636fd4c5c4563b6dcc168fc910be316a3a383daa335a71afaae0f47a0465bb"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/analyze_adjusted.py",
+      "source_sha256": "dbf79bbee05dc8b4f6c9983b0e1bcb5df4b9d984bd5da5083db4e0adeec0f3f9",
+      "published_sha256": "dbf79bbee05dc8b4f6c9983b0e1bcb5df4b9d984bd5da5083db4e0adeec0f3f9"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/analyze_input.py",
+      "source_sha256": "0ebc32b05d068db095d07e57858147257693c962b69775cea4bb7f086d68ca9d",
+      "published_sha256": "0ebc32b05d068db095d07e57858147257693c962b69775cea4bb7f086d68ca9d"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/analyze_settled.py",
+      "source_sha256": "3fa866a1d350ca29e77c4d1d5626c8ed170aa7ddbc789f812e46e6655964ade7",
+      "published_sha256": "3fa866a1d350ca29e77c4d1d5626c8ed170aa7ddbc789f812e46e6655964ade7"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/driver_thermal.py",
+      "source_sha256": "521f1e7eece8e3abf2147a5f6070c04351e8401bcf500f6d50b9713554992502",
+      "published_sha256": "521f1e7eece8e3abf2147a5f6070c04351e8401bcf500f6d50b9713554992502"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/plot_adjusted.py",
+      "source_sha256": "0c2ad972229a5cd861221b469170338d01575aa1dc713459ef9059cfbb3a646e",
+      "published_sha256": "0c2ad972229a5cd861221b469170338d01575aa1dc713459ef9059cfbb3a646e"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/plot_driver_thermal.py",
+      "source_sha256": "da10f3731db7b81e1bb8c50cbe82498ee66a35e0eade9a72611f9b1e69096ab0",
+      "published_sha256": "da10f3731db7b81e1bb8c50cbe82498ee66a35e0eade9a72611f9b1e69096ab0"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/prepare_adjusted.py",
+      "source_sha256": "da058f3e71277b8338cb16a0628a00fe12879ca59d81d88d517d35ac7c78270b",
+      "published_sha256": "da058f3e71277b8338cb16a0628a00fe12879ca59d81d88d517d35ac7c78270b"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/prepare_input.py",
+      "source_sha256": "fcb58f4b577c28b94e7aed2d3f76cdd02525633ffafe958fa66f78ed53f2c1e5",
+      "published_sha256": "fcb58f4b577c28b94e7aed2d3f76cdd02525633ffafe958fa66f78ed53f2c1e5"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/prepare_settled.py",
+      "source_sha256": "9ba9ddcb7a351c23f4e67e085fbb553ca7d5e6ec88bf44a10096943dd6d18de5",
+      "published_sha256": "9ba9ddcb7a351c23f4e67e085fbb553ca7d5e6ec88bf44a10096943dd6d18de5"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/pulsed_load.py",
+      "source_sha256": "c6942982f88e0d5f6e0b78ec54d1bb31fa202f58b75259d5efc115210fca7111",
+      "published_sha256": "c6942982f88e0d5f6e0b78ec54d1bb31fa202f58b75259d5efc115210fca7111"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted/figure_manifest.json",
+      "source_sha256": "e2899ac0719c30aac7d5c8399dd117565315806358d5d0e338bdec768c08124e",
+      "published_sha256": "e2899ac0719c30aac7d5c8399dd117565315806358d5d0e338bdec768c08124e"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted/metrics.json",
+      "source_sha256": "f827b7a53ef5fbaa7146e658cd4543ad481a5b5c7acc19d9c206bb4a8ce56a98",
+      "published_sha256": "f827b7a53ef5fbaa7146e658cd4543ad481a5b5c7acc19d9c206bb4a8ce56a98"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted/preparation.json",
+      "source_sha256": "da46d5b34a2e0ce0cdcd9beb851e6502274d784cdc07a79691c58e03ebb777e6",
+      "published_sha256": "da46d5b34a2e0ce0cdcd9beb851e6502274d784cdc07a79691c58e03ebb777e6"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted_settled/metrics.json",
+      "source_sha256": "d67b7d223f6edb224312a1b6e72199434d4e42928c2d6578257d66f8a33ca506",
+      "published_sha256": "d67b7d223f6edb224312a1b6e72199434d4e42928c2d6578257d66f8a33ca506"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted_settled/preparation.json",
+      "source_sha256": "751e73307617e8db56fbc04cb9947137478c341dae047c274ca50bf7f007e570",
+      "published_sha256": "751e73307617e8db56fbc04cb9947137478c341dae047c274ca50bf7f007e570"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted_settled/verification.json",
+      "source_sha256": "607aa77dae57198d302ea314d491e2ffdcf3d742b3fcf35af19b9fae1215d538",
+      "published_sha256": "607aa77dae57198d302ea314d491e2ffdcf3d742b3fcf35af19b9fae1215d538"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/calibrated/figure_manifest.json",
+      "source_sha256": "8b8163f99264ec60d7a4947fc32c972a47adf81d8b0ada235d274b652be00e72",
+      "published_sha256": "8b8163f99264ec60d7a4947fc32c972a47adf81d8b0ada235d274b652be00e72"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/calibrated/metrics.json",
+      "source_sha256": "a9a6d07bb7644c642f80013b59858c133cda939bdebe28a0f3c56fbbf69b12d8",
+      "published_sha256": "a9a6d07bb7644c642f80013b59858c133cda939bdebe28a0f3c56fbbf69b12d8"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/calibrated/preparation.json",
+      "source_sha256": "5e32f6fa31da2367af60d9e897aa577124b1536ca6bedd5352882440b782aa4a",
+      "published_sha256": "5e32f6fa31da2367af60d9e897aa577124b1536ca6bedd5352882440b782aa4a"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/candidate_preparation.json",
+      "source_sha256": "939f97d5e0a411a94a4ce5f2afe46b96314811ecece2ecadead77d033f678c97",
+      "published_sha256": "939f97d5e0a411a94a4ce5f2afe46b96314811ecece2ecadead77d033f678c97"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/decision.json",
+      "source_sha256": "37cca868230b0bfe9ae18219bc1a5128d65b42e9b40f5872a47c9e2fa91b739a",
+      "published_sha256": "37cca868230b0bfe9ae18219bc1a5128d65b42e9b40f5872a47c9e2fa91b739a"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/metrics.json",
+      "source_sha256": "e9bf10a4b857e722cc1a1cd11dc3661d25f32c662615ea8e194ed071139f333c",
+      "published_sha256": "e9bf10a4b857e722cc1a1cd11dc3661d25f32c662615ea8e194ed071139f333c"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/pcb_notes.json",
+      "source_sha256": "e522e948e1567c3f595f0f1ebe1aa6516c291358b939709f32e09db50db5f381",
+      "published_sha256": "e522e948e1567c3f595f0f1ebe1aa6516c291358b939709f32e09db50db5f381"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/preparation.json",
+      "source_sha256": "c49886b3a6c17a4293d868783cc0bc71e68badb541a2598e5475df9f12678034",
+      "published_sha256": "c49886b3a6c17a4293d868783cc0bc71e68badb541a2598e5475df9f12678034"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/verification.json",
+      "source_sha256": "263e6241f64fe2b451b3e1e44218c8e50cc2de531973b4feb0fb913c48b4b962",
+      "published_sha256": "263e6241f64fe2b451b3e1e44218c8e50cc2de531973b4feb0fb913c48b4b962"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load/metrics.json",
+      "source_sha256": "64343ee37314bb44dddd3d46b7c2089f0a05e346bb19c6770e01e5818f48846a",
+      "published_sha256": "64343ee37314bb44dddd3d46b7c2089f0a05e346bb19c6770e01e5818f48846a"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load/preparation.json",
+      "source_sha256": "0503faf676f5cd943d64702af016ebf6bbbba71da9d99a4996a340549610f819",
+      "published_sha256": "0503faf676f5cd943d64702af016ebf6bbbba71da9d99a4996a340549610f819"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load_inhibit/metrics.json",
+      "source_sha256": "25995418769773351f98421358563b3ce444d2b387e5cedaad227887ef062764",
+      "published_sha256": "25995418769773351f98421358563b3ce444d2b387e5cedaad227887ef062764"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load_inhibit/preparation.json",
+      "source_sha256": "0e4d3bca5038a27a9bf8375b2483d1fc4ee3adb557020b9fb2f527b6591cffd4",
+      "published_sha256": "0e4d3bca5038a27a9bf8375b2483d1fc4ee3adb557020b9fb2f527b6591cffd4"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load_inhibit/verification.json",
+      "source_sha256": "ce09b5b553fdd53f14d30d712fd37fa961eeda1e32d8d11d013c419d7882590f",
+      "published_sha256": "ce09b5b553fdd53f14d30d712fd37fa961eeda1e32d8d11d013c419d7882590f"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted_out_of_range/README.md",
+      "source_sha256": "d55ecf6340523c4f24a34eb220fc6d4b292a76d92182fbe56647c414ff08771c",
+      "published_sha256": "d55ecf6340523c4f24a34eb220fc6d4b292a76d92182fbe56647c414ff08771c"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/adjusted/SIM-04_adjusted.png",
+      "source_sha256": "6847f6204c6bb90956f7c9a827bc81e4f0bc13aa73f7785272b02a66090eaa22",
+      "published_sha256": "6847f6204c6bb90956f7c9a827bc81e4f0bc13aa73f7785272b02a66090eaa22"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/driver_thermal/driver_power_comparison.png",
+      "source_sha256": "29204176939bf8292a5ed61845eb71a8b6d8b36312d335a06a29bcab6808696b",
+      "published_sha256": "29204176939bf8292a5ed61845eb71a8b6d8b36312d335a06a29bcab6808696b"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load/pulsed_load_driver.png",
+      "source_sha256": "9107835148a72ba2ff85d4a0132d28fffbc8811d52646188fe641719ab9ce3ca",
+      "published_sha256": "9107835148a72ba2ff85d4a0132d28fffbc8811d52646188fe641719ab9ce3ca"
+    },
+    {
+      "path": "simulation/tests/SIM-04_dropout/results/pulsed_load_inhibit/pulsed_load_driver.png",
+      "source_sha256": "0f02e080c543a6eb54115443ddb73b6df6ed8b541fe2e717b161d200e01f14d3",
+      "published_sha256": "0f02e080c543a6eb54115443ddb73b6df6ed8b541fe2e717b161d200e01f14d3"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/CALIBRATED_IDLE.md",
+      "source_sha256": "b8adba62330fd94b6afae9ea4d6e9ea557e1fd4280da6aee584c605db7336805",
+      "published_sha256": "b8adba62330fd94b6afae9ea4d6e9ea557e1fd4280da6aee584c605db7336805"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/README.md",
+      "source_sha256": "a28bf85cfbb4d1a3fa5af8d7a1aea58731526a7142bbc9d41abdbedfef89954e",
+      "published_sha256": "a28bf85cfbb4d1a3fa5af8d7a1aea58731526a7142bbc9d41abdbedfef89954e"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/analyze_idle.py",
+      "source_sha256": "8ba634ea86a89dec2bb643c829a5d1c2e6122df89e08a1aa56fd2208203488aa",
+      "published_sha256": "8ba634ea86a89dec2bb643c829a5d1c2e6122df89e08a1aa56fd2208203488aa"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/prepare_idle.py",
+      "source_sha256": "2e29e30a15fc721e6ff9e607f5223b8daaa25696fe0dc4778bcc347fca7c605b",
+      "published_sha256": "2e29e30a15fc721e6ff9e607f5223b8daaa25696fe0dc4778bcc347fca7c605b"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/verify_archive.py",
+      "source_sha256": "55b8596e686aab2865788ac83e1b4d45dd588d7d5845aa81279a0d36dc071491",
+      "published_sha256": "55b8596e686aab2865788ac83e1b4d45dd588d7d5845aa81279a0d36dc071491"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/results/calibrated/figure_manifest.json",
+      "source_sha256": "975e2e567b27d900ce3a0081a6c41a678b6b07ce959315c737a6beba7aa32950",
+      "published_sha256": "975e2e567b27d900ce3a0081a6c41a678b6b07ce959315c737a6beba7aa32950"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/results/calibrated/metrics.json",
+      "source_sha256": "15f7f07793b292ce8d8ce069425a738826c11cd3047197dd3ec7cba117e815d3",
+      "published_sha256": "15f7f07793b292ce8d8ce069425a738826c11cd3047197dd3ec7cba117e815d3"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/results/calibrated/preparation.json",
+      "source_sha256": "a3b0d08fb9a03cfc9571cb646f907bba91d501898f360d0f5494529a3b972031",
+      "published_sha256": "a3b0d08fb9a03cfc9571cb646f907bba91d501898f360d0f5494529a3b972031"
+    },
+    {
+      "path": "simulation/tests/SIM-05_quiescent_current/results/calibrated/review_verification.json",
+      "source_sha256": "9740e8a79be6cfd3743f791d11490407e1921b8b62b6e415a47c6325e88c1175",
+      "published_sha256": "9740e8a79be6cfd3743f791d11490407e1921b8b62b6e415a47c6325e88c1175"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/CALIBRATED_TRANSIENT.md",
+      "source_sha256": "7cf9458695a67c017c67b244bc8299beb4cc859e1396c33436bca88115c76771",
+      "published_sha256": "7cf9458695a67c017c67b244bc8299beb4cc859e1396c33436bca88115c76771"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/README.md",
+      "source_sha256": "4ebee687840ab910114a7a8e12c69230c6c4bf8bd991a9792f795de94beb55a0",
+      "published_sha256": "4ebee687840ab910114a7a8e12c69230c6c4bf8bd991a9792f795de94beb55a0"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/analyze_transient.py",
+      "source_sha256": "2732ab41b0b560b8e447b7ea34f084843408400fe9334989efa54a6f8fa72268",
+      "published_sha256": "2732ab41b0b560b8e447b7ea34f084843408400fe9334989efa54a6f8fa72268"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/prepare_transient.py",
+      "source_sha256": "c737026b5a80a353ed0e0219f6d84707c9491f1d0cf84812f2ddfeb57930799a",
+      "published_sha256": "c737026b5a80a353ed0e0219f6d84707c9491f1d0cf84812f2ddfeb57930799a"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/results/calibrated/figure_manifest.json",
+      "source_sha256": "5e5d33c80a23ba9379295d6f062d4d1febea2a7ed9d961bc863cce157e97e923",
+      "published_sha256": "5e5d33c80a23ba9379295d6f062d4d1febea2a7ed9d961bc863cce157e97e923"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/results/calibrated/metrics.json",
+      "source_sha256": "d2385d30ba03a62b713c13be3e038b3ed1275234403f894928e4bc0b068237b5",
+      "published_sha256": "d2385d30ba03a62b713c13be3e038b3ed1275234403f894928e4bc0b068237b5"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/results/calibrated/preparation.json",
+      "source_sha256": "49161990e0692e0c3e7a75954cd25f79003110f4806cccbc88d4173e0215cd7a",
+      "published_sha256": "49161990e0692e0c3e7a75954cd25f79003110f4806cccbc88d4173e0215cd7a"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/results/calibrated/review_verification.json",
+      "source_sha256": "d362e356e467180068c0111984ad622eeeb2ec855f40c170cb318c21418f1a18",
+      "published_sha256": "d362e356e467180068c0111984ad622eeeb2ec855f40c170cb318c21418f1a18"
+    },
+    {
+      "path": "simulation/tests/SIM-06_load_transient/results/calibrated/33V_step_down.csv",
+      "source_sha256": "940a9f10133b166e478f2056c6ca16fc04f99ba035bbdde69fc00becbcfa11ea",
+      "published_sha256": "940a9f10133b166e478f2056c6ca16fc04f99ba035bbdde69fc00becbcfa11ea"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/CALIBRATED_PROTECTION.md",
+      "source_sha256": "e484d32c792d8a0b5a2a74a20ddd5896c4a646d29f9929ca718e4556d54d1f96",
+      "published_sha256": "e484d32c792d8a0b5a2a74a20ddd5896c4a646d29f9929ca718e4556d54d1f96"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/README.md",
+      "source_sha256": "5bc331d2b31a63c99aec00c632b555ec2b2cf6d631d6cd790a0b345783118b00",
+      "published_sha256": "5bc331d2b31a63c99aec00c632b555ec2b2cf6d631d6cd790a0b345783118b00"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/analyze_protection.py",
+      "source_sha256": "06e2b60ce9cfc5691e31e86f9e39e7007afdcb1f74570d56e216a79a3757c7b7",
+      "published_sha256": "06e2b60ce9cfc5691e31e86f9e39e7007afdcb1f74570d56e216a79a3757c7b7"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/prepare_protection.py",
+      "source_sha256": "32114ba07cd5256662dcc1fc7e0519dba07a2293c4aeb707b2a5041fbce5bcc9",
+      "published_sha256": "32114ba07cd5256662dcc1fc7e0519dba07a2293c4aeb707b2a5041fbce5bcc9"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/verify_archive.py",
+      "source_sha256": "5c1a4d4923101fd2e09797443d91c61f5aac4c8dab947a0bc7a652882adeff46",
+      "published_sha256": "5c1a4d4923101fd2e09797443d91c61f5aac4c8dab947a0bc7a652882adeff46"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/results/calibrated/figure_manifest.json",
+      "source_sha256": "5523459cf0a2084685ae5a2fd82fef8191e542b57fa3d116de5ce2da343e4f0d",
+      "published_sha256": "5523459cf0a2084685ae5a2fd82fef8191e542b57fa3d116de5ce2da343e4f0d"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/results/calibrated/metrics.json",
+      "source_sha256": "d9c1e94d0bc4577b0bc72f4c7f1b4e4d750d6e4d0cd26fdc4455d5b434817c17",
+      "published_sha256": "d9c1e94d0bc4577b0bc72f4c7f1b4e4d750d6e4d0cd26fdc4455d5b434817c17"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/results/calibrated/preparation.json",
+      "source_sha256": "57d7abbdb854689fe9e1840384d10b0f9c3ed3998e4bc06dfb78c84c68ebe3c8",
+      "published_sha256": "57d7abbdb854689fe9e1840384d10b0f9c3ed3998e4bc06dfb78c84c68ebe3c8"
+    },
+    {
+      "path": "simulation/tests/SIM-07_uvlo_ovlo/results/calibrated/review_verification.json",
+      "source_sha256": "10d2c72c4876241a82a9715e4b9f5a5899048432eb41146faf1acc17c7ed9504",
+      "published_sha256": "10d2c72c4876241a82a9715e4b9f5a5899048432eb41146faf1acc17c7ed9504"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/CALIBRATED_LIMIT.md",
+      "source_sha256": "dcc866d7dec3829d0a6d4b81520cd54b0effceea7be163872cb74162ebddfbd2",
+      "published_sha256": "dcc866d7dec3829d0a6d4b81520cd54b0effceea7be163872cb74162ebddfbd2"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/README.md",
+      "source_sha256": "631f7619bbf21206ccabe7315ef7c2bb2e51a6de63c59b5a27cd19894e05c315",
+      "published_sha256": "631f7619bbf21206ccabe7315ef7c2bb2e51a6de63c59b5a27cd19894e05c315"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/analyze_limit.py",
+      "source_sha256": "c83bb87d96c898301d693d412cd46eb78119ef622aeeda3fe6e7a670e72a86e1",
+      "published_sha256": "c83bb87d96c898301d693d412cd46eb78119ef622aeeda3fe6e7a670e72a86e1"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/prepare_limit.py",
+      "source_sha256": "d76b567540aff09a7b2ed0a04031a7e9c5a4b20c28f6d3968a2e2cd37924a5f8",
+      "published_sha256": "d76b567540aff09a7b2ed0a04031a7e9c5a4b20c28f6d3968a2e2cd37924a5f8"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/verify_archive.py",
+      "source_sha256": "201d8e445dee10578134ee010c596c343c7d638265dc50b5324d2cc1f2f10911",
+      "published_sha256": "201d8e445dee10578134ee010c596c343c7d638265dc50b5324d2cc1f2f10911"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/results/calibrated/figure_manifest.json",
+      "source_sha256": "ccb55719e2468a0259fa5d40a2a180a85c938da040eb59af21a42b75f106dc9d",
+      "published_sha256": "ccb55719e2468a0259fa5d40a2a180a85c938da040eb59af21a42b75f106dc9d"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/results/calibrated/metrics.json",
+      "source_sha256": "6cf2ac3bd684ed798c23dd2721f62b270eeba8d25bb1213935bfbbd77b291f15",
+      "published_sha256": "6cf2ac3bd684ed798c23dd2721f62b270eeba8d25bb1213935bfbbd77b291f15"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/results/calibrated/preparation.json",
+      "source_sha256": "7da2cc70904f5c10ca5b06bf674c1b39f9e77822d432700973a4bcf1a0a042f7",
+      "published_sha256": "7da2cc70904f5c10ca5b06bf674c1b39f9e77822d432700973a4bcf1a0a042f7"
+    },
+    {
+      "path": "simulation/tests/SIM-08_current_limit/results/calibrated/review_verification.json",
+      "source_sha256": "1af6425dc3c8f5ade34e9885526b4e142a46baa56f311dd4a3c2289e6f670fb8",
+      "published_sha256": "1af6425dc3c8f5ade34e9885526b4e142a46baa56f311dd4a3c2289e6f670fb8"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/README.md",
+      "source_sha256": "829569422f4a4400cf150df835d74262c727c8c7297da380ff69ac1f424cc325",
+      "published_sha256": "829569422f4a4400cf150df835d74262c727c8c7297da380ff69ac1f424cc325"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/REGULATION_LOOP.md",
+      "source_sha256": "f115830d050e6dd350cd6fa9926992a6581ab90c9ed8f3b0bba6fdabbe4c39b7",
+      "published_sha256": "f115830d050e6dd350cd6fa9926992a6581ab90c9ed8f3b0bba6fdabbe4c39b7"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/analyze_idle_transient.py",
+      "source_sha256": "fe0a7704490b5a44d784e73eb42a91a3c746bade13ec1236be0f6efcc54e42af",
+      "published_sha256": "fe0a7704490b5a44d784e73eb42a91a3c746bade13ec1236be0f6efcc54e42af"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/analyze_loop.py",
+      "source_sha256": "991aad879ac0e352dcba4a21cd093d8f58e65cc4dfb41f7a162959c4313fa738",
+      "published_sha256": "991aad879ac0e352dcba4a21cd093d8f58e65cc4dfb41f7a162959c4313fa738"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/cap_esr.py",
+      "source_sha256": "5193f0652741377c89c75974ceb1aa430b49bb8b9fc354009a837c59960272bc",
+      "published_sha256": "0e1a26ef2d908c6e68dbe9bcb39ec435ef50fd90b7b4b67a88a6aeb616b1e2e2"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/load_sensitivity.py",
+      "source_sha256": "fcf1302bfc982a40c3e42f120f18d6773d23f7ad7a52a83aa07f123eac2ec84a",
+      "published_sha256": "fcf1302bfc982a40c3e42f120f18d6773d23f7ad7a52a83aa07f123eac2ec84a"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/output_cap_options.py",
+      "source_sha256": "460376763b032a0c822c971be2358abf6a13bb4aee6a093929fee2902a9a4883",
+      "published_sha256": "460376763b032a0c822c971be2358abf6a13bb4aee6a093929fee2902a9a4883"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/prepare_ac.py",
+      "source_sha256": "8e138e718082da48a5d224c8957969c537fd063a82c6bcc887d07786044d1239",
+      "published_sha256": "8e138e718082da48a5d224c8957969c537fd063a82c6bcc887d07786044d1239"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/prepare_core.py",
+      "source_sha256": "6cd5fcc57980b09fa014a89c5c897096256fd0fb461e6f7df1c40c4fefce2d92",
+      "published_sha256": "6cd5fcc57980b09fa014a89c5c897096256fd0fb461e6f7df1c40c4fefce2d92"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/prepare_validation.py",
+      "source_sha256": "255c008b119e05e08cf0aace3ec2b545ef28aa30432e5eec4b8e1f92d46b3b59",
+      "published_sha256": "255c008b119e05e08cf0aace3ec2b545ef28aa30432e5eec4b8e1f92d46b3b59"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/installed_capacitor.json",
+      "source_sha256": "14dbda889c36aa269479c57ea0a9f33c7d68f47cfec5f7a38d8ebcb07a6657eb",
+      "published_sha256": "14dbda889c36aa269479c57ea0a9f33c7d68f47cfec5f7a38d8ebcb07a6657eb"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/metrics.json",
+      "source_sha256": "868a6444e7a699c3108b3d02ef97c789ca461fd08c709c08a579493d0c744fbb",
+      "published_sha256": "868a6444e7a699c3108b3d02ef97c789ca461fd08c709c08a579493d0c744fbb"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/preparation.json",
+      "source_sha256": "1f313e5cfd4bb689d949b4f229b344fe2c93d55fee0aa9f7fd3a1fbd8b9e1667",
+      "published_sha256": "1f313e5cfd4bb689d949b4f229b344fe2c93d55fee0aa9f7fd3a1fbd8b9e1667"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/transient_conditions.json",
+      "source_sha256": "c9714d03a1e78c89511835294969a631266d32aade3b0b4ca1a5562d4d18144d",
+      "published_sha256": "c9714d03a1e78c89511835294969a631266d32aade3b0b4ca1a5562d4d18144d"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/transient_metrics.json",
+      "source_sha256": "62940fe4ec37ca4060fd262010000a0424061844d3375fc7dd05bfeff47a8f5b",
+      "published_sha256": "62940fe4ec37ca4060fd262010000a0424061844d3375fc7dd05bfeff47a8f5b"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/verification.json",
+      "source_sha256": "3eb1951a0cbb0c3082ab7e481b42960096b73ff4c350a7cd645b6042317b78ec",
+      "published_sha256": "3eb1951a0cbb0c3082ab7e481b42960096b73ff4c350a7cd645b6042317b78ec"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/bias_reference.json",
+      "source_sha256": "40c53114b0dbe28ba197cab6e86979e674dd6baf9e7feb3e51752d4e361215bb",
+      "published_sha256": "40c53114b0dbe28ba197cab6e86979e674dd6baf9e7feb3e51752d4e361215bb"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/figure_manifest.json",
+      "source_sha256": "f49c65929189ca61e07871b7239f1ad820e23f580ce2eefdf652dda47c180109",
+      "published_sha256": "f49c65929189ca61e07871b7239f1ad820e23f580ce2eefdf652dda47c180109"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/metrics.json",
+      "source_sha256": "04375c89ad5b3d873f5afce23e1898117e446ae8fbc963e0e19d614762868c61",
+      "published_sha256": "04375c89ad5b3d873f5afce23e1898117e446ae8fbc963e0e19d614762868c61"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/tone_tests.json",
+      "source_sha256": "881e48858f97f6bba62017835ba3b4d273480ed37bc83425ee5ac6ab43f4804e",
+      "published_sha256": "881e48858f97f6bba62017835ba3b4d273480ed37bc83425ee5ac6ab43f4804e"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/validation.json",
+      "source_sha256": "ae048ea52a6c55c5f1f5750360927fc389b417afae08e241d7e708ab8985b893",
+      "published_sha256": "ae048ea52a6c55c5f1f5750360927fc389b417afae08e241d7e708ab8985b893"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_aux/metrics.json",
+      "source_sha256": "9e8c15bab0301c783fe864fcb7d348774b463fbd7c67119c8466036abdb48fad",
+      "published_sha256": "9e8c15bab0301c783fe864fcb7d348774b463fbd7c67119c8466036abdb48fad"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_aux/preparation.json",
+      "source_sha256": "e2678476e7e162ca629433cfbfe7424aadeb53df518b5dbb24732a10b16dca78",
+      "published_sha256": "e2678476e7e162ca629433cfbfe7424aadeb53df518b5dbb24732a10b16dca78"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_sensitivity/metrics.json",
+      "source_sha256": "9ec13cfbdfc30e679642e2963366eec2d9b1c82b139fc5e742ca00e5ee4145ec",
+      "published_sha256": "9ec13cfbdfc30e679642e2963366eec2d9b1c82b139fc5e742ca00e5ee4145ec"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_sensitivity/preparation.json",
+      "source_sha256": "86a52a425936561576ed25fe3941af234a058ff7a50d8ffe09242078ed307594",
+      "published_sha256": "86a52a425936561576ed25fe3941af234a058ff7a50d8ffe09242078ed307594"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_sensitivity/verification.json",
+      "source_sha256": "27db3226a21040e6113d7577e762360dbb6088153d3fbb68efdae3a85cb63286",
+      "published_sha256": "27db3226a21040e6113d7577e762360dbb6088153d3fbb68efdae3a85cb63286"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/metrics.json",
+      "source_sha256": "f311b9388465c64839810d632281f15a9d21d47dbdee68de0df80e8dbe7df5ae",
+      "published_sha256": "f311b9388465c64839810d632281f15a9d21d47dbdee68de0df80e8dbe7df5ae"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/preparation.json",
+      "source_sha256": "cfa5d44fddb1756b230e5c0da30bc07c987319f1dc67a2802304ae7f0edc4694",
+      "published_sha256": "cfa5d44fddb1756b230e5c0da30bc07c987319f1dc67a2802304ae7f0edc4694"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/transient_metrics.json",
+      "source_sha256": "3cd5b87e961d0a2b6f510bb1ec976899bfa02cba856b8f2c6e85bf9430f8a7a0",
+      "published_sha256": "3cd5b87e961d0a2b6f510bb1ec976899bfa02cba856b8f2c6e85bf9430f8a7a0"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/review/archive_audit.json",
+      "source_sha256": "6188d11e5434bee30a6f667a9185203a0d493d9cb90f348396017cecc47d4c4a",
+      "published_sha256": "6188d11e5434bee30a6f667a9185203a0d493d9cb90f348396017cecc47d4c4a"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/review/numerical_checks.json",
+      "source_sha256": "989e1f893ad6c88ddd8dc7c4f4b94250f6ef301ade6b4feadb4d5cfb32374972",
+      "published_sha256": "989e1f893ad6c88ddd8dc7c4f4b94250f6ef301ade6b4feadb4d5cfb32374972"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/review/preparation.json",
+      "source_sha256": "49aa1dbd09c61ffd7b6d95ef30d6841957b7cb3bff9949d88d5bf6be00ce2ab2",
+      "published_sha256": "49aa1dbd09c61ffd7b6d95ef30d6841957b7cb3bff9949d88d5bf6be00ce2ab2"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/README.md",
+      "source_sha256": "d48c6d17d64654a2e450b68451d39d18ad9ed041ff23bcf74ef44cce5d52a3fc",
+      "published_sha256": "d48c6d17d64654a2e450b68451d39d18ad9ed041ff23bcf74ef44cce5d52a3fc"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_sensitivity/README.md",
+      "source_sha256": "e6044d4ac2dd1bb3dac12fb1802ebf14ee04798c69c5c541414c449019229270",
+      "published_sha256": "e6044d4ac2dd1bb3dac12fb1802ebf14ee04798c69c5c541414c449019229270"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/README.md",
+      "source_sha256": "db6e8b6f32d216c2d56940f07d37a50b2e2ec16ebc269b1bdb61b31b4e86bffb",
+      "published_sha256": "db6e8b6f32d216c2d56940f07d37a50b2e2ec16ebc269b1bdb61b31b4e86bffb"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/review/REVIEW.md",
+      "source_sha256": "95cb292ef0ae6f9a9b337cda511bbfa9193ac5d94a26335233da3f17380ad113",
+      "published_sha256": "95cb292ef0ae6f9a9b337cda511bbfa9193ac5d94a26335233da3f17380ad113"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/transient_ESR010.csv",
+      "source_sha256": "ae846bf6d3cd6617d9a9e19ec325c5ba96610cb264d5bd45f22223a07113bf17",
+      "published_sha256": "ae846bf6d3cd6617d9a9e19ec325c5ba96610cb264d5bd45f22223a07113bf17"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/transient_nominal.csv",
+      "source_sha256": "764ae14e7990ea79f65ee96260a18e3a87aa8991f4bc70c09f83acb5157dbc4d",
+      "published_sha256": "764ae14e7990ea79f65ee96260a18e3a87aa8991f4bc70c09f83acb5157dbc4d"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/33V_loop.csv",
+      "source_sha256": "d5defa236660bbfb5d028ad8830d173583c0194bafe98d44b8172bbc06369d5f",
+      "published_sha256": "d5defa236660bbfb5d028ad8830d173583c0194bafe98d44b8172bbc06369d5f"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/core/5V_loop.csv",
+      "source_sha256": "d93d75676cb151d3c7bec0cf3d82e2a86ea4b299a92eb47345f2de67a4f9f91a",
+      "published_sha256": "d93d75676cb151d3c7bec0cf3d82e2a86ea4b299a92eb47345f2de67a4f9f91a"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/33V_1A_none.csv",
+      "source_sha256": "b8ab1afa97435d7a8f5452411169814590a271d04d9161503b599ac0df558785",
+      "published_sha256": "b8ab1afa97435d7a8f5452411169814590a271d04d9161503b599ac0df558785"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/5V_1A_none.csv",
+      "source_sha256": "e5243eb50732233928a46eb33fa3a230c39109bfe8f433cf114af27c3a63cd5f",
+      "published_sha256": "e5243eb50732233928a46eb33fa3a230c39109bfe8f433cf114af27c3a63cd5f"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/nocap_transient_33V.csv",
+      "source_sha256": "5ecffdd61ca683bd278b0298b920fed0b9328123790e5f65aa7054466c60296e",
+      "published_sha256": "5ecffdd61ca683bd278b0298b920fed0b9328123790e5f65aa7054466c60296e"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/nocap_transient_5V.csv",
+      "source_sha256": "5594cd0d72ca3dfea0497e6fab23a8e7169c09caf4d68b4cb623b83dac9575c2",
+      "published_sha256": "5594cd0d72ca3dfea0497e6fab23a8e7169c09caf4d68b4cb623b83dac9575c2"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/SIM09_cap_esr.png",
+      "source_sha256": "025ed5f7f28232a7ff6905d7bda78eb5399be42d46174a0a4807a6910d26bfb8",
+      "published_sha256": "025ed5f7f28232a7ff6905d7bda78eb5399be42d46174a0a4807a6910d26bfb8"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/cap_esr/SIM09_idle_transient.png",
+      "source_sha256": "4767ba2c5b56740dc1ef346a3c7f857f0522a532da11365ed8890479733d38c5",
+      "published_sha256": "4767ba2c5b56740dc1ef346a3c7f857f0522a532da11365ed8890479733d38c5"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/load_sensitivity/SIM-09_load_sensitivity.png",
+      "source_sha256": "236de22d06ddb721d70e69f240aeeb1db2044fc819b6e5d5a10f93b5dcb30880",
+      "published_sha256": "236de22d06ddb721d70e69f240aeeb1db2044fc819b6e5d5a10f93b5dcb30880"
+    },
+    {
+      "path": "simulation/tests/SIM-09_loop_stability/results/output_cap_options/nocap_transient.png",
+      "source_sha256": "edb9ae7e005d71fc54135cfef04b1c2dc62809dbf70173dc0a30258469b7325c",
+      "published_sha256": "edb9ae7e005d71fc54135cfef04b1c2dc62809dbf70173dc0a30258469b7325c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_calibrated_line_5V.net",
+      "source_sha256": "9bba310f8fdcc64ca5ca0c115bb94f198dd3789897fd4128b38ca52c07c82650",
+      "published_sha256": "fe7bf023c2b1f97fbc61b9c47daac5030a58b8d67f858bfa3ee9faa327f63845"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_core_start_33V.cir",
+      "source_sha256": "f823a86ee919836570829b5a13d21ba572b1521051d28d9906b649d5d583c0a0",
+      "published_sha256": "1610af114d59e398f607757fe2b98bdc331e2bbc3a4b2d70c45ce177a7ca435d"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_C120_current.cir",
+      "source_sha256": "0941bde48fab7235ad1b3fffd59668c7d19f82632bd06bbf2d3550dd163f2f57",
+      "published_sha256": "76d050e28749fb2a08bb633b4afaf305742c383e72b51d0e368304c84af08272"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_ESR300_current.cir",
+      "source_sha256": "5c53b043edc6169725b54da1c79e02b221e4c3b2d0ce18d6bdf6ce9afec6f61c",
+      "published_sha256": "9c5ee6e78e56ce4af8a1c776c821778264eb48caebbab67ab286b2167fc0cefd"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_1A_1u_current.cir",
+      "source_sha256": "650bc70a55afd211a1f11530aa326ad7c7d0b13c8d02818f787edb6383add858",
+      "published_sha256": "5678b13406b06fb0b7f7666a960e44dc243da93079527b9b5555012ab33a037c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-05_calibrated_idle_5V.net",
+      "source_sha256": "c7f65adcc9ed2627f2c0d2eb1a23982622d9b474b8bce58b120b5845e75833e5",
+      "published_sha256": "e8f1dc0325f91cc8491c552a86d1bc573cb067c710fc0732d98cbf3dc893c15d"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_load_stepcheck_5V.asc",
+      "source_sha256": "9edc1b689996d5691f6c8ded650fe978a40e0fb78a011f478a46969d61849d44",
+      "published_sha256": "0a272f8e0e5ed9aa42d4749fe2b2b1db33f833bf10e7a12a5337049af7e912bb"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_calibrated_load_33V.net",
+      "source_sha256": "1820bce086742fca440138a33d1c5ce9c1d97e9bea402f4461501ae7bbfde8fd",
+      "published_sha256": "af4aa879b4821e8e0db3632d1fb03a3a0d98257356451d3da9b211e76d8443b5"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_reverse_33V_current.cir",
+      "source_sha256": "973a709f566a696d4c105dd8dcdbc268c2f53ff77caae57da0f6e2c42cb12727",
+      "published_sha256": "f2508eea50b9537c19f8f1e5d3791b37d7ee0363c4e7883471674d219b46b2cd"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_full_line_5V_changes.asc",
+      "source_sha256": "1c72e89cf6387266df48a2efe3555df8337c18e48eb6b2c0d036c6f0ed8bfcc0",
+      "published_sha256": "9cded7bf40ab480320499f356c973d8ff79b52d77d1832ba0484b373f6685ce3"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_driver_R100_5V.net",
+      "source_sha256": "b8b7fd78be2e79106f0662bf66044d2791c2ff5a60568f1cbf6df9886b53571a",
+      "published_sha256": "9b666b5347f960593720492e0bd4dfe0d35cfcefc794c6db45aadfb47f8a26bd"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_idle_10u_current.cir",
+      "source_sha256": "149f39f4aac5d70475e87d7ac4adc14533d455a47f06dc2ea8c439b03ba85c24",
+      "published_sha256": "a75fe8b32879635600ff0da695327d35ef8467330b22818308aebf833043c7c0"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_02_5V.net",
+      "source_sha256": "ff51c6c139873b8af6fcb5b8f03b87e5fce53a4f955ae63ebc8c109537350a94",
+      "published_sha256": "73946285ca1a1545cb9264ca95eca2485b5a05900b216febf5774fcf2b05ab83"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_driver_R100_5V.asc",
+      "source_sha256": "2aaa89060f8511c40e60479c386cdf760cbd7e268b60ccdc7f11ce795a9f6bc1",
+      "published_sha256": "e2b01641cfc2c731dbab96384f287e433d17d23375bb01af2e08fdb5c0f4fcda"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_transient_33V_ESR010.cir",
+      "source_sha256": "2ec34b189731bd75fd49145ea964d55f1de6ec7e2ec2f567bb9f95071bd92180",
+      "published_sha256": "89f48bdd9699d6359d3bcc76da31d2aebf4cfeb14d05596992bb47d9db0826fe"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_aux.bias",
+      "source_sha256": "1c33758c03ebbd0d74faa270be50fdfda4a475bf3f09114f5e0a3960eac01796",
+      "published_sha256": "1c33758c03ebbd0d74faa270be50fdfda4a475bf3f09114f5e0a3960eac01796"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_01_33V.asc",
+      "source_sha256": "a92e94079d86db4d04d83bc0dfd487eb4e3fb53f691871b073d3d502bc282f81",
+      "published_sha256": "44e0606cab92116ed8bb31db3b67d1669faed565449d201e1a29a496335abd9e"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_nominal_current.cir",
+      "source_sha256": "18508d7448c604c4719bd3dc281bff877da808f47c9d641a3bdcde8bb2244ddf",
+      "published_sha256": "ff93c36ae6640f57147a8f05e61b6c1441dd89b3a902f9420b3e9a804b90473b"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_01_5V.asc",
+      "source_sha256": "1a79e75aa85be197550d44c4005d76e666dda185c0f18886b6f7d4190977152c",
+      "published_sha256": "7e660f750e84bf1b38eca5140edd9c6ca1cedcffcdbef8104743c56fcb9c1b26"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_1A_1u_current.cir",
+      "source_sha256": "66460841f539870b2efa67fe81f4cc3035a2e3b3d3c8c078ab3b571c72ac845a",
+      "published_sha256": "4f4eefecd2b9bea93b1d01c8f4aed6472be2c9cebdf15c05159339e09839e653"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_02_33V.asc",
+      "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+      "published_sha256": "a44b24c3c7a8680072c42ab3fda934edd604a80d2f956218e146d1bd10db0772"
+    },
+    {
+      "path": "simulation/ltspice/SIM-05_calibrated_idle_33V.net",
+      "source_sha256": "a0d3d58c8b14bf5092aca213d3f6fffb46558b6e4934ab64521cd828bdf507c2",
+      "published_sha256": "d48bb1ea1581ccb56e5be341d906591807403f29b44b166a581618c3bc034359"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_ESR010_current.cir",
+      "source_sha256": "b0407a4ec720eaa272f1c1c7479131022fae59489b09f3e4dc236f54800bc3a9",
+      "published_sha256": "e90bbb92c401d96ac7f6d140c6b97544be788a4bd4999ef14b43eed5c72ff06e"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_dense_33V_voltage.cir",
+      "source_sha256": "680e7b97bfae82588bf1f0bcfc9f67a17fc049557fe12ab7e063386c320aaf11",
+      "published_sha256": "9c8e234d062bbcda4f7dea1aa37f283f622fee3a75840d4b3240fa288385c927"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_reverse_33V_voltage.cir",
+      "source_sha256": "e04f04546326facad59b2cd7c4d52de0d9306585e526435c8611e9b8410d3edb",
+      "published_sha256": "cdfe7a750dc9fba70cf9c68157d69336ab7743a97742e1033abb317dd1169461"
+    },
+    {
+      "path": "simulation/ltspice/SIM-08_calibrated_limit_33V.net",
+      "source_sha256": "1ed3bfaea1e36562c6ecad8ddfb31ede464e155b07441c1628c499eff6978841",
+      "published_sha256": "e412acc2fa9de5168a44125dc4308bcb84c0e9e4cbca1e93e1ca4328642690d8"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_C080_voltage.cir",
+      "source_sha256": "05c0e67e8bf4fb3e0055d24ac74da0ae05ec8e895b983935e9e4cd3d10607814",
+      "published_sha256": "2f7af63b2e2e0f3b0b7c338b30415217b54c402016202f2b36651addbf0490fc"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle.cir",
+      "source_sha256": "d0fe994f256a257801c603d9e27553d24e30104786bdda3fa9098469e35f894f",
+      "published_sha256": "d33f28dafae82ecf83c5f13864eddef351de709924a962e160fc4d11a31fd64a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_1A_10u_current.cir",
+      "source_sha256": "e936cd552e3984f84ece4ac7c517261f94f5dc392d6a59a62744a942ec098f53",
+      "published_sha256": "14e7d681c326755e4292faab49c4381ee4dc3ed6d7ee197bd44a64db58c82f30"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_1A_none_current.cir",
+      "source_sha256": "0c276b85471005e9c75acec572a0e7255f9afb330ac5807ade2146ae54a55c74",
+      "published_sha256": "ff181a3fc99db3c934f154589b2c5172770033bec516fe1beed4a36e3272b8b0"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_load_stepcheck_33V.net",
+      "source_sha256": "9d92099f2c6595ab961fce2e8463c5c56b6a6c8578072818556d0d7d076050d9",
+      "published_sha256": "95d654f2c520604738864e26e2d7a47817a03456e39b425c61d61a7dac31db41"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_100mA.cir",
+      "source_sha256": "9af4ea570fd3075e53624b1e36abf21e8d7a19a6e24c1d77062735860102ed0a",
+      "published_sha256": "341e7100587bcecd2e425db598f3d3322524bd2357485296b686965a7875978c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_idle_none_current.cir",
+      "source_sha256": "50dfe41229c6d6a06c6ecd96e56bfd217e7524532ddb76bab12dff9dd0456a2d",
+      "published_sha256": "3129a8c2cfb63b6a6e0bac915aa1b954644d86723cc9aab5351ff92582f27ffe"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_driver_thermal_5V.asc",
+      "source_sha256": "d0a3f86df4af6b93a05aab90ce704c4a7712a4e8781045731cf32274c6979931",
+      "published_sha256": "0f189877cbc4da362a1e25be821f6ada893b5a7489483536d3865da1214e79b6"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ac_33V_voltage.cir",
+      "source_sha256": "647330abf1cd33e2ca48ebc3630ad9e4b73fd2ebc7243e4eb6f958945fe439e5",
+      "published_sha256": "ddc67f6951a63b095d0ac6bdd0dc0f81f31b4ad61f4314fab0c45fcb10226bae"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_voltage.cir",
+      "source_sha256": "aef203e00edd2d75a7fdd1cfed53a960db7e66240a84c3fdc738065626c5c613",
+      "published_sha256": "f026f7d3bd5e3635fe2ac9ab5d3f76c8ac5629e0125dd453385eaf8d987d6a66"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_C120_voltage.cir",
+      "source_sha256": "dad50aa6f8eb6f847fc44ae477bfeea3023a664ca2facb77bcd9ceab3ead471e",
+      "published_sha256": "ef9d7257bbfb8bfe0912031368f5bb299f0e4fe81b8be6c6c62385964883954c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_C120_current.cir",
+      "source_sha256": "06c4f5e5a5f5e6765537097771f187e3179561bb5446bd15d32f6a465c92dd28",
+      "published_sha256": "e97007a091ff5f7166445f83703c7c9ad658e5ff9cacc1c6500655db23100905"
+    },
+    {
+      "path": "simulation/ltspice/SIM-06_calibrated_transient_33V.net",
+      "source_sha256": "a6814918045b2b34ec5a05a66fcb0e3b9c0e2f95c4a95ec6be3d567b336dff22",
+      "published_sha256": "f8100f0bd285d9a4d5116b2d44ea55b368d95cca952eb9fe0d7d5a743dd686e0"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_ESR300_current.cir",
+      "source_sha256": "dcb5ed26a5b6aa9c3e92822c80c8a2b9273b7f718365a8bb6ae2c082529d7c7c",
+      "published_sha256": "33587efff7c9fbee8ae0c1a2db15374a4392efbd34e74a93ca2888741cded03a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-08_calibrated_limit_33V.asc",
+      "source_sha256": "f054abd28351fad5854fa4abef318c36d4ec583f4c990104bb022e6e597856ee",
+      "published_sha256": "5e9ac65ae5499a850132430b4db1956d0b422985cb00bdd63ae078d0051b7851"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_1A_1u_voltage.cir",
+      "source_sha256": "b9c599f0e3669412cd4ff736a56f17e5565f6234845da9bd60e3a9fbb1bac757",
+      "published_sha256": "bdd003a546aeda266028ba625fe55a1e71e47c485471b6b79fadf7be19c5ba9f"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_transient_33V_nominal.cir",
+      "source_sha256": "7a2ddc6ed00564353fd9fe2e7a68f9a9f807fb961fb69915505cf44340227a20",
+      "published_sha256": "075dcbcde9fb5016144c8b443d99c09dc1ae09a8f7ec5799f2389e29dfc6ee69"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_reverse_5V_current.cir",
+      "source_sha256": "70d2175263d38288d99207cddc9b7abbd987d7bbc8bb36a043546b385c6be818",
+      "published_sha256": "509a06dde3ed759e91de8736a1ca4aa953d74e1c1e1f6e1e4d55748d610b5305"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ac_33V_current.cir",
+      "source_sha256": "1f6986c233c6c76655de54e4c341a9536efa69af266457c25668ece040d6ceb6",
+      "published_sha256": "8183ba2964e494b27f8c5f2ec225c9f5867abff42638354bb79856d102370b79"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_100mA_start.cir",
+      "source_sha256": "2f5cdc98e328a6de30d40e6ef9c726940504c84dc95a94ba55738eca79d19abf",
+      "published_sha256": "386fe1d0e40ee793b6ae3b17dc1d677146258ab575298f00dc9b33397c86856a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_C080_current.cir",
+      "source_sha256": "64eec4cdfe0fb3a0e603e0b852190bfdb43996b4705218437ed62f468445e49e",
+      "published_sha256": "3e53b40a4422b22ad99b1fe93a7ab78dbe06224fcfe8667b46243a4535e6c27c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_100mA.bias",
+      "source_sha256": "04f296ba5d41ced01e97884c8c1776dfa727687084e64f52ee13b26a2d9c55c3",
+      "published_sha256": "04f296ba5d41ced01e97884c8c1776dfa727687084e64f52ee13b26a2d9c55c3"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_current.cir",
+      "source_sha256": "70b7e76d932a7d217ac40c6b7a3e124fcbef6f40b98c7787ee29c2551c816a0c",
+      "published_sha256": "28f9e384a0b6829e1083cbfc9159437f0706bfedcfdd806830bad4d29d09dcd9"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_calibrated_startup_5V.net",
+      "source_sha256": "832bdf72408e45420e787f921ac356bc0c5714f4af5e1cd647ed6555ee6d8320",
+      "published_sha256": "0fc2f61bf52c8a905a2a214d543aa7c84fad8aef7e2e2bd9cf20036a61628c92"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_core_5V.cir",
+      "source_sha256": "d921c8635e4b37466547370e640cf15ba59a452d55f3c253866f0db384ca86cc",
+      "published_sha256": "86bba8585782cb98faa3c34214195555d5c9351552c1564e7fdf8658b6cf8124"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_calibrated_load_33V.asc",
+      "source_sha256": "27b901a4dea6234edad2868d25130743e6e7a78b7e8230cf807e9cde415f3db7",
+      "published_sha256": "e9ecdfb98137d78b816483c375c600c0de5dad511311c863624244d0c1ff0875"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_calibrated_input_33V.asc",
+      "source_sha256": "0cd71fd1ff60dfc2d55bf665b5007a17b526605890ff506787c9bb73c04a0b3c",
+      "published_sha256": "1c41642b47b57a7d00741facd9375dc50e67a22b9c0185339e6c11827ef7b99e"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_check_step_5V.net",
+      "source_sha256": "0eaa70eaa11570eafc75246ac2b822adad2a98ce4685009204c46832ac1f1f88",
+      "published_sha256": "a7470e96730b95acb43e66a1213079b89e2b2aff9e268e41048c125763320f09"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_100mA_current.cir",
+      "source_sha256": "4a522a8ead34d467c5e7d799e7b94e185efb28e76d07c10d3d68b00a815ce0a1",
+      "published_sha256": "aad92d296cf2f1d7b28f48ba025a81c81b70620287c11109d94d52ba44963b9a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_voltage.cir",
+      "source_sha256": "ef3b742759170559ae2cf804826e83bf0176b797a38872b5d9e5dfd2b5d0b6a6",
+      "published_sha256": "194ab8439fbd4a13e2d26d4827f173e6e85961ceb3587c22611f594a1a8acbbd"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_full_line_33V_pilot.net",
+      "source_sha256": "de51d7b0e7750ae748a4ce9575805eb96f31f176caf7546c35c6a5e1d89f2ad9",
+      "published_sha256": "9e05f36dd721d833076cfc9bfc2585520ed42de1629ad71a628ea6c85bf69bd8"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_100mA_start.cir",
+      "source_sha256": "94f7663e4794af381072381965ede80ecdea9de6f3cad2e4f1f466122c219690",
+      "published_sha256": "350dc74a32e8edebb4bb6b7b9f787d215a16b23604903a406a7bd36d8bb65b51"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_1A_10u_current.cir",
+      "source_sha256": "a58ba4258c10ccdde0058dc6703cf397866c9e1db251a8083a2b7e319cfc19c9",
+      "published_sha256": "5435f9e29474f6720013dacc7e6d28917a154b293b3dcb6f0bf60d206bfe2910"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_core_33V.cir",
+      "source_sha256": "3c4d88f0df819bafe14c127f07ceff1cb5481225100c85b3500d9435dae98efa",
+      "published_sha256": "638e495c6be005b3849a081f7b108681301a8544abf0b8c931a3b6a1d38a9c4e"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_01_33V.net",
+      "source_sha256": "bbae5f06ea128031249bc6b71419e5a39caa96685bf53dfd6c7ea1d2bf3b23df",
+      "published_sha256": "0e3a04e36d5ebe711fd6e9efc854a85bfe4e5ce80d41801053a3906de5526dc8"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_core_33V.bias",
+      "source_sha256": "5411bf0681ef683168a9c0c28c594916d173671d8cf879479dc51b6f26a54c07",
+      "published_sha256": "5411bf0681ef683168a9c0c28c594916d173671d8cf879479dc51b6f26a54c07"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_1A_10u_voltage.cir",
+      "source_sha256": "7d5b368f9eee1835c404b66c7be935214c72fc0cbf225e69220310c5ea7e7f13",
+      "published_sha256": "bdc88182c946f9ab898724f316c2069545ada93b2f4fe5e90ab0ea614d8bb837"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_calibrated_load_5V.asc",
+      "source_sha256": "33d9dba8b56952982d2956421c9097656ef23bd2a8f974ab806e5d2d4a21b481",
+      "published_sha256": "d7f00fdb5765350dfbd5cae7c462c8b25f1be9da9c0b87168b62c7bb49a0c732"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_adjusted_5V.net",
+      "source_sha256": "9f9dbbec9746564d967ada40f6dd71db51b1246040bd0a5b331de0005b2c5924",
+      "published_sha256": "6e2755757fb2ca401e5bde442dcbe08b666c67258fdcb6428ec9de2ccb75f928"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_adjusted_33V.net",
+      "source_sha256": "361829e56c8e4373146073375f9a7f5be9e9951536345ce6cbae2f55d162e4a0",
+      "published_sha256": "41e79178047b1f6e9896574da4c06d4fd691bb6c853286f4ada146161fba55b4"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_100mA_current.cir",
+      "source_sha256": "47d6bd6695860d873a86c6897abcc73aec1026352391150be958285134b2f87a",
+      "published_sha256": "5e6e051d45dba84efe175101b44e026985df7a97f35464a7f0bc19c5b5b4e1a0"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle.bias",
+      "source_sha256": "f74c42d42bc2f22faa6a5a1e88da2903a93466fae0d333091e566b95ddaef3b1",
+      "published_sha256": "f74c42d42bc2f22faa6a5a1e88da2903a93466fae0d333091e566b95ddaef3b1"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_calibrated_startup_33V.net",
+      "source_sha256": "c334838acec6d448d1ec3161db0d42803912b23d0c6c4bb570e41fce2e4eb6fc",
+      "published_sha256": "4200363ccefc5cfa99e5ee5c17727389e8c6d3ae69e0ba7448f97b086a188ab0"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_100mA_voltage.cir",
+      "source_sha256": "3a7a6abd8bc06182d3d49ecb23446c8ea888c6fe05c32fbdf4c264fe0663ba09",
+      "published_sha256": "e9481ae2dc2f8353b9921f3d448eb6dd1d6994acd1d261ac1d03595bb53d44c5"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_idle_10u_current.cir",
+      "source_sha256": "d73652e5d3351dbe517fab3eb08acddafd35ce9b31419ab727ee79c804739740",
+      "published_sha256": "0ad6bced3140c3a5ea3940922e27b6275226224a3bd4abe515fe308371a1d73b"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_aux_voltage.cir",
+      "source_sha256": "cd4d96affc049aef19231e6676bb9e36ccf485b76a1c667f763c31c2b1e123e3",
+      "published_sha256": "2d3fd34d9c649a6873d8d2739cafb16f03792b8f18e99ee92837ee92c549a900"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_1A_none_voltage.cir",
+      "source_sha256": "0e8cb20a29973cfd53b61058a362e96b891a1e1b671b55fbc8caaa29ad7bb2b8",
+      "published_sha256": "62923b56e2438cf4543ba91b6c360347f491398426b286897aa5fa8ab3795936"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_adjusted_settled_5V.net",
+      "source_sha256": "03716006a772f4fb3c8a2c9db58228759d6832e3aa0b55d5d7c6f9caeb1d7925",
+      "published_sha256": "9c4f88fc87230edafa65441c45e2856882f8487a0eb78ae0f8e105da4387ab36"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_pulsed_load_5V.asc",
+      "source_sha256": "0ba3dc5f7dc502be1679b0412b13aa91b5f114d867cf6fd999c1caedcf96622e",
+      "published_sha256": "9b168053e224eca03d5af55fc3a8507ab79a47bf0161684d6e2fb445b275337f"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_nocap_transient_5V.cir",
+      "source_sha256": "6685d96a3588cf7116898fa9f515208e94570797346462a28d25bd20269749a0",
+      "published_sha256": "146be32ea9347f34b3e6de2d34425514a82fd321c7e68426fc0ff03fe1f40cac"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_full_line_33V_changes.asc",
+      "source_sha256": "dd8617a7acd2e0c09a4f5207ae83537520c4d25df87737bfa66afa9ecd04e42b",
+      "published_sha256": "a6ddfcc0eef61ecc74b4266c27259fe1fd528a19cb1cbf5669b0fd6f7b8927e1"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_idle_1u_voltage.cir",
+      "source_sha256": "1690e84656540d3f8f27f368d82ce8ee6e9bf3bd41798b28f3347fb6e98f877f",
+      "published_sha256": "5e84396649292793d26d330eca45c7f29108eeee1ff91dfe9305df1ceb55fb36"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_ESR010_current.cir",
+      "source_sha256": "aa9e1f685c2a212b94f6a3fbd67b1f1c16edb38c792612ee753720420aa5210e",
+      "published_sha256": "f140959dfe61d1139e8674339b79aaaf2362d46a35ae5c9d6277a79b0d0b3ed6"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_pulsed_load_inhibit_5V.asc",
+      "source_sha256": "2af97cc13a8c848e6e046988f4c52b54e9eb5bcd64bfc571c6bdc007b5fe5efe",
+      "published_sha256": "76e08d476b2ecdf0713a114c192138b8e65c9ec08ecca784cd86075f2938bef6"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_dense_5V_voltage.cir",
+      "source_sha256": "215bfa45f58cbd6368b4bebbc89d4cdcc05448ed2c638c020fcee4553b1fa6ad",
+      "published_sha256": "315313724b7173cb50fbf25c21cdd0467d9104c87af66d9b1bbaa00b83a14385"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_full_tone_5V.cir",
+      "source_sha256": "c2af5c842031c31c6500f57132b4664ab2c54b2acef49900aae90ba4202fd337",
+      "published_sha256": "4a7955f172c393a8f8a58b7a9d32dbeb261976b188edc11a377bb0fe0aafacfe"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_check_step_33V.asc",
+      "source_sha256": "9348526dd11e7839c0d56265a319c435f2696a4de353cba593c66d8b9b2fa980",
+      "published_sha256": "fb1d20497438f23d88500be2ae62f369ea7be4a2a4b13be49b65a124c24f91be"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_calibrated_line_33V.net",
+      "source_sha256": "92e5d74bd337a846ba095eef02247011595636250d18afa48402e2468939c7e5",
+      "published_sha256": "33a2e220cf7c359f902351f94f788fbe661dc6fdbf3d372278dbef30d9654182"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_check_step_5V.asc",
+      "source_sha256": "9da5b1171efec0e428959addece9a736f4ad5f6c5f9386d578c8d64320fc1aa7",
+      "published_sha256": "b9b2a8ba464b3686d619ec06adebb8bec3ebcc704d00fd202f7403e9a994037f"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_start.cir",
+      "source_sha256": "7da05f6429133349e50246cbda6dd4b2bcad22a86eebceb16eb05acc39869089",
+      "published_sha256": "2916e4331784a43cc1372870e322b7c4a1e7aae64f26cfcb1db621046f5bcbd2"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_idle_none_voltage.cir",
+      "source_sha256": "c5b96b2e32f0ae24902bc4110ab37ae00f4e7c5606a8cc0e03276971b5659f8f",
+      "published_sha256": "93b6b73c46dcb87122d9af74ca939a3a36351681489fdc2c7ae4aa1c2c1edbbf"
+    },
+    {
+      "path": "simulation/ltspice/SIM-05_calibrated_idle_33V.asc",
+      "source_sha256": "49e19f26aa885183435214a2dcf477a0127e8460d24ac5ca3a6c2ee6687c12ac",
+      "published_sha256": "05006fd47afeb90ce7f45663f52f131acc337ecd138aa76dfbe9cbdf67a9eea8"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_100mA_voltage.cir",
+      "source_sha256": "1c94395c99d5d79fecf2bda0cfc6c8885f4245c1923586bfc9d1f0c1b4317d9f",
+      "published_sha256": "6a59d53ef8ed81049b167b75cf1c73dbf1c2602f81b03910a13bf1ee3725b706"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_driver_thermal_5V.net",
+      "source_sha256": "09cde4a54ec57fb604b84c57221e24b4320eefe5ff14ad5e8002f98aa7f93d11",
+      "published_sha256": "f92f196e49a6ac78f5089dfda40d3ec3e61eda0d66ad831aed225e19369f5b71"
+    },
+    {
+      "path": "simulation/ltspice/SIM-05_calibrated_idle_5V.asc",
+      "source_sha256": "573c49399be271fe3623799764a1326a70c03a69386bc6584d16d002a1a20421",
+      "published_sha256": "4d108341aec1e73cfb4a9cef16c6aa5de3deede4bd2316e3d531f4138e61b6ab"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_1A_none_voltage.cir",
+      "source_sha256": "cbc9bddcc6ac5a6a3a4a7a6e16e9a997abbc4a8e34775666a0ac072363cac828",
+      "published_sha256": "5019105545bbc55a6d0c218d68a0c3ffb077ec5c508980821f6dfd9536a60878"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_start.cir",
+      "source_sha256": "43e8bbb5f0804bda95cd220d4c2c39f9edba3a0360d700f9d1ce335c7b442ae7",
+      "published_sha256": "8972b9e6cfa8de31932c5a1c86864a902ce0b5a8dc3229209c3e0dbfc7c28020"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_01_5V.net",
+      "source_sha256": "0f74281ca7ce4ee6cb9a976c4594afac8cc0ab8e955970933a6b7e7d50abd9c1",
+      "published_sha256": "9038e895e9aa940252b6f18cf9a80d8c659ed50fe6636d3b31b15133fb1018ed"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_adjusted_33V.asc",
+      "source_sha256": "c04cbc7678e8d909067994aa62f63b8097be24c5df700e59f9cb7b66d908febc",
+      "published_sha256": "0e760351fca5d132b6eccf058c3e8f9e642e247d77dbd2ede23855c213955232"
+    },
+    {
+      "path": "simulation/ltspice/SIM-06_calibrated_transient_33V.asc",
+      "source_sha256": "74a0fbc3a5c82056a8fd15ecf4044a8f67ae878fd3220e893ae322c659deeba0",
+      "published_sha256": "76cd7afe5a2f0903d9bcd8b30ad22fcaac7d03a0908a6feb6b7903b6104a2049"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_100mA.bias",
+      "source_sha256": "318ffbfdb568780701c5c106910284bf88c6c2b75435bc23a7c5cee1c6527f5a",
+      "published_sha256": "318ffbfdb568780701c5c106910284bf88c6c2b75435bc23a7c5cee1c6527f5a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ac_5V_current.cir",
+      "source_sha256": "6fc66bcf2297f5ac1831f4c34e6ab0b9e39f184d32b3c260be72e7f1733367aa",
+      "published_sha256": "ee003034be82b347f26627dde17ede744fedab30f19a808f5a5b285771d1b7af"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_full_line_33V_pilot.asc",
+      "source_sha256": "8eb577f6dc2b01aa8086a795b71ed2471a2339a8141264d1b0c4acdfb3f08f67",
+      "published_sha256": "140d796701bbdffa18c5694a97b976699c932b4f405e2c289cd82706c4326b35"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_aux_current.cir",
+      "source_sha256": "22031ba7c6ef53937646fc94a3bfcf5342812932c15f98c1badb7c21f475efca",
+      "published_sha256": "5732fb5d1739e91c65f5db97ab270098b645a2c559f0e3d4f00eaf349a8c1407"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_ESR300_voltage.cir",
+      "source_sha256": "2a01086f2c86e18d937a4d9517160587e6be21166471c25a23b25f880c6cd7de",
+      "published_sha256": "ea2e2362136aa90adc10851c526f4098b900edd1e43e6c5c727cd81d89ba910f"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle.cir",
+      "source_sha256": "72bbd50358d0c89f50bd5abc8f6b93b85f1e01e764185142f4a80eb8b962ce92",
+      "published_sha256": "790d89b2c372e6b03afe10b6bf33c9ae89324f15a70da3a3b565505a886cf890"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_C120_voltage.cir",
+      "source_sha256": "21d9f0705fa5e7ca92632a3e8735b54fd0351aca4da225942664b55f545a7683",
+      "published_sha256": "de8bc30df00850e524157813465ad07c598d0c15e63e8df99b59ae2f76a6ebea"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_calibrated_startup_33V.asc",
+      "source_sha256": "403ed0c6b56a6d4f87d43476ccb647ca8802ef06b6b0f6d778ce34de64ad7c57",
+      "published_sha256": "6bc969548adb9ca150500976fa4c913d7bd6cfe52c21349f2a7fc32c1a2cd3b1"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_full_line_5V_changes.net",
+      "source_sha256": "542db9e109b6854e3018fcfd4dad86c6ae9222f143107302225c7385baac6b35",
+      "published_sha256": "fcfcbc791c09cb178000beee7132f02eae731d3bebb39bfa8a6168259fdd14f9"
+    },
+    {
+      "path": "simulation/ltspice/SIM-07_calibrated_protection_5V.asc",
+      "source_sha256": "1a857481a92161887e2b599a1a7d0ca8a5064bcf1b9c67eb2421cc29869ebbe7",
+      "published_sha256": "d4ed5ce485b8dec257b27cf1a51b752262ecd05d29f5e921ff2526f2acf628f3"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_1A_1u_voltage.cir",
+      "source_sha256": "ab811080d28d11aa05556c2a681e443d9c25d100a44182240850c83f6ca3c967",
+      "published_sha256": "11118dae77d711fc01eab163b7de4bffbb9f1479be0ff3a8bf8168a5de0525d7"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_dense_5V_current.cir",
+      "source_sha256": "a8a475d9e9b602b217f14694c5e9dac74615cf4816be95545080a878e82544a3",
+      "published_sha256": "d4f17d137b881d7887563e9d74de73866c081bbfbcea37741168481572306887"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_nominal_voltage.cir",
+      "source_sha256": "b43eb8a735762255fca8871c53ef5ed76406adf0f5b878f224eea132577d424f",
+      "published_sha256": "0decbe347166f91f227db5a64f2d1a88bf93e5945fe323489d0c16ca9ff90609"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_core_start_5V.cir",
+      "source_sha256": "18fc0786302183794a73479665a38c0df023ebd0b40388fd4733ab5c6cc821bf",
+      "published_sha256": "7ead004609b8a781a6a40b7c8271cd7aa6ef203fe4d393219cf0de6137348ec4"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle.bias",
+      "source_sha256": "2857602f8958f1c231a8bad73bfc79f511a6e19927e266666a8f3b9902ed352a",
+      "published_sha256": "2857602f8958f1c231a8bad73bfc79f511a6e19927e266666a8f3b9902ed352a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_02_5V.asc",
+      "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+      "published_sha256": "ecfd6b891cde9e8fe26418bd353cafae0030b3139e4d13af2a4cfa9147c816d2"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_C080_voltage.cir",
+      "source_sha256": "39eb39b15e4e9d0ca87895e6216bd5a3d5469704a63949d3ffea76de1c5b58a5",
+      "published_sha256": "b2539c002e65e1a29218c7f08c99540db7f3c7b469954f9ff4ca907c20b1da3c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_aux_current.cir",
+      "source_sha256": "02bb29553dc84ea9e80a47663b67f9c97beab89444e120201e85b004714a720f",
+      "published_sha256": "88f18d8352c498cff94b598d1459b718f8616f174d5699bec87c7be56d432e75"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_idle_10u_voltage.cir",
+      "source_sha256": "41a1407ab94d3096d0a1156689bbf7d6b2b9c4071b16d5d35f5e72f37a0d375f",
+      "published_sha256": "efd074262c7cda2a7256930854b2d051fe9f61d5a217811efc60bd14c3501bff"
+    },
+    {
+      "path": "simulation/ltspice/SIM-06_calibrated_transient_5V.net",
+      "source_sha256": "26027d2cb77a71c6611502228ffad584d259548d37c2f3d24a8872b775f3c375",
+      "published_sha256": "413e1205d2ba4834e2f2c4c27c9f017485bdb8cdef87b52ae8ab8ccf9d0ae9bb"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_adjusted_settled_5V.asc",
+      "source_sha256": "452190fa2de99671fa8f6aed229f3858b5f8c78f8202ac5873b6ae07a23b969b",
+      "published_sha256": "d792ee14a8e1c9bb31a888d153af5d6ac96116a9b89f8aca87c57d09ad9672ce"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_aux.cir",
+      "source_sha256": "1814f3f7b30ec866eef560c121b661ad1fa2ba9e13f044b04f98052e75d4fe94",
+      "published_sha256": "0f92def796e5c608da3e551a35aa99f3bd6dfb6028a92a222f6ed88f6f1d6a19"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_core_5V.bias",
+      "source_sha256": "a2e49be29741c3b3afceb13e02788f4681168fe9b8009c8b347db75643e424ff",
+      "published_sha256": "a2e49be29741c3b3afceb13e02788f4681168fe9b8009c8b347db75643e424ff"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_check_step_33V.net",
+      "source_sha256": "3040ada2b4a49f1044c4de246b3eee6f3e671b9565ec0c66c8d8e4941122191b",
+      "published_sha256": "cae84ff29096f97ea12108dd9cbea7d82700d7a668d778420d8ec1a14dc2ade4"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ac_5V_voltage.cir",
+      "source_sha256": "fa6ca27d14510a4c3b88faa430f059f2469f8a98388be59246564bc859fdde11",
+      "published_sha256": "3b41a3446148cbcfdec4b3898242a3e049d8f7a50f4e34f89204b097ef98cf53"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_load_stepcheck_33V.asc",
+      "source_sha256": "9056ae8b84056ea8efb2f555d8a9dd0d0a94dff862b82bf975506565b9024987",
+      "published_sha256": "a695c69d254107ee71401fcafa5593115d21913c85f394e90c81b36879aa0d85"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_aux.bias",
+      "source_sha256": "00d3ddae1e5bc832cdc20d1c0a83c35595a40b2cfbc9d6ee13142af253d4a9bb",
+      "published_sha256": "00d3ddae1e5bc832cdc20d1c0a83c35595a40b2cfbc9d6ee13142af253d4a9bb"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_adjusted_5V.asc",
+      "source_sha256": "a5d1f870a77a1d42a5bf949c2f0af6ea23fdf671af195a28fd32a562ebf78adb",
+      "published_sha256": "4ca026cd3150213ec4c075617baa824930736386c2ff63d868f048252b81db8d"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_100mA.cir",
+      "source_sha256": "cc83502805c351b2e3288604ab3f71aa2bcf5cf106893bb732acf493fe0ab4e1",
+      "published_sha256": "1f78602165f749d8880e0ef44382696d2892706ba8b23a42dcb992da2e94ab16"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_aux_voltage.cir",
+      "source_sha256": "1d3c6116524f3046113cd6e0afe861e62b18b881ec4bb7f808f65862ccffea36",
+      "published_sha256": "baa29546699857d6d074dabf5abf4495c0debb5b37b3a54af1e7d3f74a6e505f"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_33V_idle_aux_start.cir",
+      "source_sha256": "be9983d89491ef9564e70635c29e98f73a2e4d4b2809f0c6b1e1462e3119447e",
+      "published_sha256": "301a940e20ffde9a157d060abdecea399e75b1ed0daf112a742c66f8277d680c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_aux_start.cir",
+      "source_sha256": "e7f880d730cf90ad718290a399db97a02a4921201a8fa1e7872dba040d2adf84",
+      "published_sha256": "11bf65aaf80df4c555b285142fa7c790de5485765a6ef8dbb1cd73f4f54a2925"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_dense_33V_current.cir",
+      "source_sha256": "5f37fbadbc7a5c30ad923001d682928f1ba5eba2b5695ac1c3fa77cf815575bd",
+      "published_sha256": "564d87b148718a226a5177f2225c00b460e76fdacab16a2872d2d6127ad6f972"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_full_tone_33V.cir",
+      "source_sha256": "52a5cc30232283079abc122d1695e03ae10fc273489131740ae1b2d0b5a4a4a3",
+      "published_sha256": "253ba2f61153a74688f1a95da507b5bae4ad6ce085dfa03e58c7430292009fa4"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_calibrated_load_5V.net",
+      "source_sha256": "a468c1da97a551fb47afa69c6acd19ef63d2991bf731c41f2f547b184802db7a",
+      "published_sha256": "5d801db525560aece7930080dc7beea41574bec6d2a430134af9de36dbf1b1ee"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_review_reverse_5V_voltage.cir",
+      "source_sha256": "b6942a1ff65807606ed30fd3e5433d4f7b827475f4288f55a3e5542f2e6aba96",
+      "published_sha256": "1e423338e3a64db4917ba8be149f262c9e1eeab8ed36ea00dd3267eb23072b58"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_pulsed_load_inhibit_5V.net",
+      "source_sha256": "7d4258bf00814cee5c1814dcbad1a04a8b6c2411a14eadab0410a3a2463135be",
+      "published_sha256": "94babae5c5bc8b94260352fb1b08880f1f58d60f60c1052c3f277c8a52f08d5d"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_ESR300_voltage.cir",
+      "source_sha256": "7454d75136a5bb62abe1cfbad145d9b2c7e6562ae85d5e816f15efc8e46dab0b",
+      "published_sha256": "9d35f5608d772f2aaee6e43a16673636ad4748a3566bc03b39cead1c3b1e0f80"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_full_line_33V_changes.net",
+      "source_sha256": "ed1f96b2c2dd54ab9d89bb5f1eacefe0224c93de474f1aed45a6b6589c9dcfc8",
+      "published_sha256": "db51fd7b1cdc8e3edffb00458c8607a1d67fc73cb8f02690ef0646703d2c5775"
+    },
+    {
+      "path": "simulation/ltspice/SIM-08_calibrated_limit_5V.net",
+      "source_sha256": "8bb15c0cc0132f12e9ac43214ce0a32fed92262142d6caabe99b27eedbdda4ac",
+      "published_sha256": "d4f9d269ce7680953c6f075e7daf2221cdb7f1c29614d9e14910722debb9cb60"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_nominal_voltage.cir",
+      "source_sha256": "1690e84656540d3f8f27f368d82ce8ee6e9bf3bd41798b28f3347fb6e98f877f",
+      "published_sha256": "5e84396649292793d26d330eca45c7f29108eeee1ff91dfe9305df1ceb55fb36"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_calibrated_line_33V.asc",
+      "source_sha256": "346221fbaa9f7595f8105115f1503c0aa5e4ffdcdc2b2aa18033b5a88f6a0984",
+      "published_sha256": "9a0c10f4d9383fed862dfc92fcbe52f670c2d6a023a3fe5392ee05a89216542d"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_idle_none_current.cir",
+      "source_sha256": "1f130b12102cbd8f41019bd470d3a36385413b33439e5c65860c1dac680fab5f",
+      "published_sha256": "02c42a95d1527d0fd72b745c56731939dec39b1037db6393636b470afc2d01e7"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_cal_02_33V.net",
+      "source_sha256": "f0b71faaefbdc7f91b8468103df0dee70a55b89f134f3295f0ceaed75e2a51ff",
+      "published_sha256": "155aea2b12b734c13303983e5dd4ece2e8cf5e3b643fbe132413408ffdbf296a"
+    },
+    {
+      "path": "simulation/ltspice/SIM-06_calibrated_transient_5V.asc",
+      "source_sha256": "e16a9d92313318fc122294b352f0f1858763ab9b86366aab6460e0ac3891f4b2",
+      "published_sha256": "5b915f7e7f6f65c95d6de6c9635c004798e0de2efc007d33a65e6217115e4cff"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_1A_10u_voltage.cir",
+      "source_sha256": "ecd8803d0032182460e2d02a00573b21bb0aa422df2ed686ee723169b46e16e8",
+      "published_sha256": "efa51b9c28e2b7bf30cfc519761548e2218c9f81ac3585efac585036cfe23370"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_idle_1u_current.cir",
+      "source_sha256": "cbd372c8be00d227cb1bd0058fa4ec41be77b9e7b3d37e34a1ff1add852e84b0",
+      "published_sha256": "25c81092f5c22602014d61e6c503e9c024d5cda9600aebb872c80144075d60f6"
+    },
+    {
+      "path": "simulation/ltspice/SIM-02_calibrated_line_5V.asc",
+      "source_sha256": "6590ce8da489c0ea52f392eb445364ccd9e4e868df60db9d3fade1463f565a3a",
+      "published_sha256": "229dc29194e394ef079f0406842344a72f9858a35591184456d20dba5036d49e"
+    },
+    {
+      "path": "simulation/ltspice/SIM-03_load_stepcheck_5V.net",
+      "source_sha256": "c61887627e8cf1ca45f9315979f6fe1a15ff47cc9de6721be9147f3eca8095be",
+      "published_sha256": "3cdec0cd3a756b4d6308af5cfb858a669f6b7b251dcd9050a6d25b6e93108b44"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_C080_current.cir",
+      "source_sha256": "96557bb9710237f1c714ac7c4b71a16220645b91118ddc149446551715030cfc",
+      "published_sha256": "fb85155b97fea7be0f3c75c9274a118f25c25aa0556492ed75f03b4d6b91bf6b"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_calibrated_input_33V.net",
+      "source_sha256": "bd7b4f58b30f93e1ba4a079c487bedb68b7d4de352c88a110482fb85776c7522",
+      "published_sha256": "b394cb1f6c3817053eb16db36fc0f62606897d71cbaae8b236741a92e00cc0b4"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_1A_none_current.cir",
+      "source_sha256": "3da55a6c18775f2d14e5f97229c69fa2f6c86b1dde109c4d19c94b8f62edc853",
+      "published_sha256": "1fa71a91ccab2fcf7e6d5fdf9b5fc8c484340ffe77248db0cef3418da6709d73"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_33V_ESR010_voltage.cir",
+      "source_sha256": "deb8d7c1c19633bc79e01df9099e52f895bfefdaa07717cfda8067a0a709bbba",
+      "published_sha256": "bdf74615244617e7899b163e63fa9ffcbadf99d963fe333f416e888bc0c71876"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_ESR010_voltage.cir",
+      "source_sha256": "1812055b0f4dfae8cf7768aa3e06789d25072d74155497a401e40bb002d42f99",
+      "published_sha256": "3682c44304817f1550ef69600a025c765fec37069c6bbd8f207f96e837bb8bc0"
+    },
+    {
+      "path": "simulation/ltspice/SIM-08_calibrated_limit_5V.asc",
+      "source_sha256": "d3995c36cbfce1d72674a0d044ac071c76a5c0df4b6d2767d1929e16b6cfd139",
+      "published_sha256": "3598887f87a543e89043c4ff29dd9dfbf067ace0eb5d7d8afcd6025791bd4032"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_idle_none_voltage.cir",
+      "source_sha256": "cc5cc0894f807cb8851ccc008457e9fa80f4169bfde2959a9ae948c9edcd6702",
+      "published_sha256": "26c2dbdea896df9d1c0e3c9747e7e1ee3a7680ee8e9d00db1b61c270585728cb"
+    },
+    {
+      "path": "simulation/ltspice/SIM-01_calibrated_startup_5V.asc",
+      "source_sha256": "5dd7155f428e96ec840477044865230a4226a0fffe3be5ee6fc76b2da08bc6e1",
+      "published_sha256": "d9384419416a4426cce9b7f3da238093a1f7af7519fd7e44c9a866c1272eb64c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_current.cir",
+      "source_sha256": "ee80b2a09046e11f53c8e70e6ccd091692681809d3a92cde66fd485101b5b906",
+      "published_sha256": "2a6907a7bc8100b2b744eff9a1948b14e769a00bd539809e918abe49ecaf2977"
+    },
+    {
+      "path": "simulation/ltspice/SIM-04_pulsed_load_5V.net",
+      "source_sha256": "36b6667e971a486cd235eb23b5e529449f90eab1a9f290d0c2e5cd4fd3bae689",
+      "published_sha256": "5dc002ec5ae3d66d08cc2dc99cc80b6317ad6ce958762fbb6ec4b70f301e0f7e"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_idle_1u_current.cir",
+      "source_sha256": "18508d7448c604c4719bd3dc281bff877da808f47c9d641a3bdcde8bb2244ddf",
+      "published_sha256": "ff93c36ae6640f57147a8f05e61b6c1441dd89b3a902f9420b3e9a804b90473b"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_5V_idle_10u_voltage.cir",
+      "source_sha256": "7b57996468e5ac55187334e2d7272fd64efb76a19fbcd69e127c217b22a25c6a",
+      "published_sha256": "7136a54fe77958f7d966542cd56c75dd7d30d47ebc81760f1d5f078e28134fac"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_ce_5V_nominal_current.cir",
+      "source_sha256": "cbd372c8be00d227cb1bd0058fa4ec41be77b9e7b3d37e34a1ff1add852e84b0",
+      "published_sha256": "25c81092f5c22602014d61e6c503e9c024d5cda9600aebb872c80144075d60f6"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_load_5V_idle_aux.cir",
+      "source_sha256": "154ef76f06fe821e14f0e03e35df76382d96f70a1a932dd73e39fa5bf9512d44",
+      "published_sha256": "e4be94b21767892e6430ee0b3a8836981a289557a035bc7eb26547b9d773013c"
+    },
+    {
+      "path": "simulation/ltspice/SIM-07_calibrated_protection_5V.net",
+      "source_sha256": "e02d9d4166b6079de360fb7e9cee72d7044f5f5cae51f364c08493c501425615",
+      "published_sha256": "04305d9b2e9f4c22b0cba9523a57bb818bbee9a4ca3290cc1a9d63c67df47e08"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_outcap_33V_idle_1u_voltage.cir",
+      "source_sha256": "b43eb8a735762255fca8871c53ef5ed76406adf0f5b878f224eea132577d424f",
+      "published_sha256": "0decbe347166f91f227db5a64f2d1a88bf93e5945fe323489d0c16ca9ff90609"
+    },
+    {
+      "path": "simulation/ltspice/SIM-09_nocap_transient_33V.cir",
+      "source_sha256": "86501380fb226c75b5db6aea9106d3192d6197950b6cbd31451e3e990d6808a8",
+      "published_sha256": "56d9cf6f73ff8ca2d4f87d7b363a15d0558ccebcf5ab1a860a342ea6c8925e38"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_core_33v.bias",
+      "source_sha256": "5411bf0681ef683168a9c0c28c594916d173671d8cf879479dc51b6f26a54c07",
+      "published_sha256": "5411bf0681ef683168a9c0c28c594916d173671d8cf879479dc51b6f26a54c07"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_core_5v.bias",
+      "source_sha256": "a2e49be29741c3b3afceb13e02788f4681168fe9b8009c8b347db75643e424ff",
+      "published_sha256": "a2e49be29741c3b3afceb13e02788f4681168fe9b8009c8b347db75643e424ff"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_load_33v_100ma.bias",
+      "source_sha256": "04f296ba5d41ced01e97884c8c1776dfa727687084e64f52ee13b26a2d9c55c3",
+      "published_sha256": "04f296ba5d41ced01e97884c8c1776dfa727687084e64f52ee13b26a2d9c55c3"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_load_33v_idle.bias",
+      "source_sha256": "f74c42d42bc2f22faa6a5a1e88da2903a93466fae0d333091e566b95ddaef3b1",
+      "published_sha256": "f74c42d42bc2f22faa6a5a1e88da2903a93466fae0d333091e566b95ddaef3b1"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_load_33v_idle_aux.bias",
+      "source_sha256": "00d3ddae1e5bc832cdc20d1c0a83c35595a40b2cfbc9d6ee13142af253d4a9bb",
+      "published_sha256": "00d3ddae1e5bc832cdc20d1c0a83c35595a40b2cfbc9d6ee13142af253d4a9bb"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_load_5v_100ma.bias",
+      "source_sha256": "318ffbfdb568780701c5c106910284bf88c6c2b75435bc23a7c5cee1c6527f5a",
+      "published_sha256": "318ffbfdb568780701c5c106910284bf88c6c2b75435bc23a7c5cee1c6527f5a"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_load_5v_idle.bias",
+      "source_sha256": "2857602f8958f1c231a8bad73bfc79f511a6e19927e266666a8f3b9902ed352a",
+      "published_sha256": "2857602f8958f1c231a8bad73bfc79f511a6e19927e266666a8f3b9902ed352a"
+    },
+    {
+      "path": "simulation/ltspice/sim-09_load_5v_idle_aux.bias",
+      "source_sha256": "1c33758c03ebbd0d74faa270be50fdfda4a475bf3f09114f5e0a3960eac01796",
+      "published_sha256": "1c33758c03ebbd0d74faa270be50fdfda4a475bf3f09114f5e0a3960eac01796"
+    }
+  ],
+  "scope": "Copied evidence files; publication README/index files and later-added supporting figures are outside this provenance manifest."
+}

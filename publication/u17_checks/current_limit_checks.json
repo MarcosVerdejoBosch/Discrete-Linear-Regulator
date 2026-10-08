@@ -1,0 +1,10 @@
+{
+  "both_modes": true,
+  "recovery_within_fraction": 0.001,
+  "enable_min_required_V": 5,
+  "mean_limit_range_A": [
+    1.4,
+    1.55
+  ],
+  "half_window_current_drift_bound_A": 0.0001
+}

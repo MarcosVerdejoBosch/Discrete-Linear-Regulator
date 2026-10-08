@@ -1,0 +1,264 @@
+{
+  "completed": true,
+  "events": {
+    "uvlo": [
+      {
+        "edge": "falling",
+        "time_ms": 105.02646116323008,
+        "sensed_supply_V": 5.4950792606351895,
+        "source_V": 5.49735379872459,
+        "input_after_switch_V": 5.496811629354653,
+        "vout_V": 0.0004291079515345692,
+        "reference_V": 2.4739391803741455,
+        "bracket_dt_us": 0.8016277037586894,
+        "bracket_supply_V": [
+          5.495123863220215,
+          5.495035171508789
+        ],
+        "other_controls_above_half_supply": {
+          "ovlo": true,
+          "delay": false,
+          "enable": false
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 132.616029450398,
+        "sensed_supply_V": 5.859004167327315,
+        "source_V": 5.861602897424526,
+        "input_after_switch_V": 5.860931743400219,
+        "vout_V": 0.00024602066467700794,
+        "reference_V": 2.4739584922790527,
+        "bracket_dt_us": 2.000000000002,
+        "bracket_supply_V": [
+          5.858926296234131,
+          5.859135627746582
+        ],
+        "other_controls_above_half_supply": {
+          "ovlo": true,
+          "delay": false,
+          "enable": false
+        }
+      }
+    ],
+    "ovlo": [
+      {
+        "edge": "falling",
+        "time_ms": 184.31567814783784,
+        "sensed_supply_V": 11.00320338254174,
+        "source_V": 11.031568043570221,
+        "input_after_switch_V": 11.020638974526982,
+        "vout_V": 5.0007618865491,
+        "reference_V": 2.4741668701171875,
+        "bracket_dt_us": 2.000000000002,
+        "bracket_supply_V": [
+          11.003159523010254,
+          11.00337028503418
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "delay": true,
+          "enable": true
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 222.63292232531398,
+        "sensed_supply_V": 10.135010569217606,
+        "source_V": 10.1367074665891,
+        "input_after_switch_V": 10.136072094465868,
+        "vout_V": 0.0004312959750559642,
+        "reference_V": 2.474142551422119,
+        "bracket_dt_us": 0.22435233018591738,
+        "bracket_supply_V": [
+          10.135028839111328,
+          10.13499927520752
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "delay": true,
+          "enable": true
+        }
+      }
+    ],
+    "delay": [
+      {
+        "edge": "falling",
+        "time_ms": 101.73486697251118,
+        "sensed_supply_V": 5.785522902100604,
+        "source_V": 5.8265132725682465,
+        "input_after_switch_V": 5.816005212112924,
+        "vout_V": 4.9991936683654785,
+        "reference_V": 2.4739573001861572,
+        "bracket_dt_us": 0.00532544507103605,
+        "bracket_supply_V": [
+          5.785523891448975,
+          5.785521984100342
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "enable": true
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 135.25912193402456,
+        "sensed_supply_V": 6.123446998586366,
+        "source_V": 6.125912116245479,
+        "input_after_switch_V": 6.125243618211263,
+        "vout_V": 0.00047407816926502394,
+        "reference_V": 2.4739739894866943,
+        "bracket_dt_us": 0.11782190884046528,
+        "bracket_supply_V": [
+          6.123413562774658,
+          6.123476028442383
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "enable": false
+        }
+      }
+    ],
+    "enable": [
+      {
+        "edge": "falling",
+        "time_ms": 101.74608811049036,
+        "sensed_supply_V": 5.783554366155456,
+        "source_V": 5.825391265178816,
+        "input_after_switch_V": 5.8146690590003365,
+        "vout_V": 5.000046036326968,
+        "reference_V": 2.4739573001861572,
+        "bracket_dt_us": 0.10176421152974235,
+        "bracket_supply_V": [
+          5.783555030822754,
+          5.783541202545166
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "delay": false
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 135.31713697910467,
+        "sensed_supply_V": 6.130037999628794,
+        "source_V": 6.131713607862319,
+        "input_after_switch_V": 6.13125790966493,
+        "vout_V": 0.0009135724269971939,
+        "reference_V": 2.4739744663238525,
+        "bracket_dt_us": 0.24211951688002387,
+        "bracket_supply_V": [
+          6.130033493041992,
+          6.13006067276001
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": true,
+          "delay": true
+        }
+      },
+      {
+        "edge": "falling",
+        "time_ms": 185.00453688912364,
+        "sensed_supply_V": 11.098340767923805,
+        "source_V": 11.100453562631419,
+        "input_after_switch_V": 11.099638126710262,
+        "vout_V": 0.0004315640180668646,
+        "reference_V": 2.4741690158843994,
+        "bracket_dt_us": 0.5088759467142268,
+        "bracket_supply_V": [
+          11.098309516906738,
+          11.09839153289795
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": false,
+          "delay": true
+        }
+      },
+      {
+        "edge": "rising",
+        "time_ms": 221.43655553170328,
+        "sensed_supply_V": 10.253329410896056,
+        "source_V": 10.256344747903837,
+        "input_after_switch_V": 10.255211018434485,
+        "vout_V": 0.12988718360195914,
+        "reference_V": 2.4741461277008057,
+        "bracket_dt_us": 0.16425436236144897,
+        "bracket_supply_V": [
+          10.25327205657959,
+          10.253433227539062
+        ],
+        "other_controls_above_half_supply": {
+          "uvlo": true,
+          "ovlo": false,
+          "delay": true
+        }
+      }
+    ]
+  },
+  "plateaus": {
+    "initial": {
+      "V(out)": 5.000004495821382,
+      "V(vee)": 7.968051406886689,
+      "V(comp)": 2.4740641117095947,
+      "V(ttl)": 7.221331185122002,
+      "I(Rload)": 1.0000008952313353,
+      "output_pp_mV": 0.32329559326171875
+    },
+    "undervoltage_hold": {
+      "V(out)": 0.00022834531650586085,
+      "V(vee)": 4.797175848282984,
+      "V(comp)": 2.4738876819610596,
+      "V(ttl)": 0.04116323658895841,
+      "I(Rload)": 4.566906331203061e-05,
+      "output_pp_mV": 0.001661217538639903
+    },
+    "overvoltage_hold": {
+      "V(out)": 0.0002766121980328806,
+      "V(vee)": 11.99844681013772,
+      "V(comp)": 2.474194765090943,
+      "V(ttl)": 0.04571019955033631,
+      "I(Rload)": 5.532243961191949e-05,
+      "output_pp_mV": 0.21524123440030962
+    },
+    "final": {
+      "V(out)": 5.0000045135641225,
+      "V(vee)": 7.968052337769644,
+      "V(comp)": 2.4740641117095947,
+      "V(ttl)": 7.221331981998931,
+      "I(Rload)": 1.0000008971733598,
+      "output_pp_mV": 0.3294944763183594
+    }
+  },
+  "threshold_definition": "Comparator output crossing 50% of local VEE; linearly interpolated samples; dynamic test at source ramp 0.1 V/ms; events before 70 ms excluded.",
+  "thresholds_V": {
+    "uvlo_enable_rising": 5.859004167327315,
+    "uvlo_disable_falling": 5.4950792606351895,
+    "uvlo_hysteresis": 0.36392490669212574,
+    "ovlo_disable_rising": 11.00320338254174,
+    "ovlo_enable_falling": 10.135010569217606,
+    "ovlo_hysteresis": 0.8681928133241339
+  },
+  "manifest": [
+    {
+      "file": "SIM-07_calibrated_protection_5V.asc",
+      "sha256": "2565f40225a0138a916a02c81c78f0acf61b96bdbf8532cff63ff087b5da7baa"
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.net",
+      "sha256": "813cd258ba5ca46b311bc3eacc2809d05393a5ca7a34c9e41487f52c834f7c74"
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.log",
+      "sha256": "c7095f8871045889d2ef86cce3bd39f240f07444a949df8d73b44ba964d04ea8"
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.raw",
+      "sha256": "120da6a5679df0b46d9c5074f36618549cc2e917f03515a5e98bf9bd66decdf9"
+    }
+  ]
+}

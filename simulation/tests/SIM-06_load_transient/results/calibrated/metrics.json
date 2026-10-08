@@ -1,0 +1,126 @@
+{
+  "5V": {
+    "all_completed": true,
+    "edges": [
+      {
+        "direction": "step_up",
+        "edge_s": 0.08,
+        "reference_V": 5.000004406103078,
+        "initial_mean_V": 5.000019341313903,
+        "current_before_A": 0.10000038848661931,
+        "current_after_A": 1.0000008793653181,
+        "minimum_V": 4.82785177230835,
+        "maximum_V": 5.000197887420654,
+        "undershoot_mV": 172.15263379472833,
+        "overshoot_mV": 0.19348131757634945,
+        "minimum_time_us": 0.9989696370810153,
+        "maximum_time_us": 27107.2513626176,
+        "settling_1pct_us": 7.417968862707958,
+        "first_settled_sample_us": 7.418844280487891,
+        "max_fine_step_ns": 19.969873338299138,
+        "enable_min_V": 7.221212387084961,
+        "final_window_drift_uV": -0.052699850705550944
+      },
+      {
+        "direction": "step_down",
+        "edge_s": 0.12,
+        "reference_V": 5.000019283178215,
+        "initial_mean_V": 5.000004406103078,
+        "current_before_A": 1.0000008793653181,
+        "current_after_A": 0.10000038565591957,
+        "minimum_V": 4.962533473968506,
+        "maximum_V": 5.362731456756592,
+        "undershoot_mV": 37.48580920970923,
+        "overshoot_mV": 362.7121735783767,
+        "minimum_time_us": 9.826643601898443,
+        "maximum_time_us": 1.2423922414878108,
+        "settling_1pct_us": 6.017247186129726,
+        "first_settled_sample_us": 6.019936897430633,
+        "max_fine_step_ns": 19.368929654595135,
+        "enable_min_V": 7.221303939819336,
+        "final_window_drift_uV": -0.010772644110090823
+      }
+    ],
+    "return_low_load_difference_uV": -0.05813568826340543,
+    "manifest": [
+      {
+        "file": "SIM-06_calibrated_transient_5V.asc",
+        "sha256": "2b00b9e02da99cc29bfe14d0dc16e712488f70fd6ac5389ff3254bd4a01287bc"
+      },
+      {
+        "file": "SIM-06_calibrated_transient_5V.net",
+        "sha256": "b16a6a192578c72336bf716ead68bd11f8c68358ec6cccbcaa5619f9680ac6cb"
+      },
+      {
+        "file": "SIM-06_calibrated_transient_5V.log",
+        "sha256": "c9be093834b80e8d2f758833957967522d8fa99867deed69cd869f5e9d8c198b"
+      },
+      {
+        "file": "SIM-06_calibrated_transient_5V.raw",
+        "sha256": "096a63eb9763e05aad5ffb9dcbcae90671eb4e2cd8b93b5b2816fc2d876676a7"
+      }
+    ]
+  },
+  "33V": {
+    "all_completed": true,
+    "edges": [
+      {
+        "direction": "step_up",
+        "edge_s": 0.08,
+        "reference_V": 3.3000019053240712,
+        "initial_mean_V": 3.30000188117731,
+        "current_before_A": 0.10000005986679768,
+        "current_after_A": 1.0000005737485549,
+        "minimum_V": 3.1352410316467285,
+        "maximum_V": 3.300185441970825,
+        "undershoot_mV": 164.76087367734272,
+        "overshoot_mV": 0.18353664675396786,
+        "minimum_time_us": 0.640907720214634,
+        "maximum_time_us": 39999.99781969657,
+        "settling_1pct_us": 7.398255151280786,
+        "first_settled_sample_us": 7.39992683512769,
+        "max_fine_step_ns": 19.427390279824763,
+        "enable_min_V": 7.221242904663086,
+        "final_window_drift_uV": -0.01389430348552878
+      },
+      {
+        "direction": "step_down",
+        "edge_s": 0.12,
+        "reference_V": 3.300001825192394,
+        "initial_mean_V": 3.3000019053240712,
+        "current_before_A": 1.0000005737485549,
+        "current_after_A": 0.10000005532917323,
+        "minimum_V": 3.2134721279144287,
+        "maximum_V": 3.661076068878174,
+        "undershoot_mV": 86.52969727796523,
+        "overshoot_mV": 361.0742436857799,
+        "minimum_time_us": 7.831869441032868,
+        "maximum_time_us": 1.2325394796869338,
+        "settling_1pct_us": 14.79796790554433,
+        "first_settled_sample_us": 14.80025886582692,
+        "max_fine_step_ns": 19.95618865990867,
+        "enable_min_V": 7.221371173858643,
+        "final_window_drift_uV": 0.006657451034897122
+      }
+    ],
+    "return_low_load_difference_uV": -0.05598491625846691,
+    "manifest": [
+      {
+        "file": "SIM-06_calibrated_transient_33V.asc",
+        "sha256": "d3da1203d5545e80783507e4f59643235eaa219812a26799adacafec7ae742db"
+      },
+      {
+        "file": "SIM-06_calibrated_transient_33V.net",
+        "sha256": "0406f28217e52cc5e89ac7c4b8c0107818b4684c8b247f2a0cc3028b6a399041"
+      },
+      {
+        "file": "SIM-06_calibrated_transient_33V.log",
+        "sha256": "2246da39d7d314e8f2d6d853244e50ff6c6835377bc87c105bb6af5dc74281e7"
+      },
+      {
+        "file": "SIM-06_calibrated_transient_33V.raw",
+        "sha256": "f12ca719c19da308e7fb64bea4447102c267034c2d82fec9860502a3db656e53"
+      }
+    ]
+  }
+}

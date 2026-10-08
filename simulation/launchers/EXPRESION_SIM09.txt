@@ -1,0 +1,5 @@
+-1/(1-1/(2*(I(LGS:Vi)@1*V(LGS:x)@2-V(LGS:x)@1*I(LGS:Vi)@2)+V(LGS:x)@1+I(LGS:Vi)@2))
+
+.step param lg list -1 1
+@1: lg=-1 (voltage injection)
+@2: lg=+1 (current injection)

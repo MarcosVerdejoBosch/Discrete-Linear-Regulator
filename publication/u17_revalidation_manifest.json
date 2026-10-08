@@ -1,0 +1,1018 @@
+{
+  "date": "2026-09-24",
+  "ltspice_version": "17.1.15 x64",
+  "model": "Official Infineon irf4905.spi",
+  "model_sha256": "d6363459b4a5086a3f91cd0c973636ca1a4e38215d85df5d3463c37af85849f0",
+  "primary_count": 16,
+  "scope": "Local nominal electrical simulations, not physical qualification. Archived RAW/log files are not redistributed. Netlist header paths may be normalized in the public export. Historical variants are not implicitly revalidated.",
+  "scenarios": [
+    {
+      "scenario": "SIM-01_calibrated_startup_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-01_calibrated_startup_33V.asc",
+          "sha256": "5b36621987c648af142e8e0d4339809e1522f0f30e57f8b300b1cc09b24709c0",
+          "bytes": 40752,
+          "published": true,
+          "public_export_sha256": "5b36621987c648af142e8e0d4339809e1522f0f30e57f8b300b1cc09b24709c0"
+        },
+        {
+          "name": "SIM-01_calibrated_startup_33V.net",
+          "sha256": "539df8c2241dfa96c646f8f1ca28dd8456b5bf5b168f9743fa084444ca97a57f",
+          "bytes": 6764,
+          "published": true,
+          "public_export_sha256": "585472f2cf41599ede775383bc1ad41ee75c5471a383aa16f2cc744536108027"
+        },
+        {
+          "name": "SIM-01_calibrated_startup_33V.raw",
+          "sha256": "a60431675f828dd065ee328f44fecc2cb60e59eca353e15e795251d6a974c96b",
+          "bytes": 8362168,
+          "published": false
+        },
+        {
+          "name": "SIM-01_calibrated_startup_33V.log",
+          "sha256": "83cf76fb40e6030568f0a417e44530122b6ebaf2bc59f30ad2dddaade117ed76",
+          "bytes": 5874,
+          "published": false
+        },
+        {
+          "name": "SIM-01_calibrated_startup_33V.plt",
+          "sha256": "18e87d2b6c018f839c4fbf8b4ac843e8718219428521432a54fd3a6170c36f44",
+          "bytes": 309,
+          "published": true,
+          "public_export_sha256": "18e87d2b6c018f839c4fbf8b4ac843e8718219428521432a54fd3a6170c36f44"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 140m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2424 2100 Left 2 !.options plotwinsize=0\\n.save V(VEE) V(N034) I(VBAT)"
+      ]
+    },
+    {
+      "scenario": "SIM-01_calibrated_startup_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-01_calibrated_startup_5V.asc",
+          "sha256": "b59ab47afcad2f11a18d7fdc6f23476f89b297d4963ff6004a75a1bb83fad229",
+          "bytes": 40865,
+          "published": true,
+          "public_export_sha256": "b59ab47afcad2f11a18d7fdc6f23476f89b297d4963ff6004a75a1bb83fad229"
+        },
+        {
+          "name": "SIM-01_calibrated_startup_5V.net",
+          "sha256": "3f7a844e30f0a5c9ac519249690a11e635a5d2928d831f26c1bb2d653078b912",
+          "bytes": 6774,
+          "published": true,
+          "public_export_sha256": "b89649137b0ac219449418eb32c924a53a30199ff24d40fcc6de161d28e257bc"
+        },
+        {
+          "name": "SIM-01_calibrated_startup_5V.raw",
+          "sha256": "0dc96baddbd005187321f6022c10257a2dd5f67033de182a679689b37ef31968",
+          "bytes": 8291702,
+          "published": false
+        },
+        {
+          "name": "SIM-01_calibrated_startup_5V.log",
+          "sha256": "7f83286ade46b07c006d35d7b806e22326c035e604b552e1ffbb9622d90fda39",
+          "bytes": 7337,
+          "published": false
+        },
+        {
+          "name": "SIM-01_calibrated_startup_5V.plt",
+          "sha256": "18e87d2b6c018f839c4fbf8b4ac843e8718219428521432a54fd3a6170c36f44",
+          "bytes": 309,
+          "published": true,
+          "public_export_sha256": "18e87d2b6c018f839c4fbf8b4ac843e8718219428521432a54fd3a6170c36f44"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 140m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2424 2100 Left 2 !.options plotwinsize=0\\n.save V(VEE) V(N034) I(VBAT)"
+      ]
+    },
+    {
+      "scenario": "SIM-02_calibrated_line_33V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-02_calibrated_line_33V.asc",
+          "sha256": "1a730bebfc041b9236b9d8dbee16e709b7924d800423d95e813e71efd8116a28",
+          "bytes": 40967,
+          "published": true,
+          "public_export_sha256": "1a730bebfc041b9236b9d8dbee16e709b7924d800423d95e813e71efd8116a28"
+        },
+        {
+          "name": "SIM-02_calibrated_line_33V.net",
+          "sha256": "a3603df53f86a2e42e9cbedcac3392685760b0553a5e4c2dcea0e1fc16cf7fc2",
+          "bytes": 7048,
+          "published": true,
+          "public_export_sha256": "faacc208ef441f392e9075477ab5c3546f8808c31317d8607377e19faba319d7"
+        },
+        {
+          "name": "SIM-02_calibrated_line_33V.raw",
+          "sha256": "9aee6e1624b9f8494fdfef25da68e2a0ea67ffbf0dc18e24b031ca5720964cf8",
+          "bytes": 18507478,
+          "published": false
+        },
+        {
+          "name": "SIM-02_calibrated_line_33V.log",
+          "sha256": "05419a318477b7dfdce856906e94a1513866ee9bfac1457dea639b60e17cffd8",
+          "bytes": 7132,
+          "published": false
+        },
+        {
+          "name": "SIM-02_calibrated_line_33V.plt",
+          "sha256": "30f48bb8df765393f9545571e395b1ea69fbc4772ea8553b56388aae17b35f08",
+          "bytes": 499,
+          "published": true,
+          "public_export_sha256": "30f48bb8df765393f9545571e395b1ea69fbc4772ea8553b56388aae17b35f08"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 320m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-02_calibrated_line_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-02_calibrated_line_5V.asc",
+          "sha256": "b40799a18de9a0b8d400571cd8d06a0accebf73574eebfe40bba6545e25f1af4",
+          "bytes": 41080,
+          "published": true,
+          "public_export_sha256": "b40799a18de9a0b8d400571cd8d06a0accebf73574eebfe40bba6545e25f1af4"
+        },
+        {
+          "name": "SIM-02_calibrated_line_5V.net",
+          "sha256": "7ed0a3b2ef548964a89f70bcc61b64191b634eb6c26c76bd0cf6cfc9445d766b",
+          "bytes": 7072,
+          "published": true,
+          "public_export_sha256": "7dbb88f7a085e94dcf313c3f96d84acefad99983275fb43381f94d668846c794"
+        },
+        {
+          "name": "SIM-02_calibrated_line_5V.raw",
+          "sha256": "792c92ffbcdae4b74011604576d48f869d13060983cb746f229d4e2e8b9dd6df",
+          "bytes": 16440592,
+          "published": false
+        },
+        {
+          "name": "SIM-02_calibrated_line_5V.log",
+          "sha256": "1bf1d5793a82a6749df3ca4fee6573f9ff56718192740315858c5172f94246a5",
+          "bytes": 6454,
+          "published": false
+        },
+        {
+          "name": "SIM-02_calibrated_line_5V.plt",
+          "sha256": "1fe495e4961b5d3b9cc865b62e5af0761307401490aba4baf084da27c417877a",
+          "bytes": 463,
+          "published": true,
+          "public_export_sha256": "1fe495e4961b5d3b9cc865b62e5af0761307401490aba4baf084da27c417877a"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 320m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-03_calibrated_load_33V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-03_calibrated_load_33V.asc",
+          "sha256": "b40767935a5327be9bb916a84a27748d7654c2df094abd92a6f3f46d33787bfc",
+          "bytes": 40988,
+          "published": true,
+          "public_export_sha256": "b40767935a5327be9bb916a84a27748d7654c2df094abd92a6f3f46d33787bfc"
+        },
+        {
+          "name": "SIM-03_calibrated_load_33V.net",
+          "sha256": "7f7214716e8f0da0ec37399d9b8d14eb6dbe537539a3b8e64442b3e0d4d34442",
+          "bytes": 7066,
+          "published": true,
+          "public_export_sha256": "9891b4023de3cfec6341196be26775f125a47ea003b882fc6ca7cb602215243c"
+        },
+        {
+          "name": "SIM-03_calibrated_load_33V.raw",
+          "sha256": "3c57db1b7363600c233bc6f016f4e6960867670759453a20c0bc89dbd22eb4bb",
+          "bytes": 14447320,
+          "published": false
+        },
+        {
+          "name": "SIM-03_calibrated_load_33V.log",
+          "sha256": "c5a919f203faeb7d76178f86f54de447fb570344e7cfe239dc6bc723d2e0a7dc",
+          "bytes": 7021,
+          "published": false
+        },
+        {
+          "name": "SIM-03_calibrated_load_33V.plt",
+          "sha256": "ed384fdfac1a1d374f5110aec5f9174bc52acfc74206dea9e0cbcb20fc2b6f9a",
+          "bytes": 506,
+          "published": true,
+          "public_export_sha256": "ed384fdfac1a1d374f5110aec5f9174bc52acfc74206dea9e0cbcb20fc2b6f9a"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 280m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0 itl4=100"
+      ]
+    },
+    {
+      "scenario": "SIM-03_calibrated_load_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-03_calibrated_load_5V.asc",
+          "sha256": "41a84bdfa8a39bfda5bcf5e387c573b64f35ad90f16d8486c2558bb582ed479c",
+          "bytes": 41090,
+          "published": true,
+          "public_export_sha256": "41a84bdfa8a39bfda5bcf5e387c573b64f35ad90f16d8486c2558bb582ed479c"
+        },
+        {
+          "name": "SIM-03_calibrated_load_5V.net",
+          "sha256": "ad226578010214b8833096e3e4582b08791111076e959c120553630e4f379132",
+          "bytes": 7071,
+          "published": true,
+          "public_export_sha256": "e005f1ad192fb07b4f0c3609c80d9037495d88260fa1d309eb12b385760603b0"
+        },
+        {
+          "name": "SIM-03_calibrated_load_5V.raw",
+          "sha256": "4a778a6df867647b7bf734b0f5684ee5517f6183c366e90263b063c26e388605",
+          "bytes": 15904098,
+          "published": false
+        },
+        {
+          "name": "SIM-03_calibrated_load_5V.log",
+          "sha256": "91f779e50e24a22c069bc9fdee6e2aec30f764b135bc52d04ec6d7782ed6e987",
+          "bytes": 6701,
+          "published": false
+        },
+        {
+          "name": "SIM-03_calibrated_load_5V.plt",
+          "sha256": "72f50f89c009b127e3f916bd7ef9701854354870d4f9757c2619f0a31209b93c",
+          "bytes": 467,
+          "published": true,
+          "public_export_sha256": "72f50f89c009b127e3f916bd7ef9701854354870d4f9757c2619f0a31209b93c"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 280m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-03_load_stepcheck_33V",
+      "state": "incomplete",
+      "solver": null,
+      "files": []
+    },
+    {
+      "scenario": "SIM-03_load_stepcheck_5V",
+      "state": "incomplete",
+      "solver": null,
+      "files": []
+    },
+    {
+      "scenario": "SIM-04_adjusted_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-04_adjusted_33V.asc",
+          "sha256": "aedd91ca41d7230a3d300ef656cf6b6a3b9270a59df6b389167bf583f6436ebd",
+          "bytes": 40880,
+          "published": true,
+          "public_export_sha256": "aedd91ca41d7230a3d300ef656cf6b6a3b9270a59df6b389167bf583f6436ebd"
+        },
+        {
+          "name": "SIM-04_adjusted_33V.net",
+          "sha256": "12847416068391910f7a324e9e33fcfab97dfa83afe20d71c8665d77b5a0910f",
+          "bytes": 6925,
+          "published": true,
+          "public_export_sha256": "a615170efe8872fb3a19c5ed6afe8184ce22c48b2318babf119f4cd7f9ef469b"
+        },
+        {
+          "name": "SIM-04_adjusted_33V.raw",
+          "sha256": "ced0f941a247df1d3e68eb5ecdeb2be16b863392a3c6ecaeabd4acabc2bb3ae4",
+          "bytes": 23121236,
+          "published": false
+        },
+        {
+          "name": "SIM-04_adjusted_33V.log",
+          "sha256": "975274c334da2ccd7f1d8cc6f09f9836fe30268a2b68fe5915530c1a01426921",
+          "bytes": 5912,
+          "published": false
+        }
+      ],
+      "protocol": "8 V hold to 80 ms, -0.1 V/ms ramp to 4 V at 120 ms; no added parasitics or tolerance changes.",
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 120m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2400 2200 Left 2 !.options trtol=1\\n.save V(N034) V(VEE) V(1) V(2) V(LDO_2) V(N008) V(N009) V(N036) V(N037) V(N038) V(N040) V(N088) V(N086) V(N089) V(N084) V(N025) V(N026) V(VDOBL) Ib(Q26) Ic(Q26) I(R25) I(R24) I(R72)"
+      ]
+    },
+    {
+      "scenario": "SIM-04_adjusted_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-04_adjusted_5V.asc",
+          "sha256": "eccc491b4e6f83273571aec76719888098203410ac7b02bf89858df3f5509d40",
+          "bytes": 40993,
+          "published": true,
+          "public_export_sha256": "eccc491b4e6f83273571aec76719888098203410ac7b02bf89858df3f5509d40"
+        },
+        {
+          "name": "SIM-04_adjusted_5V.net",
+          "sha256": "496c5fc1b3bcc449ea5fc4d3389f17375f93a0e161dbccb43aaba0ef823b1ceb",
+          "bytes": 6939,
+          "published": true,
+          "public_export_sha256": "61e8378703d85ebb090defe3b2f09545140ea91255107d2755842d62903bda0f"
+        },
+        {
+          "name": "SIM-04_adjusted_5V.raw",
+          "sha256": "f270c7480894e437e1f1706b78a990fd37f44537ec86e58ed7081f8921f6358d",
+          "bytes": 23002026,
+          "published": false
+        },
+        {
+          "name": "SIM-04_adjusted_5V.log",
+          "sha256": "82007f41b2d6df566268ced0f233eab0acd6e4b54e02c47f60ca945fa150b0c8",
+          "bytes": 6907,
+          "published": false
+        }
+      ],
+      "protocol": "8 V hold to 80 ms, -0.1 V/ms ramp to 4 V at 120 ms; no added parasitics or tolerance changes.",
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 120m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2400 2200 Left 2 !.options trtol=1\\n.save V(N034) V(VEE) V(1) V(2) V(LDO_2) V(N008) V(N009) V(N036) V(N037) V(N038) V(N040) V(N088) V(N086) V(N089) V(N084) V(N025) V(N026) V(VDOBL) Ib(Q26) Ic(Q26) I(R25) I(R24) I(R72)"
+      ]
+    },
+    {
+      "scenario": "SIM-04_adjusted_settled_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-04_adjusted_settled_5V.asc",
+          "sha256": "afc763e750c3eb981a4463b783689353f79613e4b868a31b206c5e572ad4c2bb",
+          "bytes": 41066,
+          "published": true,
+          "public_export_sha256": "afc763e750c3eb981a4463b783689353f79613e4b868a31b206c5e572ad4c2bb"
+        },
+        {
+          "name": "SIM-04_adjusted_settled_5V.net",
+          "sha256": "43489c72090b8cdbea33c17dd5972756d4960e8e100b14ea9be69c46c5617b15",
+          "bytes": 7026,
+          "published": true,
+          "public_export_sha256": "de1d432b1b5e9472b1f4c478d4d89adf9700be7c74856002afe794103fedf28e"
+        },
+        {
+          "name": "SIM-04_adjusted_settled_5V.raw",
+          "sha256": "6e5043e73b7203ed8ce64a120820fc1830693d5b36566b9a9e35953f7445086e",
+          "bytes": 30472902,
+          "published": false
+        },
+        {
+          "name": "SIM-04_adjusted_settled_5V.log",
+          "sha256": "aed95e3a23d680550454d0372a9d37690ba664c6b9ce7e5ba26be94b2de115ce",
+          "bytes": 6456,
+          "published": false
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 163m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2400 2200 Left 2 !.options trtol=1\\n.save V(N034) V(VEE) V(1) V(2) V(LDO_2) V(N008) V(N009) V(N036) V(N037) V(N038) V(N040) V(N088) V(N086) V(N089) V(N084) V(N025) V(N026) V(VDOBL) Ib(Q26) Ic(Q26) I(R25) I(R24) I(R72)"
+      ]
+    },
+    {
+      "scenario": "SIM-04_calibrated_input_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-04_calibrated_input_33V.asc",
+          "sha256": "112c2bf9db07e982cf767d18264ca9279d965b79b74a91adef5564efa69715dd",
+          "bytes": 40920,
+          "published": true,
+          "public_export_sha256": "112c2bf9db07e982cf767d18264ca9279d965b79b74a91adef5564efa69715dd"
+        },
+        {
+          "name": "SIM-04_calibrated_input_33V.net",
+          "sha256": "b09295747006cacf109006244f017ec5dd3c206f7bdcc3a31f70cfc87ea3e802",
+          "bytes": 7002,
+          "published": true,
+          "public_export_sha256": "ee40d556e8f3f31f6b6d72b2091d69724d3ec8edc069c5e6fc98327748208b69"
+        },
+        {
+          "name": "SIM-04_calibrated_input_33V.raw",
+          "sha256": "45aef4d70a4321b15e71030902e61a3f234e8fec4512a14319f8e71afe40565d",
+          "bytes": 9576926,
+          "published": false
+        },
+        {
+          "name": "SIM-04_calibrated_input_33V.log",
+          "sha256": "b71f2df27e5d642932c1c9fdf12b588ab0ffe07607626e4c74a3938ecff7ecd7",
+          "bytes": 6161,
+          "published": false
+        },
+        {
+          "name": "SIM-04_calibrated_input_33V.plt",
+          "sha256": "421c6505fa39e9c4c2f8c8281d974eabef5c83a4771af41d0ccda8b1b32cc0c7",
+          "bytes": 478,
+          "published": true,
+          "public_export_sha256": "421c6505fa39e9c4c2f8c8281d974eabef5c83a4771af41d0ccda8b1b32cc0c7"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 122m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-04_driver_thermal_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-04_driver_thermal_5V.asc",
+          "sha256": "681d825426420c6e44c9f2b4a8846ff4b5dd4d4215844b576a112e606aa43b81",
+          "bytes": 41170,
+          "published": true,
+          "public_export_sha256": "681d825426420c6e44c9f2b4a8846ff4b5dd4d4215844b576a112e606aa43b81"
+        },
+        {
+          "name": "SIM-04_driver_thermal_5V.net",
+          "sha256": "79c7da7b83469e1367c9e83197accaf7fcb4f16fd44508fe66e6ea0737cc3fdb",
+          "bytes": 7099,
+          "published": true,
+          "public_export_sha256": "f42c97b6fcc8777026ad5b9222f1be0263a3c28ea5ef2cf40c21a768b1c38d35"
+        },
+        {
+          "name": "SIM-04_driver_thermal_5V.raw",
+          "sha256": "b8b689554c76a9ef69371d3d37095265b0805c36472829d701a0c98781f9ea8b",
+          "bytes": 39042768,
+          "published": false
+        },
+        {
+          "name": "SIM-04_driver_thermal_5V.log",
+          "sha256": "e97a00521aefd75c59be3a6e8068399b9a4888dfc25be1a5f8573dfcd5abcdcd",
+          "bytes": 6452,
+          "published": false
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 163m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2400 2200 Left 2 !.options trtol=1\\n.save V(N034) V(VEE) V(1) V(2) V(LDO_2) V(N008) V(N009) V(N036) V(N037) V(N038) V(N040) V(N088) V(N086) V(N089) V(N084) V(N025) V(N026) V(VDOBL) Ib(Q26) Ic(Q26) I(R25) I(R24) I(R72)"
+      ]
+    },
+    {
+      "scenario": "SIM-04_pulsed_load_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-04_pulsed_load_5V.asc",
+          "sha256": "e6d4947a1326aa664e0e9faa561b3138877bcba42ac2e7979623661f983f3efb",
+          "bytes": 41235,
+          "published": true,
+          "public_export_sha256": "e6d4947a1326aa664e0e9faa561b3138877bcba42ac2e7979623661f983f3efb"
+        },
+        {
+          "name": "SIM-04_pulsed_load_5V.net",
+          "sha256": "d1c9ec2ca5ed396ef005a5d2471eb32b2028a0cb966797506722d82bce41ea40",
+          "bytes": 7158,
+          "published": true,
+          "public_export_sha256": "240a5425602a9402ce1222328a3194ffa4bbf75c66bea8175d266d9f24c6a469"
+        },
+        {
+          "name": "SIM-04_pulsed_load_5V.raw",
+          "sha256": "338019ed2163f4e52dce2cfd24cb11f0f9ce1495a7d5147d862c361beefe9c06",
+          "bytes": 50824024,
+          "published": false
+        },
+        {
+          "name": "SIM-04_pulsed_load_5V.log",
+          "sha256": "55dc026b01ae391b425023193179283c6745e5dff9dc1526e23404e8bb56556f",
+          "bytes": 6152,
+          "published": false
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 210m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2400 2200 Left 2 !.options trtol=1\\n.save V(N034) V(VEE) V(1) V(2) V(LDO_2) V(N008) V(N009) V(N036) V(N037) V(N038) V(N040) V(N088) V(N086) V(N089) V(N084) V(N025) V(N026) V(VDOBL) Ib(Q26) Ic(Q26) I(R25) I(R24) I(R72)"
+      ]
+    },
+    {
+      "scenario": "SIM-04_pulsed_load_inhibit_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-04_pulsed_load_inhibit_5V.asc",
+          "sha256": "8ed324cce103ae57c7acbd72c5b222fa0a1dcba88a0393bd2cc623d046f01474",
+          "bytes": 41420,
+          "published": true,
+          "public_export_sha256": "8ed324cce103ae57c7acbd72c5b222fa0a1dcba88a0393bd2cc623d046f01474"
+        },
+        {
+          "name": "SIM-04_pulsed_load_inhibit_5V.net",
+          "sha256": "63e03eab165fa9640890db9e29714c0d0bc6eab4f810f3965990263865b5d0c7",
+          "bytes": 7331,
+          "published": true,
+          "public_export_sha256": "da6c7d63e6d9dbd1f769e14bcf8516f8ec9e91f1eee0312f73b65d5fe6142a0a"
+        },
+        {
+          "name": "SIM-04_pulsed_load_inhibit_5V.raw",
+          "sha256": "8e0d60a09e99e742fc2b5e7f4e1290d0183f9f5b5a463019e71b74d0984efd5b",
+          "bytes": 53732198,
+          "published": false
+        },
+        {
+          "name": "SIM-04_pulsed_load_inhibit_5V.log",
+          "sha256": "908d3f939e749ab13d50552899c5437028c6a1f3c5c80b365ea9768ce32175c0",
+          "bytes": 6351,
+          "published": false
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 210m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0",
+        "TEXT -2400 2200 Left 2 !.options trtol=1\\n.save V(N034) V(VEE) V(1) V(2) V(LDO_2) V(N008) V(N009) V(N036) V(N037) V(N038) V(N040) V(N088) V(N086) V(N089) V(N084) V(N025) V(N026) V(VDOBL) Ib(Q26) Ic(Q26) I(R25) I(R24) I(R72)"
+      ]
+    },
+    {
+      "scenario": "SIM-05_calibrated_idle_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-05_calibrated_idle_33V.asc",
+          "sha256": "803a118a80c66bd214d9259489e5d407af256447fa054bac53d147b5d00acdc7",
+          "bytes": 40933,
+          "published": true,
+          "public_export_sha256": "803a118a80c66bd214d9259489e5d407af256447fa054bac53d147b5d00acdc7"
+        },
+        {
+          "name": "SIM-05_calibrated_idle_33V.net",
+          "sha256": "a0fa822680e7e539adef2983110de65f640d2a6f7d5ecffb41e268278ccca404",
+          "bytes": 6986,
+          "published": true,
+          "public_export_sha256": "e7a80adaec6f5b8502cb2eb0d12faf6b3bd9a3404839efc6475784efebce0a75"
+        },
+        {
+          "name": "SIM-05_calibrated_idle_33V.raw",
+          "sha256": "a20c224c20d22bf96ebce668d9a77218ea2a6e7dbb62d4710d965a6deebf2b09",
+          "bytes": 10484462,
+          "published": false
+        },
+        {
+          "name": "SIM-05_calibrated_idle_33V.log",
+          "sha256": "cdbc9dd7f15985e180cf40bae138eee9cb3db6f0f0edbb41bb1d63c87e4178e6",
+          "bytes": 6165,
+          "published": false
+        },
+        {
+          "name": "SIM-05_calibrated_idle_33V.plt",
+          "sha256": "cb6ff3a79b2a9b481a8fd9d31a5e4f284d678e45f229a545fa69e64319b7dd0c",
+          "bytes": 527,
+          "published": true,
+          "public_export_sha256": "cb6ff3a79b2a9b481a8fd9d31a5e4f284d678e45f229a545fa69e64319b7dd0c"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 120m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-05_calibrated_idle_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-05_calibrated_idle_5V.asc",
+          "sha256": "b3f4ce3455ffda13ec5aaac456e26595b1690356241287cbb58657111e4786fe",
+          "bytes": 41048,
+          "published": true,
+          "public_export_sha256": "b3f4ce3455ffda13ec5aaac456e26595b1690356241287cbb58657111e4786fe"
+        },
+        {
+          "name": "SIM-05_calibrated_idle_5V.net",
+          "sha256": "0d70f204169b2c84792695c58c5374933cc72785337c5daafad7d97f878feff3",
+          "bytes": 7002,
+          "published": true,
+          "public_export_sha256": "4f012dc8eae67b8f1bb1a47cfa9ce97c539c0988b0fe7d1388206550610a45fc"
+        },
+        {
+          "name": "SIM-05_calibrated_idle_5V.raw",
+          "sha256": "2647a429a9ff6aff579b4e1cf69a0ce299d23931d642b669e18e8499a1670ef8",
+          "bytes": 10522276,
+          "published": false
+        },
+        {
+          "name": "SIM-05_calibrated_idle_5V.log",
+          "sha256": "d6a7d65099620621327ac696adfb9f687738fc87d5767bd3c76389f55d88fc4e",
+          "bytes": 6807,
+          "published": false
+        },
+        {
+          "name": "SIM-05_calibrated_idle_5V.plt",
+          "sha256": "ec290a74d56b32119f63b3a6257435f6e9defc8864535ce62fb000bed71ef657",
+          "bytes": 488,
+          "published": true,
+          "public_export_sha256": "ec290a74d56b32119f63b3a6257435f6e9defc8864535ce62fb000bed71ef657"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 120m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-06_calibrated_transient_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-06_calibrated_transient_33V.asc",
+          "sha256": "d3da1203d5545e80783507e4f59643235eaa219812a26799adacafec7ae742db",
+          "bytes": 41065,
+          "published": true,
+          "public_export_sha256": "d3da1203d5545e80783507e4f59643235eaa219812a26799adacafec7ae742db"
+        },
+        {
+          "name": "SIM-06_calibrated_transient_33V.net",
+          "sha256": "0406f28217e52cc5e89ac7c4b8c0107818b4684c8b247f2a0cc3028b6a399041",
+          "bytes": 7128,
+          "published": true,
+          "public_export_sha256": "ad61cd95534d9f50492c4695c888253c85d7d25184a069a863f1cff00cb84370"
+        },
+        {
+          "name": "SIM-06_calibrated_transient_33V.raw",
+          "sha256": "f12ca719c19da308e7fb64bea4447102c267034c2d82fec9860502a3db656e53",
+          "bytes": 9739916,
+          "published": false
+        },
+        {
+          "name": "SIM-06_calibrated_transient_33V.log",
+          "sha256": "2246da39d7d314e8f2d6d853244e50ff6c6835377bc87c105bb6af5dc74281e7",
+          "bytes": 6251,
+          "published": false
+        },
+        {
+          "name": "SIM-06_calibrated_transient_33V.plt",
+          "sha256": "d7c86659b210806723ef8d008fd7aca3a8a04e0b5867e223edfccb75ca89e631",
+          "bytes": 460,
+          "published": true,
+          "public_export_sha256": "d7c86659b210806723ef8d008fd7aca3a8a04e0b5867e223edfccb75ca89e631"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 160m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-06_calibrated_transient_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-06_calibrated_transient_5V.asc",
+          "sha256": "2b00b9e02da99cc29bfe14d0dc16e712488f70fd6ac5389ff3254bd4a01287bc",
+          "bytes": 41176,
+          "published": true,
+          "public_export_sha256": "2b00b9e02da99cc29bfe14d0dc16e712488f70fd6ac5389ff3254bd4a01287bc"
+        },
+        {
+          "name": "SIM-06_calibrated_transient_5V.net",
+          "sha256": "b16a6a192578c72336bf716ead68bd11f8c68358ec6cccbcaa5619f9680ac6cb",
+          "bytes": 7140,
+          "published": true,
+          "public_export_sha256": "a44aebe0e3d230dc4effd3668b8e55484928dfd33dc630e299af35f75bf455e1"
+        },
+        {
+          "name": "SIM-06_calibrated_transient_5V.raw",
+          "sha256": "096a63eb9763e05aad5ffb9dcbcae90671eb4e2cd8b93b5b2816fc2d876676a7",
+          "bytes": 10034282,
+          "published": false
+        },
+        {
+          "name": "SIM-06_calibrated_transient_5V.log",
+          "sha256": "c9be093834b80e8d2f758833957967522d8fa99867deed69cd869f5e9d8c198b",
+          "bytes": 6537,
+          "published": false
+        },
+        {
+          "name": "SIM-06_calibrated_transient_5V.plt",
+          "sha256": "e644303b1c9d2cbdf514f7527aa1b4238fddbf607afeefd2a4d2fb38c84753bb",
+          "bytes": 460,
+          "published": true,
+          "public_export_sha256": "e644303b1c9d2cbdf514f7527aa1b4238fddbf607afeefd2a4d2fb38c84753bb"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 160m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-07_calibrated_protection_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-07_calibrated_protection_5V.asc",
+          "sha256": "2565f40225a0138a916a02c81c78f0acf61b96bdbf8532cff63ff087b5da7baa",
+          "bytes": 41079,
+          "published": true,
+          "public_export_sha256": "2565f40225a0138a916a02c81c78f0acf61b96bdbf8532cff63ff087b5da7baa"
+        },
+        {
+          "name": "SIM-07_calibrated_protection_5V.net",
+          "sha256": "813cd258ba5ca46b311bc3eacc2809d05393a5ca7a34c9e41487f52c834f7c74",
+          "bytes": 7072,
+          "published": true,
+          "public_export_sha256": "d944505ceea20986a2b6397194ed96ddf2c0edf76e9a533154818ce71e78ecbb"
+        },
+        {
+          "name": "SIM-07_calibrated_protection_5V.raw",
+          "sha256": "120da6a5679df0b46d9c5074f36618549cc2e917f03515a5e98bf9bd66decdf9",
+          "bytes": 26200728,
+          "published": false
+        },
+        {
+          "name": "SIM-07_calibrated_protection_5V.log",
+          "sha256": "c7095f8871045889d2ef86cce3bd39f240f07444a949df8d73b44ba964d04ea8",
+          "bytes": 7125,
+          "published": false
+        },
+        {
+          "name": "SIM-07_calibrated_protection_5V.plt",
+          "sha256": "521b07ae7a44b67f7dde31ee6e6c9f95f5e118c6d63eeda3e1e0c84b4b472adc",
+          "bytes": 482,
+          "published": true,
+          "public_export_sha256": "521b07ae7a44b67f7dde31ee6e6c9f95f5e118c6d63eeda3e1e0c84b4b472adc"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 264m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-08_calibrated_limit_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-08_calibrated_limit_33V.asc",
+          "sha256": "c72a126393c59ce5e8b01369035f2db6efe2d62a11ce111aba0e3b84a7502ffc",
+          "bytes": 41168,
+          "published": true,
+          "public_export_sha256": "c72a126393c59ce5e8b01369035f2db6efe2d62a11ce111aba0e3b84a7502ffc"
+        },
+        {
+          "name": "SIM-08_calibrated_limit_33V.net",
+          "sha256": "ad6c42e7549b5bc05a56690c0ed939d91de86dd6673ac1461d452edd94e7bb11",
+          "bytes": 7223,
+          "published": true,
+          "public_export_sha256": "c8e09216573259903675e231a0ada66832ed079d778321e34a9afbb8ac785496"
+        },
+        {
+          "name": "SIM-08_calibrated_limit_33V.raw",
+          "sha256": "f7bb64fa50b4da909b54192ba1a501b90f8ba9e2e87b749f4a3722e3507ed31c",
+          "bytes": 17000042,
+          "published": false
+        },
+        {
+          "name": "SIM-08_calibrated_limit_33V.log",
+          "sha256": "0be4a2980bc73715d0dc4db927c502052fe039b08acd521464b1cce2b5c01f43",
+          "bytes": 6170,
+          "published": false
+        },
+        {
+          "name": "SIM-08_calibrated_limit_33V.plt",
+          "sha256": "4fcf05727d8588d846bbf7fbcdc8b3590442b24f16c22b2bad13bd4bd29c0425",
+          "bytes": 437,
+          "published": true,
+          "public_export_sha256": "4fcf05727d8588d846bbf7fbcdc8b3590442b24f16c22b2bad13bd4bd29c0425"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 210m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-08_calibrated_limit_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-08_calibrated_limit_5V.asc",
+          "sha256": "e7f26017ad31d001f012f879a453d7c9be6f0b1f6775b6cf0c1a62add48e6fcf",
+          "bytes": 41155,
+          "published": true,
+          "public_export_sha256": "e7f26017ad31d001f012f879a453d7c9be6f0b1f6775b6cf0c1a62add48e6fcf"
+        },
+        {
+          "name": "SIM-08_calibrated_limit_5V.net",
+          "sha256": "566584e7ab4a2439961c1dde7d0c71807ac6c8bb8702e5fca2c63aad8ced792b",
+          "bytes": 7111,
+          "published": true,
+          "public_export_sha256": "5868b167070cec44360330aa30c8cd8214052020798d2795c45fbe840f33ed67"
+        },
+        {
+          "name": "SIM-08_calibrated_limit_5V.raw",
+          "sha256": "b76390c9ca83b68bfb826af384878dbe718bdd16a9eab56fce2d0cc65772c234",
+          "bytes": 19172360,
+          "published": false
+        },
+        {
+          "name": "SIM-08_calibrated_limit_5V.log",
+          "sha256": "de7b3ecd31ea5039ea4f63eb1f51ef65cd189d0539cfa097b2cfc67f9dc63e99",
+          "bytes": 7058,
+          "published": false
+        },
+        {
+          "name": "SIM-08_calibrated_limit_5V.plt",
+          "sha256": "4fcf05727d8588d846bbf7fbcdc8b3590442b24f16c22b2bad13bd4bd29c0425",
+          "bytes": 437,
+          "published": true,
+          "public_export_sha256": "4fcf05727d8588d846bbf7fbcdc8b3590442b24f16c22b2bad13bd4bd29c0425"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT -528 1544 Left 2 !.tran 0 210m 0 2u",
+        "TEXT -528 1520 Left 2 !.options srcsteps=0",
+        "TEXT -528 1496 Left 2 !.options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-09_full_tone_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-09_full_tone_33V.cir",
+          "sha256": "c63b78051bc34e7c449762c991ba5903ba9896537ac49ed5746b2cd8c02d82a6",
+          "bytes": 6996,
+          "published": true,
+          "public_export_sha256": "c63b78051bc34e7c449762c991ba5903ba9896537ac49ed5746b2cd8c02d82a6"
+        },
+        {
+          "name": "SIM-09_full_tone_33V.raw",
+          "sha256": "c001bd11d57d195690c11fdb0f09768da644bc26334f1c6279d4f50fad69b36f",
+          "bytes": 9197748,
+          "published": false
+        },
+        {
+          "name": "SIM-09_full_tone_33V.log",
+          "sha256": "47f03bfee5fe05f256e4a0984ed65070ebf2804f13527401ad80785d6c1569ab",
+          "bytes": 6104,
+          "published": false
+        }
+      ],
+      "numerical_directives": [
+        ".tran 0 80.25m 0 2u",
+        ".options srcsteps=0",
+        ".options plotwinsize=0 itl4=100"
+      ]
+    },
+    {
+      "scenario": "SIM-09_full_tone_5V",
+      "state": "complete",
+      "solver": "norm",
+      "files": [
+        {
+          "name": "SIM-09_full_tone_5V.cir",
+          "sha256": "029c15ce35b2c24eb6bd89cdc24e5c645ce60bc1e3ae6dd88904ff12b5ae4f37",
+          "bytes": 7002,
+          "published": true,
+          "public_export_sha256": "029c15ce35b2c24eb6bd89cdc24e5c645ce60bc1e3ae6dd88904ff12b5ae4f37"
+        },
+        {
+          "name": "SIM-09_full_tone_5V.raw",
+          "sha256": "a01d98b5ef8838aa1bf544c4d005e430977e64a55ecbc7188b7e4e703e35764e",
+          "bytes": 9504610,
+          "published": false
+        },
+        {
+          "name": "SIM-09_full_tone_5V.log",
+          "sha256": "235e1e15fd3507c69da97334cdfd847e3f15d47de23abe560b89ef68a320ef06",
+          "bytes": 6439,
+          "published": false
+        }
+      ],
+      "numerical_directives": [
+        ".tran 0 80.25m 0 2u",
+        ".options srcsteps=0",
+        ".options plotwinsize=0"
+      ]
+    },
+    {
+      "scenario": "SIM-09_loop_33V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-09_loop_33V.asc",
+          "sha256": "8a7b4ba10149b3a9cc1a1534d20efd9f74ed2a91e893c0dc1c983b4eb2218056",
+          "bytes": 15608,
+          "published": true,
+          "public_export_sha256": "8a7b4ba10149b3a9cc1a1534d20efd9f74ed2a91e893c0dc1c983b4eb2218056"
+        },
+        {
+          "name": "SIM-09_loop_33V.plt",
+          "sha256": "969123c13312539ae2845f5688ac17e80720f98c6d896b3048de570a5e825d08",
+          "bytes": 318,
+          "published": true,
+          "public_export_sha256": "969123c13312539ae2845f5688ac17e80720f98c6d896b3048de570a5e825d08"
+        },
+        {
+          "name": "SIM-09_loop_33V.bias",
+          "sha256": "154495109b736a4d52d47baea71fed764eed07eb74de531679958c3f2d5f4a91",
+          "bytes": 2575,
+          "published": true,
+          "public_export_sha256": "154495109b736a4d52d47baea71fed764eed07eb74de531679958c3f2d5f4a91"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT 0 3000 Left 2 !.model D D\\n.lib standard.dio\\n.model NPN NPN\\n.model PNP PNP\\n.lib standard.bjt\\n.model NJF NJF\\n.model PJF PJF\\n.lib standard.jft\\n.model NMOS NMOS\\n.model PMOS PMOS\\n.lib standard.mos\\n.lib TL431.sub\\n.lib CA3096.lib\\n.lib opamp.lib\\n.lib phil_fet.lib\\n.param lg = 0 ; zero value turns off probe\\n.step param lg list -1 1\\n.lib nat_semi.lib\\n.lib phil_bjt.lib\\n.lib darlngtn.lib\\n.lib irf7328.spi\\n.lib pwrbjt.lib\\n.lib LM311.sub\\n.inc scr.txt\\n.param VOUTNOM=5\\n.param TOL=0.02\\n.param VOUTMIN = {VOUTNOM*(1-TOL)}\\n.param VBATDC=12\\n.param RLOADVAL=3.3\\n.param VSW_VT=2.5\\n.model SWLOAD SW(Ron=10m Roff=1e9 Vt={VSW_VT} Vh=-0.2)\\n.param VINTEST=8\\n.temp 27\\n.lib AO3401A.mod\\n.lib phil_fet.lib\\n.lib LTC1044.sub\\n.lib TL431.sub\\n.ac dec 200 1 60Meg\\n.loadbias SIM-09_loop_33V.bias\\n.options srcsteps=0"
+      ]
+    },
+    {
+      "scenario": "SIM-09_loop_5V",
+      "state": "complete",
+      "solver": "alt",
+      "files": [
+        {
+          "name": "SIM-09_loop_5V.asc",
+          "sha256": "d85bfa23111e839dc15baeb24eca40d4da08681d9abbb86709ee0560af3baad1",
+          "bytes": 15786,
+          "published": true,
+          "public_export_sha256": "d85bfa23111e839dc15baeb24eca40d4da08681d9abbb86709ee0560af3baad1"
+        },
+        {
+          "name": "SIM-09_loop_5V.plt",
+          "sha256": "969123c13312539ae2845f5688ac17e80720f98c6d896b3048de570a5e825d08",
+          "bytes": 318,
+          "published": true,
+          "public_export_sha256": "969123c13312539ae2845f5688ac17e80720f98c6d896b3048de570a5e825d08"
+        },
+        {
+          "name": "SIM-09_loop_5V.bias",
+          "sha256": "f23dabb6ab2fcd6bc40bc613cb700bec7ed1030e9eee961d53638e75152f2705",
+          "bytes": 2576,
+          "published": true,
+          "public_export_sha256": "f23dabb6ab2fcd6bc40bc613cb700bec7ed1030e9eee961d53638e75152f2705"
+        }
+      ],
+      "numerical_directives": [
+        "TEXT 0 3000 Left 2 !.model D D\\n.lib standard.dio\\n.model NPN NPN\\n.model PNP PNP\\n.lib standard.bjt\\n.model NJF NJF\\n.model PJF PJF\\n.lib standard.jft\\n.model NMOS NMOS\\n.model PMOS PMOS\\n.lib standard.mos\\n.lib TL431.sub\\n.lib CA3096.lib\\n.lib opamp.lib\\n.lib phil_fet.lib\\n.param lg = 0 ; zero value turns off probe\\n.step param lg list -1 1\\n.lib nat_semi.lib\\n.lib phil_bjt.lib\\n.lib darlngtn.lib\\n.lib irf7328.spi\\n.lib pwrbjt.lib\\n.lib LM311.sub\\n.inc scr.txt\\n.param VOUTNOM=5\\n.param TOL=0.02\\n.param VOUTMIN = {VOUTNOM*(1-TOL)}\\n.param VBATDC=12\\n.param RLOADVAL=5\\n.param VSW_VT=2.5\\n.model SWLOAD SW(Ron=10m Roff=1e9 Vt={VSW_VT} Vh=-0.2)\\n.param VINTEST=8\\n.temp 27\\n.lib AO3401A.mod\\n.lib phil_fet.lib\\n.lib LTC1044.sub\\n.lib TL431.sub\\n.ac dec 200 1 60Meg\\n.loadbias SIM-09_loop_5V.bias\\n.options srcsteps=0"
+      ]
+    }
+  ],
+  "unresolved_diagnostics": {
+    "deep_brownout": "Original adjusted 142 ms ramp/hold down to 2.8 V did not complete. A separately executed 120 ms / 4 V protocol, if complete above, supersedes it only for bounded dropout/UVLO characterization.",
+    "one_us_refinement": "Additional 1 us load checks did not complete with IRF4905. Previous fine-step values are historical, not new-model accuracy evidence."
+  }
+}

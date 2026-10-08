@@ -1,0 +1,106 @@
+[
+  {
+    "trial": "refined",
+    "mode": "5V",
+    "endpoint_s": 0.10593412556141564,
+    "complete": false,
+    "last_log_line": "Heightened Def Con from 0.105934 +",
+    "sha256": {
+      "SIM-01_refined_5V.asc": "956a19d51ed7abe208410f4937a345a4874b701b5202b0103438467d2457c0a8",
+      "SIM-01_refined_5V.net": "5c3c447c274f0c87cc4666806e38c11bc8f90991d80665e633b8a39717206efa",
+      "SIM-01_refined_5V.log": "57106eee7ad486ef28887367c76ec70b3ac1c58f0df4f5521dc37d50ffab1575",
+      "SIM-01_refined_5V.raw": "0994fc0ed7ecb838f232b57937400939071ab6c2e76389c46aa7f1d63c094d75"
+    }
+  },
+  {
+    "trial": "refined",
+    "mode": "33V",
+    "endpoint_s": 0.08457912978674498,
+    "complete": false,
+    "last_log_line": "Heightened Def Con from 0.0845791 to 0.08",
+    "sha256": {
+      "SIM-01_refined_33V.asc": "9bdacb1cbe244e1c3e2df794388e7700a4ecb06a265d3c92d7bf145a5816ae6a",
+      "SIM-01_refined_33V.net": "3c81356fccacb1c10440d8d0acf2f1750d7441d23feb1f254f030305b2964556",
+      "SIM-01_refined_33V.log": "57a3ea94e4933dff2c38b7b9fe1f292e0acb0e8fd59f53045709afa45ef24f8d",
+      "SIM-01_refined_33V.raw": "9607ed706603f4a3c1869d74eff4cabba89412abfad08b3e894eb0f306e2d73d"
+    }
+  },
+  {
+    "trial": "precision",
+    "mode": "5V",
+    "endpoint_s": 0.010765665653723147,
+    "complete": false,
+    "last_log_line": "Heightened Def Con from 0.0091118 to 0.00",
+    "sha256": {
+      "SIM-01_precision_5V.asc": "33e018994c2d5d4a28220329153e3cd8813edd3da247ef553f2937cd381a9ee4",
+      "SIM-01_precision_5V.net": "eaf248b1e32f249dcc364defbc3b1c9375c275998dec21a75fba8da15bfcf494",
+      "SIM-01_precision_5V.log": "653167f9f20116a2588956eb27c53a6fe7a822f5257485ab3b11c3f77d41d159",
+      "SIM-01_precision_5V.raw": "cc7350c1481daa8630501391efe724ed552e61792c695bfa5a5dc84596256a10"
+    }
+  },
+  {
+    "trial": "precision",
+    "mode": "33V",
+    "endpoint_s": 0.013586661364399144,
+    "complete": false,
+    "last_log_line": "Heightened Def C",
+    "sha256": {
+      "SIM-01_precision_33V.asc": "8fc2b90d4c81e1e6a4f011a4382c90e60f1bbf52df843819288f2503d1b72355",
+      "SIM-01_precision_33V.net": "b8425eca5469da1488649e6f4d17e34e1cabfa659c0cea35263a9cd216516914",
+      "SIM-01_precision_33V.log": "fb4e447718b45ef1dd0391a0826ca644991afe98eb05718aa76c8a837fcd401a",
+      "SIM-01_precision_33V.raw": "e349dc83b80aa0fcb4fec3ce206921f6177df575424aa681b6c7178b57979e16"
+    }
+  },
+  {
+    "trial": "trtol",
+    "mode": "5V",
+    "endpoint_s": 0.14000046051679324,
+    "complete": true,
+    "last_log_line": "",
+    "sha256": {
+      "SIM-01_trtol_5V.asc": "9da5b1171efec0e428959addece9a736f4ad5f6c5f9386d578c8d64320fc1aa7",
+      "SIM-01_trtol_5V.net": "0eaa70eaa11570eafc75246ac2b822adad2a98ce4685009204c46832ac1f1f88",
+      "SIM-01_trtol_5V.log": "d6053504507d8d8f927f04d46744db4bff541a41b972cd8185ce70d210a54983",
+      "SIM-01_trtol_5V.raw": "40e3f48046f4689fb2019660feb40f74265f8eccdef65a44b51711139dc1a4ab"
+    }
+  },
+  {
+    "trial": "trtol",
+    "mode": "33V",
+    "endpoint_s": 0.1151827970608465,
+    "complete": false,
+    "last_log_line": "Heightened Def Con from 0.105927 ++++++",
+    "sha256": {
+      "SIM-01_trtol_33V.asc": "9348526dd11e7839c0d56265a319c435f2696a4de353cba593c66d8b9b2fa980",
+      "SIM-01_trtol_33V.net": "f2774ab0cf95312e837bbaa22d97570e5afc5b5b9678dfcbf74aca552fd11a80",
+      "SIM-01_trtol_33V.log": "945cab30475d3baf780ded75b4155a4b3186d4247438f08324d025645f7d85a8",
+      "SIM-01_trtol_33V.raw": "50dfc9ed722d637c97db42f31d1b58a5e4628acad5b9abc022899afd41c0a8e8"
+    }
+  },
+  {
+    "trial": "trtol_alt",
+    "mode": "33V",
+    "endpoint_s": 0.0684825387994763,
+    "complete": false,
+    "last_log_line": "Pseudo Transient succeeded in finding the operating point at 14.2337 s.",
+    "sha256": {
+      "SIM-01_trtol_alt_33V.asc": "9348526dd11e7839c0d56265a319c435f2696a4de353cba593c66d8b9b2fa980",
+      "SIM-01_trtol_alt_33V.net": "e8cbe3349915b5186a3a6b0ff7965eef9a6542aa28dff5c6c3eb3ad3eb994b08",
+      "SIM-01_trtol_alt_33V.log": "a4add1dc9ce7700b39f92b1451801beabddc01cfd454d44a6f868a84b59ba874",
+      "SIM-01_trtol_alt_33V.raw": "03c6ed066f769911614234601718c3f4dba6704cf984afb3b372a422e918347f"
+    }
+  },
+  {
+    "trial": "finalcheck",
+    "mode": "33V",
+    "endpoint_s": 0.1400000856255568,
+    "complete": true,
+    "last_log_line": "",
+    "sha256": {
+      "SIM-01_finalcheck_33V.asc": "9348526dd11e7839c0d56265a319c435f2696a4de353cba593c66d8b9b2fa980",
+      "SIM-01_finalcheck_33V.net": "3040ada2b4a49f1044c4de246b3eee6f3e671b9565ec0c66c8d8e4941122191b",
+      "SIM-01_finalcheck_33V.log": "25b9cabe2fe01bccc584a4056737c9d2b706127e3ec7be115a0fdcdd9d506864",
+      "SIM-01_finalcheck_33V.raw": "5b1c192e56c8efc929011c70b75e9f6b15603534b21b8cfbe132c2c1c4eed95f"
+    }
+  }
+]

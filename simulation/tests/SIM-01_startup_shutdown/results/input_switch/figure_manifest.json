@@ -1,0 +1,28 @@
+{
+  "test": "SIM-01",
+  "source": "simulation/tests/SIM-01_startup_shutdown/results/input_switch/signals.txt",
+  "sha256": "609e6148d906c244430b234f7b4d3637781a0a1b0297e2c5efc4560f04619f16",
+  "samples": 239883,
+  "python": "3.12.14",
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "processing": "Time origin shifted only; no smoothing or resampling.",
+  "windows_s": [
+    [
+      0.002,
+      0.04
+    ],
+    [
+      0.054,
+      0.065
+    ]
+  ],
+  "time_origins_s": [
+    0.005,
+    0.055
+  ],
+  "initial_transient_window_s": [
+    0.00498,
+    0.0052
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "test": "SIM-05_calibrated_idle_5V.asc",
+    "test_sha256": "573c49399be271fe3623799764a1326a70c03a69386bc6584d16d002a1a20421",
+    "source_V": 8,
+    "temperature_C": 27,
+    "external_load_ohm": 1000000,
+    "duration_ms": 120,
+    "max_step_us": 2
+  },
+  {
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "test": "SIM-05_calibrated_idle_33V.asc",
+    "test_sha256": "49e19f26aa885183435214a2dcf477a0127e8460d24ac5ca3a6c2ee6687c12ac",
+    "source_V": 8,
+    "temperature_C": 27,
+    "external_load_ohm": 1000000,
+    "duration_ms": 120,
+    "max_step_us": 2
+  }
+]
