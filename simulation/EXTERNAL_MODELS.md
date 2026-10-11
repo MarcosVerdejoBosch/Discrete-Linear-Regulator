@@ -1,5 +1,7 @@
 # External model dependencies
 
+**2026-10-11 packaging update:** the owner's supplied dependencies are included in the [assembled 36-case release](../publication/PORTABLE_PACKAGE.md), with original notices retained and excluded from the project's MIT license. Redistribution permission has not been established for every third-party file. The notes below describe the earlier source-only review snapshot; use the release ZIP for the prepared folder. U17 was subsequently corrected to IRF4905 in the validated baseline.
+
 Model libraries are not bundled in this first review snapshot. Their redistribution permissions and portable installation are not yet verified. Obtain the appropriate models from their original suppliers; the existing MIT license does not grant rights to third-party models.
 
 - `AO3401A.mod`

@@ -1,5 +1,9 @@
 # Discrete Linear Regulator
 
+## Download the 36 validated simulations
+
+**[Download the assembled LTspice ZIP](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0/Regulador-36-LTspice-v1.0.zip)** — 16 principal cases + 20 SIM-09 variants, with model libraries, symbols, saved plots and bias files. Extract the entire ZIP, open an ASC in `Simulaciones`, select the reference solver shown in `LEEME.md`, and press **Run**. No CMD or Python is required. [Contents, dependencies and verification scope](publication/PORTABLE_PACKAGE.md).
+
 **Simulation baseline closed — 2026-10-07.** The builder validated the 16 principal entries and all 20 additional SIM-09 cases. The exact local ASC/PLT files are preserved, including the final annotation layout. [Closure and recovery scope](publication/SIMULATIONS_V1.md). Open the prepared `.asc` in LTspice and press **Run**; launchers are optional. External models remain necessary. Hardware characterization and the later editorial review of the report remain separate.
 
 A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a fabricated PCB, and documented LTspice studies.
@@ -10,9 +14,9 @@ A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a f
 
 **2026-09-24 revalidation:** all 16 primary SIM-01–SIM-09 scenarios completed locally with LTspice 17.1.15. U17 now uses the official IRF4905 model in the full-circuit cases; report figures and tables were regenerated. The SIM-09 fixed-bias core is unchanged and was rerun. [Scope, numerical settings and evidence](publication/U17_REVALIDATION_2026-09-24.md).
 
-Download and extract this review branch, then double-click `PREPARAR_LTSPICE.cmd`. Select your existing project-model folder once. In `LTspice-local`, open `ELEGIR_SIMULACION.cmd` and choose a case: it selects the verified solver, runs LTspice and opens the saved curves. Windows and LTspice are required; Python is optional.
+Use the assembled release ZIP linked above for direct ASC execution. The older `PREPARAR_LTSPICE.cmd` and launchers are retained as optional source-development tools; they are not part of the downloadable simulation package.
 
-**External models are still required**; this is not a dependency-free download. The setup checks dependencies before creating the folder. [Three-step instructions and SIM-09 plots](simulation/QUICKSTART.md).
+The assembled package includes the supplied external dependencies. A plain **Code → Download ZIP** source snapshot is different from that package. Windows and an installed LTspice are required; see the release instructions for solver selection and third-party notices.
 
 ## Start here
 

@@ -12,6 +12,8 @@ The 5 V adjusted-threshold test was executed by the builder. It remains useful a
 
 ## Recovery
 
+**2026-10-11 update:** a separate [36-case simulation package](PORTABLE_PACKAGE.md) now assembles the supplied dependencies for direct ASC execution. The following paragraph records the original freeze status; the larger private backup remains distinct and includes results not shipped in the compact package.
+
 GitHub preserves the schematics, plot profiles, bias files, analysis code, documented results and report sources/PDF. Public redistribution of all third-party models is still unresolved. The private `Congelado-36-2026-10-07.zip` additionally preserves the exact local dependencies, installed LTspice library and available RAW/log results, based on the earlier 16-case backup. That private ZIP is not uploaded to the public repository. A local ZIP is not confirmation of off-device backup or OneDrive synchronization; clean-machine restoration remains untested.
 
 Open a prepared ASC and press Run; launchers are optional. Do not separate the models, symbols, bias files and PLT from their scenarios. Figure review is deferred by the user; detailed hardware measurements remain pending and are not implied by simulation acceptance.
