@@ -1343,6 +1343,11 @@ Output voltage during short &
 
 The simulated regulator was translated into a PCB layout to provide a practical implementation of the design. The board integrates the pass transistor, feedback network, reference stage, current-limit circuit, and input-voltage protection blocks described in the previous sections.
 
+The KiCad layout uses four copper layers and occupies approximately
+200\,mm by 160\,mm. Both inner copper layers include ground-connected
+zones. Figure~\ref{fig:pcb_layout_stack} shows the four copper layers;
+their offsets in the illustration separate the views for presentation.
+
 \begin{figure*}[t]
     \centering
     \includegraphics[width=0.95\textwidth]{coopper.pdf}
@@ -1350,7 +1355,12 @@ The simulated regulator was translated into a PCB layout to provide a practical 
     \label{fig:pcb_layout_stack}
 \end{figure*}
 
-The PCB was fabricated and assembled, and initial output checks confirmed operation in both the 5\,V and 3.3\,V settings. Exact readings, load conditions, and instrument details were not recorded in the present dataset, so these checks establish basic operation rather than quantified regulation accuracy.
+The PCB was manufactured by JLCPCB. The components were purchased
+separately and soldered by the author. Initial output checks confirmed
+operation in both the 5\,V and 3.3\,V settings. Exact readings, load
+conditions, and instrument details were not recorded in the present
+dataset, so these checks establish basic operation rather than
+quantified regulation accuracy.
 
 The next measurements will characterize load regulation at a fixed input, followed by line regulation at a fixed load. Input and output voltages will be measured at the board terminals, with actual load current, instrument settings, and thermal conditions recorded. Calibration will remain unchanged within each sweep. Startup and shutdown waveforms will then be compared with the simulated sequence. Detailed procedures and original readings will be retained separately from the simulation results.
 

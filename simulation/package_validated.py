@@ -34,6 +34,8 @@ def main():
     extra = [c for c in extra if c['stem'].startswith('SIM-09_external_')]
     assert len(main_cases) == 16 and len(extra) == 20
     cases = main_cases + extra
+    for case in cases:
+        case["label"] = case["stem"].replace("_", " ")
     files = {}
     roles = {}
 
@@ -109,46 +111,10 @@ def main():
         'scenario_count': 36, 'cases': cases, 'files': rows,
         'third_party_redistribution_permissions': 'Not established for all supplied dependencies; original notices retained.',
     }, indent=2)+'\n', encoding='utf-8')
-    (dest/'LEEME.md').write_text('''# Regulador — 36 simulaciones validadas
-
-1. Instalá LTspice en Windows. La versión de referencia es XVII 17.1.15.
-2. Extraé **todo** el ZIP en una carpeta local con permiso de escritura.
-3. Abrí un `.asc` de `Simulaciones` y pulsá **Run**. El `.plt` del mismo nombre prepara las curvas.
-
-No se necesita ejecutar un CMD, Python ni copiar bibliotecas a la instalación.
-No abras el esquema dentro del ZIP. Conservá juntos todos los archivos extraídos.
-`LG_single.asc` es un bloque de soporte, no una simulación adicional.
-
-## Solver
-
-La tabla de abajo indica el solver utilizado en la validación de referencia.
-En LTspice XVII: Tools → Control Panel → SPICE → Solver: Normal o Alternate.
-Es una preferencia global del programa; el ASC no fuerza esa selección.
-Si una corrida se detiene, comprobá el solver de la tabla y el espacio libre.
-Las veinte variantes externas de SIM-09 también fueron ejecutadas por el autor con Normal.
-
-## Alcance
-
-16 escenarios principales y 20 variantes SIM-09 (5 V/3,3 V, 100 mA/1 A,
-cinco combinaciones Cext/ESR). No incluye los cuatro diagnósticos adicionales
-de dropout/UVLO, resultados RAW, archivos temporales ni simulador.
-Los ASC y PLT son copias exactas del cierre validado por el autor.
-La caracterización de la placa física sigue siendo independiente.
-
-## Archivos y derechos
-
-Los modelos y símbolos de terceros conservan sus avisos originales.
-La licencia MIT del proyecto no se extiende a esas dependencias.
-No se ha confirmado el permiso de redistribución de todas las bibliotecas suministradas.
-Se mantienen las bibliotecas declaradas completas para preservar los modelos
-y su orden de resolución; no se reemplazaron por modelos de otros fabricantes.
-El manifiesto permite comprobar la integridad de cada archivo.
-
-## Escenarios
-
-| Archivo en Simulaciones | Solver de referencia |
-|---|---|
-''' + ''.join(f'| `{c["stem"]}.asc` | {"Alternate" if c["solver"] == "alt" else "Normal"} |\n' for c in cases), encoding='utf-8')
+    readme = (repo/'simulation/PACKAGE_README.md').read_text(encoding='utf-8')
+    (dest/'README.md').write_text(readme + '\n' + ''.join(
+        f'| `{c["stem"]}.asc` | {"Alternate" if c["solver"] == "alt" else "Normal"} |\n'
+        for c in cases), encoding='utf-8')
     archive = Path(str(dest)+'.zip')
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for src in sorted(dest.rglob('*')):

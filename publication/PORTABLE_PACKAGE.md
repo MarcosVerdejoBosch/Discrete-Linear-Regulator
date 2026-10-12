@@ -1,8 +1,8 @@
 # Downloadable 36-case package
 
-The [simulation package release](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/simulations-package-v1.0) packages the author's accepted **16 principal cases and 20 external-capacitor SIM-09 cases**. The electrical baseline remains `simulations-v1.0` (`d26b998`); the package is a separate distribution revision.
+The [simulation package release](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/simulations-package-v1.0.1) packages the author's accepted **16 principal cases and 20 external-capacitor SIM-09 cases**. The electrical baseline remains `simulations-v1.0` (`d26b998`); the package is a separate distribution revision.
 
-Download **Regulador-36-LTspice-v1.0.zip** from the release assets. GitHub's automatically generated **Source code** archives are repository snapshots, not this assembled simulation package.
+Download **Discrete-Linear-Regulator-36-LTspice-v1.0.1.zip** from the release assets. GitHub's automatically generated **Source code** archives are repository snapshots, not this assembled simulation package.
 
 ## Use
 
@@ -10,7 +10,7 @@ Download **Regulador-36-LTspice-v1.0.zip** from the release assets. GitHub's aut
 2. Extract the entire ZIP into a writable local folder.
 3. In `Simulaciones`, open a scenario ASC and press **Run**. Keep its adjacent PLT, symbols, models and bias files.
 
-No CMD launcher, Python installation or manual import into the LTspice library is needed. The `LEEME.md` table lists the reference solver for each case. In LTspice XVII the solver is a global preference: **Tools → Control Panel → SPICE → Solver**, Normal or Alternate. Run does not automatically change it. The 20 external SIM-09 cases were also accepted by the author with Normal.
+No CMD launcher, Python installation or manual import into the LTspice library is needed. The `README.md` table lists the reference solver for each case. In LTspice XVII the solver is a global preference: **Tools → Control Panel → SPICE → Solver**, Normal or Alternate. Run does not automatically change it. The 20 external SIM-09 cases were also accepted by the author with Normal.
 
 ## Contents and fidelity
 

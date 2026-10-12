@@ -2,7 +2,7 @@
 
 ## Download the 36 validated simulations
 
-**[Download the assembled LTspice ZIP](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0/Regulador-36-LTspice-v1.0.zip)** — 16 principal cases + 20 SIM-09 variants, with model libraries, symbols, saved plots and bias files. Extract the entire ZIP, open an ASC in `Simulaciones`, select the reference solver shown in `LEEME.md`, and press **Run**. No CMD or Python is required. [Contents, dependencies and verification scope](publication/PORTABLE_PACKAGE.md).
+**[Download the assembled LTspice ZIP](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0.1/Discrete-Linear-Regulator-36-LTspice-v1.0.1.zip)** — 16 principal cases + 20 SIM-09 variants, with model libraries, symbols, saved plots and bias files. Extract the entire ZIP, open an ASC in `Simulaciones`, select the reference solver shown in `README.md`, and press **Run**. No CMD or Python is required. [Contents, dependencies and verification scope](publication/PORTABLE_PACKAGE.md).
 
 **Simulation baseline closed — 2026-10-07.** The builder validated the 16 principal entries and all 20 additional SIM-09 cases. The exact local ASC/PLT files are preserved, including the final annotation layout. [Closure and recovery scope](publication/SIMULATIONS_V1.md). Open the prepared `.asc` in LTspice and press **Run**; launchers are optional. External models remain necessary. Hardware characterization and the later editorial review of the report remain separate.
 
