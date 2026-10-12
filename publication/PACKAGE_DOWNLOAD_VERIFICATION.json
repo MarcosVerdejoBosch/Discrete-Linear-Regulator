@@ -1,0 +1,4186 @@
+{
+  "date": "2026-10-11",
+  "release": {
+    "id": 409998746,
+    "url": "https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/simulations-package-v1.0",
+    "download": "https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0/Regulador-36-LTspice-v1.0.zip",
+    "tag": "simulations-package-v1.0",
+    "commit": "b09e84c7fee8e5202a627155266d251a4da95f9d",
+    "downloaded_bytes": 505466,
+    "download_sha256": "b8f380e28876ac2762a035a838004306f3edd6f11aae13e992501a4a2634063e",
+    "anonymous_download": true,
+    "prior_candidate_sha256": "0a10ec783598cbf0a53d151642abf364ef0384d5a4e6c5f1526cd7cc1669ce11",
+    "candidate_correction": "Only README and catalog solver changed: SIM-01 3.3V Normal. All 113 simulation/dependency files byte-identical to tested candidate."
+  },
+  "download_test": {
+    "archive_sha256": "b8f380e28876ac2762a035a838004306f3edd6f11aae13e992501a4a2634063e",
+    "file_hashes_verified": 113,
+    "netlists_verified": 36,
+    "standard_library_resolution": "LTspice XVII automatically inserts installed cmp libraries; byte-identical package copies verified. Other dependencies resolve locally.",
+    "cases": [
+      {
+        "stem": "SIM-01_calibrated_startup_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-01_calibrated_startup_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-02_calibrated_line_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-02_calibrated_line_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [
+          ".options plotwinsize=0 itl4=100"
+        ],
+        "historical_netlist_options_removed": [
+          ".options plotwinsize=0"
+        ],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-03_calibrated_load_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-03_calibrated_load_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-04_calibrated_input_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-05_calibrated_idle_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-05_calibrated_idle_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-06_calibrated_transient_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-06_calibrated_transient_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-07_calibrated_protection_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-08_calibrated_limit_5V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-08_calibrated_limit_33V",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "irf4905.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_loop_5V",
+        "circuit_netlist_matches_baseline": null,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_loop_33V",
+        "circuit_netlist_matches_baseline": null,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_0u_R0",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_1u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_10u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_47u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_10u_R1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_0u_R0",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_1u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_10u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_47u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_10u_R1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_5V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_0u_R0",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_1u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_10u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_47u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_10u_R1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_0u_R0",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_1u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_10u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_47u_R0p1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_10u_R1",
+        "circuit_netlist_matches_baseline": true,
+        "historical_netlist_options_added": [],
+        "historical_netlist_options_removed": [],
+        "dependencies": [
+          {
+            "file": "standard.dio",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "LTspice standard library; identical copy bundled"
+          },
+          {
+            "file": "standard.dio",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.bjt",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.jft",
+            "resolution": "package"
+          },
+          {
+            "file": "standard.mos",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "CA3096.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "opamp.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "nat_semi.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_bjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "darlngtn.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "irf7328.spi",
+            "resolution": "package"
+          },
+          {
+            "file": "pwrbjt.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LM311.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "scr.txt",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          },
+          {
+            "file": "LTC1044.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "TL431.sub",
+            "resolution": "package"
+          },
+          {
+            "file": "SIM-09_loop_33V.bias",
+            "resolution": "package"
+          },
+          {
+            "file": "AO3401A.mod",
+            "resolution": "package"
+          },
+          {
+            "file": "phil_fet.lib",
+            "resolution": "package"
+          }
+        ]
+      }
+    ]
+  },
+  "interactive_run_check": {
+    "stem": "SIM-09_external_5V_100mA_0u_R0",
+    "mode": "interactive -Run, no -b, no solver command-line flag",
+    "pid": 14788,
+    "passed": true,
+    "solver_in_log": "Normal",
+    "gui_visual_inspection": false
+  },
+  "preliminary_attempts": [
+    {
+      "stem": "SIM-01_calibrated_startup_33V",
+      "requested_solver": "alt",
+      "mode": "batch ASC Run, no launcher",
+      "passed": false,
+      "error": "4294967295",
+      "wall_seconds": 250.156
+    }
+  ],
+  "solver_correction": "SIM-01 3.3V catalog changed from Alternate to Normal to match the accepted local log; Alternate trial stopped after slow progress near 28ms. No circuit or model change.",
+  "fresh_execution": {
+    "count": 24,
+    "scope": "22 AC cases and two complete-circuit startup scenarios; automated batch ASC Run with reference solver and isolated INI. No GUI click or visual plot inspection claimed.",
+    "runs": [
+      {
+        "stem": "SIM-01_calibrated_startup_33V",
+        "requested_solver": "norm",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Normal",
+        "plot_variables_resolved": [
+          "v(comp)",
+          "v(out)",
+          "v(ttl)",
+          "v(vbat)",
+          "v(vctrl)"
+        ],
+        "output_plateaus": [
+          {
+            "interval_s": [
+              0.04,
+              0.05
+            ],
+            "output_mean_V": 3.30000017693519,
+            "baseline_mean_V": 3.300001112827349,
+            "delta_V": -9.358921593261016e-07
+          },
+          {
+            "interval_s": [
+              0.075,
+              0.08
+            ],
+            "output_mean_V": 0.0004974437259336084,
+            "baseline_mean_V": 0.0004896494195408072,
+            "delta_V": 7.7943063928012e-06
+          },
+          {
+            "interval_s": [
+              0.12,
+              0.13
+            ],
+            "output_mean_V": 3.300004062023137,
+            "baseline_mean_V": 3.3000020733051794,
+            "delta_V": 1.9887179574240577e-06
+          }
+        ],
+        "endpoint_s": 0.1400010379180838,
+        "passed": true,
+        "wall_seconds": 210.75
+      },
+      {
+        "stem": "SIM-01_calibrated_startup_5V",
+        "requested_solver": "norm",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Normal",
+        "plot_variables_resolved": [
+          "v(comp)",
+          "v(out)",
+          "v(ttl)",
+          "v(vbat)",
+          "v(vctrl)"
+        ],
+        "output_plateaus": [
+          {
+            "interval_s": [
+              0.04,
+              0.05
+            ],
+            "output_mean_V": 5.000017817777061,
+            "baseline_mean_V": 5.000020056950479,
+            "delta_V": -2.2391734182392042e-06
+          },
+          {
+            "interval_s": [
+              0.075,
+              0.08
+            ],
+            "output_mean_V": 0.0006790418891241229,
+            "baseline_mean_V": 0.0006790509486917234,
+            "delta_V": -9.059567600559933e-09
+          },
+          {
+            "interval_s": [
+              0.12,
+              0.13
+            ],
+            "output_mean_V": 5.0000166852363455,
+            "baseline_mean_V": 5.000015739353659,
+            "delta_V": 9.458826868424808e-07
+          }
+        ],
+        "endpoint_s": 0.14000043692154213,
+        "passed": true,
+        "wall_seconds": 338.781
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_0u_R0",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 53.82382766426001,
+        "gain_margin_dB": 18.408610546020277,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.25
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_10u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 65.06616764590697,
+        "gain_margin_dB": 35.30002104902906,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.156
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_10u_R1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 70.57317992696412,
+        "gain_margin_dB": 22.915427752470887,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.156
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_1u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 39.19510818188937,
+        "gain_margin_dB": 15.020009745735054,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 3.687
+      },
+      {
+        "stem": "SIM-09_external_33V_100mA_47u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 85.06481445324674,
+        "gain_margin_dB": 36.317205823118314,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 3.594
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_0u_R0",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 51.978553811819836,
+        "gain_margin_dB": 17.752288434015334,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 3.641
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_10u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 71.4616265234974,
+        "gain_margin_dB": 32.88096436878648,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 3.766
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_10u_R1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 65.23009897239672,
+        "gain_margin_dB": 21.376797379240813,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 3.766
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_1u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 37.30518972577187,
+        "gain_margin_dB": 14.86374903727305,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.328
+      },
+      {
+        "stem": "SIM-09_external_33V_1A_47u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 103.24847260289397,
+        "gain_margin_dB": 33.63004697109224,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.156
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_0u_R0",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 57.273164914835306,
+        "gain_margin_dB": 18.3491186320761,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.906
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_10u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 72.78099524213754,
+        "gain_margin_dB": 35.28387146683298,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.828
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_10u_R1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 77.05805142431802,
+        "gain_margin_dB": 22.870123348117406,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.954
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_1u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 46.66294808102302,
+        "gain_margin_dB": 15.558129968777925,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.375
+      },
+      {
+        "stem": "SIM-09_external_5V_100mA_47u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 77.51355142760686,
+        "gain_margin_dB": 36.29254164541251,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.235
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_0u_R0",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 52.50794153892659,
+        "gain_margin_dB": 17.277740363375013,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.469
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_10u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 81.57231184171495,
+        "gain_margin_dB": 32.80300622327395,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.343
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_10u_R1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 67.89665684912886,
+        "gain_margin_dB": 21.05976265419523,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.046
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_1u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 41.02662230817762,
+        "gain_margin_dB": 14.9382103142624,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 5.0
+      },
+      {
+        "stem": "SIM-09_external_5V_1A_47u_R0p1",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 99.83779663610284,
+        "gain_margin_dB": 33.55208262075254,
+        "phase_margin_delta_deg": 0.0,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.782
+      },
+      {
+        "stem": "SIM-09_loop_33V",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 51.978545569987546,
+        "gain_margin_dB": 17.75215242035217,
+        "phase_margin_delta_deg": 7.105427357601002e-15,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.781
+      },
+      {
+        "stem": "SIM-09_loop_5V",
+        "requested_solver": "alt",
+        "mode": "batch ASC Run, no launcher",
+        "solver_in_log": "Alternate",
+        "plot_variables_resolved": [
+          "i(lgs:vi)",
+          "v(lgs:x)"
+        ],
+        "phase_margin_deg": 52.508001907160335,
+        "gain_margin_dB": 17.27760263195512,
+        "phase_margin_delta_deg": -7.105427357601002e-15,
+        "gain_margin_delta_dB": 0.0,
+        "passed": true,
+        "wall_seconds": 4.859
+      }
+    ]
+  },
+  "remaining_12_primary_cases": "Source ASC/PLT hashes and dependency/netlist checks passed. Full transient reruns were not repeated; the author accepted these cases before packaging.",
+  "machine_scope": "Same Windows host, LTspice XVII 17.1.15, new folder extracted from unauthenticated GitHub download; not a second physical computer.",
+  "original_sources_modified": false,
+  "third_party_permissions": "Owner requested publication of supplied dependencies. Original notices retained; redistribution permission not established for all third-party dependencies."
+}

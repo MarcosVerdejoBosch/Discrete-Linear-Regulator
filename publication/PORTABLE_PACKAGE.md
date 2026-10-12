@@ -31,3 +31,7 @@ The project MIT license does **not** license third-party models or symbols. The 
 ## Verification
 
 Packaging and download checks are recorded separately from the author's prior execution of all 36 cases. See `PACKAGE_DOWNLOAD_VERIFICATION.json` for the final downloaded-archive checks and the exact scope of reruns. Tests on this Windows installation do not constitute a test on another physical computer.
+
+The anonymous download and all 113 payload hashes passed. All 36 schematics generated netlists with their dependencies present. The 22 AC cases and two complete-circuit startup cases were rerun successfully, with margins/output plateaus matching the reference. An additional interactive `-Run` test completed with Normal, without batch mode or a CMD launcher; this is not a claim of visual GUI inspection. The other 12 transient cases retain the author's prior validation and were checked for unchanged source and dependencies, rather than fully rerun.
+
+This check corrected one stale catalog entry: **SIM-01 startup 3.3 V uses Normal**, matching the author's completed log. The Alternate trial slowed near 28 ms and was stopped; Normal completed the full 140 ms. No schematic, model or saved plot was changed.
