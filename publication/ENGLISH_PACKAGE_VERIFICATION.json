@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-11",
+  "release": "https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/simulations-package-v1.0.1",
+  "download": "https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0.1/Discrete-Linear-Regulator-36-LTspice-v1.0.1.zip",
+  "archive_sha256": "ace27101b4da50d271c2b54e9fc05c2a22caee77db5b0678ec1f791143edc804",
+  "bytes": 505597,
+  "anonymous_download_verified": true,
+  "unchanged_payload_files": 113,
+  "baseline_release": "simulations-package-v1.0",
+  "fresh_simulation_reruns": 0,
+  "change_scope": "English README and English catalog labels only; all ASC/PLT, model, symbol and bias payload files unchanged."
+}
