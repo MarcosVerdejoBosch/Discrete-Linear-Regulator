@@ -204,13 +204,13 @@ def make_view(data, silkscreen, spec):
             lx,ly=native
         if spec['name']=='pcb_current_sense':
             positions={
-                'R33':(382,353),'R36':(367,337),'R35':(386,240),
-                'U4':(177,245),'R38':(335,282),'R39':(255,278),
-                'C7':(330,333),'R40':(238,384),'RV13':(200,346),
+                'R33':(382,357),'R36':(367,341),'R35':(386,240),
+                'U4':(177,245),'R38':(341,277),'R39':(259,278),
+                'C7':(330,330),'R40':(238,384),'RV13':(200,346),
                 'R42':(313,346),'D5':(317,411),'U1':(307,509),
             }
             lx,ly=positions.get(ref,(lx,ly))
-            if ref=='Rsns':ly+=12
+            if ref=='Rsns':lx=left+ww+17;ly+=12
             elif ref=='R35':ly=cy-5
         if front_only:
             if ref=='INPUT':lx+=18
@@ -221,7 +221,7 @@ def make_view(data, silkscreen, spec):
         leader=math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18
         if front_only:leader=ref in ('INPUT','OUTPUT','Rsns')
         current_view=spec['name']=='pcb_current_sense'
-        if current_view:leader=ref not in ('D5','U1','U4','R39','C7','R42')
+        if current_view:leader=ref not in ('D5','U1','U4','R39','C7','R42','R36')
         if leader:
             c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only or current_view else .55);c.setLineWidth(1.15 if front_only or current_view else .65)
             # Short orthogonal callout with a horizontal text-side landing.
