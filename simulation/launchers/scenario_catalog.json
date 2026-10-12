@@ -7,7 +7,7 @@
   {
     "label": "SIM-01 | Arranque, apagado y reinicio | 3.3 V",
     "stem": "SIM-01_calibrated_startup_33V",
-    "solver": "alt"
+    "solver": "norm"
   },
   {
     "label": "SIM-02 | Regulacion de linea | 5 V",
