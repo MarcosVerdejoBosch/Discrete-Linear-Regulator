@@ -202,7 +202,14 @@ def make_view(data, silkscreen, spec):
                 nx-4<ox<nx+label_w+4 and ny-4<oy<ny+18 for ox,oy in obstacles) and not any(
                 overlaps((nx,ny,nx+label_w,ny+14),r) for r in occupied):
             lx,ly=native
-        if spec['name']=='pcb_current_sense' and ref=='R35':lx,ly=150,270
+        if spec['name']=='pcb_current_sense':
+            positions={
+                'R33':(382,353),'R36':(320,356),'R35':(389,189),
+                'U4':(177,245),'R38':(355,304),'R39':(261,270),
+                'C7':(330,333),'R40':(246,388),'RV13':(210,346),
+                'R42':(313,370),'D5':(317,411),'U1':(307,509),
+            }
+            lx,ly=positions.get(ref,(lx,ly))
         if front_only:
             if ref=='INPUT':lx+=18
             elif ref=='Rsns':lx=left+ww+22;ly=bottom+hh-56
@@ -211,14 +218,21 @@ def make_view(data, silkscreen, spec):
         ex=max(lx,min(cx,lx+label_w));ey=max(ly,min(cy,ly+14))
         leader=math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18
         if front_only:leader=ref in ('INPUT','OUTPUT','Rsns')
+        current_view=spec['name']=='pcb_current_sense'
+        if current_view:leader=True
         if leader:
-            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only else .55);c.setLineWidth(1.15 if front_only else .65)
+            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only or current_view else .55);c.setLineWidth(1.15 if front_only or current_view else .65)
             # Short orthogonal callout with a horizontal text-side landing.
             knee=ex-7 if ex>cx else ex+7
             dx=knee-cx;dy=ey-cy
             ratio=min(ww/2/max(abs(dx),.01),hh/2/max(abs(dy),.01),1)
             tx=cx+dx*ratio;ty=cy+dy*ratio
             path=c.beginPath();path.moveTo(tx,ty);path.lineTo(knee,ey);path.lineTo(ex,ey)
+            if current_view and ref=='R35':
+                # Route around R34's label, then land above the R35 text.
+                path=c.beginPath();path.moveTo(left+ww,cy)
+                for point in [(370,cy),(370,226),(lx+label_w/2,226),(lx+label_w/2,ly+14)]:
+                    path.lineTo(*point)
             c.drawPath(path);c.setStrokeAlpha(1)
         c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
