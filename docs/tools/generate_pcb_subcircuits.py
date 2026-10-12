@@ -212,6 +212,17 @@ def make_view(data, silkscreen, spec):
             lx,ly=positions.get(ref,(lx,ly))
             if ref=='Rsns':lx=left+ww+17;ly+=25
             elif ref=='R35':ly=cy-5
+        if spec['name']=='pcb_enable_control':
+            positions={
+                'R90':(39,377),'R91':(168,410),'R93':(107,377),
+                'Q25':(42.67086,300.119),'Q26':(56.52727,277.4734),
+                'Q27':(77,254),'Q23':(135.6952,259.95),
+                'R20':(398.0245,246.1663),'Q6':(495.5152,290.1691),
+                'R17':(520.809,323),'Q3':(477.8406,509.4234),
+                'Q4':(490,479),'R21':(507.8381,378.9641),
+                'Q_PASS':(397.0721,452.0402),
+            }
+            lx,ly=positions[ref]
         if front_only:
             if ref=='INPUT':lx+=18
             elif ref=='Rsns':lx=left+ww+22;ly=bottom+hh-56
@@ -221,15 +232,21 @@ def make_view(data, silkscreen, spec):
         leader=math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18
         if front_only:leader=ref in ('INPUT','OUTPUT','Rsns')
         current_view=spec['name']=='pcb_current_sense'
+        enable_view=spec['name']=='pcb_enable_control'
+        if enable_view and ref!='Q_PASS':leader=ref!='R91'
         if current_view:leader=ref not in ('D5','U1','U4','R39','C7','R42','R36','R38')
         if leader:
-            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only or current_view else .55);c.setLineWidth(1.15 if front_only or current_view else .65)
+            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only or current_view or enable_view else .55);c.setLineWidth(1.15 if front_only or current_view or enable_view else .65)
             # Short orthogonal callout with a horizontal text-side landing.
             knee=ex-7 if ex>cx else ex+7
             dx=knee-cx;dy=ey-cy
             ratio=min(ww/2/max(abs(dx),.01),hh/2/max(abs(dy),.01),1)
             tx=cx+dx*ratio;ty=cy+dy*ratio
             path=c.beginPath();path.moveTo(tx,ty);path.lineTo(knee,ey);path.lineTo(ex,ey)
+            if enable_view and ref in ('R90','Q23'):
+                path=c.beginPath();path.moveTo(tx,cy);path.lineTo(ex,cy)
+            elif enable_view and ref=='Q3':
+                path=c.beginPath();path.moveTo(cx,bottom);path.lineTo(ex,ey)
             if current_view and ref=='R33':
                 path=c.beginPath();path.moveTo(cx,cy)
                 path.lineTo(395,cy);path.lineTo(395,ly-2)
