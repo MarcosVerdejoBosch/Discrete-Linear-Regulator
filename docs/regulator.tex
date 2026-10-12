@@ -1385,6 +1385,40 @@ with calibration held fixed within each sweep. Bench procedures and
 readings will be kept separate from simulation results.
 
 % ======================================================================
+% PCB ROUTING
+% ======================================================================
+\clearpage
+\twocolumn[{
+\begin{center}
+    \includegraphics[width=0.98\textwidth]{pcb_routing.pdf}
+    \captionof{figure}{Selected PCB nets, extracted from the final KiCad
+    tracks, vias, and saved copper-zone fills. (a) Supply and output paths.
+    (b) Magnified feedback and reference routing. Both outer layers are
+    projected from the top; GND fills are omitted for clarity. Colors
+    identify electrical paths rather than copper layers.}
+    \label{fig:pcb_routing}
+\end{center}
+\vspace{3mm}
+}]
+
+Figure~\ref{fig:pcb_routing} connects the physical routing to the circuit
+description. The PCB net \texttt{VCC} runs from the input connector to
+the polarity-protection MOSFET; \texttt{VEE} distributes the protected
+supply. The startup-circuit output, \texttt{VCTRL}, feeds the pass-transistor
+emitter. The collector reaches \texttt{OUT} through the current-sense
+resistor. The same blue color identifies both sides of that resistor;
+they remain separate electrical nets.
+
+The detail view follows the output pickup at R24 and C4, the
+\texttt{FB} connection to U1 pin~11, and the reference path from
+\texttt{VREF} through R44 to U1 pin~14. This makes the two amplifier
+input paths visible alongside the supply distribution. Copper areas
+are included because some connections, including \texttt{VCC} and
+\texttt{VREF}, are implemented with zones rather than track segments.
+These views document the implemented geometry; they do not quantify
+parasitic coupling or demonstrate noise immunity.
+
+% ======================================================================
 % CONCLUSION
 % ======================================================================
 \section{Conclusion}

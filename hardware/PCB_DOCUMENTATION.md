@@ -29,7 +29,23 @@ python docs/tools/generate_pcb_placement.py --kicad-cli "path/to/kicad-cli"
 
 The script reads the board without modifying it. Annotation coordinates refer to this revision and need review after any layout change.
 
-## Next report addition
+## Routing maps
+
+`docs/figures/pcb_routing.pdf` complements placement with a full-board supply/output map and a magnified feedback/reference map. Geometry comes from KiCad's read-only pcbnew API: actual tracks (including arcs), vias, and saved filled zone polygons, with holes retained. F.Cu and B.Cu are projected together from above; GND fills are omitted. Other nets and the original front silkscreen provide muted context. Pad centers are marked by circles, not reproduced as manufacturing pad shapes. Filled copper is translucent for readability. The map is an explanatory figure, not a fabrication output or a current-density/EMC result.
+
+The power paths are VCC (input), VEE (after Q_POL), VCTRL (startup output/pass emitter), and the collector-to-Rsns-to-OUT path. The last path contains two distinct nets, deliberately sharing a color across Rsns. The detail shows OUT, FB to U1 pin 11, and VREF plus the separate net after R44 to U1 pin 14. No bridge is drawn across those resistors. `PCB_NET_MAP_EVIDENCE.json` records the PCB hash, KiCad version, geometry counts and exact connected pads for the selected nets. VCC and VREF have saved copper zones but no track segments; a track-only illustration would omit their connections.
+
+To regenerate (temporary output names below are examples):
+
+```text
+<KiCad Python> docs/tools/extract_pcb_nets.py geometry.json
+kicad-cli pcb export pdf --layers F.Silkscreen,Edge.Cuts --mode-single --black-and-white -o silkscreen.pdf hardware/kicad/Regulador.kicad_pcb
+python docs/tools/generate_pcb_routing.py geometry.json --silkscreen silkscreen.pdf
+```
+
+No board save or zone refill is performed. Review the crop and explanatory labels if the layout changes. The report includes only these two complementary maps, rather than repeating every net individually.
+
+## Remaining evidence
 
 A clear top-side photograph of the assembled prototype remains pending from the builder; an underside photograph can supplement it if useful. No further placement intent (such as optimized feedback isolation or measured return-path performance) is inferred solely from the routing.
 
