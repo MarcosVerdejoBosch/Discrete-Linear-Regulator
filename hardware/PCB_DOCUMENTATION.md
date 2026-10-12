@@ -15,10 +15,22 @@ The two local workbooks `2.0ReguladorBOM.xlsx` and `2.0ReguladorBOM - Copy.xlsx`
 
 The workbooks were read without modification. They are not yet published as a definitive manufacturing BOM.
 
-## Next report additions
+## Placement figure and layout rationale
 
-Keep this section concise: board implementation, fabrication/assembly, and initial operation. Retain the existing four-layer illustration if space permits. A top-side placement view with a few functional labels and a photograph of the assembled prototype would connect the circuit description to the built board more directly.
+On 2026-10-11 the builder confirmed that four layers were selected for electromagnetic-compatibility and circuit-noise considerations and easier signal/power routing. The inner layers serve as the GND reference; the outer layers carry supply and signal routing. Inspection also shows ground copper on the outer layers. This records design intent, not measured EMC or noise performance.
 
-Needed from the builder: a clear top-side photograph (and underside if useful), and the original placement/routing rationale, particularly the four-layer choice and any deliberate separation of power and feedback paths. Do not infer design intent solely from the routing.
+`docs/figures/pcb_placement.pdf` is a vector export of the final board's front silkscreen and outline, with six numbered landmarks: amplifier arrays U1-U3, feedback trimmers RV1/RV2, Q_PASS, U4, U7 and Q_POL. Leader lines identify components, not block boundaries. References are those of the PCB and must not be assumed identical to LTspice references. The figure replaces the stacked copper illustration in the report to keep the section concise; the original `coopper.pdf` remains available unchanged.
+
+Regenerate with Python, KiCad 9 CLI, pypdf, reportlab and pypdfium2:
+
+```text
+python docs/tools/generate_pcb_placement.py --kicad-cli "path/to/kicad-cli"
+```
+
+The script reads the board without modifying it. Annotation coordinates refer to this revision and need review after any layout change.
+
+## Next report addition
+
+A clear top-side photograph of the assembled prototype remains pending from the builder; an underside photograph can supplement it if useful. No further placement intent (such as optimized feedback isolation or measured return-path performance) is inferred solely from the routing.
 
 Do not add measured thermal limits, quantified regulation accuracy or fabrication specifications that have not been confirmed.

@@ -1339,21 +1339,37 @@ Output voltage during short &
 % PCB PROTOTYPE
 % ======================================================================
 \raggedbottom
+\twocolumn[{
 \section{PCB Prototype}
+\begin{center}
+    \centering
+    \includegraphics[width=0.85\textwidth]{pcb_placement.pdf}
+    \captionof{figure}{Top-side component placement exported from the final KiCad
+    board, with selected functional landmarks. Copper routing is omitted
+    for clarity; reference designators follow the PCB.}
+    \label{fig:pcb_placement}
+\end{center}
+\vspace{3mm}
+}]
 
 The simulated regulator was translated into a PCB layout to provide a practical implementation of the design. The board integrates the pass transistor, feedback network, reference stage, current-limit circuit, and input-voltage protection blocks described in the previous sections.
 
 The KiCad layout uses four copper layers and occupies approximately
-200\,mm by 160\,mm. Both inner copper layers include ground-connected
-zones. Figure~\ref{fig:pcb_layout_stack} shows the four copper layers;
-their offsets in the illustration separate the views for presentation.
+200\,mm by 160\,mm. The two inner layers provide ground-reference planes,
+while the outer layers carry signal and supply routing, together with
+additional ground copper. This arrangement was selected to facilitate
+signal and power routing and to address noise and electromagnetic
+compatibility considerations. These are layout objectives; EMC performance
+and output noise have not yet been characterized experimentally.
 
-\begin{figure*}[t]
-    \centering
-    \includegraphics[width=0.95\textwidth]{coopper.pdf}
-    \caption{Stacked PCB copper-layer view of the proposed linear regulator.}
-    \label{fig:pcb_layout_stack}
-\end{figure*}
+Figure~\ref{fig:pcb_placement} identifies the main component groups on
+the board. The error-amplifier arrays and feedback trimmers occupy the
+upper region, while the pass device is placed toward the input and output
+connectors on the right. The LM324 and LM339 provide identifiable landmarks
+for the protection and supervisory circuitry. The numbered markers locate
+components rather than delineating complete functional blocks.
+
+
 
 The PCB was manufactured by JLCPCB. The components were purchased
 separately and soldered by the author. Initial output checks confirmed
@@ -1362,7 +1378,11 @@ conditions, and instrument details were not recorded in the present
 dataset, so these checks establish basic operation rather than
 quantified regulation accuracy.
 
-The next measurements will characterize load regulation at a fixed input, followed by line regulation at a fixed load. Input and output voltages will be measured at the board terminals, with actual load current, instrument settings, and thermal conditions recorded. Calibration will remain unchanged within each sweep. Startup and shutdown waveforms will then be compared with the simulated sequence. Detailed procedures and original readings will be retained separately from the simulation results.
+Hardware characterization will next cover line and load regulation,
+followed by startup and shutdown. Measurements will record terminal
+voltages, load current, instrument settings, and thermal conditions,
+with calibration held fixed within each sweep. Bench procedures and
+readings will be kept separate from simulation results.
 
 % ======================================================================
 % CONCLUSION
