@@ -69,6 +69,7 @@ def main():
     c.drawString(48, 21, 'Exploded presentation: layer spacing and thickness are not to scale.')
     c.save(); labels.seek(0)
     target.merge_page(PdfReader(labels).pages[0])
+    target.compress_content_streams()
     output = ROOT/'docs/figures/pcb_copper_layers.pdf'
     writer.add_metadata({'/Title':'Four-layer copper architecture'})
     writer.write(output)
