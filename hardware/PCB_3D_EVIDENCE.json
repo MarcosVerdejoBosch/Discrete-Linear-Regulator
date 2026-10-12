@@ -165,13 +165,23 @@
   "render": {
     "width": 2400,
     "height": 1650,
-    "rotate": "35,0,25",
+    "rotate": "335,0,0",
     "quality": "high",
-    "background": "transparent"
+    "background": "transparent",
+    "side": "top"
   },
   "limitations": [
     "Standard footprint models represent package geometry, not exact purchased parts.",
     "DIP socket models do not include the inserted IC.",
     "No assembled-prototype photograph or mechanical clearance verification is implied."
-  ]
+  ],
+  "bottom_render": {
+    "width": 2000,
+    "height": 1450,
+    "rotate": "335,0,0",
+    "side": "bottom",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "composition": "docs/tools/compose_pcb_3d.py"
 }

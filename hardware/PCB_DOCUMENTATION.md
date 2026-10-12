@@ -69,14 +69,16 @@ python docs/tools/generate_pcb_subcircuits.py geometry.json --silkscreen subcirc
 
 ## 3D board view
 
-`docs/figures/pcb_3d.png` is an orthographic oblique view rendered directly from the unchanged final board by KiCad 9. It complements the routing maps with package height and overall physical distribution. The transparent background allows direct inclusion in the report.
+`docs/figures/pcb_3d_views.pdf` combines the approved top angle (`pcb_3d.png`) with a smaller underside view (`pcb_3d_bottom.png`). Both use a gentle tilt without lateral rotation. The bottom is viewed from below, as when turning over the board; it is not a top-view copper projection. Each panel is an orthographic oblique view rendered directly from the unchanged final board by KiCad 9. It complements the routing maps with package height and overall physical distribution. The transparent background allows direct inclusion in the report.
 
 All 191 model assignments resolve to installed standard KiCad model files. Of 229 footprints, 39 have no model assignment: test pads, mounting holes and logos. One footprint has two model assignments. DIP socket models show sockets without inserted ICs; other standard models represent package geometry rather than exact purchased parts. This is a CAD representation, not a photograph or a mechanical-clearance qualification. `PCB_3D_EVIDENCE.json` records the source hash, coverage and rendering settings.
 
 To reproduce, install KiCad 9 with its standard 3D model library, then run from the repository root:
 
 ```text
-kicad-cli pcb render --width 2400 --height 1650 --quality high --background transparent --rotate "35,0,25" --output docs/figures/pcb_3d.png hardware/kicad/Regulador.kicad_pcb
+kicad-cli pcb render --width 2400 --height 1650 --quality high --background transparent --rotate "335,0,0" --output docs/figures/pcb_3d.png hardware/kicad/Regulador.kicad_pcb
+kicad-cli pcb render --width 2000 --height 1450 --side bottom --quality high --background transparent --rotate "335,0,0" --output docs/figures/pcb_3d_bottom.png hardware/kicad/Regulador.kicad_pcb
+python docs/tools/compose_pcb_3d.py
 ```
 
 The board is read without saving or refilling zones. Colors and lighting follow KiCad's rendering settings and may vary across installations. These figures do not modify the board or its fabrication outputs.
@@ -88,3 +90,18 @@ A clear top-side photograph of the assembled prototype remains pending from the 
 Do not add measured thermal limits, quantified regulation accuracy or fabrication specifications that have not been confirmed.
 
 The purple routing within U4 is relevant to current limiting. R40/RV13 feed U4C pin 10; the buffered threshold connects U4C output pin 8, feedback pin 9 and U4B input pin 5. The latter net includes B.Cu segments and a via at (334.01, 163.83) mm back to F.Cu. Its apparent discontinuity in a top-side projection is not a floating functional node. These connections were checked against the PCB pad and track net assignments.
+
+## Copper-layer presentation
+
+`docs/figures/pcb_copper_layers.pdf` is a vector exploded view of all four copper layers, visually approved by the builder and included in the report. It uses separate monochrome KiCad exports of F.Cu, In1.Cu, In2.Cu and B.Cu, each with Edge.Cuts. The original `coopper.pdf` is retained as a presentation reference.
+
+Both internal zones are assigned to GND in the final board. The outer layers carry signal and supply routing as well as ground copper. Colors distinguish layers, not net classes. The bottom layer is viewed from above to preserve alignment with the other layers. White openings, pads and saved zone fills come from the exports. The affine projection and layer separation are illustrative, not a physical stackup thickness specification.
+
+Regenerate each layer export, substituting its name in `<layer>`, then compose:
+
+```text
+kicad-cli pcb export pdf --layers <layer>,Edge.Cuts --mode-single --black-and-white -o pcb-layer-<layer>.pdf hardware/kicad/Regulador.kicad_pcb
+python docs/tools/generate_pcb_layers.py <export-directory>
+```
+
+The source board remains unchanged. The revised top-view angle was approved by the builder. The requested underside view is included as a smaller complementary panel. Actual soldering must be documented with prototype photographs.
