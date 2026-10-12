@@ -1419,6 +1419,57 @@ These views document the implemented geometry; they do not quantify
 parasitic coupling or demonstrate noise immunity.
 
 % ======================================================================
+% SUBCIRCUIT ROUTING MAPS
+% ======================================================================
+The following component-level maps separate the load-current path from
+the sensing and control paths. Highlighted boxes identify component pad
+regions, while the strips below each map summarize functional connections.
+The load is external to the PCB. The Q4 footprint contains two independently
+controlled sections: Q4B shapes startup and Q4A switches the pass-base drive.
+
+\clearpage
+\onecolumn
+\begingroup
+\setlength{\intextsep}{3pt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{pcb_power_path.pdf}
+    \caption{Power path from the input connector through polarity protection,
+    the startup switch, pass transistor, and sense resistor to the output
+    connector. The functional strip includes the external source, load,
+    and GND return.}
+    \label{fig:pcb_power_path}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{pcb_current_sense.pdf}
+    \caption{Current-sense and current-limit routing. The highlighted
+    components distinguish differential sensing, signal amplification,
+    the adjustable threshold, and the clamp path into the error amplifier.}
+    \label{fig:pcb_current_sense}
+\end{figure}
+\clearpage
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{pcb_enable_control.pdf}
+    \caption{Enable routing from the three permission signals through the
+    discrete logic and gate driver to Q4A and the pass-transistor base.
+    This is a control path, separate from the load-current path.}
+    \label{fig:pcb_enable_control}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{pcb_startup_control.pdf}
+    \caption{Startup feedback around Q4B. C11, Q15, and Q14 participate
+    in the gate-control path; C12 is connected to the ramped supply
+    feeding the pass emitter. All references follow the PCB.}
+    \label{fig:pcb_startup_control}
+\end{figure}
+\endgroup
+\clearpage
+\twocolumn
+
+% ======================================================================
 % CONCLUSION
 % ======================================================================
 \section{Conclusion}

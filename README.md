@@ -24,6 +24,7 @@ The assembled package includes the supplied external dependencies. A plain **Cod
 - [Simulation index](simulation/README.md) â€” SIM-01 through SIM-09.
 - [What is verified and what remains](publication/REVIEW_STATUS.md).
 - [Current organized KiCad project](hardware/kicad/Regulador.kicad_pro), [schematic](hardware/kicad/Regulador.kicad_sch), [PCB](hardware/kicad/Regulador.kicad_pcb).
+- [PCB routing atlas](docs/figures/pcb_subcircuit_atlas.pdf) - four component-level maps: power path, current sensing/limiting, enable control and startup. [Sources and regeneration](hardware/PCB_DOCUMENTATION.md).
 - [Original published KiCad snapshot](hardware/legacy-github/) â€” retained separately; it differs from the organized copy.
 
 ## Current stability finding
@@ -49,7 +50,7 @@ The fixed-bias regulation-core studies do **not** establish capacitor-free opera
 
 The PDF is ready to read. LaTeX build instructions are in [docs/README.md](docs/README.md).
 
-**A self-contained LTspice download is not yet available.** A [local preparation and verification workflow](simulation/LOCAL_REVIEW.md) uses the owner's existing models. Third-party models are not bundled; see [external model dependencies](simulation/EXTERNAL_MODELS.md). Large RAW files and duplicate simulator logs remain in the local evidence archive. SHA256 records refer to those original files. Some analysis scripts require the RAW archive; preparation scripts may require additional original baseline files. Selected CSV exports support inspection without LTspice.
+**The self-contained 36-case LTspice package is available through the release link above.** It includes the supplied models and symbols; see [package contents and verification](publication/PORTABLE_PACKAGE.md). The older [local preparation workflow](simulation/LOCAL_REVIEW.md) is retained for source-development history. Large RAW files and duplicate simulator logs remain in the local evidence archive. SHA256 records refer to those original files. Some analysis scripts require the RAW archive; preparation scripts may require additional original baseline files. Selected CSV exports support inspection without LTspice.
 
 Scenario copies use relative model filenames. A fresh prepared folder was checked against the accepted sources, all 16 primary netlists were generated, and both SIM-09 modes were exercised through the launchers. This is local reproduction evidence, not cross-machine qualification. The [original manifest](publication/manifest.json) is historical; the [current revalidation record](publication/U17_REVALIDATION_2026-09-24.md) identifies the new results. Hardware measurements remain pending.
 

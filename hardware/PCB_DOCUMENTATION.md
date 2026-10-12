@@ -45,6 +45,28 @@ python docs/tools/generate_pcb_routing.py geometry.json --silkscreen silkscreen.
 
 No board save or zone refill is performed. Review the crop and explanatory labels if the layout changes. The report includes only these two complementary maps, rather than repeating every net individually.
 
+## Component-level routing atlas
+
+Four additional maps are included in the report and collected in
+`docs/figures/pcb_subcircuit_atlas.pdf` for full-size review:
+
+- `pcb_power_path.pdf`: INPUT -> Q_POL -> Q4B -> Q_PASS -> Rsns -> OUTPUT, with the external supply/load and conceptual GND return in a separate flow strip.
+- `pcb_current_sense.pdf`: differential pickup through R33/R34, U4A amplification, R40/RV13 and U4C threshold, and U4B/R42/D5 limiting action.
+- `pcb_enable_control.pdf`: permission signals, Q25-Q27/Q23 logic, Q6 gate control, Q4A and R21 pass-base drive.
+- `pcb_startup_control.pdf`: Q4B, Q14/Q15, C11/R58 feedback and the VCTRL/C12 output.
+
+Component boxes enclose pad extents plus a small margin; they are visual identifiers, not footprint courtyards. Pad markers are not to scale. Both outer copper layers are projected together, GND fills are omitted, and all crops are explicitly illustrative. The power figure distinguishes the two sides of Rsns with different colors. Other figures group several separate nets along a functional signal path without inventing copper connections across components.
+
+Q4 units were verified against the KiCad schematic symbol: section A uses gate pin 2 and source/drain pins 1/7; section B uses gate pin 4 and source/drain pins 3/5. Unconnected duplicate pins in the custom symbol are not presented as additional paths. Names and pins in `PCB_SUBCIRCUIT_EVIDENCE.json` come from the final PCB, not from matching LTspice reference strings.
+
+Regenerate all four maps and their atlas after the extraction and silkscreen export above:
+
+```text
+python docs/tools/generate_pcb_subcircuits.py geometry.json --silkscreen silkscreen.pdf
+```
+
+The 3D presentation is a subsequent task. These figures do not modify the board or its fabrication outputs.
+
 ## Remaining evidence
 
 A clear top-side photograph of the assembled prototype remains pending from the builder; an underside photograph can supplement it if useful. No further placement intent (such as optimized feedback isolation or measured return-path performance) is inferred solely from the routing.
