@@ -1,21 +1,21 @@
 # Discrete Linear Regulator
 
-Regulador lineal de 5 V / 3,3 V desarrollado principalmente con componentes discretos.
+A largely discrete linear regulator with selectable 5 V and 3.3 V outputs, a fabricated PCB and documented LTspice studies.
 
-## Descargar y ejecutar las 36 simulaciones
+## Download and run the 36 validated simulations
 
-**[Descargar el paquete LTspice preparado (ZIP)](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0/Regulador-36-LTspice-v1.0.zip)**
+**[Download the prepared LTspice package (ZIP)](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/simulations-package-v1.0.1/Discrete-Linear-Regulator-36-LTspice-v1.0.1.zip)**
 
-Incluye las 16 simulaciones principales y las 20 variantes de SIM-09, con sus modelos, símbolos, curvas guardadas y archivos de polarización.
+Includes 16 principal scenarios and 20 SIM-09 variants, with model libraries, symbols, saved plot profiles and bias files.
 
-1. Instalá LTspice en Windows.
-2. Extraé **todo** el ZIP.
-3. Abrí un `.asc` de `Simulaciones`, seleccioná el solver indicado en `LEEME.md` y pulsá **Run**.
+1. Install LTspice on Windows.
+2. Extract the **entire ZIP**.
+3. Open an ASC in `Simulaciones`, select the solver listed in `README.md`, and press **Run**.
 
-No necesitás un CMD ni Python. Usá este enlace al paquete; **Code → Download ZIP** descarga otra cosa: el contenido de la rama visible.
+No CMD launcher or Python installation is needed. Use the package link above: **Code → Download ZIP** downloads the visible source branch instead.
 
-- [Versión publicada y comprobación de descarga](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/simulations-package-v1.0).
-- [Informe PDF de la revisión](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/blob/simulations-package-v1.0/docs/regulator.pdf).
-- [Proyecto organizado, fuentes y documentación](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/tree/codex/simulation-review-v0.1).
+- [Release and download verification](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/simulations-package-v1.0.1).
+- [Report PDF](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/blob/simulations-package-v1.0.1/docs/regulator.pdf).
+- [Organized project, sources and documentation](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/tree/codex/simulation-review-v0.1).
 
-Referencia de ejecución: LTspice XVII 17.1.15. La caracterización física completa sigue pendiente. Los modelos de terceros conservan sus avisos originales y no quedan cubiertos por la licencia MIT del proyecto; sus permisos de redistribución no están confirmados en todos los casos.
+Reference simulator: LTspice XVII 17.1.15. Detailed physical-board characterization remains pending. Third-party models retain their original notices and are not covered by the project MIT license; redistribution permissions have not been confirmed for all supplied dependencies.
