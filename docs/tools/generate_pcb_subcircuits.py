@@ -204,12 +204,14 @@ def make_view(data, silkscreen, spec):
             lx,ly=native
         if spec['name']=='pcb_current_sense':
             positions={
-                'R33':(382,353),'R36':(354,337),'R35':(386,240),
-                'U4':(177,245),'R38':(347,290),'R39':(251,280),
-                'C7':(330,333),'R40':(238,379),'RV13':(200,346),
+                'R33':(382,353),'R36':(367,337),'R35':(386,240),
+                'U4':(177,245),'R38':(335,282),'R39':(255,278),
+                'C7':(330,333),'R40':(238,384),'RV13':(200,346),
                 'R42':(313,346),'D5':(317,411),'U1':(307,509),
             }
             lx,ly=positions.get(ref,(lx,ly))
+            if ref=='Rsns':ly+=12
+            elif ref=='R35':ly=cy-5
         if front_only:
             if ref=='INPUT':lx+=18
             elif ref=='Rsns':lx=left+ww+22;ly=bottom+hh-56
@@ -219,7 +221,7 @@ def make_view(data, silkscreen, spec):
         leader=math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18
         if front_only:leader=ref in ('INPUT','OUTPUT','Rsns')
         current_view=spec['name']=='pcb_current_sense'
-        if current_view:leader=ref not in ('D5','U1')
+        if current_view:leader=ref not in ('D5','U1','U4','R39','C7','R42')
         if leader:
             c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only or current_view else .55);c.setLineWidth(1.15 if front_only or current_view else .65)
             # Short orthogonal callout with a horizontal text-side landing.
@@ -235,7 +237,7 @@ def make_view(data, silkscreen, spec):
                 path=c.beginPath();path.moveTo(cx,cy);path.lineTo(ex,ey)
             elif current_view and ref=='R35':
                 path=c.beginPath();path.moveTo(left+ww,cy)
-                for point in [(365,cy),(365,ly+7),(lx,ly+7)]:path.lineTo(*point)
+                path.lineTo(lx,cy)
             c.drawPath(path);c.setStrokeAlpha(1)
         c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
