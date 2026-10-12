@@ -251,13 +251,21 @@ def make_view(data, silkscreen, spec):
                 # Left first, then down-left at exactly 45 degrees to the text.
                 end_x=lx+label_w;end_y=ly+7
                 bend_x=end_x+(cy-end_y)
-                path=c.beginPath();path.moveTo(cx,cy)
-                path.lineTo(bend_x,cy);path.lineTo(end_x,end_y)
+                outline=[pt(q) for shape in shapes for q in
+                         (arc_points(shape) if shape['kind']==2 else [shape['start'],shape['end']])]
+                start_x=min(q[0] for q in outline)-2.5
+                start_y=cy-max(0,bend_x-start_x)
+                path=c.beginPath();path.moveTo(start_x,start_y)
+                if start_x>bend_x:path.lineTo(bend_x,cy)
+                path.lineTo(end_x,end_y)
             elif enable_view and ref=='Q27':
                 # Down first, then down-left at exactly 45 degrees to the text.
                 end_x=lx+label_w;end_y=ly+7
                 bend_y=end_y+(cx-end_x)
-                path=c.beginPath();path.moveTo(cx,cy)
+                outline=[pt(q) for shape in shapes for q in
+                         (arc_points(shape) if shape['kind']==2 else [shape['start'],shape['end']])]
+                start_y=min(q[1] for q in outline)-2.5
+                path=c.beginPath();path.moveTo(cx,start_y)
                 path.lineTo(cx,bend_y);path.lineTo(end_x,end_y)
             elif enable_view and ref=='Q23':
                 path=c.beginPath();path.moveTo(left,cy);path.lineTo(lx+label_w,ly+5)
