@@ -1,0 +1,177 @@
+{
+  "source": "hardware/kicad/Regulador.kicad_pcb",
+  "source_sha256": "7f70b1153bd202565e5f7471c31c86c702fb2748de2014b0acfa6eefc1dd15bb",
+  "footprints": 229,
+  "model_assignments": 191,
+  "unassigned": [
+    {
+      "reference": "H4",
+      "footprint": "MountingHole:MountingHole_4.3mm_M4_Pad_TopOnly"
+    },
+    {
+      "reference": "TP10",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP27",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_SW",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP20",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP18",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP30",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "G***",
+      "footprint": "LOGO"
+    },
+    {
+      "reference": "TP24",
+      "footprint": "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+    },
+    {
+      "reference": "TP17",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP19",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_TTL",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_FB",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP6",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "G***",
+      "footprint": "LOGO"
+    },
+    {
+      "reference": "TP_VREF",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_GND",
+      "footprint": "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+    },
+    {
+      "reference": "H2",
+      "footprint": "MountingHole:MountingHole_4.3mm_M4_Pad_TopOnly"
+    },
+    {
+      "reference": "TP28",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP4",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_3.3V",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP5",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_VCC",
+      "footprint": "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+    },
+    {
+      "reference": "TP_Isns",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP16",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP7",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "H3",
+      "footprint": "MountingHole:MountingHole_4.3mm_M4_Pad_TopOnly"
+    },
+    {
+      "reference": "TP9",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP29",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "H1",
+      "footprint": "MountingHole:MountingHole_4.3mm_M4_Pad_TopOnly"
+    },
+    {
+      "reference": "TP23",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP25",
+      "footprint": "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+    },
+    {
+      "reference": "TP22",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP26",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP21",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP8",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP11",
+      "footprint": "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP_GND",
+      "footprint": "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+    },
+    {
+      "reference": "TP_OUT",
+      "footprint": "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+    }
+  ],
+  "missing_model_files": [],
+  "render": {
+    "width": 2400,
+    "height": 1650,
+    "rotate": "35,0,25",
+    "quality": "high",
+    "background": "transparent"
+  },
+  "limitations": [
+    "Standard footprint models represent package geometry, not exact purchased parts.",
+    "DIP socket models do not include the inserted IC.",
+    "No assembled-prototype photograph or mechanical clearance verification is implied."
+  ]
+}

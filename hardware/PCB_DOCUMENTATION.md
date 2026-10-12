@@ -67,7 +67,19 @@ kicad-cli pcb export pdf --layers F.Silkscreen,Edge.Cuts --mode-single --black-a
 python docs/tools/generate_pcb_subcircuits.py geometry.json --silkscreen subcircuits-base.pdf
 ```
 
-The 3D presentation is a subsequent task. These figures do not modify the board or its fabrication outputs.
+## 3D board view
+
+`docs/figures/pcb_3d.png` is an orthographic oblique view rendered directly from the unchanged final board by KiCad 9. It complements the routing maps with package height and overall physical distribution. The transparent background allows direct inclusion in the report.
+
+All 191 model assignments resolve to installed standard KiCad model files. Of 229 footprints, 39 have no model assignment: test pads, mounting holes and logos. One footprint has two model assignments. DIP socket models show sockets without inserted ICs; other standard models represent package geometry rather than exact purchased parts. This is a CAD representation, not a photograph or a mechanical-clearance qualification. `PCB_3D_EVIDENCE.json` records the source hash, coverage and rendering settings.
+
+To reproduce, install KiCad 9 with its standard 3D model library, then run from the repository root:
+
+```text
+kicad-cli pcb render --width 2400 --height 1650 --quality high --background transparent --rotate "35,0,25" --output docs/figures/pcb_3d.png hardware/kicad/Regulador.kicad_pcb
+```
+
+The board is read without saving or refilling zones. Colors and lighting follow KiCad's rendering settings and may vary across installations. These figures do not modify the board or its fabrication outputs.
 
 ## Remaining evidence
 

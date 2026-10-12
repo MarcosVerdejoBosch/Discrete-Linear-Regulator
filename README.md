@@ -25,6 +25,7 @@ The assembled package includes the supplied external dependencies. A plain **Cod
 - [What is verified and what remains](publication/REVIEW_STATUS.md).
 - [Current organized KiCad project](hardware/kicad/Regulador.kicad_pro), [schematic](hardware/kicad/Regulador.kicad_sch), [PCB](hardware/kicad/Regulador.kicad_pcb).
 - [PCB routing atlas](docs/figures/pcb_subcircuit_atlas.pdf) - four component-level maps: power path, current sensing/limiting, enable control and startup. [Sources and regeneration](hardware/PCB_DOCUMENTATION.md).
+- [3D board view](docs/figures/pcb_3d.png) - KiCad rendering of the final layout; standard package models and socket representations.
 - [Original published KiCad snapshot](hardware/legacy-github/) â€” retained separately; it differs from the organized copy.
 
 ## Current stability finding
