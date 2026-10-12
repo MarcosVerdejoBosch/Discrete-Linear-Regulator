@@ -30,7 +30,7 @@ VIEWS = [
        ('Load output',BLUE,['OUT'],['OUTPUT'],'Rsns pin 2 reaches OUTPUT pin 1. The load is external.')],
       flow=['Supply','INPUT','Q_POL','Q4B','Q_PASS','Rsns','OUTPUT','Load'],
       flow_note='Functional series path; supply and load are external. Arrows indicate connectivity, not current density.',
-      footer='Crop of the power-device region; auxiliary supply branches extend beyond this view.'),
+      footer=''),
  dict(name='pcb_current_sense',title='Current sensing and limiting',roi=(329,103,384,178),
       groups=[
        ('Differential sensing',ORANGE,['Net-(D18-A)','OUT','Net-(U4A-+)','Net-(U4A--)'],['Rsns','R33','R34','R35','R36'],
@@ -82,8 +82,10 @@ def make_view(data, silkscreen, spec):
     def clip(c):
         path=c.beginPath();path.rect(px,py,(x1-x0)*scale,(y1-y0)*scale)
         c.clipPath(path,stroke=0,fill=0)
+    front_only=spec['name']=='pcb_power_path'
     def copper(c,selected):
         for z in data['zones']:
+            if front_only and z['layer']!='F.Cu':continue
             if z['net']=='GND' or (z['net'] in net_colors)!=selected:continue
             c.setFillColor(HexColor(net_colors[z['net']] if selected else '#E9ECEF'))
             c.setFillAlpha(.35 if selected else 1)
@@ -98,6 +100,7 @@ def make_view(data, silkscreen, spec):
         c.setFillAlpha(1);c.setLineCap(1);c.setLineJoin(1)
         c.setStrokeAlpha(.60 if selected else 1)
         for t in data['tracks']:
+            if front_only and t['layer']!='F.Cu' and t['kind']!='PCB_VIA':continue
             if (t['net'] in net_colors)!=selected:continue
             color=HexColor(net_colors[t['net']] if selected else '#E3E6E9')
             c.setStrokeColor(color);c.setFillColor(color)
@@ -200,11 +203,16 @@ def make_view(data, silkscreen, spec):
                 overlaps((nx,ny,nx+label_w,ny+14),r) for r in occupied):
             lx,ly=native
         if spec['name']=='pcb_current_sense' and ref=='R35':lx,ly=150,270
+        if front_only:
+            if ref=='INPUT':lx+=18
+            elif ref=='Rsns':lx=left+ww+8
         occupied.append((lx,ly,lx+label_w,ly+14))
         # A fine leader connects displaced text to its actual footprint center.
         ex=max(lx,min(cx,lx+label_w));ey=max(ly,min(cy,ly+14))
-        if math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18:
-            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.55);c.setLineWidth(.65)
+        leader=math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18
+        if front_only:leader=ref in ('INPUT','OUTPUT')
+        if leader:
+            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only else .55);c.setLineWidth(1.15 if front_only else .65)
             # Short orthogonal callout with a horizontal text-side landing.
             knee=ex-7 if ex>cx else ex+7
             dx=knee-cx;dy=ey-cy
@@ -216,7 +224,8 @@ def make_view(data, silkscreen, spec):
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
     c.drawString(20,613,spec['title'])
     c.setFont('Helvetica',12)
-    c.drawString(20,591,'Actual KiCad copper + component highlights | Top-side projection of both outer layers')
+    c.drawString(20,591,'Actual KiCad copper + component highlights | '+
+                 ('Top copper and front silkscreen' if front_only else 'Top-side projection of both outer layers'))
     y=563
     for title,color,nets,refs,description in spec['groups']:
         c.setStrokeColor(HexColor(color));c.setLineWidth(4);c.line(686,y+2,706,y+2)
