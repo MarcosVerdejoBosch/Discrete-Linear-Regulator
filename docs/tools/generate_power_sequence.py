@@ -80,7 +80,7 @@ for col,(head,body) in enumerate(notes):
     fig.text(left,.115,head,fontsize=10,color='#263640',weight='bold')
     fig.text(left,.062,body,fontsize=9.1,color='#52616B',linespacing=1.5)
 fig.text(.065,.025,'Separate experiments and time windows. Bands use enable > 0.5 VEE; they do not indicate measured hardware states. No physical measurements shown.',fontsize=9,color='#65717A')
-for ext in ['pdf','png','svg']:fig.savefig(OUT/f'power_sequence.{ext}',dpi=170)
+for ext in ['pdf','png']:fig.savefig(OUT/f'power_sequence.{ext}',dpi=170)
 (REPO/'docs/data/power_sequence/figure_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print(OUT/'power_sequence.png')
 

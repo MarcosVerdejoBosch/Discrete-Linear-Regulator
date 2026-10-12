@@ -12,4 +12,4 @@ From the repository root, with NumPy and Matplotlib installed:
 python docs/tools/generate_power_sequence.py
 ```
 
-Outputs are `docs/figures/power_sequence.pdf`, `.png`, and `.svg`. The script verifies the input hashes before plotting. `figure_manifest.json` records the sources, windows, loads and processing. Detailed physical measurements remain pending.
+Outputs are `docs/figures/power_sequence.pdf`, and `.png`. The script verifies the input hashes before plotting. `figure_manifest.json` records the sources, windows, loads and processing. Detailed physical measurements remain pending.
