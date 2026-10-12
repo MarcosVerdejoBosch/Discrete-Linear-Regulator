@@ -223,6 +223,9 @@ def make_view(data, silkscreen, spec):
                 'Q_PASS':(397.0721,452.0402),
             }
             lx,ly=positions[ref]
+        if spec['name']=='pcb_startup_control':
+            positions={'R55': (440.696, 529.6444), 'D10': (483.8116, 402.3378), 'C11': (261.8982, 409.1162), 'R58': (346.716, 352.1267), 'Q15': (266.506, 450.4433), 'R57': (358.4251, 541.5846), 'Q14': (442.5911, 470.2122), 'R56': (477.8116, 433.6644), 'Q4': (276.6204, 218.9256), 'C12': (283.8982, 340.3578), 'Q_PASS': (93.2069, 247.7044)}
+            lx,ly=positions[ref]
         if front_only:
             if ref=='INPUT':lx+=18
             elif ref=='Rsns':lx=left+ww+22;ly=bottom+hh-56
@@ -233,6 +236,8 @@ def make_view(data, silkscreen, spec):
         if front_only:leader=ref in ('INPUT','OUTPUT','Rsns')
         current_view=spec['name']=='pcb_current_sense'
         enable_view=spec['name']=='pcb_enable_control'
+        startup_mark=spec['name']=='pcb_startup_control' and ref in ('R55','D10','C11')
+        if startup_mark:leader=True
         if enable_view and ref!='Q_PASS':leader=ref not in ('R91','R17')
         if current_view:leader=ref not in ('D5','U1','U4','R39','C7','R42','R36','R38')
         if leader:
@@ -269,6 +274,13 @@ def make_view(data, silkscreen, spec):
                 path.lineTo(cx,bend_y);path.lineTo(end_x,end_y)
             elif enable_view and ref=='Q23':
                 path=c.beginPath();path.moveTo(left,cy);path.lineTo(lx+label_w,ly+5)
+            if startup_mark:
+                c.setStrokeAlpha(1);c.setLineWidth(1.0)
+                if ref in ('R55','D10'):c.setStrokeColor(HexColor('#85520D'))
+                path=c.beginPath()
+                if ref=='R55':path.moveTo(cx,cy+5);path.lineTo(cx,ly-2)
+                elif ref=='D10':path.moveTo(left+ww,cy);path.lineTo(lx,cy)
+                else:path.moveTo(cx-10,cy+12);path.lineTo(ex,ey)
             if current_view and ref=='R33':
                 path=c.beginPath();path.moveTo(cx,cy)
                 path.lineTo(395,cy);path.lineTo(395,ly-2)
