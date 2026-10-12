@@ -205,12 +205,12 @@ def make_view(data, silkscreen, spec):
         if spec['name']=='pcb_current_sense' and ref=='R35':lx,ly=150,270
         if front_only:
             if ref=='INPUT':lx+=18
-            elif ref=='Rsns':lx=left+ww+19;ly+=16
+            elif ref=='Rsns':lx=left+ww+22;ly=bottom+hh-56
         occupied.append((lx,ly,lx+label_w,ly+14))
         # A fine leader connects displaced text to its actual footprint center.
         ex=max(lx,min(cx,lx+label_w));ey=max(ly,min(cy,ly+14))
         leader=math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18
-        if front_only:leader=ref in ('INPUT','OUTPUT')
+        if front_only:leader=ref in ('INPUT','OUTPUT','Rsns')
         if leader:
             c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.95 if front_only else .55);c.setLineWidth(1.15 if front_only else .65)
             # Short orthogonal callout with a horizontal text-side landing.
