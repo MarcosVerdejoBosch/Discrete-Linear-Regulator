@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import io
 import json
+import math
 from pathlib import Path
 import textwrap
 
@@ -128,7 +129,21 @@ def make_view(data, silkscreen, spec):
     page.merge_transformed_page(base,Transformation().scale(scale/MM).translate(px-x0*scale,py-(sheet_h-y1*MM)*scale/MM))
     top=io.BytesIO();c=canvas.Canvas(top,pagesize=(w,h))
     c.saveState();clip(c);copper(c,True);c.restoreState()
-    # Highlight actual footprint fabrication outlines, with silkscreen fallback.
+    # Use actual front-silkscreen strokes, never an invented body envelope.
+    obstacles=[]
+    for t in data['tracks']:
+        if t['net'] not in net_colors: continue
+        points=arc_points(t) if t['kind']=='PCB_ARC' else [t['start'],t['end']]
+        for a,b in zip(points,points[1:]):
+            ax,ay=pt(a);bx,by=pt(b)
+            count=max(1,int(math.hypot(bx-ax,by-ay)/3))
+            obstacles.extend((ax+(bx-ax)*i/count,ay+(by-ay)*i/count) for i in range(count+1))
+    for fp in data['footprint_graphics'].values():
+        for shape in fp['shapes']:
+            points=arc_points(shape) if shape['kind']==2 else [shape['start'],shape['end']]
+            for a,b in zip(points,points[1:]):
+                ax,ay=pt(a);bx,by=pt(b);count=max(1,int(math.hypot(bx-ax,by-ay)/3))
+                obstacles.extend((ax+(bx-ax)*i/count,ay+(by-ay)*i/count) for i in range(count+1))
     occupied=[]
     def overlaps(a,b):
         return a[0]<b[2]+2 and a[2]+2>b[0] and a[1]<b[3]+2 and a[3]+2>b[1]
@@ -163,13 +178,31 @@ def make_view(data, silkscreen, spec):
         label=ref
         c.setFont('Helvetica-Bold',12)
         label_w=c.stringWidth(label,'Helvetica-Bold',12)+6
-        candidates=[(left,bottom+hh),(left+ww-label_w,bottom+hh),
-                    (left,bottom-15),(left+ww+3,bottom+hh/2),
-                    (left-label_w-3,bottom+hh/2),(left,bottom+hh+16)]
-        lx,ly=next(((x,y) for x,y in candidates if not any(
-            overlaps((x,y,x+label_w,y+14),b) for b in occupied)),candidates[-1])
+        cx=left+ww/2;cy=bottom+hh/2
+        candidates=[]
+        for radius in (14,22,32,44,58,74):
+            for angle in range(0,360,30):
+                x=cx+math.cos(math.radians(angle))*radius-label_w/2
+                y=cy+math.sin(math.radians(angle))*radius-7
+                box=(x,y,x+label_w,y+14)
+                if x<21 or x+label_w>658 or y<151 or y+14>578:continue
+                if any(overlaps(box,b) for b in occupied):continue
+                hits=sum(x-3<ox<x+label_w+3 and y-3<oy<y+17 for ox,oy in obstacles)
+                candidates.append((hits*120+radius,x,y))
+        assert candidates,ref
+        _,lx,ly=min(candidates)
+        overrides={
+            'pcb_startup_control': {'Q14':(565,462),'R56':(565,420),'R58':(565,381),'C12':(90,275)},
+            'pcb_current_sense': {'R42':(130,360),'R39':(130,225),'U1':(530,480),'U4':(130,175)},
+        }
+        lx,ly=overrides.get(spec['name'],{}).get(ref,(lx,ly))
         occupied.append((lx,ly,lx+label_w,ly+14))
-        c.setFillColor(HexColor('#172D3A'));c.drawString(lx+3,ly+2,label)
+        # A fine leader connects displaced text to its actual footprint center.
+        ex=max(lx,min(cx,lx+label_w));ey=max(ly,min(cy,ly+14))
+        if math.hypot(ex-cx,ey-cy)>18:
+            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.55);c.setLineWidth(.65)
+            c.line(cx,cy,ex,ey);c.setStrokeAlpha(1)
+        c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
     c.drawString(20,613,spec['title'])
     c.setFont('Helvetica',12)
@@ -185,30 +218,53 @@ def make_view(data, silkscreen, spec):
     c.setFont('Helvetica',11);c.setFillColor(HexColor('#56636D'))
     for i,line in enumerate(textwrap.wrap(spec['footer'],95)):
         c.drawString(20,127-15*i,line)
-    # Functional flow strip is deliberately separated from copper geometry.
-    steps=spec['flow'];gap=14;box_w=(960-gap*(len(steps)-1))/len(steps)
-    for i,label in enumerate(steps):
-        x=20+i*(box_w+gap)
-        c.setStrokeColor(HexColor('#A8B3BB'));c.setFillColor(HexColor('#F7F9FA'));c.setLineWidth(.8)
-        c.roundRect(x,65,box_w,39,4,stroke=1,fill=1)
-        c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',12)
-        lines=textwrap.wrap(label,max(12,int(box_w/6)))
-        for k,line in enumerate(lines):c.drawCentredString(x+box_w/2,83+(len(lines)-1)*6-k*13,line)
-        if i<len(steps)-1:
-            c.setStrokeColor(HexColor('#657785'));c.line(x+box_w+2,84,x+box_w+gap-2,84)
-            c.line(x+box_w+gap-5,87,x+box_w+gap-2,84);c.line(x+box_w+gap-5,81,x+box_w+gap-2,84)
-    note_y=47
-    if spec['name']=='pcb_power_path':
-        first=20+box_w/2;last=20+(len(steps)-1)*(box_w+gap)+box_w/2
-        c.setStrokeColor(HexColor('#657785'));c.setLineWidth(.8)
-        c.line(last,65,last,55);c.line(last,55,first,55);c.line(first,55,first,65)
-        c.line(first-3,61,first,65);c.line(first+3,61,first,65)
-        c.setFillColor(HexColor('#FFFFFF'));c.rect(360,48,280,14,stroke=0,fill=1)
+    # Orthogonal functional diagrams occupy their own band below the PCB view.
+    def box(x,y,width,label,color):
+        c.setStrokeColor(HexColor(color));c.setFillColor(HexColor('#F8FAFB'));c.setLineWidth(.9)
+        c.roundRect(x,y,width,28,3,stroke=1,fill=1)
+        c.setFillColor(HexColor(color));c.setFont('Helvetica-Bold',11)
+        c.drawCentredString(x+width/2,y+10,label)
+        return (x,y,width)
+    def arrow(points,color='#657785'):
+        c.setStrokeColor(HexColor(color));c.setFillColor(HexColor(color));c.setLineWidth(.9)
+        path=c.beginPath();path.moveTo(*points[0])
+        for point in points[1:]:path.lineTo(*point)
+        c.drawPath(path)
+        x,y=points[-1];a,b=points[-2];angle=math.atan2(y-b,x-a)
+        path=c.beginPath();path.moveTo(x,y)
+        for turn in (-.5,.5):path.lineTo(x-5*math.cos(angle+turn),y-5*math.sin(angle+turn))
+        path.close();c.drawPath(path,stroke=0,fill=1)
+    def row(labels,colors,y=78,x=20,width=960):
+        gap=25;bw=(width-gap*(len(labels)-1))/len(labels)
+        blocks=[box(x+i*(bw+gap),y,bw,label,colors[i]) for i,label in enumerate(labels)]
+        for first,second in zip(blocks,blocks[1:]):arrow([(first[0]+bw,y+14),(second[0],y+14)])
+        return blocks
+    name=spec['name']
+    if name=='pcb_power_path':
+        row(spec['flow'],['#657785',RED,RED,TEAL,PURPLE,PURPLE,BLUE,'#657785'])
+        arrow([(929,78),(929,48),(70,48),(70,78)])
+        c.setFillColor(HexColor('#657785'));c.setFont('Helvetica',11)
+        c.drawCentredString(500,31,'GND return: load / OUTPUT pin 2 to INPUT pin 2 / supply')
+    elif name=='pcb_current_sense':
+        blocks=row(['Rsns','R33-R36 / U4A','R39','U4B','R42 / D5','EA node'],[ORANGE,ORANGE,BLUE,BLUE,GREEN,GREEN])
+        box(236,32,210,'R40 / RV13 -> U4C',PURPLE)
+        bx,by,bw=blocks[3]
+        arrow([(446,46),(bx+bw/2,46),(bx+bw/2,78)],PURPLE)
+        c.setFillColor(HexColor(PURPLE));c.setFont('Helvetica',10);c.drawString(461,32,'Limit reference')
+    elif name=='pcb_enable_control':
+        for label,y in [('UVLO valid',86),('OVLO valid',54),('Delay elapsed',22)]:
+            box(20,y,115,label,ORANGE)
+            arrow([(135,y+14),(153,y+14),(153,68),(178,68)],ORANGE)
+        row(['Q25-Q27 / Q23','R20 / Q6','R17 / Q4A','R21 / pass base'],[TEAL,PURPLE,PURPLE,BLUE],54,178,802)
         c.setFillColor(HexColor('#657785'));c.setFont('Helvetica',10)
-        c.drawCentredString(500,51,'GND return: OUTPUT pin 2 -> INPUT pin 2')
-        note_y=31
-    c.setFont('Helvetica',11)
-    for i,line in enumerate(textwrap.wrap(spec['flow_note'],145)):c.drawString(20,note_y-i*14,line)
+        c.drawString(180,31,'AND permission             Gate control                                  Pass-base drive enabled')
+    else:
+        row(['VEE','Q4B: series switch','VCTRL / C12'],[ORANGE,RED,TEAL],78,100,800)
+        box(385,30,230,'C11 / Q15 -> Q14',PURPLE)
+        arrow([(783,78),(783,44),(615,44)],PURPLE)
+        arrow([(385,44),(345,44),(345,68),(500,68),(500,78)],PURPLE)
+        c.setFillColor(HexColor(PURPLE));c.setFont('Helvetica',10)
+        c.drawString(628,29,'Ramp feedback');c.drawString(260,29,'Gate control')
     c.setFillColor(HexColor('#657785'));c.setFont('Helvetica',10)
     c.drawString(20,12,'Ground fills omitted. Pad centers are schematic markers; colors group paths across series components. Not a fabrication drawing.')
     c.save();top.seek(0);page.merge_page(PdfReader(top).pages[0])

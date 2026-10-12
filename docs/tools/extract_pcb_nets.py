@@ -31,7 +31,7 @@ for footprint in board.GetFootprints():
         pads.append(dict(ref=footprint.GetReference(), value=footprint.GetValue(),
                          pin=pad.GetNumber(), net=pad.GetNetname(), at=xy(pad.GetPosition())))
     shapes=[g for g in footprint.GraphicalItems() if isinstance(g,pcbnew.PCB_SHAPE)]
-    layer=pcbnew.F_Fab if any(g.GetLayer()==pcbnew.F_Fab for g in shapes) else pcbnew.F_SilkS
+    layer=pcbnew.F_SilkS
     graphics=[]
     for shape in shapes:
         if shape.GetLayer()!=layer:continue
