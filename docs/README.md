@@ -12,3 +12,5 @@ pdflatex -interaction=nonstopmode -halt-on-error regulator.tex
 ```
 
 The included figure PDFs are used directly. Simulation results describe the stated model conditions; detailed physical measurements remain pending. The PDF was built and visually checked locally before this snapshot.
+
+The [power-on and protection overview](figures/power_sequence.pdf) can be regenerated from the [included samples and provenance](data/power_sequence/README.md).

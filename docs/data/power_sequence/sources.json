@@ -1,0 +1,34 @@
+[
+  {
+    "path": "Discrete-Linear-Regulator\\simulation\\tests\\SIM-01_startup_shutdown\\results\\calibrated\\SIM-01_calibrated_startup_5V.raw",
+    "sha256": "0dc96baddbd005187321f6022c10257a2dd5f67033de182a679689b37ef31968",
+    "samples": 172682,
+    "export_file": "SIM-01.npz",
+    "export_sha256": "ccb154b52a6b36a51f31e2189ae4271330216e4ea44b3132b761424465751f9d",
+    "export_samples": 58856,
+    "windows_ms": [
+      [
+        2,
+        45
+      ]
+    ]
+  },
+  {
+    "path": "Discrete-Linear-Regulator\\simulation\\tests\\SIM-07_uvlo_ovlo\\results\\calibrated\\SIM-07_calibrated_protection_5V.raw",
+    "sha256": "120da6a5679df0b46d9c5074f36618549cc2e917f03515a5e98bf9bd66decdf9",
+    "samples": 409336,
+    "export_file": "SIM-07.npz",
+    "export_sha256": "0d3cc2b7d09422f98f6f9057ae757d8eb25d6bf2bc977e6c0c72a0637845c30f",
+    "export_samples": 286501,
+    "windows_ms": [
+      [
+        75,
+        150
+      ],
+      [
+        160,
+        264
+      ]
+    ]
+  }
+]

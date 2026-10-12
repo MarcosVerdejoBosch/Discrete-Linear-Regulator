@@ -678,6 +678,29 @@ SIM-09 & Alternate & Alternate \\
 \end{tabular}
 \end{table}
 
+\subsection{Power-on and Input-Fault Sequence}
+
+Figure~\ref{fig:power_sequence} brings together the power-on sequence
+from SIM-01 and the input-fault cycles from SIM-07. The aligned voltage,
+control, and enable-state panels relate the auxiliary circuits to the
+regulated output. These are separate experiments: SIM-01 uses a
+50\,$\Omega$ load and SIM-07 a 5\,$\Omega$ load, both in 5\,V mode.
+In the undervoltage cycle, the delay permission falls before the UVLO
+comparator changes state. Control voltages are normalized to the local
+supply \texttt{VEE}; the 50\% level used for the state bands is a display
+convention, not the switching threshold of the transistor logic.
+
+\begin{sidewaysfigure*}
+    \centering
+    \includegraphics[width=\textheight]{power_sequence.pdf}
+    \caption{Power-on and input-fault response from the accepted SIM-01
+    and SIM-07 transient results. Each column retains its own time window
+    and load condition. The lower bands locate enable transitions relative
+    to the voltage and control waveforms; they do not represent hardware
+    measurements.}
+    \label{fig:power_sequence}
+\end{sidewaysfigure*}
+
 \subsection{Startup and Shutdown Behavior}
 
 \begin{figure*}[t]
