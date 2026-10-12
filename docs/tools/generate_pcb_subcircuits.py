@@ -38,7 +38,7 @@ VIEWS = [
        ('Amplified signal',BLUE,['Net-(C5-Pad2)','Net-(U4B--)','Net-(C7-Pad2)'],['U4','R39','R38','C7'],
         'U4A output at pin 1 reaches U4B through R39. U4 contains several amplifier sections.'),
        ('Adjustable limit',PURPLE,['VREF','Net-(U4C-+)','Net-(U4B-+)'],['R40','RV13'],
-        'R40 / RV13 set the threshold; U4C buffers it for U4B.'),
+        'R40 / RV13 feed U4C pin 10. Its buffered threshold joins U4 pins 8, 9 and 5 via bottom copper and a via.'),
        ('Limiting action',GREEN,['Net-(C7-Pad1)','Net-(D5-K)','Net-(D5-A)'],['R42','D5','U1'],
         'U4B output reaches the error-amplifier node through R42 and D5.')],
       flow=['Rsns','R33-R36','U4A','R39 / U4B','R42 / D5','EA node'],
@@ -205,7 +205,7 @@ def make_view(data, silkscreen, spec):
         if spec['name']=='pcb_current_sense':
             positions={
                 'R33':(382,357),'R36':(367,341),'R35':(386,240),
-                'U4':(177,245),'R38':(340,277),'R39':(258,275),
+                'U4':(177,245),'R38':(340,277),'R39':(259,275),
                 'C7':(330,330),'R40':(238,384),'RV13':(200,346),
                 'R42':(313,346),'D5':(317,411),'U1':(307,509),
             }

@@ -74,3 +74,5 @@ The 3D presentation is a subsequent task. These figures do not modify the board 
 A clear top-side photograph of the assembled prototype remains pending from the builder; an underside photograph can supplement it if useful. No further placement intent (such as optimized feedback isolation or measured return-path performance) is inferred solely from the routing.
 
 Do not add measured thermal limits, quantified regulation accuracy or fabrication specifications that have not been confirmed.
+
+The purple routing within U4 is relevant to current limiting. R40/RV13 feed U4C pin 10; the buffered threshold connects U4C output pin 8, feedback pin 9 and U4B input pin 5. The latter net includes B.Cu segments and a via at (334.01, 163.83) mm back to F.Cu. Its apparent discontinuity in a top-side projection is not a floating functional node. These connections were checked against the PCB pad and track net assignments.
