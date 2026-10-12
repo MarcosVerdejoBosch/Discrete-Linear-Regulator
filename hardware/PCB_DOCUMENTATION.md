@@ -55,14 +55,15 @@ Four additional maps are included in the report and collected in
 - `pcb_enable_control.pdf`: permission signals, Q25-Q27/Q23 logic, Q6 gate control, Q4A and R21 pass-base drive.
 - `pcb_startup_control.pdf`: Q4B, Q14/Q15, C11/R58 feedback and the VCTRL/C12 output.
 
-Component boxes enclose pad extents plus a small margin; they are visual identifiers, not footprint courtyards. Pad markers are not to scale. Both outer copper layers are projected together, GND fills are omitted, and all crops are explicitly illustrative. The power figure distinguishes the two sides of Rsns with different colors. Other figures group several separate nets along a functional signal path without inventing copper connections across components.
+Selected components use the actual footprint graphics from F.Fab, falling back to F.Silkscreen when fabrication graphics are absent. A stronger colored contour with a subtle halo makes each footprint recognizable; the former pad-envelope boxes are removed. References remain bold with no white background. The atlas background is exported without reference designators to avoid duplicate labels. These outlines describe the footprint, not a 3D component model. Pad markers are not to scale. Both outer copper layers are projected together, GND fills are omitted, and all crops are explicitly illustrative. The power figure distinguishes the two sides of Rsns with different colors. Other figures group several separate nets along a functional signal path without inventing copper connections across components.
 
 Q4 units were verified against the KiCad schematic symbol: section A uses gate pin 2 and source/drain pins 1/7; section B uses gate pin 4 and source/drain pins 3/5. Unconnected duplicate pins in the custom symbol are not presented as additional paths. Names and pins in `PCB_SUBCIRCUIT_EVIDENCE.json` come from the final PCB, not from matching LTspice reference strings.
 
-Regenerate all four maps and their atlas after the extraction and silkscreen export above:
+Regenerate all four maps and their atlas after extracting the geometry. Use a separate silkscreen export without reference designators for these component-highlight views; the original routing overview still uses the export with references:
 
 ```text
-python docs/tools/generate_pcb_subcircuits.py geometry.json --silkscreen silkscreen.pdf
+kicad-cli pcb export pdf --layers F.Silkscreen,Edge.Cuts --mode-single --black-and-white --exclude-refdes -o subcircuits-base.pdf hardware/kicad/Regulador.kicad_pcb
+python docs/tools/generate_pcb_subcircuits.py geometry.json --silkscreen subcircuits-base.pdf
 ```
 
 The 3D presentation is a subsequent task. These figures do not modify the board or its fabrication outputs.

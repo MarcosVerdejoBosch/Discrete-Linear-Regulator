@@ -1,6 +1,7 @@
 """Generate four read-only PCB subcircuit maps and a companion routing atlas.
 
-Run after extract_pcb_nets.py and the KiCad F.Silkscreen/Edge.Cuts PDF export:
+Run after extract_pcb_nets.py and a KiCad F.Silkscreen/Edge.Cuts PDF export
+with --exclude-refdes, so selected bold references are not duplicated:
 python generate_pcb_subcircuits.py geometry.json --silkscreen silkscreen.pdf
 """
 import argparse
@@ -94,6 +95,7 @@ def make_view(data, silkscreen, spec):
                     path.close()
                 c.drawPath(path,stroke=0,fill=1,fillMode=0)
         c.setFillAlpha(1);c.setLineCap(1);c.setLineJoin(1)
+        c.setStrokeAlpha(.60 if selected else 1)
         for t in data['tracks']:
             if (t['net'] in net_colors)!=selected:continue
             color=HexColor(net_colors[t['net']] if selected else '#E3E6E9')
@@ -105,6 +107,7 @@ def make_view(data, silkscreen, spec):
                 path=c.beginPath();path.moveTo(*pt(pts[0]))
                 for p in pts[1:]:path.lineTo(*pt(p))
                 c.drawPath(path)
+        c.setStrokeAlpha(1)
         if selected:
             for p in data['pads']:
                 if p['net'] not in net_colors:continue
@@ -125,7 +128,7 @@ def make_view(data, silkscreen, spec):
     page.merge_transformed_page(base,Transformation().scale(scale/MM).translate(px-x0*scale,py-(sheet_h-y1*MM)*scale/MM))
     top=io.BytesIO();c=canvas.Canvas(top,pagesize=(w,h))
     c.saveState();clip(c);copper(c,True);c.restoreState()
-    # Boxes mark the pad envelope plus a margin, not manufacturing courtyards.
+    # Highlight actual footprint fabrication outlines, with silkscreen fallback.
     occupied=[]
     def overlaps(a,b):
         return a[0]<b[2]+2 and a[2]+2>b[0] and a[1]<b[3]+2 and a[3]+2>b[1]
@@ -135,8 +138,28 @@ def make_view(data, silkscreen, spec):
         xs=[p['at'][0] for p in pads];ys=[p['at'][1] for p in pads]
         left,bottom=pt((min(xs)-1.2,max(ys)+1.2))
         ww=(max(xs)-min(xs)+2.4)*scale;hh=(max(ys)-min(ys)+2.4)*scale
-        c.setStrokeColor(HexColor(color));c.setLineWidth(1.4)
-        c.roundRect(left,bottom,ww,hh,2,stroke=1,fill=0)
+        shapes=data['footprint_graphics'][ref]['shapes']
+        assert shapes,ref
+        c.saveState();clip(c)
+        for thickness,alpha in [(6,.12),(1.8,1)]:
+            c.setStrokeColor(HexColor(color));c.setStrokeAlpha(alpha);c.setLineWidth(thickness)
+            for shape in shapes:
+                kind=shape['kind']
+                if kind==3:
+                    c.circle(*pt(shape['center']),shape['radius']*scale,stroke=1,fill=0)
+                    continue
+                if kind==0:rings=[[shape['start'],shape['end']]]
+                elif kind==2:rings=[arc_points(shape)]
+                elif kind==1:
+                    ax,ay=shape['start'];bx,by=shape['end']
+                    rings=[[[ax,ay],[bx,ay],[bx,by],[ax,by],[ax,ay]]]
+                elif kind==4:rings=[ring+[ring[0]] for ring in shape['rings'] if ring]
+                else:continue
+                for ring in rings:
+                    path=c.beginPath();path.moveTo(*pt(ring[0]))
+                    for p in ring[1:]:path.lineTo(*pt(p))
+                    c.drawPath(path)
+        c.restoreState()
         label=ref
         c.setFont('Helvetica-Bold',12)
         label_w=c.stringWidth(label,'Helvetica-Bold',12)+6
@@ -146,8 +169,7 @@ def make_view(data, silkscreen, spec):
         lx,ly=next(((x,y) for x,y in candidates if not any(
             overlaps((x,y,x+label_w,y+14),b) for b in occupied)),candidates[-1])
         occupied.append((lx,ly,lx+label_w,ly+14))
-        c.setFillColor(HexColor('#FFFFFF'));c.rect(lx,ly,label_w,14,stroke=0,fill=1)
-        c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
+        c.setFillColor(HexColor('#172D3A'));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
     c.drawString(20,613,spec['title'])
     c.setFont('Helvetica',12)

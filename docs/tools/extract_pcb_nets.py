@@ -25,10 +25,27 @@ for item in board.GetTracks():
         row['mid'] = xy(item.GetMid())
     tracks.append(row)
 pads = []
+footprint_graphics = {}
 for footprint in board.GetFootprints():
     for pad in footprint.Pads():
         pads.append(dict(ref=footprint.GetReference(), value=footprint.GetValue(),
                          pin=pad.GetNumber(), net=pad.GetNetname(), at=xy(pad.GetPosition())))
+    shapes=[g for g in footprint.GraphicalItems() if isinstance(g,pcbnew.PCB_SHAPE)]
+    layer=pcbnew.F_Fab if any(g.GetLayer()==pcbnew.F_Fab for g in shapes) else pcbnew.F_SilkS
+    graphics=[]
+    for shape in shapes:
+        if shape.GetLayer()!=layer:continue
+        kind=int(shape.GetShape())
+        row=dict(kind=kind,start=xy(shape.GetStart()),end=xy(shape.GetEnd()))
+        if kind==pcbnew.SHAPE_T_ARC:row['mid']=xy(shape.GetArcMid())
+        if kind==pcbnew.SHAPE_T_CIRCLE:
+            row['center']=xy(shape.GetCenter());row['radius']=pcbnew.ToMM(shape.GetRadius())
+        if kind==pcbnew.SHAPE_T_POLY:
+            poly=shape.GetPolyShape()
+            row['rings']=[[xy(poly.COutline(i).CPoint(k)) for k in range(poly.COutline(i).PointCount())]
+                          for i in range(poly.OutlineCount())]
+        graphics.append(row)
+    footprint_graphics[footprint.GetReference()]=dict(layer=board.GetLayerName(layer),shapes=graphics)
 zones = []
 def chain_points(chain):
     return [xy(chain.CPoint(i)) for i in range(chain.PointCount())]
@@ -45,6 +62,6 @@ for zone in board.Zones():
 result = dict(source='hardware/kicad/Regulador.kicad_pcb',
               sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
               kicad=pcbnew.GetBuildVersion(), tracks=tracks, pads=pads,
-              zones=zones)
+              zones=zones,footprint_graphics=footprint_graphics)
 Path(sys.argv[1]).write_text(json.dumps(result, indent=2), encoding='utf-8')
 print('Read',len(tracks),'tracks/vias and',len(pads),'pads; board unchanged.')
