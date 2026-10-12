@@ -249,10 +249,12 @@ def make_view(data, silkscreen, spec):
                 path=c.beginPath();path.moveTo(left,cy);path.lineTo(ex,cy)
             elif enable_view and ref=='Q26':
                 path=c.beginPath();path.moveTo(cx,cy)
-                # A 45-degree exit, followed by a straight run to the label.
-                path.lineTo(cx-(cy-(ly+7)),ly+7);path.lineTo(lx+label_w,ly+7)
+                # Exit above the orange diagonal, then use the clear left gutter.
+                for point in [(cx-6,cy+6),(88,cy+6),(88,ly+7),(lx+label_w,ly+7)]:
+                    path.lineTo(*point)
             elif enable_view and ref=='Q27':
                 path=c.beginPath();path.moveTo(cx,cy)
+                # Use the narrow corridor between Q26 and the Q23 label.
                 path.lineTo(cx-12,cy-12);path.lineTo(cx-12,ly+7);path.lineTo(lx+label_w,ly+7)
             elif enable_view and ref=='Q23':
                 path=c.beginPath();path.moveTo(left,cy);path.lineTo(lx+label_w,ly+5)
@@ -264,6 +266,11 @@ def make_view(data, silkscreen, spec):
             elif current_view and ref=='R35':
                 path=c.beginPath();path.moveTo(left+ww,cy)
                 path.lineTo(lx,cy)
+            if enable_view and ref in ('Q26','Q27'):
+                # A narrow knockout separates annotation from copper at crossings.
+                c.setStrokeAlpha(1);c.setStrokeColor(HexColor('#FFFFFF'));c.setLineWidth(2.8)
+                c.drawPath(path)
+                c.setStrokeColor(HexColor(color));c.setLineWidth(1.15)
             c.drawPath(path);c.setStrokeAlpha(1)
         c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
