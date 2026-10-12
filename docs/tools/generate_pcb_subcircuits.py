@@ -205,7 +205,7 @@ def make_view(data, silkscreen, spec):
         if spec['name']=='pcb_current_sense' and ref=='R35':lx,ly=150,270
         if front_only:
             if ref=='INPUT':lx+=18
-            elif ref=='Rsns':lx=left+ww+8
+            elif ref=='Rsns':lx=left+ww+19;ly+=16
         occupied.append((lx,ly,lx+label_w,ly+14))
         # A fine leader connects displaced text to its actual footprint center.
         ex=max(lx,min(cx,lx+label_w));ey=max(ly,min(cy,ly+14))
