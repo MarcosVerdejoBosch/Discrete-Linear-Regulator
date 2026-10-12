@@ -1,0 +1,662 @@
+{
+  "SIM-09_external_5V_100mA_0u_R0": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 424009.0309151074,
+        "phase_deg": -122.7268350851647,
+        "phase_margin_deg": 57.273164914835306
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1691647.0472150214,
+        "phase_deg": -180,
+        "gain_margin_dB": 18.3491186320761
+      }
+    ],
+    "gain_at_1Hz_dB": 132.06355262761477,
+    "minimum_swept_gain_dB": -68.95092126943648,
+    "stem": "SIM-09_external_5V_100mA_0u_R0",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 0.1,
+    "external_uF": 0,
+    "external_series_ohm": 0,
+    "output_bias_V": 5.00002908706665,
+    "load_bias_A": 0.10000058263540268,
+    "hashes": {
+      "asc": "765045549f16c13332477a1fbf992e254364af5c7e69ada455ac56efc17fad71",
+      "net": "b6a095450993b3bbc4d03f7becdae799062383c4833cc4874ac6e9762dd4d471",
+      "raw": "47701c3f78469371f6ba78d4d210d29f34785d8780c7aadc09f8d09f51429249",
+      "log": "e5f5e03f68d03018108374803739647e8e7ed7fa8b91e43dd333645bf3d923b1"
+    }
+  },
+  "SIM-09_external_5V_100mA_1u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 256315.03105242166,
+        "phase_deg": -133.33705191897698,
+        "phase_margin_deg": 46.66294808102302
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 734504.202698434,
+        "phase_deg": -180,
+        "gain_margin_dB": 15.558129968777925
+      }
+    ],
+    "gain_at_1Hz_dB": 132.06344285275145,
+    "minimum_swept_gain_dB": -78.07000661907527,
+    "stem": "SIM-09_external_5V_100mA_1u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 0.1,
+    "external_uF": 1,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 5.00002908706665,
+    "load_bias_A": 0.10000058263540268,
+    "hashes": {
+      "asc": "7981516e44862cef5141dbb1b8bbb369fe4142a05fa764c65deb1cd8210f244a",
+      "net": "91bbda60234e35f3f1ab7164e52efa4bc468e60ee60df0b26e74153bdecdb586",
+      "raw": "d49c1c8a04906cca2807efe46768098b6c7dedbcf3156a1135e95f4a91f810b0",
+      "log": "2700b1a577a066c76926bd41909b5a32c630f4e0db26eaa43f3f77d9abeff1c0"
+    }
+  },
+  "SIM-09_external_5V_100mA_10u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 71250.46556721114,
+        "phase_deg": -107.21900475786246,
+        "phase_margin_deg": 72.78099524213754
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1851795.948181862,
+        "phase_deg": -180,
+        "gain_margin_dB": 35.28387146683298
+      }
+    ],
+    "gain_at_1Hz_dB": 132.06242006858784,
+    "minimum_swept_gain_dB": -78.05570029480852,
+    "stem": "SIM-09_external_5V_100mA_10u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 0.1,
+    "external_uF": 10,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 5.00002908706665,
+    "load_bias_A": 0.10000058263540268,
+    "hashes": {
+      "asc": "e5d9c6f967f2480c286444e8bd238fbc0941c798d9f979289eb76ece273364ea",
+      "net": "5b4d16cc974ca48d068f98e403a7e4e5c8a257495a1d5c1a83104abfbc74aad4",
+      "raw": "47098a824fec6172afeb4f405f62e2bf6d874bae712c39360f2d97cc7b0a761c",
+      "log": "df0cd05af541244909834023ce68df32cc18b068749f4fa1b55fa7a01342f9ce"
+    }
+  },
+  "SIM-09_external_5V_100mA_47u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 26227.15999742331,
+        "phase_deg": -102.48644857239314,
+        "phase_margin_deg": 77.51355142760686
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1977257.0098806706,
+        "phase_deg": -180,
+        "gain_margin_dB": 36.29254164541251
+      }
+    ],
+    "gain_at_1Hz_dB": 132.0575567885912,
+    "minimum_swept_gain_dB": -78.05477700728426,
+    "stem": "SIM-09_external_5V_100mA_47u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 0.1,
+    "external_uF": 47,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 5.00002908706665,
+    "load_bias_A": 0.10000058263540268,
+    "hashes": {
+      "asc": "29b23f90c0e3873a305e9c6b48f0eb47d1862f2732a0484d53a85a8697d5ee36",
+      "net": "b2da45dbf2973188cd37d11f6898590d47930cdd35c335676b840e2cdde31081",
+      "raw": "2ac0d53a8e1e12f47dba038304de3065c08b9f34bbb18c9cbece29234150fd09",
+      "log": "3c5b7116e814c8aca483b8c16706346b0586fd3ae24a914bc9e07a0b680133bc"
+    }
+  },
+  "SIM-09_external_5V_100mA_10u_R1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 287633.0354207065,
+        "phase_deg": -102.94194857568198,
+        "phase_margin_deg": 77.05805142431802
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1808028.2713547049,
+        "phase_deg": -180,
+        "gain_margin_dB": 22.870123348117406
+      }
+    ],
+    "gain_at_1Hz_dB": 132.06241871121375,
+    "minimum_swept_gain_dB": -70.38193196891301,
+    "stem": "SIM-09_external_5V_100mA_10u_R1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 0.1,
+    "external_uF": 10,
+    "external_series_ohm": 1.0,
+    "output_bias_V": 5.00002908706665,
+    "load_bias_A": 0.10000058263540268,
+    "hashes": {
+      "asc": "9b06f845dd191eccd0aae30fdf140358264a7388474a398c329d0df632bf14b4",
+      "net": "aba50e93ecb3709b0c43b09dd09ff259defb34cfa57b5d245c450c11760261ef",
+      "raw": "d87726db6d5255d0336072ec4d8738e3a3b1c46ea599f2e48c5b6b4e114f6216",
+      "log": "fef4d88440449139e300d051ea1f3fc5a115aa51d1b910a70973e3b3ff3ab288"
+    }
+  },
+  "SIM-09_external_5V_1A_0u_R0": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 557715.0569393166,
+        "phase_deg": -127.49205846107341,
+        "phase_margin_deg": 52.50794153892659
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1979286.9017134132,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.277740363375013
+      }
+    ],
+    "gain_at_1Hz_dB": 109.50765346993882,
+    "minimum_swept_gain_dB": -66.38229659406919,
+    "stem": "SIM-09_external_5V_1A_0u_R0",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 1.0,
+    "external_uF": 0,
+    "external_series_ohm": 0,
+    "output_bias_V": 5.00000524520874,
+    "load_bias_A": 1.000001072883606,
+    "hashes": {
+      "asc": "f15abc585ed3d7c75808bab25629b95e9c6c50e0959133337bd05b62dc4bf702",
+      "net": "af218362954cdfc104f04945add10e1b5a21204698e675b2330f07b3a5c0c6ac",
+      "raw": "99c4c9e41b41da2046b2f7d080db0285b06ebd43b1515dfed205220bd23b0cd6",
+      "log": "a8eeb5eb3ac4e8d85ad7136864ab5bb7bb7acca19500f056b3a4ebadd569519d"
+    }
+  },
+  "SIM-09_external_5V_1A_1u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 350624.26150668977,
+        "phase_deg": -138.97337769182238,
+        "phase_margin_deg": 41.02662230817762
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 899097.7071373627,
+        "phase_deg": -180,
+        "gain_margin_dB": 14.9382103142624
+      }
+    ],
+    "gain_at_1Hz_dB": 109.50765345237065,
+    "minimum_swept_gain_dB": -75.08520623705077,
+    "stem": "SIM-09_external_5V_1A_1u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 1.0,
+    "external_uF": 1,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 5.00000524520874,
+    "load_bias_A": 1.000001072883606,
+    "hashes": {
+      "asc": "aedecd3e1b64434ce05ffc44e57f23f6262fc75651e738c1e157aa2ab57d8a39",
+      "net": "4cab85130f4b80649d56d168a7e2d3a4d57bc4619d02cd4e70dcd2dd67a884d3",
+      "raw": "28cb3505854fffdc68677c73b0f828454671f7dcb21ce43fae51aa53f913b7f9",
+      "log": "a5d0709cd1086b1e1ccef90276a62198df4d8b93ca3d5910dc4ca7c8ab09951e"
+    }
+  },
+  "SIM-09_external_5V_1A_10u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 111250.26358425884,
+        "phase_deg": -98.42768815828505,
+        "phase_margin_deg": 81.57231184171495
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2174142.546817638,
+        "phase_deg": -180,
+        "gain_margin_dB": 32.80300622327395
+      }
+    ],
+    "gain_at_1Hz_dB": 109.5076529292566,
+    "minimum_swept_gain_dB": -75.07461790535787,
+    "stem": "SIM-09_external_5V_1A_10u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 1.0,
+    "external_uF": 10,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 5.00000524520874,
+    "load_bias_A": 1.000001072883606,
+    "hashes": {
+      "asc": "5bad718451ddc029931e49e8836c3cda3d67bb7fb8c1d45ceccb95376e9c02db",
+      "net": "bcdf2599d2e1776ab1daf0c4c507c5b70e440509edbb34b75bab49afa8eea56a",
+      "raw": "30fa74720203aff18848c685d8de9021b639c2dbfdfd5318116ca811839afaae",
+      "log": "5070913dbc795a31ebcf175bdb661d717656b063d4a6be89e526535b3ed94de1"
+    }
+  },
+  "SIM-09_external_5V_1A_47u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 41874.107315799934,
+        "phase_deg": -80.16220336389716,
+        "phase_margin_deg": 99.83779663610284
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2285344.3406566726,
+        "phase_deg": -180,
+        "gain_margin_dB": 33.55208262075254
+      }
+    ],
+    "gain_at_1Hz_dB": 109.50764388711555,
+    "minimum_swept_gain_dB": -75.07348618339515,
+    "stem": "SIM-09_external_5V_1A_47u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 1.0,
+    "external_uF": 47,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 5.00000524520874,
+    "load_bias_A": 1.000001072883606,
+    "hashes": {
+      "asc": "f2dfb9bcb8f4d432833a9c89c0a1f735bb8b61b57e48d06fb0e78546ce44b082",
+      "net": "5c52d0a5d94c797bfa4d304e849aee1e75587518136a964e2124f9f5f38cc367",
+      "raw": "da4186a7575caf564b2efb855dbd0efa4e7060a5a12a0e32b541d022924137cd",
+      "log": "15ad64426fe355510063615cb89af72d5887ab0ed87400dc5bfcd0c1b246bab8"
+    }
+  },
+  "SIM-09_external_5V_1A_10u_R1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 417923.74978888076,
+        "phase_deg": -112.10334315087114,
+        "phase_margin_deg": 67.89665684912886
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2091273.106138802,
+        "phase_deg": -180,
+        "gain_margin_dB": 21.05976265419523
+      }
+    ],
+    "gain_at_1Hz_dB": 109.507652782202,
+    "minimum_swept_gain_dB": -67.73726533430774,
+    "stem": "SIM-09_external_5V_1A_10u_R1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "5V",
+    "current_A": 1.0,
+    "external_uF": 10,
+    "external_series_ohm": 1.0,
+    "output_bias_V": 5.00000524520874,
+    "load_bias_A": 1.000001072883606,
+    "hashes": {
+      "asc": "90d78f8321c08f3ef9c3dc1967a25d4126f605464dfdf261a73b14ef371b870a",
+      "net": "bec4aa3db997379f8054c6be086b13582bef2e8575881026103b2389de930d83",
+      "raw": "f39fccfc0308b88baaf681fc6a8a8e93bf3915d43396bf4c6a928718bafa335a",
+      "log": "ae0b9302492963bf1c304f965e88618a46b9d6571f066ce0083747ca12c524bb"
+    }
+  },
+  "SIM-09_external_33V_100mA_0u_R0": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 415142.3691514293,
+        "phase_deg": -126.17617233573999,
+        "phase_margin_deg": 53.82382766426001
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1685893.0325615713,
+        "phase_deg": -180,
+        "gain_margin_dB": 18.408610546020277
+      }
+    ],
+    "gain_at_1Hz_dB": 130.70986625647873,
+    "minimum_swept_gain_dB": -68.96833070174006,
+    "stem": "SIM-09_external_33V_100mA_0u_R0",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 0.1,
+    "external_uF": 0,
+    "external_series_ohm": 0,
+    "output_bias_V": 3.300020217895508,
+    "load_bias_A": 0.10000061243772507,
+    "hashes": {
+      "asc": "86187871fd706e8ce6368ac37f10c1b84b22d0946b252aa42d2596e94cc85c47",
+      "net": "fa4765bc2d34e29c051424faecb9db974ed4fe5dc598bab8eef129ae43427661",
+      "raw": "f4951a356aca514aa7bdab9d1cc08e5dba308a2fab5f8536db53221ee45e59f0",
+      "log": "c51954a8c3469029192bb8a1817ed8597d8cc026221fada85b868d62cd869073"
+    }
+  },
+  "SIM-09_external_33V_100mA_1u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 258154.42198759574,
+        "phase_deg": -140.80489181811063,
+        "phase_margin_deg": 39.19510818188937
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 704807.4965437857,
+        "phase_deg": -180,
+        "gain_margin_dB": 15.020009745735054
+      }
+    ],
+    "gain_at_1Hz_dB": 130.70976711041968,
+    "minimum_swept_gain_dB": -78.08734954361475,
+    "stem": "SIM-09_external_33V_100mA_1u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 0.1,
+    "external_uF": 1,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 3.300020217895508,
+    "load_bias_A": 0.10000061243772507,
+    "hashes": {
+      "asc": "9e057bfdd0c5ff9347456490fea7c02ef86e309d24f91497bb9d1d6cb644178f",
+      "net": "abd7ae7ce6086a158a003fa147ea5f468a776a7d1d0888e1b658389d6ab044cc",
+      "raw": "44aa4e9dc3b672d7017f078c1be34a265007b0a003e420daa9e0a34b88d8b175",
+      "log": "66cdec7d70883422a922b946350d52123ffeed6f5dd50b8cac0850e2d8cd4fd2"
+    }
+  },
+  "SIM-09_external_33V_100mA_10u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 86193.98935658523,
+        "phase_deg": -114.93383235409303,
+        "phase_margin_deg": 65.06616764590697
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1844692.7484030088,
+        "phase_deg": -180,
+        "gain_margin_dB": 35.30002104902906
+      }
+    ],
+    "gain_at_1Hz_dB": 130.7088587675204,
+    "minimum_swept_gain_dB": -78.07313437603608,
+    "stem": "SIM-09_external_33V_100mA_10u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 0.1,
+    "external_uF": 10,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 3.300020217895508,
+    "load_bias_A": 0.10000061243772507,
+    "hashes": {
+      "asc": "2036215c47456764dbd541f235d77889b22289fec51b3849070f9a96a9334653",
+      "net": "f2efa827be75ce8a1977136350492893c501bb242c73a96ab46f6c5e9596fb31",
+      "raw": "006c5b0964de22cdf7efd13ee98e460e33ad794c25838c0112b05349f4fd6313",
+      "log": "aaff7a218a7de26508fc1c1f0da54687c6d0e76912c23d25ed6a6712e44d5a90"
+    }
+  },
+  "SIM-09_external_33V_100mA_47u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 35790.17029459033,
+        "phase_deg": -94.93518554675326,
+        "phase_margin_deg": 85.06481445324674
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1971553.03883689,
+        "phase_deg": -180,
+        "gain_margin_dB": 36.317205823118314
+      }
+    ],
+    "gain_at_1Hz_dB": 130.70482111626947,
+    "minimum_swept_gain_dB": -78.0722115258572,
+    "stem": "SIM-09_external_33V_100mA_47u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 0.1,
+    "external_uF": 47,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 3.300020217895508,
+    "load_bias_A": 0.10000061243772507,
+    "hashes": {
+      "asc": "73a269e06928f749d167ff5b483a9aad84ce3a92d73c57d4789255d6470729cb",
+      "net": "462f12b4c7d5c60933ea4eb02d878387442a9bc1100d78e3255529d08b62650a",
+      "raw": "72317b7f6343e34811fcd86f613288e6da049054a39985ccadba4ef72993229d",
+      "log": "ecec5ce004b89bc0cf2db0ee9d00d115797236370315cee52c1134b8885400e8"
+    }
+  },
+  "SIM-09_external_33V_100mA_10u_R1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 286844.2225199519,
+        "phase_deg": -109.42682007303588,
+        "phase_margin_deg": 70.57317992696412
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1802283.4722397842,
+        "phase_deg": -180,
+        "gain_margin_dB": 22.915427752470887
+      }
+    ],
+    "gain_at_1Hz_dB": 130.7088578781391,
+    "minimum_swept_gain_dB": -70.39984573701372,
+    "stem": "SIM-09_external_33V_100mA_10u_R1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 0.1,
+    "external_uF": 10,
+    "external_series_ohm": 1.0,
+    "output_bias_V": 3.300020217895508,
+    "load_bias_A": 0.10000061243772507,
+    "hashes": {
+      "asc": "df59fafb13499f9ca0229b7d89d79b864b77d28f666541aece76d4983311d2aa",
+      "net": "3c41e505eccf96ab5e06c0368f50cb12fa88067d6f1264ac051106b92a0db280",
+      "raw": "874e2d5278009ee342790725c2203a6b35dd6adee78a3eb747d9468c0c215e99",
+      "log": "229cedace8719a20b5b2fb8554c1db64e5cee8129d5cb0482861683056b8551a"
+    }
+  },
+  "SIM-09_external_33V_1A_0u_R0": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 530472.9422856966,
+        "phase_deg": -128.02144618818016,
+        "phase_margin_deg": 51.978553811819836
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 1988550.999989627,
+        "phase_deg": -180,
+        "gain_margin_dB": 17.752288434015334
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54939566162507,
+    "minimum_swept_gain_dB": -66.53819854885569,
+    "stem": "SIM-09_external_33V_1A_0u_R0",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 1.0,
+    "external_uF": 0,
+    "external_series_ohm": 0,
+    "output_bias_V": 3.3000001907348633,
+    "load_bias_A": 1.0000001192092896,
+    "hashes": {
+      "asc": "87fd265aa4cf11e3eae5526074e91c07f4819795c29a36fa7a79da602b49ed04",
+      "net": "b354e954b36a444659d5df2b97435926881ab79b0e29b034a8f2a2b612488392",
+      "raw": "53fdbc80b0b0a9bdc1d9145d8584fbce10470ddcaede3957ee6cc984aad6d5f2",
+      "log": "d9215aa5aa5c89864044271c28a15043e4606d6882702c9fcc31867a969a56c9"
+    }
+  },
+  "SIM-09_external_33V_1A_1u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 344245.48254146875,
+        "phase_deg": -142.69481027422813,
+        "phase_margin_deg": 37.30518972577187
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 883444.6626959277,
+        "phase_deg": -180,
+        "gain_margin_dB": 14.86374903727305
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54939565454704,
+    "minimum_swept_gain_dB": -75.15880342984802,
+    "stem": "SIM-09_external_33V_1A_1u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 1.0,
+    "external_uF": 1,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 3.3000001907348633,
+    "load_bias_A": 1.0000001192092896,
+    "hashes": {
+      "asc": "efb897554632ee3cdc76b038b37cbd8d80f8ee7bd556fc40bb3f4b02c2824e7e",
+      "net": "e092950ca6145f000b511ab4e981f02657c6c9ae4b2d663419920373f781416e",
+      "raw": "7a6ac6ec6726b0611218d917fc09d7482f3ee91fb5f342276140c7fcb7ed2ffc",
+      "log": "ceeacaa0afc46d6e0419504a0b461579fef3dd359b499edf7595a993edbb6d4e"
+    }
+  },
+  "SIM-09_external_33V_1A_10u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 127688.82719650115,
+        "phase_deg": -108.5383734765026,
+        "phase_margin_deg": 71.4616265234974
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2168197.760643822,
+        "phase_deg": -180,
+        "gain_margin_dB": 32.88096436878648
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54939542279557,
+    "minimum_swept_gain_dB": -75.14846630465642,
+    "stem": "SIM-09_external_33V_1A_10u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 1.0,
+    "external_uF": 10,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 3.3000001907348633,
+    "load_bias_A": 1.0000001192092896,
+    "hashes": {
+      "asc": "bf79aa36dd1b5bda88550284cb07166ae66de0516615cba2629b1aedb2c3bbb1",
+      "net": "4ad0c51a290ff94b125f46bd75ea3fb9a28a353829be37f45d31972e368e817f",
+      "raw": "fa168851c9a8573d6ca00f1950983c8597c2279534552e4bf175d2966558db4b",
+      "log": "2367c9c57d3b938f78011350232b76b3482eace0ec498c6cdd78144afe135715"
+    }
+  },
+  "SIM-09_external_33V_1A_47u_R0p1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 66944.52890061282,
+        "phase_deg": -76.75152739710603,
+        "phase_margin_deg": 103.24847260289397
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2279607.257999936,
+        "phase_deg": -180,
+        "gain_margin_dB": 33.63004697109224
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54939130387888,
+    "minimum_swept_gain_dB": -75.14735723667273,
+    "stem": "SIM-09_external_33V_1A_47u_R0p1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 1.0,
+    "external_uF": 47,
+    "external_series_ohm": 0.1,
+    "output_bias_V": 3.3000001907348633,
+    "load_bias_A": 1.0000001192092896,
+    "hashes": {
+      "asc": "85820ef0043edf7e242b4b2bfc98358f600659f0465a9ba4a05b2c90a8af14a6",
+      "net": "9617458eac2a753a47f720363c1e8e58a277e9d378b430d5ff496cf85c433545",
+      "raw": "584fb50d514ed1f37d86a35fc130eab6917a557d8a7b215520d82414334e2cb2",
+      "log": "7c2931a6738d4f69c0ce5fc736689ab619459345d40529763c680cb4d918901e"
+    }
+  },
+  "SIM-09_external_33V_1A_10u_R1": {
+    "unity_crossings": [
+      {
+        "frequency_Hz": 400566.6958940342,
+        "phase_deg": -114.76990102760328,
+        "phase_margin_deg": 65.23009897239672
+      }
+    ],
+    "phase_crossings": [
+      {
+        "frequency_Hz": 2093284.6710571593,
+        "phase_deg": -180,
+        "gain_margin_dB": 21.376797379240813
+      }
+    ],
+    "gain_at_1Hz_dB": 107.54939532420856,
+    "minimum_swept_gain_dB": -67.87566341233214,
+    "stem": "SIM-09_external_33V_1A_10u_R1",
+    "solver": "alt",
+    "kind": "ac",
+    "mode": "33V",
+    "current_A": 1.0,
+    "external_uF": 10,
+    "external_series_ohm": 1.0,
+    "output_bias_V": 3.3000001907348633,
+    "load_bias_A": 1.0000001192092896,
+    "hashes": {
+      "asc": "87bbb246e97fa5c04006e682ce0403e31e199dca75e1faca2bdb21fab671703b",
+      "net": "9fad507b6a92673884f6c2526d9beae400f5c057d3e4ea04fc3277f2fcd0e871",
+      "raw": "0ad3a9597409dd633cc58d3acc7a9c76bd20d5c9bdbdd92a29e8c7c1631c55a8",
+      "log": "4f35834c36f8119f896848d92039303ee18de38002a35a418e1424b7224bfd1f"
+    }
+  }
+}

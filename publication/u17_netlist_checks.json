@@ -1,0 +1,165 @@
+{
+  "scope": "Netlist generation and U17 model assignment only. Not full transient validation.",
+  "files": [
+    {
+      "file": "SIM-01_calibrated_startup_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-01_calibrated_startup_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-01_check_step_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-01_check_step_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_cal_01_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_cal_01_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_cal_02_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_cal_02_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_calibrated_line_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_calibrated_line_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_full_line_33V_changes.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_full_line_33V_pilot.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-02_full_line_5V_changes.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-03_calibrated_load_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-03_calibrated_load_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-03_load_stepcheck_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-03_load_stepcheck_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_adjusted_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_adjusted_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_adjusted_settled_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_calibrated_input_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_driver_R100_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_driver_thermal_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_pulsed_load_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-04_pulsed_load_inhibit_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-05_calibrated_idle_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-05_calibrated_idle_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-06_calibrated_transient_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-06_calibrated_transient_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-07_calibrated_protection_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-08_calibrated_limit_33V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    },
+    {
+      "file": "SIM-08_calibrated_limit_5V.asc",
+      "U17": "XU17 VBAT N063 VEE irf4905",
+      "model_include_present": true
+    }
+  ]
+}

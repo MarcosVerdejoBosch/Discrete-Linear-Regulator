@@ -1,0 +1,15 @@
+{
+  "source": "SIM-04_adjusted_5V.asc",
+  "source_sha256": "a5d1f870a77a1d42a5bf949c2f0af6ea23fdf671af195a28fd32a562ebf78adb",
+  "scenario": "SIM-04_adjusted_settled_5V.asc",
+  "scenario_sha256": "452190fa2de99671fa8f6aed229f3858b5f8c78f8202ac5873b6ae07a23b969b",
+  "source_PWL": "PWL(0 8 80m 8 100m 5.10 115m 5.10 116m 5.00 131m 5.00 132m 4.95 147m 4.95 148m 4.94 163m 4.94)",
+  "hold_duration_ms": 15,
+  "average_final_ms": 5,
+  "load_ohm": 50,
+  "temperature_C": 27,
+  "max_step_us": 2,
+  "trtol": 1,
+  "solver": "Normal",
+  "changes": "Only source waveform and duration; RV10=100k, RV12=47k retained. No auxiliary source or bypass."
+}

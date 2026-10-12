@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "5V",
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "test": "SIM-08_calibrated_limit_5V.asc",
+    "input_V": 8,
+    "temp_C": 27,
+    "load_ohm": [
+      5,
+      2.5,
+      5,
+      0.05,
+      5
+    ],
+    "edge_ms": [
+      80,
+      110,
+      140,
+      170
+    ],
+    "conductance_transition_us": 10,
+    "max_step_us": 2,
+    "duration_ms": 210
+  },
+  {
+    "mode": "33V",
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "test": "SIM-08_calibrated_limit_33V.asc",
+    "input_V": 8,
+    "temp_C": 27,
+    "load_ohm": [
+      3.3,
+      1.65,
+      3.3,
+      0.05,
+      3.3
+    ],
+    "edge_ms": [
+      80,
+      110,
+      140,
+      170
+    ],
+    "conductance_transition_us": 10,
+    "max_step_us": 2,
+    "duration_ms": 210
+  }
+]

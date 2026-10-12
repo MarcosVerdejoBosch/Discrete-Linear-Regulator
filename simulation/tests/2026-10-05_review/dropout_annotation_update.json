@@ -1,0 +1,14 @@
+[
+  {
+    "stem": "SIM-04_adjusted_5V",
+    "change": "visible review comment only; no component or directive change",
+    "before_sha256": "eccc491b4e6f83273571aec76719888098203410ac7b02bf89858df3f5509d40",
+    "after_sha256": "a5eef1f00df688f620cbea54a047253692ac7dc31c2a8ada47cf9b3374f8e354"
+  },
+  {
+    "stem": "SIM-04_adjusted_33V",
+    "change": "visible review comment only; no component or directive change",
+    "before_sha256": "aedd91ca41d7230a3d300ef656cf6b6a3b9270a59df6b389167bf583f6436ebd",
+    "after_sha256": "e08b0f4e6e1b76b3429cbcfc23a11c20e29c342508c49966c0d8afa2cb3a1fc0"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "test": "SIM-02_full_line_5V_gear_check",
+  "all_steps_completed": false,
+  "completed_steps": [
+    {
+      "source_V": 8.0,
+      "vout_avg_V": 5.061594580711436,
+      "drift_mV": 3.783843727234171e-05,
+      "vout_pp_mV": 0.2808570861816406,
+      "enable_min_V": 7.225855350494385
+    }
+  ]
+}

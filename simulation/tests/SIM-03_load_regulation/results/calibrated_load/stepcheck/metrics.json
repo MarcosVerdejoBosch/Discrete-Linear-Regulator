@@ -1,0 +1,76 @@
+{
+  "5V": {
+    "points": [
+      {
+        "nominal_A": 1,
+        "vout_V": 5.000005448761844,
+        "load_A": 1.000000959547514,
+        "difference_from_2us_uV": -0.0014692913552494247,
+        "drift_uV": 0.034564199502540305
+      },
+      {
+        "nominal_A": 0.1,
+        "vout_V": 5.000019549210906,
+        "load_A": 0.10000041688729125,
+        "difference_from_2us_uV": 0.1306900117015175,
+        "drift_uV": 0.03725341102267521
+      }
+    ],
+    "signed_slope_mV_per_A": -0.01566715617750128,
+    "manifest": [
+      {
+        "file": "SIM-03_load_stepcheck_5V.asc",
+        "sha256": "9edc1b689996d5691f6c8ded650fe978a40e0fb78a011f478a46969d61849d44"
+      },
+      {
+        "file": "SIM-03_load_stepcheck_5V.net",
+        "sha256": "c61887627e8cf1ca45f9315979f6fe1a15ff47cc9de6721be9147f3eca8095be"
+      },
+      {
+        "file": "SIM-03_load_stepcheck_5V.log",
+        "sha256": "e62257e503252ddb1ec512834e1a361d2d9cf86d5d55cef0a895023314bc43c3"
+      },
+      {
+        "file": "SIM-03_load_stepcheck_5V.raw",
+        "sha256": "fa8e25d7e60b433a451c3471c5fb374fa3b211fed7efbea01c088621f711da02"
+      }
+    ]
+  },
+  "33V": {
+    "points": [
+      {
+        "nominal_A": 1,
+        "vout_V": 3.3000002169801608,
+        "load_A": 0.9999999888828319,
+        "difference_from_2us_uV": 0.04741053949430807,
+        "drift_uV": 0.04869770942050877
+      },
+      {
+        "nominal_A": 0.1,
+        "vout_V": 3.30000166632069,
+        "load_A": 0.10000007222787057,
+        "difference_from_2us_uV": 0.057741564418734015,
+        "drift_uV": 0.01591021625557687
+      }
+    ],
+    "signed_slope_mV_per_A": -0.0016103785150958225,
+    "manifest": [
+      {
+        "file": "SIM-03_load_stepcheck_33V.asc",
+        "sha256": "9056ae8b84056ea8efb2f555d8a9dd0d0a94dff862b82bf975506565b9024987"
+      },
+      {
+        "file": "SIM-03_load_stepcheck_33V.net",
+        "sha256": "9d92099f2c6595ab961fce2e8463c5c56b6a6c8578072818556d0d7d076050d9"
+      },
+      {
+        "file": "SIM-03_load_stepcheck_33V.log",
+        "sha256": "2d9b0920746cf51ed5414d481452f985c1907ac20329e83e5ccf2c51de738b65"
+      },
+      {
+        "file": "SIM-03_load_stepcheck_33V.raw",
+        "sha256": "3ad1682e026c5e1da5d50b9280e71e37a786ceb60300c7dc7ecbd629a27c7804"
+      }
+    ]
+  }
+}

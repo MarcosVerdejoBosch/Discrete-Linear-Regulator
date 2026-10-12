@@ -1,0 +1,7 @@
+{
+  "source": "metrics.json",
+  "sha256": "c2aa7f59883b58f073c509d2f2167da88eac602ea9d1ccb27e45a42ca988d0b2",
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "processing": "Time-weighted final 10 ms means, referenced to final 1 A mean; first startup point excluded from plotted sweep; no smoothing or fitting."
+}

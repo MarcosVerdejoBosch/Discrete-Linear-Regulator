@@ -1,0 +1,18 @@
+{
+  "purpose": "Near-no-load small added current-step cross-check; auxiliary-restored core, fixed sources",
+  "mode": "3.3 V",
+  "C_uF": 1,
+  "ESR_ohm": [
+    1,
+    0.1
+  ],
+  "baseline_load_ohm": 1000000.0,
+  "added_current_A": 1e-05,
+  "edges_s": [
+    0.001,
+    0.003
+  ],
+  "ramp_s": 1e-06,
+  "stop_s": 0.005,
+  "max_step_s": 2e-07
+}

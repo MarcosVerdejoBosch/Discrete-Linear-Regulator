@@ -1,0 +1,5 @@
+{
+  "processing": "Original samples; no smoothing. Shading: overload 80-110ms; 50mohm short 140-170ms. Sense current is -I(R25), toward load.",
+  "metrics_sha256": "9357ef3e5c042345b79218a308664e5cd4c0dbf41a29e01f12dd01583c43f4aa",
+  "matplotlib": "3.11.2"
+}

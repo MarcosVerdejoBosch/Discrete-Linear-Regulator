@@ -1,0 +1,50 @@
+[
+  {
+    "file": "SIM-09_review_dense_5V_voltage.cir",
+    "change": "dense",
+    "source": "SIM-09_ac_5V_voltage.cir",
+    "source_sha256": "fa6ca27d14510a4c3b88faa430f059f2469f8a98388be59246564bc859fdde11"
+  },
+  {
+    "file": "SIM-09_review_dense_5V_current.cir",
+    "change": "dense",
+    "source": "SIM-09_ac_5V_current.cir",
+    "source_sha256": "6fc66bcf2297f5ac1831f4c34e6ab0b9e39f184d32b3c260be72e7f1733367aa"
+  },
+  {
+    "file": "SIM-09_review_reverse_5V_voltage.cir",
+    "change": "reverse",
+    "source": "SIM-09_ac_5V_voltage.cir",
+    "source_sha256": "fa6ca27d14510a4c3b88faa430f059f2469f8a98388be59246564bc859fdde11"
+  },
+  {
+    "file": "SIM-09_review_reverse_5V_current.cir",
+    "change": "reverse",
+    "source": "SIM-09_ac_5V_current.cir",
+    "source_sha256": "6fc66bcf2297f5ac1831f4c34e6ab0b9e39f184d32b3c260be72e7f1733367aa"
+  },
+  {
+    "file": "SIM-09_review_dense_33V_voltage.cir",
+    "change": "dense",
+    "source": "SIM-09_ac_33V_voltage.cir",
+    "source_sha256": "647330abf1cd33e2ca48ebc3630ad9e4b73fd2ebc7243e4eb6f958945fe439e5"
+  },
+  {
+    "file": "SIM-09_review_dense_33V_current.cir",
+    "change": "dense",
+    "source": "SIM-09_ac_33V_current.cir",
+    "source_sha256": "1f6986c233c6c76655de54e4c341a9536efa69af266457c25668ece040d6ceb6"
+  },
+  {
+    "file": "SIM-09_review_reverse_33V_voltage.cir",
+    "change": "reverse",
+    "source": "SIM-09_ac_33V_voltage.cir",
+    "source_sha256": "647330abf1cd33e2ca48ebc3630ad9e4b73fd2ebc7243e4eb6f958945fe439e5"
+  },
+  {
+    "file": "SIM-09_review_reverse_33V_current.cir",
+    "change": "reverse",
+    "source": "SIM-09_ac_33V_current.cir",
+    "source_sha256": "1f6986c233c6c76655de54e4c341a9536efa69af266457c25668ece040d6ceb6"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-07",
+  "archive_filename": "Congelado-16-2026-10-07.zip",
+  "archive_sha256": "bbb725ce0eaa334752a94adf4376945305d03476cc3c0e3b88b8e8cd295f3b48",
+  "zip_contents_verified": 11136,
+  "source": "Local Simulaciones folder, not reconstructed from GitHub",
+  "remote_backup_confirmed": false,
+  "clean_machine_restore_tested": false,
+  "contains_private_external_models": true,
+  "cases": [
+    {
+      "stem": "SIM-01_calibrated_startup_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "e87bef48555a0b3831618e14629e5caad83d7e33bd8294594931b281b1e04657",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-01_calibrated_startup_33V",
+      "solver": "alt",
+      "frozen_asc_sha256": "5b36621987c648af142e8e0d4339809e1522f0f30e57f8b300b1cc09b24709c0",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-02_calibrated_line_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "b40799a18de9a0b8d400571cd8d06a0accebf73574eebfe40bba6545e25f1af4",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-02_calibrated_line_33V",
+      "solver": "norm",
+      "frozen_asc_sha256": "eaaf3692951b3e8eeced9d63c7519d3d2f0ac3e092b780818e5c7745796e7668",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-03_calibrated_load_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "41a84bdfa8a39bfda5bcf5e387c573b64f35ad90f16d8486c2558bb582ed479c",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-03_calibrated_load_33V",
+      "solver": "norm",
+      "frozen_asc_sha256": "b40767935a5327be9bb916a84a27748d7654c2df094abd92a6f3f46d33787bfc",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-04_calibrated_input_33V",
+      "solver": "alt",
+      "frozen_asc_sha256": "112c2bf9db07e982cf767d18264ca9279d965b79b74a91adef5564efa69715dd",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-05_calibrated_idle_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "b3f4ce3455ffda13ec5aaac456e26595b1690356241287cbb58657111e4786fe",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-05_calibrated_idle_33V",
+      "solver": "alt",
+      "frozen_asc_sha256": "803a118a80c66bd214d9259489e5d407af256447fa054bac53d147b5d00acdc7",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-06_calibrated_transient_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "2b00b9e02da99cc29bfe14d0dc16e712488f70fd6ac5389ff3254bd4a01287bc",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-06_calibrated_transient_33V",
+      "solver": "alt",
+      "frozen_asc_sha256": "d3da1203d5545e80783507e4f59643235eaa219812a26799adacafec7ae742db",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-07_calibrated_protection_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "2565f40225a0138a916a02c81c78f0acf61b96bdbf8532cff63ff087b5da7baa",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-08_calibrated_limit_5V",
+      "solver": "norm",
+      "frozen_asc_sha256": "2d08a8ba8bef682c1d3a71fecc3fc4be33442c338cb71045e90f123b9653a7b8",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-08_calibrated_limit_33V",
+      "solver": "alt",
+      "frozen_asc_sha256": "c72a126393c59ce5e8b01369035f2db6efe2d62a11ce111aba0e3b84a7502ffc",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-09_loop_5V",
+      "solver": "alt",
+      "frozen_asc_sha256": "d85bfa23111e839dc15baeb24eca40d4da08681d9abbb86709ee0560af3baad1",
+      "status": "execution validated by user; exact current local file preserved"
+    },
+    {
+      "stem": "SIM-09_loop_33V",
+      "solver": "alt",
+      "frozen_asc_sha256": "8a7b4ba10149b3a9cc1a1534d20efd9f74ed2a91e893c0dc1c983b4eb2218056",
+      "status": "execution validated by user; exact current local file preserved"
+    }
+  ]
+}

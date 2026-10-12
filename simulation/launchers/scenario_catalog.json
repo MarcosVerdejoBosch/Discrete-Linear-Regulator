@@ -1,0 +1,82 @@
+[
+  {
+    "label": "SIM-01 | Arranque, apagado y reinicio | 5 V",
+    "stem": "SIM-01_calibrated_startup_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-01 | Arranque, apagado y reinicio | 3.3 V",
+    "stem": "SIM-01_calibrated_startup_33V",
+    "solver": "alt"
+  },
+  {
+    "label": "SIM-02 | Regulacion de linea | 5 V",
+    "stem": "SIM-02_calibrated_line_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-02 | Regulacion de linea | 3.3 V",
+    "stem": "SIM-02_calibrated_line_33V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-03 | Regulacion de carga | 5 V",
+    "stem": "SIM-03_calibrated_load_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-03 | Regulacion de carga | 3.3 V",
+    "stem": "SIM-03_calibrated_load_33V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-04 | Limite inferior con protecciones | 3.3 V",
+    "stem": "SIM-04_calibrated_input_33V",
+    "solver": "alt"
+  },
+  {
+    "label": "SIM-05 | Consumo sin carga | 5 V",
+    "stem": "SIM-05_calibrated_idle_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-05 | Consumo sin carga | 3.3 V",
+    "stem": "SIM-05_calibrated_idle_33V",
+    "solver": "alt"
+  },
+  {
+    "label": "SIM-06 | Escalon de carga | 5 V",
+    "stem": "SIM-06_calibrated_transient_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-06 | Escalon de carga | 3.3 V",
+    "stem": "SIM-06_calibrated_transient_33V",
+    "solver": "alt"
+  },
+  {
+    "label": "SIM-07 | UVLO y OVLO | 5 V",
+    "stem": "SIM-07_calibrated_protection_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-08 | Limite de corriente y recuperacion | 5 V",
+    "stem": "SIM-08_calibrated_limit_5V",
+    "solver": "norm"
+  },
+  {
+    "label": "SIM-08 | Limite de corriente y recuperacion | 3.3 V",
+    "stem": "SIM-08_calibrated_limit_33V",
+    "solver": "alt"
+  },
+  {
+    "label": "SIM-09 | Ganancia de lazo | 5 V",
+    "stem": "SIM-09_loop_5V",
+    "solver": "alt"
+  },
+  {
+    "label": "SIM-09 | Ganancia de lazo | 3.3 V",
+    "stem": "SIM-09_loop_33V",
+    "solver": "alt"
+  }
+]

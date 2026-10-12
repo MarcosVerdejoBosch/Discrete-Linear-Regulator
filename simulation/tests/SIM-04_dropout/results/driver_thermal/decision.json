@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-20",
+  "source": "Explicit user instruction",
+  "R21_ohm": 10,
+  "R21_rated_power_W": 0.25,
+  "retain_R21": true,
+  "R100_status": "Rejected for implementation; historical comparison retained",
+  "next_step": "Continue simulation review with SIM-05 then SIM-06; physical ESP32 interface deferred by user",
+  "Q3_manufacturer": "not confirmed",
+  "preferred_bench_actuation": "ESP32-controlled load connection/disconnection, shared with load-regulation bench",
+  "load_pulsing_thermally_validated": false,
+  "load_pulsing_alone_sufficient": false,
+  "external_drive_inhibition_concept_verified": true,
+  "physical_pulse_timing_validated": false,
+  "ESP32_interface_status": "Deferred by user on 2026-09-20; retain previous electrical results"
+}

@@ -1,0 +1,22 @@
+{
+  "SIM-09_ac_5V_voltage": {
+    "device_connectivity_and_values_equal": true,
+    "devices": 89,
+    "asc_sha256": "c4cac4ca66acaa22f7d3f6e1808760219ba7ef721adeb96d906179ae20d5b3a3"
+  },
+  "SIM-09_ac_5V_current": {
+    "device_connectivity_and_values_equal": true,
+    "devices": 89,
+    "asc_sha256": "385cf0a9d1e4fd47db7a54767e901a5ecf28292a81b10e77ef49337b61f14ac8"
+  },
+  "SIM-09_ac_33V_voltage": {
+    "device_connectivity_and_values_equal": true,
+    "devices": 88,
+    "asc_sha256": "a4aa4ea89fc5c1ae3a1de3ac3a98194dd49621a48bc2f8960f52b9727a1d2061"
+  },
+  "SIM-09_ac_33V_current": {
+    "device_connectivity_and_values_equal": true,
+    "devices": 88,
+    "asc_sha256": "48a964bb93e0dd49008f55b536b85a8e383825a4efe29f6ab51aa8c9a4ddf20e"
+  }
+}

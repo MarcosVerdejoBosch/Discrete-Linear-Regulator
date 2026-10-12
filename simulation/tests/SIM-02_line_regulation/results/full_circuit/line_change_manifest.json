@@ -1,0 +1,18 @@
+[
+  {
+    "file": "SIM-02_full_line_5V_changes.asc",
+    "sha256": "1c72e89cf6387266df48a2efe3555df8337c18e48eb6b2c0d036c6f0ed8bfcc0"
+  },
+  {
+    "file": "SIM-02_full_line_5V_changes.net",
+    "sha256": "542db9e109b6854e3018fcfd4dad86c6ae9222f143107302225c7385baac6b35"
+  },
+  {
+    "file": "SIM-02_full_line_5V_changes.log",
+    "sha256": "b848ba4e0144c1fbd74267a4f4a8a121c78bf5c95f9785cf06462b644fa9e3c9"
+  },
+  {
+    "file": "SIM-02_full_line_5V_changes.raw",
+    "sha256": "56d6e64a6ec7341c6094e6a8ccb8105e8c6fee3ef5acef2ef1fff2283be90c43"
+  }
+]

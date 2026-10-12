@@ -1,0 +1,11 @@
+{
+  "version": "17.1.15 (x64)",
+  "version_evidence": "Read from Help > About LTspice in the native application during this review.",
+  "model_sha256": "d6363459b4a5086a3f91cd0c973636ca1a4e38215d85df5d3463c37af85849f0",
+  "native_presets_visually_checked": [
+    "SIM-02_calibrated_line_5V",
+    "SIM-05_calibrated_idle_5V",
+    "SIM-06_calibrated_transient_5V"
+  ],
+  "selector_execution_check": "SIM-09_loop_5V completed using run_scenario.ps1 -NoOpen"
+}

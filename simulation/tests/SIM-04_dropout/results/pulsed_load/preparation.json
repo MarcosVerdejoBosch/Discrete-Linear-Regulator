@@ -1,0 +1,27 @@
+{
+  "source": "SIM-04_driver_thermal_5V.asc",
+  "source_sha256": "d0a3f86df4af6b93a05aab90ce704c4a7712a4e8781045731cf32274c6979931",
+  "file": "SIM-04_pulsed_load_5V.asc",
+  "sha256": "0ba3dc5f7dc502be1679b0412b13aa91b5f114d867cf6fd999c1caedcf96622e",
+  "source_waveform": "8 V startup; 5.10 V at 100-130 ms; 4.94 V at 132-210 ms",
+  "load_on_ohm": 50,
+  "load_off_ohm": 1000000.0,
+  "conductance_edges_us": 10,
+  "load_pulses_ms": [
+    [
+      150,
+      160
+    ],
+    [
+      180,
+      190
+    ]
+  ],
+  "R21_ohm": 10,
+  "R21_rated_W": 0.25,
+  "max_timestep_us": 2,
+  "temperature_C": 27,
+  "solver": "Normal",
+  "trtol": 1,
+  "scope": "Ideal switched conductance checks whether removing external load reduces driver dissipation; does not model an ESP32 or physical MOSFET. All real auxiliary circuit models retained; no protection bypass."
+}

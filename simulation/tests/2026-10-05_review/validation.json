@@ -1,0 +1,17 @@
+{
+  "ltspice_version": "XVII 17.1.15",
+  "completed_ac_cases": 20,
+  "completed_uvlo_bypass_cir_cases": 2,
+  "native_dropout_netlists_match_completed_cir": true,
+  "additional_launcher_run_checked": "SIM-09_external_5V_100mA_10u_R0p1",
+  "report_pages": 19,
+  "report_undefined_references": false,
+  "physical_validation": false,
+  "user_reported_principal_entries_executed": 16,
+  "figure_sha256": {
+    "SIM-09_external_capacitance_33V.pdf": "442030942f63014a812830120b2e3fdd9cf509e9fb34e30e6e21d4d0e18cde3d",
+    "SIM-09_external_capacitance_5V.pdf": "9a5cec9823f8ebf59901e9078c522b511c0d0d871dc38c4d37cb842e91e917be",
+    "SIM-09_load_comparison_33V.pdf": "99de3be9d2660453942c6fe9688bcde4be91b5284a42b00303ef05e7dbebd82d",
+    "SIM-09_load_comparison_5V.pdf": "1374242abf95cc0815cb3c23add27dac28f095b12a1f340417738b0e40bf6841"
+  }
+}

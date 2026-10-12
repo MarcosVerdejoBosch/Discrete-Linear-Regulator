@@ -1,0 +1,22 @@
+[
+  {
+    "source": "SIM-02_cal_02_5V.asc",
+    "source_sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f",
+    "test": "SIM-02_calibrated_line_5V.asc",
+    "sha256": "6590ce8da489c0ea52f392eb445364ccd9e4e868df60db9d3fade1463f565a3a",
+    "changes": [
+      "Source PWL: 8 V startup, then 6 through 11 V at 40 ms intervals and 0.1 ms ramps",
+      "Transient extended to 320 ms; all other settings retained"
+    ]
+  },
+  {
+    "source": "SIM-02_cal_02_33V.asc",
+    "source_sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf",
+    "test": "SIM-02_calibrated_line_33V.asc",
+    "sha256": "346221fbaa9f7595f8105115f1503c0aa5e4ffdcdc2b2aa18033b5a88f6a0984",
+    "changes": [
+      "Source PWL: 8 V startup, then 6 through 11 V at 40 ms intervals and 0.1 ms ramps",
+      "Transient extended to 320 ms; all other settings retained"
+    ]
+  }
+]

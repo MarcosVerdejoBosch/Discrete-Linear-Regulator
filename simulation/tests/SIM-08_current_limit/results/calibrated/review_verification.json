@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "method": "Archived RAW reanalysis; no LTspice rerun",
+  "user_validation": "pending",
+  "hardware_validation": "pending",
+  "transient_peak_convergence": "not characterized",
+  "modes": {
+    "5V": {
+      "end_time_s": 0.21000012291272466,
+      "archive_and_active_hashes_match": true,
+      "overload_current_A": 1.4852284161257796,
+      "short_current_A": 1.4737721135050588,
+      "short_output_V": 0.07368862378786979,
+      "final_output_V": 5.00000533038522,
+      "return_difference_uV": 0.13612812121976958,
+      "sampled_short_load_peak_A": 6.652013301849365,
+      "sampled_short_sense_peak_A": 6.654415607452393
+    },
+    "33V": {
+      "end_time_s": 0.2100000892900343,
+      "archive_and_active_hashes_match": true,
+      "overload_current_A": 1.4654546274685,
+      "short_current_A": 1.4737732014811227,
+      "short_output_V": 0.07368867032602619,
+      "final_output_V": 3.3000001096894223,
+      "return_difference_uV": 0.42473272099385895,
+      "sampled_short_load_peak_A": 6.652502536773682,
+      "sampled_short_sense_peak_A": 6.654606342315674
+    }
+  }
+}

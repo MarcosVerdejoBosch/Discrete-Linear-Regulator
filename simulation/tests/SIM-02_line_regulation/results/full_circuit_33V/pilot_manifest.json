@@ -1,0 +1,18 @@
+[
+  {
+    "file": "SIM-02_full_line_33V_pilot.asc",
+    "sha256": "8eb577f6dc2b01aa8086a795b71ed2471a2339a8141264d1b0c4acdfb3f08f67"
+  },
+  {
+    "file": "SIM-02_full_line_33V_pilot.net",
+    "sha256": "de51d7b0e7750ae748a4ce9575805eb96f31f176caf7546c35c6a5e1d89f2ad9"
+  },
+  {
+    "file": "SIM-02_full_line_33V_pilot.log",
+    "sha256": "c3674e86e2002c57a5f783b4066a0508ceed6215b1c8b85aa1d95b44dbe64b2c"
+  },
+  {
+    "file": "SIM-02_full_line_33V_pilot.raw",
+    "sha256": "13c3b345ceb4a2710574209c6228eca8e3ae1a18fe7e24c8d3033b3f19e0b44f"
+  }
+]

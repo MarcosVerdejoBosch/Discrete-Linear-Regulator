@@ -1,0 +1,164 @@
+{
+  "Q3_package": "SOT-23",
+  "Q3_layer": "F.Cu",
+  "collector_pad": "3, GND, 1.475 x 0.6 mm",
+  "ground_zone_settings": [
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"F.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"B.Cu\")",
+      "connect_pads": "(clearance 0.5)",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"B.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"B.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"B.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"B.Cu\")",
+      "connect_pads": "(clearance 0.5)",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"B.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"In1.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    },
+    {
+      "layer": "\"In2.Cu\")",
+      "connect_pads": "yes",
+      "thermal_gap": "0.5)",
+      "thermal_bridge_width": "0.5)"
+    }
+  ],
+  "limitation": "A GND net or zone connection alone does not establish junction-to-ambient thermal resistance. Actual copper connectivity, stackup, mounting and manufacturer remain relevant."
+}

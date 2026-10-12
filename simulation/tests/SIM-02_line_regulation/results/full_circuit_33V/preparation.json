@@ -1,0 +1,12 @@
+{
+  "source": "simulation\\ltspice\\SIM-02_full_line_5V_pilot.asc",
+  "source_sha256": "65f3ebfae79aeaa1352f50b4318dba4420e9245ce53594907b8a44b393ba615d",
+  "test": "simulation\\ltspice\\SIM-02_full_line_33V_pilot.asc",
+  "test_sha256": "8eb577f6dc2b01aa8086a795b71ed2471a2339a8141264d1b0c4acdfb3f08f67",
+  "changes": [
+    "Remove selector gate feed R62; retain R60 pull-down to turn U8 off",
+    "Load 3.3 ohm; preserve R33=14.5k, RFB1=15k, RFB2=25k"
+  ],
+  "conditions": "8 V source, 27 C, 80 ms transient, maximum step 2 us",
+  "status": "Uncalibrated selector-off pilot, awaiting execution"
+}

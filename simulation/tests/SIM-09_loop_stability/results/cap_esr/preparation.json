@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-21",
+  "scope": "One-factor diagnostic variations; not a real capacitor tolerance specification. 1 Mohm load, restored output auxiliary branch, fixed nominal supplies, 27 C.",
+  "solver": "Alternate",
+  "jobs": [
+    {
+      "file": "SIM-09_ce_5V_nominal_voltage.cir",
+      "source": "SIM-09_load_5V_idle_aux_voltage.cir",
+      "source_sha256": "cd4d96affc049aef19231e6676bb9e36ccf485b76a1c667f763c31c2b1e123e3",
+      "C_uF": 1,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_5V_nominal_current.cir",
+      "source": "SIM-09_load_5V_idle_aux_current.cir",
+      "source_sha256": "02bb29553dc84ea9e80a47663b67f9c97beab89444e120201e85b004714a720f",
+      "C_uF": 1,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_5V_C080_voltage.cir",
+      "source": "SIM-09_load_5V_idle_aux_voltage.cir",
+      "source_sha256": "cd4d96affc049aef19231e6676bb9e36ccf485b76a1c667f763c31c2b1e123e3",
+      "C_uF": 0.8,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_5V_C080_current.cir",
+      "source": "SIM-09_load_5V_idle_aux_current.cir",
+      "source_sha256": "02bb29553dc84ea9e80a47663b67f9c97beab89444e120201e85b004714a720f",
+      "C_uF": 0.8,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_5V_C120_voltage.cir",
+      "source": "SIM-09_load_5V_idle_aux_voltage.cir",
+      "source_sha256": "cd4d96affc049aef19231e6676bb9e36ccf485b76a1c667f763c31c2b1e123e3",
+      "C_uF": 1.2,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_5V_C120_current.cir",
+      "source": "SIM-09_load_5V_idle_aux_current.cir",
+      "source_sha256": "02bb29553dc84ea9e80a47663b67f9c97beab89444e120201e85b004714a720f",
+      "C_uF": 1.2,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_5V_ESR010_voltage.cir",
+      "source": "SIM-09_load_5V_idle_aux_voltage.cir",
+      "source_sha256": "cd4d96affc049aef19231e6676bb9e36ccf485b76a1c667f763c31c2b1e123e3",
+      "C_uF": 1,
+      "ESR_ohm": 0.1
+    },
+    {
+      "file": "SIM-09_ce_5V_ESR010_current.cir",
+      "source": "SIM-09_load_5V_idle_aux_current.cir",
+      "source_sha256": "02bb29553dc84ea9e80a47663b67f9c97beab89444e120201e85b004714a720f",
+      "C_uF": 1,
+      "ESR_ohm": 0.1
+    },
+    {
+      "file": "SIM-09_ce_5V_ESR300_voltage.cir",
+      "source": "SIM-09_load_5V_idle_aux_voltage.cir",
+      "source_sha256": "cd4d96affc049aef19231e6676bb9e36ccf485b76a1c667f763c31c2b1e123e3",
+      "C_uF": 1,
+      "ESR_ohm": 3
+    },
+    {
+      "file": "SIM-09_ce_5V_ESR300_current.cir",
+      "source": "SIM-09_load_5V_idle_aux_current.cir",
+      "source_sha256": "02bb29553dc84ea9e80a47663b67f9c97beab89444e120201e85b004714a720f",
+      "C_uF": 1,
+      "ESR_ohm": 3
+    },
+    {
+      "file": "SIM-09_ce_33V_nominal_voltage.cir",
+      "source": "SIM-09_load_33V_idle_aux_voltage.cir",
+      "source_sha256": "1d3c6116524f3046113cd6e0afe861e62b18b881ec4bb7f808f65862ccffea36",
+      "C_uF": 1,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_33V_nominal_current.cir",
+      "source": "SIM-09_load_33V_idle_aux_current.cir",
+      "source_sha256": "22031ba7c6ef53937646fc94a3bfcf5342812932c15f98c1badb7c21f475efca",
+      "C_uF": 1,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_33V_C080_voltage.cir",
+      "source": "SIM-09_load_33V_idle_aux_voltage.cir",
+      "source_sha256": "1d3c6116524f3046113cd6e0afe861e62b18b881ec4bb7f808f65862ccffea36",
+      "C_uF": 0.8,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_33V_C080_current.cir",
+      "source": "SIM-09_load_33V_idle_aux_current.cir",
+      "source_sha256": "22031ba7c6ef53937646fc94a3bfcf5342812932c15f98c1badb7c21f475efca",
+      "C_uF": 0.8,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_33V_C120_voltage.cir",
+      "source": "SIM-09_load_33V_idle_aux_voltage.cir",
+      "source_sha256": "1d3c6116524f3046113cd6e0afe861e62b18b881ec4bb7f808f65862ccffea36",
+      "C_uF": 1.2,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_33V_C120_current.cir",
+      "source": "SIM-09_load_33V_idle_aux_current.cir",
+      "source_sha256": "22031ba7c6ef53937646fc94a3bfcf5342812932c15f98c1badb7c21f475efca",
+      "C_uF": 1.2,
+      "ESR_ohm": 1
+    },
+    {
+      "file": "SIM-09_ce_33V_ESR010_voltage.cir",
+      "source": "SIM-09_load_33V_idle_aux_voltage.cir",
+      "source_sha256": "1d3c6116524f3046113cd6e0afe861e62b18b881ec4bb7f808f65862ccffea36",
+      "C_uF": 1,
+      "ESR_ohm": 0.1
+    },
+    {
+      "file": "SIM-09_ce_33V_ESR010_current.cir",
+      "source": "SIM-09_load_33V_idle_aux_current.cir",
+      "source_sha256": "22031ba7c6ef53937646fc94a3bfcf5342812932c15f98c1badb7c21f475efca",
+      "C_uF": 1,
+      "ESR_ohm": 0.1
+    },
+    {
+      "file": "SIM-09_ce_33V_ESR300_voltage.cir",
+      "source": "SIM-09_load_33V_idle_aux_voltage.cir",
+      "source_sha256": "1d3c6116524f3046113cd6e0afe861e62b18b881ec4bb7f808f65862ccffea36",
+      "C_uF": 1,
+      "ESR_ohm": 3
+    },
+    {
+      "file": "SIM-09_ce_33V_ESR300_current.cir",
+      "source": "SIM-09_load_33V_idle_aux_current.cir",
+      "source_sha256": "22031ba7c6ef53937646fc94a3bfcf5342812932c15f98c1badb7c21f475efca",
+      "C_uF": 1,
+      "ESR_ohm": 3
+    }
+  ]
+}

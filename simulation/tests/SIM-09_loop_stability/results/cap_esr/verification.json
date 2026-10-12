@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-21",
+  "verified_archive_files": 88,
+  "AC_runs_completed": 20,
+  "transient_runs_completed": 2,
+  "nominal_rerun_matches_prior_aux_restored_result": true,
+  "hardware_validation": "pending",
+  "capacitor_identification": "User reports radial tantalum, listing title 1 uF / 35 V; manufacturer/series/ESR unknown"
+}

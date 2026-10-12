@@ -1,0 +1,21 @@
+{
+  "verified_archive_files": [
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_5V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_5V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_5V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_5V.raw",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_33V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_33V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_33V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted\\SIM-04_adjusted_33V.raw",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted_settled\\SIM-04_adjusted_settled_5V.asc",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted_settled\\SIM-04_adjusted_settled_5V.net",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted_settled\\SIM-04_adjusted_settled_5V.log",
+    "simulation\\tests\\SIM-04_dropout\\results\\adjusted_settled\\SIM-04_adjusted_settled_5V.raw"
+  ],
+  "original_calibrated_source_hashes_unchanged": true,
+  "report_pdf_sha256": "6baf6b74c7c67822df26c1ba2b2f6c287fc55fe9d30bd523e673918624c3204b",
+  "report_pages": 15,
+  "report_compilation": "Two pdflatex passes completed; no undefined references or overfull boxes reported.",
+  "physical_validation": false
+}

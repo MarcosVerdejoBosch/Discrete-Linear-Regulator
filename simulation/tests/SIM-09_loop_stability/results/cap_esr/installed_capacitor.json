@@ -1,0 +1,14 @@
+{
+  "recorded": "2026-09-21",
+  "source": "User message and supplied listing title; page inaccessible during review",
+  "type": "radial tantalum",
+  "capacitance_uF": 1,
+  "rated_voltage_V": 35,
+  "listing": "https://www.mercadolibre.com.ar/pack-x10-capacitor-radial-tantalio-1mf--1uf-x-35v/up/MLAU292013575",
+  "manufacturer": null,
+  "series": null,
+  "ESR_ohm": null,
+  "note": "User confirms external discrete 1 ohm resistor. Capacitor intrinsic ESR is additional and unknown; 0.1 ohm total is a hypothetical comparison, not the assembled board.",
+  "external_series_resistor_ohm": 1,
+  "external_resistor_tolerance": null
+}

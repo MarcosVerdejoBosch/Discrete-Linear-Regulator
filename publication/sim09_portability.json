@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-22",
+  "setup": "PREPARAR_LTSPICE / prepare_windows.ps1 using existing project models, in a new path containing spaces",
+  "solver": "Alternate",
+  "runs": [
+    {
+      "mode": "5V",
+      "completed": true,
+      "raw_sha256": "02ea3a34ae9b18f3b4b205a4260b60028d0b7fdb693cf809d3f801eb1e9cc1d2",
+      "preset_matches_visually_checked_desktop_copy": true
+    },
+    {
+      "mode": "33V",
+      "completed": true,
+      "raw_sha256": "37d24ec0d30f511756d8b9010bb82941fbe26a3be8cb27aa72f04e6c1d42d7ef",
+      "preset_matches_visually_checked_desktop_copy": true
+    }
+  ],
+  "results": {
+    "scope": "Nominal fixed-bias main loop; approximately 1 A, 27 C, 1 uF and external 1 ohm. Not hardware validation.",
+    "modes": {
+      "5V": {
+        "phase_margin_deg": 52.50800190716034,
+        "gain_margin_dB": 17.27760263195512,
+        "crossover_Hz": 557712.4185110804,
+        "phase_crossover_Hz": 1979266.4711814187,
+        "manifest": [
+          {
+            "file": "SIM-09_loop_5V.asc",
+            "sha256": "d85bfa23111e839dc15baeb24eca40d4da08681d9abbb86709ee0560af3baad1"
+          },
+          {
+            "file": "SIM-09_loop_5V.net",
+            "sha256": "e96ad255d34b8ea0dae454fa1943128100deb612453433d2cf124ac1502bf984"
+          },
+          {
+            "file": "SIM-09_loop_5V.raw",
+            "sha256": "02ea3a34ae9b18f3b4b205a4260b60028d0b7fdb693cf809d3f801eb1e9cc1d2"
+          },
+          {
+            "file": "SIM-09_loop_5V.log",
+            "sha256": "015e7dda7c865116cc4437dc7b2fd6b6d62680c57147e97b80fc79c9077b2378"
+          }
+        ]
+      },
+      "33V": {
+        "phase_margin_deg": 51.97854556998754,
+        "gain_margin_dB": 17.75215242035217,
+        "crossover_Hz": 530472.6137274967,
+        "phase_crossover_Hz": 1988530.4527364585,
+        "manifest": [
+          {
+            "file": "SIM-09_loop_33V.asc",
+            "sha256": "8a7b4ba10149b3a9cc1a1534d20efd9f74ed2a91e893c0dc1c983b4eb2218056"
+          },
+          {
+            "file": "SIM-09_loop_33V.net",
+            "sha256": "1b564443e13b39970272e759dc64b745e9f4fe4a3fddb259db1853cfcf90e41b"
+          },
+          {
+            "file": "SIM-09_loop_33V.raw",
+            "sha256": "37d24ec0d30f511756d8b9010bb82941fbe26a3be8cb27aa72f04e6c1d42d7ef"
+          },
+          {
+            "file": "SIM-09_loop_33V.log",
+            "sha256": "4fb7d2ffeff214ec2cdf03d8aeac288752b28b4ed7b330a506f0964a523a60fa"
+          }
+        ]
+      }
+    }
+  },
+  "scope": "Rerun SIM-09 only. External models supplied locally, not bundled. Native presets previously visually checked and user confirmed execution. Not hardware validation."
+}

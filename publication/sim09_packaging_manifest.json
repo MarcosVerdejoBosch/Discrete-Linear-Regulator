@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-22",
+  "note": "Supplement to the original snapshot manifest; corrected native SIM-09 sources and portable launchers.",
+  "files": [
+    {
+      "file": "simulation/ltspice/SIM-09_loop_33V.asc",
+      "sha256": "8a7b4ba10149b3a9cc1a1534d20efd9f74ed2a91e893c0dc1c983b4eb2218056"
+    },
+    {
+      "file": "simulation/ltspice/SIM-09_loop_33V.bias",
+      "sha256": "154495109b736a4d52d47baea71fed764eed07eb74de531679958c3f2d5f4a91"
+    },
+    {
+      "file": "simulation/ltspice/SIM-09_loop_33V.plt",
+      "sha256": "969123c13312539ae2845f5688ac17e80720f98c6d896b3048de570a5e825d08"
+    },
+    {
+      "file": "simulation/ltspice/SIM-09_loop_5V.asc",
+      "sha256": "d85bfa23111e839dc15baeb24eca40d4da08681d9abbb86709ee0560af3baad1"
+    },
+    {
+      "file": "simulation/ltspice/SIM-09_loop_5V.bias",
+      "sha256": "f23dabb6ab2fcd6bc40bc613cb700bec7ed1030e9eee961d53638e75152f2705"
+    },
+    {
+      "file": "simulation/ltspice/SIM-09_loop_5V.plt",
+      "sha256": "969123c13312539ae2845f5688ac17e80720f98c6d896b3048de570a5e825d08"
+    },
+    {
+      "file": "simulation/launchers/EXPRESION_SIM09.txt",
+      "sha256": "c1afed30c0c2fc98ce6df5d6c4c7112d866ca60bebedc24c073db681ca8733fc"
+    },
+    {
+      "file": "simulation/launchers/PROBAR_SIM01_33V.cmd",
+      "sha256": "8a4e528a21e2589cf288b4f0a4f18cac97ee6a04384c5859720f1a3e82c71b09"
+    },
+    {
+      "file": "simulation/launchers/PROBAR_SIM01_5V.cmd",
+      "sha256": "ae3f9fdb8eeb0d344819ff49ebf40461ade9488a143d393bfd6e39e0be0ca6dd"
+    },
+    {
+      "file": "simulation/launchers/probar_sim09.py",
+      "sha256": "7c41713c312540fed7237c75adb44c55074e6550de3bdc82ecd33555e5d73c66"
+    },
+    {
+      "file": "simulation/launchers/PROBAR_SIM09_33V.cmd",
+      "sha256": "53b64facc68a05970f7dcbbf94c60a85159b35544759976b3bbc4c494a88e387"
+    },
+    {
+      "file": "simulation/launchers/PROBAR_SIM09_5V.cmd",
+      "sha256": "a46c89f39d0fd744b1ce1f05d743e0c1014ced79d9f8b28de1e2838eee5ca0b6"
+    },
+    {
+      "file": "simulation/launchers/run_sim09.ps1",
+      "sha256": "32ca2833b220477c74065458d3db756e154496fb725c4930b36c15dbcecec918"
+    },
+    {
+      "file": "simulation/launchers/SIM-01_calibrated_startup_33V.plt",
+      "sha256": "18e87d2b6c018f839c4fbf8b4ac843e8718219428521432a54fd3a6170c36f44"
+    },
+    {
+      "file": "simulation/launchers/SIM-01_calibrated_startup_5V.plt",
+      "sha256": "18e87d2b6c018f839c4fbf8b4ac843e8718219428521432a54fd3a6170c36f44"
+    },
+    {
+      "file": "simulation/prepare_windows.ps1",
+      "sha256": "3caa7f614ffd8a56759fe460b162b98f7e6dbe610a3dff819bcdc0b290cbfd17"
+    },
+    {
+      "file": "PREPARAR_LTSPICE.cmd",
+      "sha256": "fc7ff779916aa462ecbe994e2e2d3fd26a80b61f89e5e3c2c8dc7399c7edb56b"
+    }
+  ]
+}

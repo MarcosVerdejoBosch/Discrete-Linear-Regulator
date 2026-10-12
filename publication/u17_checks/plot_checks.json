@@ -1,0 +1,128 @@
+[
+  {
+    "preset": "SIM-01_calibrated_startup_33V.plt",
+    "expressions": [
+      "V(vbat)",
+      "V(vctrl)",
+      "V(comp)",
+      "V(ttl)",
+      "V(out)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-01_calibrated_startup_5V.plt",
+    "expressions": [
+      "V(vbat)",
+      "V(vctrl)",
+      "V(comp)",
+      "V(ttl)",
+      "V(out)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-02_calibrated_line_33V.plt",
+    "expressions": [
+      "V(out)",
+      "V(vbat)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-02_calibrated_line_5V.plt",
+    "expressions": [
+      "V(out)",
+      "V(vbat)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-03_calibrated_load_33V.plt",
+    "expressions": [
+      "V(out)",
+      "I(Rload)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-03_calibrated_load_5V.plt",
+    "expressions": [
+      "V(out)",
+      "I(Rload)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-04_calibrated_input_33V.plt",
+    "expressions": [
+      "V(vee)",
+      "V(out)",
+      "V(ttl)",
+      "V(ldo_2)",
+      "V(1)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-05_calibrated_idle_33V.plt",
+    "expressions": [
+      "V(out)",
+      "-I(VBAT)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-05_calibrated_idle_5V.plt",
+    "expressions": [
+      "V(out)",
+      "-I(VBAT)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-06_calibrated_transient_33V.plt",
+    "expressions": [
+      "V(out)",
+      "I(Rload)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-06_calibrated_transient_5V.plt",
+    "expressions": [
+      "V(out)",
+      "I(Rload)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-07_calibrated_protection_5V.plt",
+    "expressions": [
+      "V(vee)",
+      "V(out)",
+      "V(1)",
+      "V(2)",
+      "V(ttl)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-08_calibrated_limit_33V.plt",
+    "expressions": [
+      "V(out)",
+      "I(Rload)",
+      "-I(R25)"
+    ],
+    "saved_signals_verified": true
+  },
+  {
+    "preset": "SIM-08_calibrated_limit_5V.plt",
+    "expressions": [
+      "V(out)",
+      "I(Rload)",
+      "-I(R25)"
+    ],
+    "saved_signals_verified": true
+  }
+]

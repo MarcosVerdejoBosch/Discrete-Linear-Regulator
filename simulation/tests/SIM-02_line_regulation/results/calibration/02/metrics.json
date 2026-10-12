@@ -1,0 +1,52 @@
+{
+  "5V": {
+    "mean_V": 5.000005374285924,
+    "pp_mV": 0.2875328063964844,
+    "drift_mV": 3.1264451472168275e-05,
+    "enable_min_V": 7.226127624511719,
+    "load_A": 1.0000010763747538,
+    "manifest": [
+      {
+        "file": "SIM-02_cal_02_5V.asc",
+        "sha256": "3d726281e0623bcc648b19295066372b6c43ccd390b9d873eebfdd3fd92d5d9f"
+      },
+      {
+        "file": "SIM-02_cal_02_5V.net",
+        "sha256": "ff51c6c139873b8af6fcb5b8f03b87e5fce53a4f955ae63ebc8c109537350a94"
+      },
+      {
+        "file": "SIM-02_cal_02_5V.log",
+        "sha256": "fb16ae81b6d51aeb8b509c60ce3aebb7485bb0d09c968b41a6f19a6909d75b8e"
+      },
+      {
+        "file": "SIM-02_cal_02_5V.raw",
+        "sha256": "31b1ed0bafe753ad661dd28f95e992dbb1e2351fd06b1cb5589077bfe2c3ac29"
+      }
+    ]
+  },
+  "33V": {
+    "mean_V": 3.300000086368066,
+    "pp_mV": 0.2963542938232422,
+    "drift_mV": -1.5491519178567614e-06,
+    "enable_min_V": 7.226151943206787,
+    "load_A": 1.0000000232046462,
+    "manifest": [
+      {
+        "file": "SIM-02_cal_02_33V.asc",
+        "sha256": "8ac4f3048d476182d047ea64e6046ea2497de1ddb3980c24d85b8c148337d2bf"
+      },
+      {
+        "file": "SIM-02_cal_02_33V.net",
+        "sha256": "f0b71faaefbdc7f91b8468103df0dee70a55b89f134f3295f0ceaed75e2a51ff"
+      },
+      {
+        "file": "SIM-02_cal_02_33V.log",
+        "sha256": "d9ec27a9564712b351ce36cce52b0466feba6c9f559ac1c0c70c74a91eb1a081"
+      },
+      {
+        "file": "SIM-02_cal_02_33V.raw",
+        "sha256": "9462411f13113abb7c4ef8e8b0f6d1bd5ed076fc8a6b9f028f5d93032d7e8c96"
+      }
+    ]
+  }
+}

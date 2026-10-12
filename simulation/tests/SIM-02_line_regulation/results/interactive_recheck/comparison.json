@@ -1,0 +1,150 @@
+{
+  "iterations100_gui": {
+    "complete": true,
+    "last_time_s": 0.32,
+    "rows": [
+      {
+        "source_V": 8,
+        "vout_avg_V": 3.300001889731476,
+        "difference_from_reference_uV": 0.024858523683946032,
+        "enable_min_V": 7.221243858337402
+      },
+      {
+        "source_V": 6,
+        "vout_avg_V": 3.3007718817409684,
+        "difference_from_reference_uV": -0.005868105112938338,
+        "enable_min_V": 5.415002822875977
+      },
+      {
+        "source_V": 7,
+        "vout_avg_V": 3.3003550120557965,
+        "difference_from_reference_uV": 0.030284199592500727,
+        "enable_min_V": 6.319631099700928
+      },
+      {
+        "source_V": 8,
+        "vout_avg_V": 3.3000019046757205,
+        "difference_from_reference_uV": 0.008159708020372136,
+        "enable_min_V": 7.221244812011719
+      },
+      {
+        "source_V": 9,
+        "vout_avg_V": 3.299694680059357,
+        "difference_from_reference_uV": 0.0019456805055995119,
+        "enable_min_V": 8.121217727661133
+      },
+      {
+        "source_V": 10,
+        "vout_avg_V": 3.299422213366172,
+        "difference_from_reference_uV": 0.026363121463646166,
+        "enable_min_V": 9.020075798034668
+      },
+      {
+        "source_V": 11,
+        "vout_avg_V": 3.2991769467090286,
+        "difference_from_reference_uV": 0.04253110486018841,
+        "enable_min_V": 9.918082237243652
+      }
+    ],
+    "log_tail": [
+      "Date: Thu Sep 24 21:40:28 2026",
+      "Total elapsed time: 897.322 seconds.",
+      "",
+      "tnom = 27",
+      "temp = 27",
+      "method = modified trap",
+      "totiter = 2463829",
+      "traniter = 2460899",
+      "tranpoints = 709963",
+      "accept = 527504",
+      "rejected = 183221",
+      "matrix size = 511",
+      "fillins = 3786",
+      "solver = Normal",
+      "Avg thread counts: 7.0/1.0/1.0/1.0",
+      "Matrix Compiler1: 1004.63 KB object code size  251.8/150.8/[83.8]",
+      "Matrix Compiler2: 106.05 KB object code size  24.1/24.6/[17.0]",
+      ""
+    ],
+    "sha256": {
+      "asc": "93fc5be817383322822a73545d67c74279f3c6c831af731e142ef8ea98031575",
+      "net": "872114bb1b98d7bb05d97aa1fa9e666e7ebdce62b8126047694506fb650368e3",
+      "raw": "663a433586801d34f461a7f40d0e662a211405d30f3f3aa89a36790ef92fbf86",
+      "log": "f8c1868b33d0ed3d42c943aaaaab5ce73bb78f4ab9ff53783e291031618dca09"
+    }
+  },
+  "normal": {
+    "complete": true,
+    "last_time_s": 0.32,
+    "rows": [
+      {
+        "source_V": 8,
+        "vout_avg_V": 3.300001838920975,
+        "difference_from_reference_uV": -0.02595197745591804,
+        "enable_min_V": 7.221244812011719
+      },
+      {
+        "source_V": 6,
+        "vout_avg_V": 3.3007718924541827,
+        "difference_from_reference_uV": 0.004845109202733511,
+        "enable_min_V": 5.415004730224609
+      },
+      {
+        "source_V": 7,
+        "vout_avg_V": 3.3003550009443408,
+        "difference_from_reference_uV": 0.019172743837003736,
+        "enable_min_V": 6.319629669189453
+      },
+      {
+        "source_V": 8,
+        "vout_avg_V": 3.3000018867482606,
+        "difference_from_reference_uV": -0.009767751940614744,
+        "enable_min_V": 7.221243858337402
+      },
+      {
+        "source_V": 9,
+        "vout_avg_V": 3.2996946297833523,
+        "difference_from_reference_uV": -0.04833032418716243,
+        "enable_min_V": 8.12121868133545
+      },
+      {
+        "source_V": 10,
+        "vout_avg_V": 3.299422199432414,
+        "difference_from_reference_uV": 0.012429363316357467,
+        "enable_min_V": 9.020074844360352
+      },
+      {
+        "source_V": 11,
+        "vout_avg_V": 3.29917695434795,
+        "difference_from_reference_uV": 0.050170026355544906,
+        "enable_min_V": 9.918082237243652
+      }
+    ],
+    "log_tail": [
+      "Date: Thu Sep 24 21:38:13 2026",
+      "Total elapsed time: 936.508 seconds.",
+      "",
+      "tnom = 27",
+      "temp = 27",
+      "method = modified trap",
+      "totiter = 2359543",
+      "traniter = 2356597",
+      "tranpoints = 696853",
+      "accept = 521918",
+      "rejected = 174963",
+      "matrix size = 511",
+      "fillins = 3525",
+      "solver = Normal",
+      "Avg thread counts: 6.0/1.0/1.0/1.0",
+      "Matrix Compiler1:   44939 opcodes  277.5/[232.7]/290.4",
+      "Matrix Compiler2: 102.06 KB object code size  20.2/24.5/[17.9]",
+      ""
+    ],
+    "sha256": {
+      "asc": "1a730bebfc041b9236b9d8dbee16e709b7924d800423d95e813e71efd8116a28",
+      "net": "a493922498e96afb01c35c36ee9f34b27622921a4b091bf6907fd4af7f7566e3",
+      "raw": "cca980d84609ba0462cae9beced5525e33e87c9ffc7611bedc36490370d752fb",
+      "log": "d4c899dfb4acbdfe0b2725623dcd77391e64d6e1daa92b95bce1b70c74452ab9"
+    }
+  }
+}

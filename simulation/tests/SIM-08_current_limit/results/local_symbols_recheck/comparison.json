@@ -1,0 +1,84 @@
+{
+  "complete": true,
+  "time_s": 0.2100015519062332,
+  "plateaus": {
+    "initial": {
+      "V(out)": {
+        "mean": 5.000004555519196,
+        "difference": 1.3199141513098311e-07
+      },
+      "I(Rload)": {
+        "mean": 1.0000009106272032,
+        "difference": -1.7358414039492231e-07
+      }
+    },
+    "overload": {
+      "V(out)": {
+        "mean": 3.713100988626936,
+        "difference": -7.756575484130224e-07
+      },
+      "I(Rload)": {
+        "mean": 1.4852403119670505,
+        "difference": 1.2232921031696264e-06
+      }
+    },
+    "recovered_overload": {
+      "V(out)": {
+        "mean": 5.000004440680853,
+        "difference": 7.803659052285639e-09
+      },
+      "I(Rload)": {
+        "mean": 1.0000008884682237,
+        "difference": -5.062772645558766e-09
+      }
+    },
+    "short": {
+      "V(out)": {
+        "mean": 0.07368921937418174,
+        "difference": 5.1201460390948306e-08
+      },
+      "I(Rload)": {
+        "mean": 1.473783119838821,
+        "difference": 7.896429554676843e-08
+      }
+    },
+    "final": {
+      "V(out)": {
+        "mean": 5.000004440188229,
+        "difference": -3.374674761857932e-08
+      },
+      "I(Rload)": {
+        "mean": 1.0000008866008452,
+        "difference": -6.341757563532724e-09
+      }
+    }
+  },
+  "events": {
+    "overload": {
+      "voltage_min": 3.7091002464294434,
+      "voltage_max": 4.999554634094238,
+      "load_peak_A": 1.9998219013214111
+    },
+    "overload_release": {
+      "voltage_min": 3.717468023300171,
+      "voltage_max": 5.00114107131958,
+      "load_peak_A": 1.476373553276062
+    },
+    "short": {
+      "voltage_min": 8.592213998781517e-05,
+      "voltage_max": 4.994950294494629,
+      "load_peak_A": 6.624591827392578
+    },
+    "short_release": {
+      "voltage_min": 0.07488840073347092,
+      "voltage_max": 5.001008987426758,
+      "load_peak_A": 1.4719274044036865
+    }
+  },
+  "hashes": {
+    "asc": "2d08a8ba8bef682c1d3a71fecc3fc4be33442c338cb71045e90f123b9653a7b8",
+    "net": "62ca7791c21b6e9865503e5252bb923bf4219b44cd63c083a5c00a4185c2ff78",
+    "raw": "50df38684ac1a664d222442d11c7f1e73809682e7ba4c68da345fc5d3756e42f",
+    "log": "9e39655d5938fb66d81299d5858c9e3d04437c8fd09eddc7cefeafa4584e1fea"
+  }
+}

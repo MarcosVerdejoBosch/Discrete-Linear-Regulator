@@ -1,0 +1,49 @@
+{
+  "scope": "SIM-01, 8 V source, 50/33 ohm loads, 27 C. Baselines and new 5 V: Normal solver; new 3.3 V: Alternate solver after incomplete Normal attempts. Simulation, not measurement.",
+  "modes": {
+    "5V": {
+      "baseline": {
+        "settled_V": 5.00001942564811,
+        "restart_V": 5.00001939199486,
+        "enable_delay_ms": 23.818038345027055,
+        "rise_to_98pct_ms": 29.187664510451167,
+        "preenable_peak_V": 0.8537784814834595,
+        "discharge_to_50mV_ms": 0.3939376987973503,
+        "raw_sha256": "8c593f38a57c76f0db67e049fffb7be3f035ad6f2ba5057b3ab3ca2584b39d96",
+        "input_protection_drop_mV": 2.3250800308155783
+      },
+      "IRF4905": {
+        "settled_V": 5.0000192896128866,
+        "restart_V": 5.000019314990783,
+        "enable_delay_ms": 23.81777520170091,
+        "rise_to_98pct_ms": 29.187458784434256,
+        "preenable_peak_V": 0.8555675148963928,
+        "discharge_to_50mV_ms": 0.3934353920070563,
+        "raw_sha256": "0dc96baddbd005187321f6022c10257a2dd5f67033de182a679689b37ef31968",
+        "input_protection_drop_mV": 3.127964188996936
+      }
+    },
+    "33V": {
+      "baseline": {
+        "settled_V": 3.3000015947294687,
+        "restart_V": 3.3000015363937885,
+        "enable_delay_ms": 23.818355233955476,
+        "rise_to_98pct_ms": 29.187564634392416,
+        "preenable_peak_V": 0.8418914675712585,
+        "discharge_to_50mV_ms": 0.3320844874641904,
+        "raw_sha256": "016d7ab88143eacadc8f055c254b2af7642a1ece4609296bc6ae786427cb96ee",
+        "input_protection_drop_mV": 2.3126432566806527
+      },
+      "IRF4905": {
+        "settled_V": 3.3000018994290428,
+        "restart_V": 3.300001817858208,
+        "enable_delay_ms": 23.817943550187177,
+        "rise_to_98pct_ms": 29.18713548851319,
+        "preenable_peak_V": 0.8449706435203552,
+        "discharge_to_50mV_ms": 0.3320205071282861,
+        "raw_sha256": "a60431675f828dd065ee328f44fecc2cb60e59eca353e15e795251d6a974c96b",
+        "input_protection_drop_mV": 3.1112838524061983
+      }
+    }
+  }
+}

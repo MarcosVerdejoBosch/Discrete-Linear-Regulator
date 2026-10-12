@@ -1,0 +1,94 @@
+{
+  "primary_scenarios": [
+    {
+      "scenario": "SIM-01_calibrated_startup_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-01_calibrated_startup_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-02_calibrated_line_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-02_calibrated_line_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-03_calibrated_load_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-03_calibrated_load_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-04_calibrated_input_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-05_calibrated_idle_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-05_calibrated_idle_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-06_calibrated_transient_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-06_calibrated_transient_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-07_calibrated_protection_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-08_calibrated_limit_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-08_calibrated_limit_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-09_loop_5V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    },
+    {
+      "scenario": "SIM-09_loop_33V",
+      "prepared_source_matches": true,
+      "native_plot_exists": true
+    }
+  ],
+  "unchanged_SIM09_core_files": [
+    "simulation/ltspice/SIM-09_loop_5V.asc",
+    "simulation/ltspice/SIM-09_loop_5V.plt",
+    "simulation/ltspice/SIM-09_loop_5V.bias",
+    "simulation/ltspice/SIM-09_loop_33V.asc",
+    "simulation/ltspice/SIM-09_loop_33V.plt",
+    "simulation/ltspice/SIM-09_loop_33V.bias"
+  ],
+  "report_sha256": "e4387fece2213cd73d66816c1b7b4ad1f134cc682f11c9fc3dd212016acfd40e",
+  "native_profile_count": 14
+}

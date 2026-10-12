@@ -1,0 +1,33 @@
+{
+  "scope": "Load sensitivity with nominal fixed auxiliary supplies unchanged; each load has a new settled bias. Not a full-circuit light-load equivalence test.",
+  "jobs": [
+    {
+      "mode": "5V",
+      "tag": "100mA",
+      "load_ohm": 50.0,
+      "source": "SIM-09_core_5V.cir",
+      "source_sha256": "d921c8635e4b37466547370e640cf15ba59a452d55f3c253866f0db384ca86cc"
+    },
+    {
+      "mode": "5V",
+      "tag": "idle",
+      "load_ohm": 1000000.0,
+      "source": "SIM-09_core_5V.cir",
+      "source_sha256": "d921c8635e4b37466547370e640cf15ba59a452d55f3c253866f0db384ca86cc"
+    },
+    {
+      "mode": "33V",
+      "tag": "100mA",
+      "load_ohm": 32.99999999999999,
+      "source": "SIM-09_core_33V.cir",
+      "source_sha256": "3c4d88f0df819bafe14c127f07ceff1cb5481225100c85b3500d9435dae98efa"
+    },
+    {
+      "mode": "33V",
+      "tag": "idle",
+      "load_ohm": 1000000.0,
+      "source": "SIM-09_core_33V.cir",
+      "source_sha256": "3c4d88f0df819bafe14c127f07ceff1cb5481225100c85b3500d9435dae98efa"
+    }
+  ]
+}
