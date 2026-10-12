@@ -214,11 +214,11 @@ def make_view(data, silkscreen, spec):
             elif ref=='R35':ly=cy-5
         if spec['name']=='pcb_enable_control':
             positions={
-                'R90':(39,377),'R91':(168,410),'R93':(107,377),
+                'R90':(39,377),'R91':(168,406),'R93':(104,377),
                 'Q25':(42.67086,300.119),'Q26':(56.52727,277.4734),
-                'Q27':(77,254),'Q23':(135.6952,259.95),
+                'Q27':(77,254),'Q23':(143.6952,267.95),
                 'R20':(398.0245,246.1663),'Q6':(495.5152,290.1691),
-                'R17':(520.809,323),'Q3':(477.8406,509.4234),
+                'R17':(520.809,328),'Q3':(451,543),
                 'Q4':(490,479),'R21':(507.8381,378.9641),
                 'Q_PASS':(397.0721,452.0402),
             }
@@ -243,10 +243,16 @@ def make_view(data, silkscreen, spec):
             ratio=min(ww/2/max(abs(dx),.01),hh/2/max(abs(dy),.01),1)
             tx=cx+dx*ratio;ty=cy+dy*ratio
             path=c.beginPath();path.moveTo(tx,ty);path.lineTo(knee,ey);path.lineTo(ex,ey)
-            if enable_view and ref in ('R90','Q23'):
+            if enable_view and ref=='R90':
                 path=c.beginPath();path.moveTo(tx,cy);path.lineTo(ex,cy)
             elif enable_view and ref=='Q3':
-                path=c.beginPath();path.moveTo(cx,bottom);path.lineTo(ex,ey)
+                path=c.beginPath();path.moveTo(left,cy);path.lineTo(ex,cy)
+            elif enable_view and ref=='Q26':
+                path=c.beginPath();path.moveTo(cx,cy)
+                path.lineTo(88,cy);path.lineTo(88,ly+7);path.lineTo(lx+label_w,ly+7)
+            elif enable_view and ref=='Q27':
+                path=c.beginPath();path.moveTo(cx,cy)
+                path.lineTo(cx,ly+7);path.lineTo(lx+label_w,ly+7)
             if current_view and ref=='R33':
                 path=c.beginPath();path.moveTo(cx,cy)
                 path.lineTo(395,cy);path.lineTo(395,ly-2)
