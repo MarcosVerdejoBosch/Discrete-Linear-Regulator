@@ -1,6 +1,6 @@
-"""Read PCB geometry with KiCad's bundled Python/pcbnew; never save the board.
+"""Read PCB geometry with KiCad's bundled Python/pcbnew; never save the source board.
 
-Usage: <KiCad Python> extract_pcb_nets.py <output.json>
+Usage: <KiCad Python> extract_pcb_nets.py <output.json> [temporary-silkscreen-copy.kicad_pcb]
 """
 import hashlib
 import json
@@ -26,10 +26,22 @@ for item in board.GetTracks():
     tracks.append(row)
 pads = []
 footprint_graphics = {}
+silkscreen_refs = {}
 for footprint in board.GetFootprints():
     for pad in footprint.Pads():
         pads.append(dict(ref=footprint.GetReference(), value=footprint.GetValue(),
                          pin=pad.GetNumber(), net=pad.GetNetname(), at=xy(pad.GetPosition())))
+    ref=footprint.GetReference()
+    texts=[g for g in footprint.GraphicalItems() if isinstance(g,pcbnew.PCB_TEXT)
+           and g.GetLayer()==pcbnew.F_SilkS and g.GetShownText(False)==ref]
+    field=footprint.Reference()
+    anchor=texts[0] if texts else field
+    silkscreen_refs[ref]=dict(at=xy(anchor.GetPosition()),angle=anchor.GetTextAngle().AsDegrees(),
+                             visible=bool(texts) or field.IsVisible())
+    # Only the optional temporary export copy loses duplicate reference text.
+    if len(sys.argv)>2:
+        for text in texts:text.SetText("")
+        field.SetVisible(False)
     shapes=[g for g in footprint.GraphicalItems() if isinstance(g,pcbnew.PCB_SHAPE)]
     layer=pcbnew.F_SilkS
     graphics=[]
@@ -62,6 +74,10 @@ for zone in board.Zones():
 result = dict(source='hardware/kicad/Regulador.kicad_pcb',
               sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
               kicad=pcbnew.GetBuildVersion(), tracks=tracks, pads=pads,
-              zones=zones,footprint_graphics=footprint_graphics)
+              zones=zones,footprint_graphics=footprint_graphics,silkscreen_refs=silkscreen_refs)
 Path(sys.argv[1]).write_text(json.dumps(result, indent=2), encoding='utf-8')
 print('Read',len(tracks),'tracks/vias and',len(pads),'pads; board unchanged.')
+
+if len(sys.argv)>2:
+    assert Path(sys.argv[2]).resolve()!=source.resolve()
+    pcbnew.SaveBoard(sys.argv[2],board)

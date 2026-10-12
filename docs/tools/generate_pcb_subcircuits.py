@@ -74,8 +74,8 @@ VIEWS = [
 def make_view(data, silkscreen, spec):
     w,h=1000,650
     roi=spec['roi'];x0,y0,x1,y1=roi
-    scale=min(640/(x1-x0),420/(y1-y0))
-    px=20+(640-(x1-x0)*scale)/2;py=150+(420-(y1-y0)*scale)/2
+    scale=min(640/(x1-x0),370/(y1-y0))
+    px=20+(640-(x1-x0)*scale)/2;py=200+(370-(y1-y0)*scale)/2
     def pt(p): return px+(p[0]-x0)*scale, py+(y1-p[1])*scale
     net_colors={n:color for _,color,nets,_,_ in spec['groups'] for n in nets}
     component_colors={r:color for _,color,_,refs,_ in spec['groups'] for r in refs}
@@ -179,29 +179,39 @@ def make_view(data, silkscreen, spec):
         c.setFont('Helvetica-Bold',12)
         label_w=c.stringWidth(label,'Helvetica-Bold',12)+6
         cx=left+ww/2;cy=bottom+hh/2
+        sx,sy=pt(data['silkscreen_refs'][ref]['at'])
         candidates=[]
         for radius in (14,22,32,44,58,74):
             for angle in range(0,360,30):
                 x=cx+math.cos(math.radians(angle))*radius-label_w/2
                 y=cy+math.sin(math.radians(angle))*radius-7
                 box=(x,y,x+label_w,y+14)
-                if x<21 or x+label_w>658 or y<151 or y+14>578:continue
+                if x<21 or x+label_w>658 or y<201 or y+14>578:continue
                 if any(overlaps(box,b) for b in occupied):continue
                 hits=sum(x-3<ox<x+label_w+3 and y-3<oy<y+17 for ox,oy in obstacles)
-                candidates.append((hits*120+radius,x,y))
+                candidates.append((hits*120+math.hypot(x+label_w/2-sx,y+7-sy),x,y))
         assert candidates,ref
         _,lx,ly=min(candidates)
-        overrides={
-            'pcb_startup_control': {'Q14':(565,462),'R56':(565,420),'R58':(565,381),'C12':(90,275)},
-            'pcb_current_sense': {'R42':(130,360),'R39':(130,225),'U1':(530,480),'U4':(130,175)},
-        }
-        lx,ly=overrides.get(spec['name'],{}).get(ref,(lx,ly))
+        # Keep the PCB's own silkscreen reference position whenever readable.
+        native=(sx-label_w/2,sy-5)
+        nx,ny=native
+        if 21<nx and nx+label_w<658 and 201<ny<564 and not any(
+                nx-4<ox<nx+label_w+4 and ny-4<oy<ny+18 for ox,oy in obstacles) and not any(
+                overlaps((nx,ny,nx+label_w,ny+14),r) for r in occupied):
+            lx,ly=native
+        if spec['name']=='pcb_current_sense' and ref=='R35':lx,ly=150,270
         occupied.append((lx,ly,lx+label_w,ly+14))
         # A fine leader connects displaced text to its actual footprint center.
         ex=max(lx,min(cx,lx+label_w));ey=max(ly,min(cy,ly+14))
-        if math.hypot(ex-cx,ey-cy)>18:
+        if math.hypot(lx+label_w/2-sx,ly+5-sy)>8 and math.hypot(ex-cx,ey-cy)>18:
             c.setStrokeColor(HexColor(color));c.setStrokeAlpha(.55);c.setLineWidth(.65)
-            c.line(cx,cy,ex,ey);c.setStrokeAlpha(1)
+            # Short orthogonal callout with a horizontal text-side landing.
+            knee=ex-7 if ex>cx else ex+7
+            dx=knee-cx;dy=ey-cy
+            ratio=min(ww/2/max(abs(dx),.01),hh/2/max(abs(dy),.01),1)
+            tx=cx+dx*ratio;ty=cy+dy*ratio
+            path=c.beginPath();path.moveTo(tx,ty);path.lineTo(knee,ey);path.lineTo(ex,ey)
+            c.drawPath(path);c.setStrokeAlpha(1)
         c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
     c.drawString(20,613,spec['title'])
@@ -217,7 +227,7 @@ def make_view(data, silkscreen, spec):
         y-=28
     c.setFont('Helvetica',11);c.setFillColor(HexColor('#56636D'))
     for i,line in enumerate(textwrap.wrap(spec['footer'],95)):
-        c.drawString(20,127-15*i,line)
+        c.drawString(20,177-15*i,line)
     # Orthogonal functional diagrams occupy their own band below the PCB view.
     def box(x,y,width,label,color):
         c.setStrokeColor(HexColor(color));c.setFillColor(HexColor('#F8FAFB'));c.setLineWidth(.9)
@@ -239,6 +249,7 @@ def make_view(data, silkscreen, spec):
         blocks=[box(x+i*(bw+gap),y,bw,label,colors[i]) for i,label in enumerate(labels)]
         for first,second in zip(blocks,blocks[1:]):arrow([(first[0]+bw,y+14),(second[0],y+14)])
         return blocks
+    c.saveState();c.translate(0,30)
     name=spec['name']
     if name=='pcb_power_path':
         row(spec['flow'],['#657785',RED,RED,TEAL,PURPLE,PURPLE,BLUE,'#657785'])
@@ -257,7 +268,8 @@ def make_view(data, silkscreen, spec):
             arrow([(135,y+14),(153,y+14),(153,68),(178,68)],ORANGE)
         row(['Q25-Q27 / Q23','R20 / Q6','R17 / Q4A','R21 / pass base'],[TEAL,PURPLE,PURPLE,BLUE],54,178,802)
         c.setFillColor(HexColor('#657785'));c.setFont('Helvetica',10)
-        c.drawString(180,31,'AND permission             Gate control                                  Pass-base drive enabled')
+        for x,text in [(269,'AND permission'),(477,'Gate control'),(892,'Pass-base drive')]:
+            c.drawCentredString(x,31,text)
     else:
         row(['VEE','Q4B: series switch','VCTRL / C12'],[ORANGE,RED,TEAL],78,100,800)
         box(385,30,230,'C11 / Q15 -> Q14',PURPLE)
@@ -265,8 +277,9 @@ def make_view(data, silkscreen, spec):
         arrow([(385,44),(345,44),(345,68),(500,68),(500,78)],PURPLE)
         c.setFillColor(HexColor(PURPLE));c.setFont('Helvetica',10)
         c.drawString(628,29,'Ramp feedback');c.drawString(260,29,'Gate control')
+    c.restoreState()
     c.setFillColor(HexColor('#657785'));c.setFont('Helvetica',10)
-    c.drawString(20,12,'Ground fills omitted. Pad centers are schematic markers; colors group paths across series components. Not a fabrication drawing.')
+    c.drawString(20,18,'Ground fills omitted. Pad centers are schematic markers; colors group paths across series components. Not a fabrication drawing.')
     c.save();top.seek(0);page.merge_page(PdfReader(top).pages[0])
     page.compress_content_streams();writer.compress_identical_objects(remove_duplicates=True,remove_unreferenced=True)
     output=ROOT/'docs/figures'/f"{spec['name']}.pdf"
