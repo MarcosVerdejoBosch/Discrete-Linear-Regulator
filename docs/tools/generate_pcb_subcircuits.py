@@ -248,14 +248,17 @@ def make_view(data, silkscreen, spec):
             elif enable_view and ref=='Q3':
                 path=c.beginPath();path.moveTo(left,cy);path.lineTo(ex,cy)
             elif enable_view and ref=='Q26':
+                # Left first, then down-left at exactly 45 degrees to the text.
+                end_x=lx+label_w;end_y=ly+7
+                bend_x=end_x+(cy-end_y)
                 path=c.beginPath();path.moveTo(cx,cy)
-                # Exit above the orange diagonal, then use the clear left gutter.
-                for point in [(cx-6,cy+6),(88,cy+6),(88,ly+7),(lx+label_w,ly+7)]:
-                    path.lineTo(*point)
+                path.lineTo(bend_x,cy);path.lineTo(end_x,end_y)
             elif enable_view and ref=='Q27':
+                # Down first, then down-left at exactly 45 degrees to the text.
+                end_x=lx+label_w;end_y=ly+7
+                bend_y=end_y+(cx-end_x)
                 path=c.beginPath();path.moveTo(cx,cy)
-                # Use the narrow corridor between Q26 and the Q23 label.
-                path.lineTo(cx-12,cy-12);path.lineTo(cx-12,ly+7);path.lineTo(lx+label_w,ly+7)
+                path.lineTo(cx,bend_y);path.lineTo(end_x,end_y)
             elif enable_view and ref=='Q23':
                 path=c.beginPath();path.moveTo(left,cy);path.lineTo(lx+label_w,ly+5)
             if current_view and ref=='R33':
@@ -266,11 +269,6 @@ def make_view(data, silkscreen, spec):
             elif current_view and ref=='R35':
                 path=c.beginPath();path.moveTo(left+ww,cy)
                 path.lineTo(lx,cy)
-            if enable_view and ref in ('Q26','Q27'):
-                # A narrow knockout separates annotation from copper at crossings.
-                c.setStrokeAlpha(1);c.setStrokeColor(HexColor('#FFFFFF'));c.setLineWidth(2.8)
-                c.drawPath(path)
-                c.setStrokeColor(HexColor(color));c.setLineWidth(1.15)
             c.drawPath(path);c.setStrokeAlpha(1)
         c.setFillColor(HexColor(color));c.drawString(lx+3,ly+2,label)
     c.setFillColor(HexColor('#233440'));c.setFont('Helvetica',21)
