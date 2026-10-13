@@ -1,0 +1,32 @@
+{
+  "release_url": "https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/tag/hardware-v1.0",
+  "source_commit": "8d1b225464304e843a521efe000de18b687b6dd6",
+  "assets": [
+    {
+      "name": "Discrete-Linear-Regulator-KiCad-v1.0.zip",
+      "sha256": "46aca1d60552d745c946a1f4d7386a3ee2a89954cc71ba2774510a3cfee0e934",
+      "bytes": 3684538,
+      "anonymous_download_matches": true
+    },
+    {
+      "name": "Manufacturing_Regulador.zip",
+      "sha256": "777f7341290a9b00c9aac2a52d82a39530d42079e16afc53f4e189f75b1b8f70",
+      "bytes": 1602462,
+      "anonymous_download_matches": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "sha256": "411dd96669040e774f326ac1c601c4aca13537b3103c417b4d5d759f4362cd7a",
+      "bytes": 203,
+      "anonymous_download_matches": true
+    }
+  ],
+  "payload_hashes_verified": true,
+  "downloaded_project_check": {
+    "kicad_version": "9.0.1",
+    "schematic_pdf_export": "passed",
+    "pcb_gerber_export": "passed",
+    "fresh_directory": true,
+    "separate_machine_test": false
+  }
+}
