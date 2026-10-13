@@ -10,6 +10,12 @@ A largely discrete linear regulator with selectable **5 V / 3.3 V outputs**, a f
 
 **Review snapshot â€” September 2026.** The assembled board has produced both output voltages. Detailed bench characterization remains pending. Numerical results below are simulations, not hardware specifications.
 
+## Download the frozen KiCad design
+
+**[Download the hardware-v1.0 package](https://github.com/MarcosVerdejoBosch/Discrete-Linear-Regulator/releases/download/hardware-v1.0/Discrete-Linear-Regulator-KiCad-v1.0.zip)** — final schematic, PCB, project, schematic PDF and the unchanged `Manufacturing_Regulador.zip` sent to JLCPCB. Extract and open the project in KiCad 9. [Scope and traceability](hardware/README.md).
+
+The installed BOM still needs confirmation. [Physical measurement banks and available equipment](measurements/README.md) are documented separately; quantitative characterization remains pending.
+
 ## Run in LTspice
 
 **2026-09-24 revalidation:** all 16 primary SIM-01–SIM-09 scenarios completed locally with LTspice 17.1.15. U17 now uses the official IRF4905 model in the full-circuit cases; report figures and tables were regenerated. The SIM-09 fixed-bias core is unchanged and was rerun. [Scope, numerical settings and evidence](publication/U17_REVALIDATION_2026-09-24.md).

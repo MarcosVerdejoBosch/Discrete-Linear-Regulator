@@ -1,0 +1,126 @@
+{
+  "release_tag": "hardware-v1.0",
+  "scope": "Final KiCad design and the original fabrication archive identified by the builder. Installed BOM and quantitative physical measurements remain pending.",
+  "files": [
+    {
+      "path": "hardware/kicad/Regulador.kicad_pcb",
+      "sha256": "7f70b1153bd202565e5f7471c31c86c702fb2748de2014b0acfa6eefc1dd15bb",
+      "bytes": 8386243
+    },
+    {
+      "path": "hardware/kicad/Regulador.kicad_pro",
+      "sha256": "34fa43e82ae842943ebed40600ecc37b1033a3c756e4264be993fa78262c6394",
+      "bytes": 16420
+    },
+    {
+      "path": "hardware/kicad/Regulador.kicad_sch",
+      "sha256": "39855bff65c731259b765c49b1c38ec399d864247fd023492a8274a3a978eb0e",
+      "bytes": 733629
+    }
+  ],
+  "manufacturing_archive": {
+    "path": "hardware/manufacturing/Manufacturing_Regulador.zip",
+    "sha256": "777f7341290a9b00c9aac2a52d82a39530d42079e16afc53f4e189f75b1b8f70",
+    "members": [
+      {
+        "path": "Manufacturing_Regulador/Regulador-B_Cu.gbr",
+        "sha256": "a3aa266f46dfad22d9d167a809e131fb5719c326a9e054fddbfb20791a369111",
+        "bytes": 1565017
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-B_Mask.gbr",
+        "sha256": "fde9e03e90c89500adc34f7bacc0b045d94a0c3213fc4f06e56df114a2733976",
+        "bytes": 482300
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-B_Paste.gbr",
+        "sha256": "4356d0a0e85a12c1ab46aa5e8d70a5ce6637fbdd0da8f7c8b2aea65ac5dd5cba",
+        "bytes": 467
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-B_Silkscreen.gbr",
+        "sha256": "49a71f2439d23cfbf8be6c0c0a9afbb0258139728e54baa42b442171498b016b",
+        "bytes": 44450
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-Edge_Cuts.gbr",
+        "sha256": "efd06721bef025efcc2e0b05fc1f53b89bdc85354449c028267225225182136f",
+        "bytes": 1096
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-F_Cu.gbr",
+        "sha256": "5f079f9355ac08cab02e6dfd882264ecad36ea2ec661c98679c4172b7a58f51f",
+        "bytes": 1140489
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-F_Mask.gbr",
+        "sha256": "64f3ce0090ee3973810cb52c41d8172a9f9357524d7b0a2b52433216882b7476",
+        "bytes": 475167
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-F_Paste.gbr",
+        "sha256": "2d76a8c4b578df185f7410c31be7282675875416a387c8e86454065e831e3e6e",
+        "bytes": 1589
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-F_Silkscreen.gbr",
+        "sha256": "3928522bc691b6f946b4f4e71fdd6c95ba6490810824b43ca3c71678f5077eb1",
+        "bytes": 864820
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-In1_Cu.gbr",
+        "sha256": "19162272e42c5c8ed69f0923195b1a97044822b3c14d78aa30e7b81706501437",
+        "bytes": 1479541
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-In2_Cu.gbr",
+        "sha256": "bf45df83bba6782a0145081dacbee3461ec5a2fe4d7e1344dd928f39abcf1fe3",
+        "bytes": 1479541
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-job.gbrjob",
+        "sha256": "7df0eb5b6b625b87a13cfa33c2220dfa636a27e0bb4d52c4a5043e61b7d477ce",
+        "bytes": 3918
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-NPTH.drl",
+        "sha256": "1c6c31bb648b80c33ef3021a6982e9842a4c7095cb29b5fec4634498240f8e32",
+        "bytes": 281
+      },
+      {
+        "path": "Manufacturing_Regulador/Regulador-PTH.drl",
+        "sha256": "bbfc04a5fbcb0ab8a93601693bcc5334296cc04f0da5bc320a9950d2af53d830",
+        "bytes": 37005
+      }
+    ]
+  },
+  "verification": {
+    "kicad_files_identical_to_final_desktop_copy": true,
+    "manufacturing_members_identical_to_desktop_exports": true,
+    "schematic_pdf_export_success": true,
+    "embedded_symbol_definitions": 30,
+    "missing_embedded_symbol_definitions": [],
+    "gerber_export_success": true,
+    "gerber_comparison": "9 Gerber layers have identical streams after removing generated timestamps/software headers. F.Cu and B.Cu have identical aperture definitions and unordered collections of line/arc/flash/region primitives; only serialization order differs. Original drill files preserved and matched to saved desktop exports; drill regeneration was not part of this check.",
+    "outer_layer_comparison": {
+      "Regulador-F_Cu.gbr": {
+        "same_aperture_definitions": true,
+        "original_primitives": 3224,
+        "regenerated_primitives": 3224,
+        "missing_primitives": 0,
+        "extra_primitives": 0
+      },
+      "Regulador-B_Cu.gbr": {
+        "same_aperture_definitions": true,
+        "original_primitives": 2530,
+        "regenerated_primitives": 2530,
+        "missing_primitives": 0,
+        "extra_primitives": 0
+      }
+    },
+    "board_saved_or_refilled": false,
+    "drc_erc_clean_claimed": false
+  },
+  "bom_status": "Pending reconciliation of installed components; not certified as-built BOM.",
+  "hardware_test_status": "Builder reports initial 5 V and 3.3 V operation; quantitative bench characterization pending."
+}
